@@ -61,6 +61,18 @@
 .review-framing .fine { font: 13px/20px var(--sans); color: #595959; }
 #main > [role=status] { margin: 16px auto; max-width: 920px; font-size: 15px; }
 .review-coverage { border-top: 3px solid #121212; }
+.review-blindspots { border-top: 3px solid #121212; }
+.blindspot-finding { background: #f3f3ef; padding: 18px; margin: 22px 0; }
+.blindspot-finding strong { font: 600 16px/23px var(--sans); }
+.blindspot-finding p { font: 15px/23px var(--sans); margin-top: 10px; }
+.blindspot-audit { list-style: none; padding: 0; }
+.blindspot-audit li { padding: 16px 0; margin: 0; border-bottom: 1px solid #d9d9d9; }
+.blindspot-audit strong { font: 600 15px/22px var(--sans); }
+.review-blindspots .blindspot-audit li > p { font: 15px/23px var(--sans); margin-top: 6px; }
+.review-blindspots details { margin-top: 24px; font: 14px/22px var(--sans); }
+.review-blindspots summary { cursor: pointer; font-weight: 600; }
+.review-blindspots details p { margin: 14px 0; }
+.review-blindspots :focus-visible { outline: 2px solid #121212; outline-offset: 4px; }
 .coverage-stats { display: flex; gap: 28px; padding: 22px 0; border-bottom: 1px solid #d9d9d9; margin-bottom: 24px; }
 .coverage-stats > div { display: grid; gap: 4px; }
 .coverage-stats strong { font: 600 30px/1 var(--sans); }

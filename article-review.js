@@ -11,6 +11,9 @@ if (form) {
   const coveragePanel = document.createElement("div");
   coveragePanel.dataset.reviewCoverage = "";
   result.after(coveragePanel);
+  const blindspotPanel = document.createElement("div");
+  blindspotPanel.dataset.reviewBlindspots = "";
+  coveragePanel.before(blindspotPanel);
   const tools = document.createElement("p");
   tools.className = "review-saved-tools";
   form.before(status);
@@ -79,6 +82,7 @@ if (form) {
         result.replaceChildren();
         question.replaceChildren();
         coveragePanel.replaceChildren();
+        blindspotPanel.replaceChildren();
         tools.replaceChildren();
         status.textContent = t("Saved article and review deleted.", "सहेजा गया लेख और समीक्षा हटा दिए गए।");
         setBusy(false);
@@ -172,6 +176,60 @@ if (form) {
       for (const question of review.questions) add(list, "li", question, review.language);
     }
     add(section, "p", `${t("Model", "मॉडल")} · ${review.model}`);
+  }
+
+  let blindspotKey = "";
+  function renderBlindspots(record) {
+    const key = JSON.stringify([record.id, record.blindspots]);
+    if (key === blindspotKey && blindspotPanel.childElementCount) return;
+    blindspotKey = key;
+    const expanded = blindspotPanel.querySelector("details")?.open;
+    blindspotPanel.replaceChildren();
+    const section = add(blindspotPanel, "section", ""); section.className = "review-message review-blindspots";
+    add(section, "p", t("Coverage gaps", "कवरेज में कमियाँ")).className = "review-role";
+    add(section, "h2", t("Blindspot check", "ब्लाइंडस्पॉट जाँच"));
+    add(section, "p", t("What might be outside this comparison?", "इस तुलना से क्या छूट सकता है?"));
+    const finding = add(section, "div", ""); finding.className = "blindspot-finding";
+    add(finding, "strong", t("Political blindspots: not measurable yet", "राजनीतिक ब्लाइंडस्पॉट: अभी मापना संभव नहीं"));
+    add(finding, "p", t("Reader-added links cannot tell us which political side is under-covering a story. We need a monitored source list, a time window, reviewed story matches and documented outlet assessments.",
+      "पाठक के जोड़े लिंक यह नहीं बताते कि किस राजनीतिक पक्ष में किसी खबर की कवरेज कम है। इसके लिए निगरानी किए गए स्रोतों की सूची, समय सीमा, जाँचे गए घटना-मिलान और प्रमाणित प्रकाशक आकलन चाहिए।"));
+    const sample = record.blindspots?.sample;
+    if (sample) {
+      const list = add(section, "ul", ""); list.className = "blindspot-audit";
+      const row = (title, detail) => {
+        const item = add(list, "li", ""); add(item, "strong", title); add(item, "p", detail);
+      };
+      row(t("Source breadth", "स्रोतों की विविधता"), t(
+        `${sample.distinctWebSources} distinct website sources across ${sample.links} linked items. Repeated links from one outlet count as one website source.`,
+        `${sample.links} लिंक में ${sample.distinctWebSources} अलग वेबसाइट स्रोत। एक ही प्रकाशक के कई लिंक एक वेबसाइट स्रोत के रूप में गिने जाते हैं।`));
+      if (sample.unavailable) row(t("Unreadable material", "न पढ़ी जा सकी सामग्री"), t(
+        `${sample.unavailable} linked items could not be retrieved. Their contents and perspectives are unknown.`,
+        `${sample.unavailable} लिंक की सामग्री नहीं मिली। उनकी सामग्री और दृष्टिकोण अज्ञात हैं।`));
+      if (sample.pending) row(t("Retrieval pending", "सामग्री प्राप्ति बाकी है"), t(
+        `${sample.pending} linked items are still waiting to be read.`, `${sample.pending} लिंक अभी पढ़े जाने बाकी हैं।`));
+      if (sample.partialText) row(t("Partial text", "आंशिक पाठ"), t(
+        `${sample.partialText} linked pages are marked as partially extracted. Missing text could change how the coverage is understood.`,
+        `${sample.partialText} लिंक से आंशिक पाठ मिलने का संकेत है। छूटा हुआ पाठ कवरेज की समझ बदल सकता है।`));
+      if (sample.unverifiedVideos) row(t("Unexamined broadcasts", "बिना जाँचे प्रसारण"), t(
+        `${sample.unverifiedVideos} YouTube links; no transcript, audio or video automatically retrieved. Any pasted text is reviewed separately above. Titles and uploader metadata cannot establish what the broadcast said.`,
+        `${sample.unverifiedVideos} YouTube लिंक; कोई ट्रांसक्रिप्ट, ऑडियो या वीडियो अपने आप प्राप्त नहीं किया गया। पेस्ट किए गए पाठ की अलग समीक्षा ऊपर है। शीर्षक और अपलोडर मेटाडेटा से प्रसारण की बातों का पता नहीं चलता।`));
+      if (sample.retrievalUnconfirmed) row(t("Unconfirmed link retrieval", "लिंक से पाठ प्राप्ति की पुष्टि नहीं"), t(
+        `${sample.retrievalUnconfirmed} submitted links have no confirmed automatic text extraction.`,
+        `${sample.retrievalUnconfirmed} भेजे गए लिंक से स्वचालित पाठ प्राप्ति की पुष्टि नहीं है।`));
+      if (sample.unattributedText) row(t("Publisher unknown", "प्रकाशक अज्ञात"), t(
+        "The pasted article has no source URL. Its publisher cannot be counted in a coverage comparison.",
+        "पेस्ट किए गए लेख का स्रोत लिंक नहीं है। कवरेज तुलना में उसके प्रकाशक को नहीं गिना जा सकता।"));
+      if (!sample.unavailable && !sample.pending && sample.links > 0 && !sample.retrievalUnconfirmed && !sample.unverifiedVideos) {
+        row(t("Text access", "पाठ तक पहुँच"), t("Some text was retrieved from every linked page. Completeness and same-story membership remain unconfirmed.",
+          "हर लिंक से कुछ पाठ मिला है। पूरा पाठ मिलने और लिंक एक ही घटना के होने की पुष्टि अभी बाकी है।"));
+      }
+    }
+    const detail = add(section, "details", ""); detail.open = Boolean(expanded);
+    add(detail, "summary", t("How a political blindspot will be established", "राजनीतिक ब्लाइंडस्पॉट कैसे तय होगा"));
+    add(detail, "p", t("We will compare unique, assessed outlets covering the same confirmed event within a disclosed monitoring window. The sample, counts, unassessed outlets and inaccessible material must remain visible. A low count is a finding about that monitored sample, not proof that a whole political side ignored the story.",
+      "घोषित निगरानी अवधि में एक ही पुष्टि की गई घटना की कवरेज करने वाले अलग-अलग आकलित प्रकाशकों की तुलना होगी। नमूना, संख्या, अनाकलित प्रकाशक और अप्राप्य सामग्री दिखाई जाएगी। कम संख्या उस नमूने का निष्कर्ष है; इससे यह साबित नहीं होता कि पूरे राजनीतिक पक्ष ने खबर को अनदेखा किया।"));
+    const method = add(detail, "a", t("Read the blindspot method", "ब्लाइंडस्पॉट की विधि पढ़ें"));
+    method.href = "../method/#blindspots";
   }
 
   let coverageKey = "";
@@ -321,6 +379,7 @@ if (form) {
   function showRecord(record, requestNumber) {
     if (requestNumber !== activeRequest) return;
     showQuestion(record);
+    renderBlindspots(record);
     renderCoverage(record, requestNumber);
     if (record.extraction) {
       const provenance = add(question, "p", t(
@@ -407,6 +466,7 @@ if (form) {
     showQuestion({ article, url });
     result.replaceChildren();
     coveragePanel.replaceChildren();
+    blindspotPanel.replaceChildren();
     try {
       const response = await fetch(endpoint, {
         method: "POST", headers: { "Content-Type": "application/json" },
