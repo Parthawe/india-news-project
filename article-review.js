@@ -8,7 +8,6 @@ if (form) {
   const label = button.textContent;
   const errors = {
     400: t("Paste 100 to 8,000 characters of article text.", "लेख के 100 से 8,000 अक्षर पेस्ट करें।"),
-    401: t("Check your review access code.", "समीक्षा का एक्सेस कोड जाँचें।"),
     429: t("The review allowance is temporarily unavailable. Try again later.", "समीक्षा की सीमा अभी पूरी हो गई है। बाद में फिर कोशिश करें।"),
   };
 
@@ -54,7 +53,7 @@ if (form) {
   form.addEventListener("submit", async event => {
     event.preventDefault();
     if (button.disabled) return;
-    const { article, language, access } = form.elements;
+    const { article, language } = form.elements;
     button.disabled = true;
     button.textContent = t("Reviewing…", "समीक्षा जारी है…");
     status.textContent = t("Reading the article…", "लेख पढ़ा जा रहा है…");
@@ -62,18 +61,26 @@ if (form) {
     try {
       const response = await fetch(form.dataset.hostedReview, {
         method: "POST",
-        headers: { Authorization: `Bearer ${access.value.trim()}`, "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ article: article.value, language: language.value }),
         signal: AbortSignal.timeout(120_000),
       });
-      if (!response.ok) throw new Error(String(response.status));
+      if (!response.ok) {
+        const failure = await response.json().catch(() => ({}));
+        if (response.status === 429 && Number.isFinite(failure.resetsAt)) {
+          const reset = new Date(failure.resetsAt).toLocaleString(hindi ? "hi-IN" : "en-IN");
+          throw new Error(t(`Today's shared review allowance is used up. Reviews resume at ${reset}.`,
+            `आज की साझा समीक्षा सीमा पूरी हो गई है। समीक्षा ${reset} से फिर उपलब्ध होगी।`));
+        }
+        throw new Error(String(response.status));
+      }
       render(await response.json());
       status.textContent = t("Review ready.", "समीक्षा तैयार है।");
     } catch (error) {
       status.textContent = "";
       result.replaceChildren();
-      const alert = add(result, "p", errors[error.message] ??
-        t("The model could not complete this review. Try again shortly.", "मॉडल समीक्षा पूरी नहीं कर सका। थोड़ी देर में फिर कोशिश करें।"));
+      const alert = add(result, "p", errors[error.message] ?? (error.message.startsWith("Today") || error.message.startsWith("आज") ? error.message :
+        t("The model could not complete this review. Try again shortly.", "मॉडल समीक्षा पूरी नहीं कर सका। थोड़ी देर में फिर कोशिश करें।")));
       alert.className = "notice error";
       alert.setAttribute("role", "alert");
     } finally {
