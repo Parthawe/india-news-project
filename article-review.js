@@ -8,6 +8,9 @@ if (form) {
   const label = button.textContent;
   const endpoint = form.dataset.hostedReview;
   const question = document.querySelector("[data-review-question]");
+  const coveragePanel = document.createElement("div");
+  coveragePanel.dataset.reviewCoverage = "";
+  result.after(coveragePanel);
   const tools = document.createElement("p");
   tools.className = "review-saved-tools";
   form.before(status);
@@ -75,6 +78,7 @@ if (form) {
         } catch {}
         result.replaceChildren();
         question.replaceChildren();
+        coveragePanel.replaceChildren();
         tools.replaceChildren();
         status.textContent = t("Saved article and review deleted.", "सहेजा गया लेख और समीक्षा हटा दिए गए।");
         setBusy(false);
@@ -170,9 +174,154 @@ if (form) {
     add(section, "p", `${t("Model", "मॉडल")} · ${review.model}`);
   }
 
+  let coverageKey = "";
+  function renderCoverage(record, requestNumber) {
+    const key = JSON.stringify([record.id, record.url, record.title, record.source, record.extraction, record.coverage]);
+    if (key === coverageKey && coveragePanel.childElementCount) return;
+    coverageKey = key;
+    const draft = coveragePanel.querySelector("input")?.value || "";
+    const hadFocus = coveragePanel.contains(document.activeElement);
+    coveragePanel.replaceChildren();
+    const section = add(coveragePanel, "section", "");
+    section.className = "review-message review-coverage";
+    add(section, "p", t("Coverage desk", "कवरेज डेस्क")).className = "review-role";
+    add(section, "h2", t("Who else is covering this?", "और कौन यह खबर दिखा रहा है?"));
+    add(section, "p", t("Build a comparison with newspaper, digital and TV-channel links, including YouTube videos.",
+      "अखबारों, डिजिटल प्रकाशकों और टीवी चैनलों के लिंक जोड़कर तुलना करें। YouTube वीडियो भी जोड़ सकते हैं।"));
+    const links = [...(record.coverage || [])];
+    if (record.url) links.unshift({
+      id: "original", url: record.url, title: record.title || record.url,
+      publisher: record.source?.name || new URL(record.url).hostname,
+      sourceId: record.source?.id || new URL(record.url).hostname,
+      medium: record.source?.medium || "web", status: record.extraction ? "readable" : "submitted",
+      characters: record.extraction?.examinedCharacters || 0, checkedAt: record.extraction?.retrievedAt,
+      note: record.extraction ? t("Text examined for the review above.", "ऊपर की समीक्षा के लिए पाठ पढ़ा गया।") :
+        t("Original submitted link. Automatic text retrieval is not confirmed.", "मूल रूप से भेजा गया लिंक। स्वचालित पाठ प्राप्ति की पुष्टि नहीं हुई है।"),
+    });
+    const sources = new Map();
+    for (const link of links) {
+      const id = link.sourceId || new URL(link.url).hostname;
+      // An unverified YouTube uploader is not merged with a broadcaster or another video.
+      const sourceKey = link.medium === "youtube" || /(^|\.)(youtube\.com|youtu\.be)$/.test(new URL(link.url).hostname)
+        ? link.url : id;
+      if (!sources.has(sourceKey)) sources.set(sourceKey, link);
+    }
+    const stats = add(section, "div", ""); stats.className = "coverage-stats";
+    for (const [value, label] of [[links.length, t("Links in sample", "नमूने में लिंक")],
+      [0, t("Outlets assessed", "आकलित प्रकाशक")],
+      [links.filter(link => link.medium === "tv-web").length, t("TV website links", "टीवी वेबसाइट लिंक")]]) {
+      const cell = add(stats, "div", ""); add(cell, "strong", String(value)); add(cell, "span", label);
+    }
+    const spectrum = add(section, "div", ""); spectrum.className = "coverage-lanes";
+    spectrum.setAttribute("aria-label", t("Outlet political leaning, all unassessed", "प्रकाशकों का राजनीतिक झुकाव, सभी अनाकलित"));
+    for (const [name, style] of [[t("Left", "वाम"), "left"], [t("Centre", "मध्य"), "centre"], [t("Right", "दक्षिण"), "right"]]) {
+      const lane = add(spectrum, "div", ""); lane.className = "coverage-lane " + style;
+      add(lane, "strong", name); add(lane, "span", "—");
+      add(lane, "small", t("No reviewed ratings", "समीक्षित रेटिंग नहीं"));
+    }
+    add(section, "p", t("Political distribution unavailable. No outlet in this sample has a documented, editor-reviewed political rating. Article-level AI findings above do not rate the outlet.",
+      "राजनीतिक वितरण उपलब्ध नहीं। इस नमूने के किसी प्रकाशक की संपादक द्वारा जाँची गई राजनीतिक रेटिंग नहीं है। ऊपर दिया गया एआई आकलन लेख का है, प्रकाशक का नहीं।")).className = "coverage-note";
+    add(section, "h3", t("Unassessed sources", "अनाकलित स्रोत"));
+    if (!links.length) add(section, "p", t("Add the first coverage link below.", "नीचे पहला कवरेज लिंक जोड़ें।"));
+    const badges = add(section, "div", ""); badges.className = "coverage-badges";
+    for (const link of sources.values()) {
+      const anchor = add(badges, "a", ""); anchor.href = link.url; anchor.target = "_blank"; anchor.rel = "noreferrer";
+      const name = link.publisher || new URL(link.url).hostname;
+      const avatar = add(anchor, "span", name.replace(/^www\./, "").split(/[\s.]+/).map(word => Array.from(word)[0]).slice(0, 3).join(""));
+      avatar.className = "coverage-avatar"; avatar.setAttribute("aria-hidden", "true");
+      add(anchor, "span", name);
+      add(anchor, "small", link.medium === "tv-web" ? t("TV · website", "टीवी · वेबसाइट") :
+        link.medium === "youtube" ? t("YouTube · unverified channel", "YouTube · अपुष्ट चैनल") : t("Web", "वेब"));
+      if (link.status === "unavailable") add(anchor, "small", t("Content unavailable", "सामग्री उपलब्ध नहीं"));
+      if (link.status === "metadata-only") add(anchor, "small", t("Metadata only", "केवल मेटाडेटा"));
+      if (["queued", "running"].includes(link.status)) add(anchor, "small", t("Retrieval pending", "सामग्री प्राप्ति बाकी है"));
+    }
+    const details = add(section, "details", ""); details.className = "coverage-evidence";
+    add(details, "summary", t("Inspect the linked material", "लिंक की सामग्री देखें"));
+    const list = add(details, "ul", "");
+    for (const link of links) {
+      const row = add(list, "li", "");
+      const title = add(row, "a", link.title || link.url); title.href = link.url; title.target = "_blank"; title.rel = "noreferrer";
+      const state = { queued: t("Waiting to read", "पढ़ना बाकी है"), running: t("Reading…", "पढ़ा जा रहा है…"),
+        readable: t("Page text retrieved", "पृष्ठ का पाठ मिला"), "metadata-only": t("Video metadata only", "केवल वीडियो मेटाडेटा"),
+        unavailable: t("Content unavailable", "सामग्री उपलब्ध नहीं"), submitted: t("Submitted link", "भेजा गया लिंक") }[link.status] || link.status;
+      add(row, "p", state + (link.characters ? ` · ${link.characters} ${t("characters", "अक्षर")}` : "") + (link.partial ? t(" · partial", " · आंशिक") : ""));
+      if (link.note) add(row, "p", link.note);
+      if (link.id !== "original") {
+        const remove = add(row, "button", t("Remove link", "लिंक हटाएँ")); remove.type = "button";
+        remove.addEventListener("click", async () => {
+          const identity = current;
+          if (!identity) return;
+          remove.disabled = true;
+          try {
+            const response = await fetch(endpoint + "/" + identity.id + "/coverage", {
+              method: "POST", headers: { "Content-Type": "application/json", Authorization: "Bearer " + identity.token },
+              body: JSON.stringify({ remove: link.id }), signal: AbortSignal.timeout(20000),
+            });
+            if (requestNumber !== activeRequest) return;
+            if (!response.ok) throw new Error("remove");
+            clearTimeout(pollTimer);
+            showRecord(await response.json(), requestNumber);
+          } catch {
+            remove.disabled = false;
+            remove.textContent = t("Could not confirm removal. Retry.", "हटाने की पुष्टि नहीं हुई। फिर कोशिश करें।");
+          }
+        });
+      }
+    }
+    const dates = links.map(link => link.checkedAt).filter(Boolean).sort();
+    add(section, "p", t("Reader-selected sample. Same-story membership is unconfirmed. This is not a monitored coverage window or a live-TV feed.",
+      "यह पाठक का चुना नमूना है। लिंक एक ही घटना के हैं, इसकी पुष्टि नहीं हुई है। यह निगरानी की गई कवरेज अवधि या लाइव टीवी फीड नहीं है।") +
+      (dates.length ? " " + t("Last material check: ", "सामग्री की आखिरी जाँच: ") + new Date(dates.at(-1)).toLocaleString(hindi ? "hi-IN" : "en-IN") : "")).className = "coverage-note";
+    const composer = add(section, "form", ""); composer.className = "coverage-composer";
+    const inputLabel = add(composer, "label", t("Add coverage of the same event", "इसी घटना की कवरेज जोड़ें"));
+    inputLabel.htmlFor = "coverage-url";
+    const input = add(composer, "input", ""); input.id = "coverage-url"; input.name = "coverage-url";
+    input.type = "url"; input.required = true; input.maxLength = 2000; input.placeholder = "https://…"; input.value = draft;
+    const send = add(composer, "button", t("Add coverage link", "कवरेज लिंक जोड़ें")); send.type = "submit";
+    const progress = add(composer, "p", ""); progress.setAttribute("role", "status");
+    add(composer, "p", t("Up to 8 additional links per saved review. TV websites are read as pages. YouTube supplies title and uploader metadata; transcripts and broadcasts are not analysed here. Adding links does not run Qwen again.",
+      "हर सहेजी समीक्षा में अधिकतम 8 अतिरिक्त लिंक। टीवी वेबसाइटों का पाठ पढ़ा जाता है। YouTube से शीर्षक और अपलोडर मेटाडेटा मिलता है; यहाँ ट्रांसक्रिप्ट और प्रसारण का विश्लेषण नहीं होता। लिंक जोड़ने पर Qwen फिर नहीं चलता।"));
+    const directory = add(section, "details", ""); directory.className = "coverage-evidence coverage-directory";
+    add(directory, "summary", t("Find reporting from TV channels", "टीवी चैनलों की रिपोर्टिंग खोजें"));
+    add(directory, "p", t("Open a channel's website, find the report and add its story link above. These directory entries are not included in the sample until you add a link.",
+      "चैनल की वेबसाइट पर रिपोर्ट खोजें और ऊपर उसका लिंक जोड़ें। लिंक जोड़ने तक ये चैनल इस नमूने का हिस्सा नहीं हैं।"));
+    const directoryLinks = add(directory, "div", "");
+    for (const [name, url] of [["NDTV", "https://www.ndtv.com"], ["Aaj Tak", "https://www.aajtak.in"],
+      ["India Today", "https://www.indiatoday.in"], ["ABP माझा", "https://marathi.abplive.com"],
+      ["ABP અસ્મિતા", "https://gujarati.abplive.com"], ["TV9 Marathi", "https://www.tv9marathi.com"],
+      ["TV9 Telugu", "https://tv9telugu.com"], ["TV9 Kannada", "https://tv9kannada.com"]]) {
+      const anchor = add(directoryLinks, "a", name); anchor.href = url; anchor.target = "_blank"; anchor.rel = "noreferrer";
+    }
+    composer.addEventListener("submit", async event => {
+      event.preventDefault();
+      const identity = current;
+      if (!identity || send.disabled) return;
+      send.disabled = true; input.disabled = true;
+      progress.textContent = t("Saving the link…", "लिंक सहेजा जा रहा है…");
+      try {
+        const response = await fetch(endpoint + "/" + identity.id + "/coverage", {
+          method: "POST", headers: { "Content-Type": "application/json", Authorization: "Bearer " + identity.token },
+          body: JSON.stringify({ url: input.value.trim() }), signal: AbortSignal.timeout(20000),
+        });
+        if (requestNumber !== activeRequest) return;
+        if (!response.ok) throw new Error(response.status === 429 ? "limit" : "link");
+        input.value = "";
+        clearTimeout(pollTimer);
+        showRecord(await response.json(), requestNumber);
+      } catch (error) {
+        progress.textContent = error.message === "limit" ? t("The comparison or daily link limit has been reached.", "तुलना या दैनिक लिंक सीमा पूरी हो गई है।") :
+          t("Could not confirm the save. Use a public HTTPS article or YouTube video link, then retry or reopen this saved review.", "सहेजने की पुष्टि नहीं हुई। सार्वजनिक HTTPS लेख या YouTube वीडियो लिंक दें, फिर कोशिश करें या सहेजी समीक्षा दोबारा खोलें।");
+        send.disabled = false; input.disabled = false;
+      }
+    });
+    if (hadFocus) input.focus();
+  }
+
   function showRecord(record, requestNumber) {
     if (requestNumber !== activeRequest) return;
     showQuestion(record);
+    renderCoverage(record, requestNumber);
     if (record.extraction) {
       const provenance = add(question, "p", t(
         `Read ${record.extraction.examinedCharacters} characters from the linked page${record.extraction.partial ? " · partial text" : ""}.`,
@@ -184,6 +333,9 @@ if (form) {
       render(record.report);
       status.textContent = t("Review saved.", "समीक्षा सहेज दी गई।");
       setBusy(false);
+      if (record.coverage?.some(link => ["queued", "running"].includes(link.status))) {
+        pollTimer = setTimeout(() => loadRecord(current, requestNumber), 3000);
+      }
       return;
     }
     if (record.status === "failed" || record.status === "limited") {
@@ -196,6 +348,9 @@ if (form) {
           : t("Article saved. The model could not complete the review. You can retry.",
             "लेख सहेज दिया गया है। मॉडल समीक्षा पूरी नहीं कर सका। फिर कोशिश कर सकते हैं।");
       setBusy(false);
+      if (record.coverage?.some(link => ["queued", "running"].includes(link.status))) {
+        pollTimer = setTimeout(() => loadRecord(current, requestNumber), 3000);
+      }
       return;
     }
     status.textContent = t("Article saved. Reviewing in the background. You can return using the private link.",
@@ -251,6 +406,7 @@ if (form) {
     status.textContent = t("Saving your submission and reading the article…", "सामग्री सहेजी जा रही है और लेख पढ़ा जा रहा है…");
     showQuestion({ article, url });
     result.replaceChildren();
+    coveragePanel.replaceChildren();
     try {
       const response = await fetch(endpoint, {
         method: "POST", headers: { "Content-Type": "application/json" },
