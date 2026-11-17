@@ -41,6 +41,8 @@ if (form) {
     current = identity;
     const link = linkFor(identity);
     history.replaceState(null, "", link);
+    const alternate = document.querySelector(".lang-switch");
+    if (alternate) alternate.hash = new URL(link).hash;
     try { localStorage.setItem("india-news-latest-review", link); } catch {}
     tools.replaceChildren();
     const savedLink = add(tools, "a", t("Private link to this saved review", "इस सहेजी गई समीक्षा का निजी लिंक"));
@@ -62,6 +64,8 @@ if (form) {
         if (!response.ok && response.status !== 404) throw new Error("delete");
         current = null;
         history.replaceState(null, "", location.pathname + location.search);
+        const alternate = document.querySelector(".lang-switch");
+        if (alternate) alternate.hash = "";
         try {
           if (localStorage.getItem("india-news-latest-review") === link) localStorage.removeItem("india-news-latest-review");
         } catch {}
