@@ -1,13 +1,17 @@
-const form = document.querySelector("form[data-hosted-review]");
-if (form) {
-  const hindi = document.documentElement.lang === "hi";
+(() => {
+const mounted = new WeakMap();
+function mount(root = document) {
+  const form = root.querySelector("form[data-hosted-review]");
+  if (!form) return () => {};
+  if (mounted.has(form)) return mounted.get(form);
+  const hindi = (form.dataset.language || document.documentElement.lang) === "hi";
   const t = (en, hi) => hindi ? hi : en;
   const button = form.querySelector('button[type="submit"]');
-  const result = document.querySelector("[data-review-result]");
-  const status = document.querySelector("#main [role=status]");
+  const result = root.querySelector("[data-review-result]");
+  const status = root.querySelector("[data-review-status]") || root.querySelector("#main [role=status]");
   const label = button.textContent;
   const endpoint = form.dataset.hostedReview;
-  const question = document.querySelector("[data-review-question]");
+  const question = root.querySelector("[data-review-question]");
   const coveragePanel = document.createElement("div");
   coveragePanel.dataset.reviewCoverage = "";
   result.after(coveragePanel);
@@ -21,6 +25,16 @@ if (form) {
   let current = null;
   let pollTimer;
   let activeRequest = 0;
+  let disposed = false;
+  const languageLink = document.querySelector(".lang-switch");
+  function switchLanguage(event) {
+    if (current && languageLink?.hash) {
+      event.preventDefault();
+      event.stopPropagation();
+      location.assign(languageLink.href);
+    }
+  }
+  languageLink?.addEventListener("click", switchLanguage, true);
 
   function add(parent, tag, text, language) {
     const element = document.createElement(tag);
@@ -72,6 +86,7 @@ if (form) {
           method: "DELETE", headers: { Authorization: "Bearer " + identity.token },
         });
         if (!response.ok && response.status !== 404) throw new Error("delete");
+        if (disposed) return;
         current = null;
         history.replaceState(null, "", location.pathname + location.search);
         const alternate = document.querySelector(".lang-switch");
@@ -229,7 +244,7 @@ if (form) {
     add(detail, "p", t("We will compare unique, assessed outlets covering the same confirmed event within a disclosed monitoring window. The sample, counts, unassessed outlets and inaccessible material must remain visible. A low count is a finding about that monitored sample, not proof that a whole political side ignored the story.",
       "घोषित निगरानी अवधि में एक ही पुष्टि की गई घटना की कवरेज करने वाले अलग-अलग आकलित प्रकाशकों की तुलना होगी। नमूना, संख्या, अनाकलित प्रकाशक और अप्राप्य सामग्री दिखाई जाएगी। कम संख्या उस नमूने का निष्कर्ष है; इससे यह साबित नहीं होता कि पूरे राजनीतिक पक्ष ने खबर को अनदेखा किया।"));
     const method = add(detail, "a", t("Read the blindspot method", "ब्लाइंडस्पॉट की विधि पढ़ें"));
-    method.href = "../method/#blindspots";
+    method.href = form.dataset.methodUrl || "../method/#blindspots";
   }
 
   let coverageKey = "";
@@ -442,7 +457,7 @@ if (form) {
     }
   }
 
-  form.addEventListener("submit", async event => {
+  async function submit(event) {
     event.preventDefault();
     if (button.disabled) return;
     clearTimeout(pollTimer);
@@ -491,7 +506,8 @@ if (form) {
           "सहेजे जाने की पुष्टि नहीं हुई। निजी लिंक से जाँचें या फिर भेजें।");
       setBusy(false);
     }
-  });
+  }
+  form.addEventListener("submit", submit);
 
   function openLink() {
     clearTimeout(pollTimer);
@@ -516,4 +532,18 @@ if (form) {
       }
     } catch {}
   }
+  const cleanup = () => {
+    disposed = true;
+    activeRequest++;
+    clearTimeout(pollTimer);
+    removeEventListener("hashchange", openLink);
+    form.removeEventListener("submit", submit);
+    languageLink?.removeEventListener("click", switchLanguage, true);
+    mounted.delete(form);
+  };
+  mounted.set(form, cleanup);
+  return cleanup;
 }
+window.mountIndiaNewsReview = mount;
+mount();
+})();
