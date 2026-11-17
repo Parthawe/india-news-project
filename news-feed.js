@@ -11,10 +11,11 @@ function mount(container=document){
  const ids=new Set(items.map(x=>x.dataset.feedItem));
  const key='india-news-feed-v1';let storage=true, topics=[],region='',language='',saved=[];
  try{const data=JSON.parse(localStorage.getItem(key)||'{}');topics=Array.isArray(data.topics)?data.topics.filter(x=>knownTopics.includes(x)):[];region=knownRegions.includes(data.region)?data.region:'';language=knownLanguages.includes(data.language)?data.language:'';saved=Array.isArray(data.saved)?data.saved.filter(x=>ids.has(x)):[];}catch{storage=false;}
- const views={top:[t('Top stories','मुख्य खबरें'),t('Selected reporting from the year, with the sources attached.','साल की चुनी हुई रिपोर्टिंग, साथ में उसके स्रोत।')],'for-you':[t('For you','आपके लिए'),t('A reading list shaped by the interests you choose.','आपकी चुनी रुचियों से बनी पढ़ने की सूची।')],regional:[t('Regions','क्षेत्र'),t('Chapters that draw on regional reporting in this collection.','इस संग्रह में क्षेत्रीय रिपोर्टिंग पर आधारित अध्याय।')],blindspots:[t('Blindspots','ब्लाइंडस्पॉट'),t('See what the available evidence can and cannot tell us.','देखें कि उपलब्ध सबूत क्या बता सकते हैं और क्या नहीं।')],saved:[t('Saved','सहेजे गए'),t('Your bookmarked research chapters.','आपके सहेजे शोध अध्याय।')]};
+ const views={top:[t('Top stories','मुख्य खबरें'),t('Daily official headlines and sourced reporting comparisons.','रोज़ के आधिकारिक शीर्षक और स्रोतों के साथ रिपोर्टिंग की तुलना।')],'for-you':[t('For you','आपके लिए'),t('Research comparisons shaped by the interests you choose.','आपकी चुनी रुचियों के अनुसार शोध तुलनाएँ।')],regional:[t('Regions','क्षेत्र'),t('Chapters that draw on regional reporting in this collection.','इस संग्रह में क्षेत्रीय रिपोर्टिंग पर आधारित अध्याय।')],blindspots:[t('Blindspots','ब्लाइंडस्पॉट'),t('See what the available evidence can and cannot tell us.','देखें कि उपलब्ध सबूत क्या बता सकते हैं और क्या नहीं।')],saved:[t('Saved','सहेजे गए'),t('Your bookmarked research chapters.','आपके सहेजे शोध अध्याय।')]};
  let view=new URL(location.href).searchParams.get('view')||'top';if(!Object.hasOwn(views,view))view='top';
  function persist(){try{localStorage.setItem(key,JSON.stringify({topics,region,language,saved}));storage=true;}catch{storage=false;}}
  function render(updateURL=false){
+  const daily=root.querySelector('[data-daily-container]');if(daily)daily.hidden=view!=='top';const focus=root.querySelector('[data-daily-focus]');if(focus)focus.hidden=view!=='top';
   let count=0;const isFiltered=['for-you','regional'].includes(view);
   for(const item of items){const data=item.dataset,ts=data.topics.split(' '),rs=data.regions.split(' ').filter(Boolean),ls=data.languages.split(' ');
    const matched=view==='saved'?saved.includes(data.feedItem):view==='blindspots'?false:!isFiltered?true:
@@ -29,7 +30,7 @@ function mount(container=document){
   root.querySelector('[data-feed-empty]').hidden=count>0||view==='blindspots';
   root.querySelector('[data-empty-heading]').textContent=view==='saved'?t('Your reading list is empty','आपकी पढ़ने की सूची खाली है'):t('No matching chapters yet','अभी कोई मिलता अध्याय नहीं');
   root.querySelector('[data-empty-copy]').textContent=view==='saved'?t('Save a chapter using its bookmark button. It will be kept in this browser.','अध्याय के सहेजें बटन से उसे जोड़ें। यह इसी ब्राउज़र में रहेगा।'):t('Try fewer filters or inspect the full research register. We do not have matching material for every region and language.','कम फ़िल्टर चुनें या पूरा शोध संग्रह देखें। हर क्षेत्र और भाषा की मिलती सामग्री अभी उपलब्ध नहीं है।');
-  root.querySelector('[data-feed-status]').textContent=view==='blindspots'?t('Political blindspot findings are not available.','राजनीतिक ब्लाइंडस्पॉट निष्कर्ष उपलब्ध नहीं हैं।'):`${count} ${t('research chapters','शोध अध्याय')}`+(view==='for-you'&&!topics.length&&!region&&!language?t(' · Choose your interests or follow a topic.',' · अपनी रुचियाँ चुनें या विषय फॉलो करें।'):'');
+  root.querySelector('[data-feed-status]').textContent=view==='blindspots'?t('Political blindspot findings are not available.','राजनीतिक ब्लाइंडस्पॉट निष्कर्ष उपलब्ध नहीं हैं।'):`${count} ${t('research comparisons','शोध तुलनाएँ')}`+(view==='for-you'&&!topics.length&&!region&&!language?t(' · Choose your interests or follow a topic.',' · अपनी रुचियाँ चुनें या विषय फॉलो करें।'):'');
   const prefs=root.querySelector('[data-feed-preferences]');prefs.hidden=!isFiltered;
   if(isFiltered&&!topics.length&&!region&&!language)prefs.open=true;
   for(const input of root.querySelectorAll('input[name=topic]'))input.checked=topics.includes(input.value);
@@ -53,7 +54,10 @@ function mount(container=document){
  root.addEventListener('toggle',toggle,true);
  root.addEventListener('click',click);root.addEventListener('submit',submit);addEventListener('popstate',pop);render();
  root.dataset.feedReady='true';
- const cleanup=()=>{delete root.dataset.feedReady;root.removeEventListener('click',click);root.removeEventListener('toggle',toggle,true);root.removeEventListener('submit',submit);removeEventListener('popstate',pop);mounted.delete(root);};mounted.set(root,cleanup);return cleanup;
+ const dailyContainer=root.querySelector('[data-daily-container]');let disposed=false;
+ if(dailyContainer?.dataset.refreshUrl){const endpoint=new URL(dailyContainer.dataset.refreshUrl,location.href);if(endpoint.origin===location.origin)fetch(endpoint,{signal:AbortSignal.timeout(10000)}).then(async response=>{if(!response.ok)return;const html=await response.text();if(disposed||html.length>100000)return;const doc=new DOMParser().parseFromString(html,'text/html');const section=doc.querySelector('section#daily-news[data-daily-news]');if(!section||doc.querySelector('script'))return;const current=dailyContainer.querySelector('[data-collected-at]')?.dataset.collectedAt;if(current&&Date.parse(section.dataset.collectedAt)<Date.parse(current))return;dailyContainer.innerHTML=section.outerHTML;render();}).catch(()=>{});}
+
+ const cleanup=()=>{disposed=true;delete root.dataset.feedReady;root.removeEventListener('click',click);root.removeEventListener('toggle',toggle,true);root.removeEventListener('submit',submit);removeEventListener('popstate',pop);mounted.delete(root);};mounted.set(root,cleanup);return cleanup;
 }
 window.mountIndiaNewsFeed=mount;mount();
 })();

@@ -1,0 +1,62 @@
+name: Daily news and Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 08:15 and 14:15 India time. The second run fills gaps, never adds a second five.
+    - cron: '45 2,8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: india-news-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: automation/package-lock.json
+      - name: Install collector dependencies
+        run: npm ci --prefix automation --ignore-scripts
+      - name: Test selection and evidence safeguards
+        run: npm test --prefix automation
+      - name: Collect up to five official updates
+        if: github.event_name != 'push'
+        run: node automation/daily-news.mjs .
+      - name: Save the daily public archive
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news en/index.html hi/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update daily official news links'
+            git push
+          fi
+      - name: Prepare public Pages artifact
+        run: |
+          mkdir _site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='automation' --exclude='_site' ./ _site/
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+      - name: Deploy public website
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

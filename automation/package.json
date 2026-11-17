@@ -1,0 +1,1 @@
+{"name":"india-news-daily-job","private":true,"type":"module","scripts":{"refresh":"node daily-news.mjs","test":"node --experimental-strip-types --test tests/*.test.mjs"},"dependencies":{"cheerio":"1.2.0","rss-parser":"3.13.0"},"engines":{"node":">=24"}}
