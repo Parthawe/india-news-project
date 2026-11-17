@@ -48,12 +48,12 @@
 .review-framing .review-finding { font: 600 17px/24px var(--sans); }
 .review-spectrum { display: grid; grid-template-columns: repeat(3,1fr); gap: 3px; margin: 16px 0 10px; }
 .review-spectrum-part { border-top: 8px solid #ddd; padding: 10px 8px; color: #595959; text-align: center; font: 15px/20px var(--sans); }
-.review-spectrum-part.left-leaning { border-color: #ddbec0; }
+.review-spectrum-part.left-leaning { border-color: #b9ccd9; }
 .review-spectrum-part.centrist-framing { border-color: #bcbdbd; }
-.review-spectrum-part.right-leaning { border-color: #b9ccd9; }
+.review-spectrum-part.right-leaning { border-color: #ddbec0; }
 .review-spectrum-part.is-selected { color: #121212; font-weight: 700; background: #f2f2f2; outline: 2px solid #121212; outline-offset: -2px; }
-.review-spectrum-part.left-leaning.is-selected { border-color: #a83943; }
-.review-spectrum-part.right-leaning.is-selected { border-color: #2c6286; }
+.review-spectrum-part.left-leaning.is-selected { border-color: #1b4b96; }
+.review-spectrum-part.right-leaning.is-selected { border-color: #a92e48; }
 .review-spectrum-part.centrist-framing.is-selected { border-color: #555; }
 .review-source-status { background: #f5f5f3; padding: 16px; margin: 20px 0; }
 .review-source-status strong { font: 600 15px/20px var(--sans); }
@@ -79,8 +79,8 @@
 .coverage-stats span { font: 13px/18px var(--sans); color: #595959; }
 .coverage-lanes { display: grid; grid-template-columns: repeat(3,1fr); gap: 6px; }
 .coverage-lane { min-height: 142px; padding: 14px 10px; text-align: center; display: grid; align-content: start; gap: 12px; background: #f6f6f4; border-top: 7px solid #bcbdbd; }
-.coverage-lane.left { border-top-color: #a83943; }
-.coverage-lane.right { border-top-color: #2c6286; }
+.coverage-lane.left { border-top-color: #1b4b96; }
+.coverage-lane.right { border-top-color: #a92e48; }
 .coverage-lane strong { font: 600 15px/20px var(--sans); }
 .coverage-lane > span { font: 24px/28px var(--sans); color: #666; }
 .coverage-lane small { font: 12px/16px var(--sans); color: #595959; }

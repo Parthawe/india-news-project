@@ -41,6 +41,7 @@ function mount(container=document){
  }
  function click(event){const target=event.target.closest('button,a');if(!target||!root.contains(target))return;
   if(target.dataset.feedView){event.preventDefault();view=target.dataset.feedView;render(true);}
+  else if(target.dataset.sourceBreakdown){const details=document.getElementById(target.dataset.sourceBreakdown);if(details&&root.contains(details)){details.open=!details.open;target.setAttribute('aria-expanded',String(details.open));}}
   else if(target.dataset.followTopic){const topic=target.dataset.followTopic;topics=topics.includes(topic)?topics.filter(x=>x!==topic):[...topics,topic];view='for-you';persist();render(true);}
   else if(target.dataset.saveChapter){const id=target.dataset.saveChapter;saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];persist();render();if(view==='saved'&&!saved.includes(id))(root.querySelector('[data-feed-item]:not([hidden]) [data-save-chapter]')||root.querySelector('[data-feed-show-all]')).focus();}
   else if(target.hasAttribute('data-reset-interests')){topics=[];region='';language='';persist();render(true);}
@@ -48,9 +49,11 @@ function mount(container=document){
  }
  function submit(event){if(!event.target.matches('[data-feed-preferences-form]'))return;event.preventDefault();const data=new FormData(event.target);topics=data.getAll('topic').filter(x=>knownTopics.includes(x));region=data.get('region')||'';language=data.get('language')||'';if(view!=='regional')view='for-you';persist();root.querySelector('[data-feed-preferences]').open=false;render(true);root.querySelector('[data-feed-heading]').focus({preventScroll:true});root.querySelector('[data-feed-heading]').scrollIntoView({block:'nearest'});}
  function pop(){const next=new URL(location.href).searchParams.get('view')||'top';view=Object.hasOwn(views,next)?next:'top';render();}
+ function toggle(event){const details=event.target;if(!details.matches?.('.feed-references[id]'))return;const button=root.querySelector(`[data-source-breakdown="${details.id}"]`);button?.setAttribute('aria-expanded',String(details.open));}
+ root.addEventListener('toggle',toggle,true);
  root.addEventListener('click',click);root.addEventListener('submit',submit);addEventListener('popstate',pop);render();
  root.dataset.feedReady='true';
- const cleanup=()=>{delete root.dataset.feedReady;root.removeEventListener('click',click);root.removeEventListener('submit',submit);removeEventListener('popstate',pop);mounted.delete(root);};mounted.set(root,cleanup);return cleanup;
+ const cleanup=()=>{delete root.dataset.feedReady;root.removeEventListener('click',click);root.removeEventListener('toggle',toggle,true);root.removeEventListener('submit',submit);removeEventListener('popstate',pop);mounted.delete(root);};mounted.set(root,cleanup);return cleanup;
 }
 window.mountIndiaNewsFeed=mount;mount();
 })();
