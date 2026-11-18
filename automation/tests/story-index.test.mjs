@@ -30,3 +30,10 @@ test('matching does not chain unrelated reports through a broad intermediate hea
  assert.equal(relatedHeadlines(a,b),true);assert.equal(relatedHeadlines(b,c),true);assert.equal(relatedHeadlines(a,c),false);
  const index=buildStoryIndex(null,[a,b,c],[],now);assert.equal(index.candidates.length,1);assert.equal(index.candidates[0].articleIds.length,2);assert.equal(index.unmatchedArticleIds.length,1);
 });
+
+test('source dates use the India calendar when UTC is still on the previous day',()=>{
+ const localDay=item(1,'Haridwar river cleaning public update',{publishedDate:'2026-11-18',publishedDateText:'18 NOV 2026'});
+ const future=item(2,'A release with a future publication date',{publishedDate:'2026-11-19',publishedDateText:'19 NOV 2026'});
+ const index=buildStoryIndex(null,[localDay,future],[],new Date('2026-11-17T23:30:00Z'));
+ assert.deepEqual(index.articles.map(a=>a.id),[localDay.id]);
+});
