@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "method": "Published public research drafts and their source links only. No private reviews or raw research bodies.",
+  "assessments": "No published political leaning assessments in this catalogue.",
+  "documents": [
+    {
+      "id": "archive-labour",
+      "title": "The announcement travelled faster than the rules",
+      "titleHi": "घोषणा आगे पहुँची, नियम पीछे रहे",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/labour/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "A national reform needs a state-level follow-up.\nOn 21 November 2025, the Union government announced that four Labour Codes were taking effect. Its release presented the consolidation of 29 laws as an expansion of protection. The Indian Express led with a wider social-security net, but its report also described rules still to come and union objections. BBC Hindi’s account brought promised benefits and worker organisations’ opposition into the same explanation.\nThe follow-up complicates a single national commencement date. A May PTI report concerned central rules. In July, Loksatta reported Maharashtra’s minister asking for discussions with unions on state rules. Pudhari reported in August that final notification was still awaited in Maharashtra. These accounts concern different jurisdictions and stages. They should not be flattened into a simple contradiction.\nA worker’s next question is practical: which provision applies at this workplace, and how is it enforced? The collected reporting does not establish a nationwide improvement in wages or bargaining power. Nor does a union’s objection establish every predicted harm. Those outcomes need follow-up evidence.",
+      "textHi": "राष्ट्रीय सुधार को राज्य के स्तर पर भी जाँचना होगा।\n21 नवंबर 2025 को केंद्र सरकार ने चार श्रम संहिताएँ लागू करने की घोषणा की। सरकारी विज्ञप्ति ने 29 कानूनों के समेकन को सुरक्षा बढ़ाने वाला कदम बताया। इंडियन एक्सप्रेस के शीर्षक में सामाजिक सुरक्षा का विस्तार आगे था, लेकिन रिपोर्ट में आने वाले नियमों और यूनियनों की आपत्तियों का भी उल्लेख था। बीबीसी हिन्दी ने संभावित लाभों और मज़दूर संगठनों के विरोध को एक ही विवरण में रखा।\nबाद की रिपोर्टिंग बताती है कि केवल राष्ट्रीय प्रारंभ-तिथि पर्याप्त नहीं है। मई की पीटीआई रिपोर्ट केंद्रीय नियमों पर थी। जुलाई में लोकसत्ता ने महाराष्ट्र के मंत्री के राज्य नियमों पर यूनियनों से चर्चा के निर्देश बताए। अगस्त में पुढारी ने महाराष्ट्र में अंतिम अधिसूचना की प्रतीक्षा की रिपोर्ट दी। ये विवरण अलग अधिकार-क्षेत्रों और चरणों के हैं। इन्हें सीधे विरोधाभास में नहीं बदलना चाहिए।\nकामगार का अगला सवाल व्यावहारिक है: उसके कार्यस्थल पर कौन-सा प्रावधान लागू है और उसका पालन कैसे होगा? जुटाई गई रिपोर्टिंग पूरे देश में वेतन या सौदेबाज़ी की शक्ति में सुधार स्थापित नहीं करती। यूनियन की आपत्ति भी हर अनुमानित नुकसान का प्रमाण नहीं है। इन परिणामों के लिए आगे के सबूत चाहिए।",
+      "sourceLinks": [
+        {
+          "title": "Government Makes the Four Labour Codes effective to Simplify and Streamline Labour Laws",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2192463&lang=2&reg=48",
+          "publisher": "PIB / Ministry of Labour and Employment"
+        },
+        {
+          "title": "Wider social security net to minimum wage: Long stalled, labour reforms roll in",
+          "url": "https://indianexpress.com/article/business/labour-codes-rules-expected-week-govt-10378405/",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "नया लेबर कोड लागू, ग्रेच्युटी से लेकर हेल्थ इंश्योरेंस पर क्या हैं नियम और मज़दूर संगठन क्यों कर रहे हैं विरोध जानिए",
+          "url": "https://www.bbc.com/hindi/articles/cj45xep7r2do",
+          "publisher": "BBC News Hindi"
+        },
+        {
+          "title": "Labour Reforms: Government Fully Operationalises Four New Codes By Publishing Rules",
+          "url": "https://www.ndtvprofit.com/india/labour-reforms-government-fully-operationalises-four-new-codes-by-publishing-rules-11470437",
+          "publisher": "NDTV Profit / Press Trust of India"
+        },
+        {
+          "title": "कामगार कायद्याच्या नियमावलीवर कामगार संघटनांशी चर्चा करा; ॲड. आकाश फुंडकर यांचे निर्देश",
+          "url": "https://www.loksatta.com/mumbai/maharashtra-labor-minister-akash-phundkar-meeting-with-labor-unions-on-new-laws-rub-99-6006265/",
+          "publisher": "Loksatta"
+        },
+        {
+          "title": "Maharashtra Labour Codes: नव्या श्रम संहितांना महाराष्ट्रात ‘ब्रेक’; अंतिम नियमांच्या अधिसूचनेची प्रतीक्षा",
+          "url": "https://pudhari.news/maharashtra/pune/maharashtra-labour-codes-implementation-sk04",
+          "publisher": "Pudhari"
+        },
+        {
+          "title": "Indian unions slam unilateral labour code rollout; 21 November declared black day for workers",
+          "url": "https://www.industriall-union.org/indian-unions-slam-unilateral-labour-code-rollout-21-november-declared-black-day-for-workers/",
+          "publisher": "IndustriALL Global Union"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-budgets",
+      "title": "A Budget has several audiences",
+      "titleHi": "बजट को पढ़ने वाले कई हैं",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/budgets/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "The national growth story and the local spending question belong together.\nThe Union Budget presented on 1 February 2026 proposed expenditure of about ₹53.5 lakh crore. That is a proposal for the financial year, not a record of money already spent. The official highlights and PRS analysis offer different entrances: the government’s priorities, and the arithmetic of receipts, expenditure and the fiscal deficit.\nRegional coverage asks readers to inspect a different set of promises. Dinamani’s Tamil Nadu Budget highlights list electricity support, education and training measures. Gujarat Samachar’s account of Gujarat’s February Budget foregrounds its size and allocations, while also discussing borrowing and interest costs. A state-level story can therefore be fiscally detailed without sharing the Union Budget’s headline priorities.\nThe useful comparison runs from proposal to allocation, release, spending and delivery. This collection contains announcements and analysis, not an audited assessment of whether each programme delivered its intended benefit. Tamil and Gujarati interpretations still need language-editor review.",
+      "textHi": "राष्ट्रीय विकास की बात के साथ स्थानीय खर्च का सवाल भी रखें।\n1 फरवरी 2026 को पेश केंद्रीय बजट में लगभग 53.5 लाख करोड़ रुपये खर्च करने का प्रस्ताव था। यह वित्त वर्ष का प्रस्ताव है, पहले ही खर्च हो चुकी राशि का रिकॉर्ड नहीं। आधिकारिक मुख्य बिंदु और पीआरएस विश्लेषण अलग रास्ते देते हैं: सरकार की प्राथमिकताएँ और प्राप्तियों, खर्च तथा राजकोषीय घाटे का हिसाब।\nक्षेत्रीय रिपोर्टिंग पाठक को अलग वादे जाँचने देती है। दिनमणि के तमिलनाडु बजट के मुख्य बिंदुओं में बिजली सहायता, शिक्षा और प्रशिक्षण के उपाय हैं। गुजरात समाचार के फरवरी बजट विवरण में बजट का आकार और आवंटन प्रमुख हैं, साथ ही कर्ज़ और ब्याज लागत की चर्चा भी है। राज्य की खबर में वित्तीय विवरण हो सकता है, भले उसकी प्रमुख बातें केंद्रीय बजट से अलग हों।\nउपयोगी तुलना प्रस्ताव से आवंटन, राशि जारी होने, खर्च और सेवा मिलने तक जाती है। संग्रह में घोषणाएँ और विश्लेषण हैं; हर योजना के लाभ का लेखापरीक्षित आकलन नहीं। तमिल और गुजराती विवरणों की व्याख्या को अभी भाषा-संपादक की समीक्षा चाहिए।",
+      "sourceLinks": [
+        {
+          "title": "HIGHLIGHTS OF UNION BUDGET 2026-27",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221455&lang=2&reg=3",
+          "publisher": "PIB / Ministry of Finance"
+        },
+        {
+          "title": "Union Budget 2026–27 analysis",
+          "url": "https://prsindia.org/budgets/parliament/union-budget-2026-27-analysis",
+          "publisher": "PRS Legislative Research"
+        },
+        {
+          "title": "Union Budget 2026–27 speech",
+          "url": "https://www.indiabudget.gov.in/doc/budget_speech.pdf",
+          "publisher": "Ministry of Finance"
+        },
+        {
+          "title": "தமிழக பட்ஜெட்: முக்கிய அம்சங்கள்",
+          "url": "https://www.dinamani.com/tamilnadu/2026/Aug/05/tamil-nadu-budget-key-highlights",
+          "publisher": "Dinamani"
+        },
+        {
+          "title": "ગુજરાતનું અધધ રૂ. 4,08,053 કરોડનું બજેટ",
+          "url": "https://www.gujaratsamachar.com/news/national/gujarats-budget-is-a-whopping-rs-4-08-053-crore-99393897465",
+          "publisher": "Gujarat Samachar"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-health",
+      "title": "More money is the beginning of the healthcare question",
+      "titleHi": "ज़्यादा धन से स्वास्थ्य का सवाल शुरू होता है",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/health/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "A request, an allocation and a patient outcome are three different records.\nIn January, Dainik Jagran reported a Jharkhand minister’s suggestion to double the health budget during a pre-Budget consultation. ABP Live’s national preview discussed expectations for infrastructure, preventive care and insurance. These are records of demands and anticipated policy, not proof that the money was allocated or that treatment improved.\nThe next reporting task is to compare the eventual budget and actual spending with vacancies, functioning facilities and access for patients. A promise to build or fund something cannot answer those questions on its own. This review makes no finding about whether Jharkhand met the suggested target.",
+      "textHi": "माँग, आवंटन और मरीज़ के परिणाम तीन अलग रिकॉर्ड हैं।\nजनवरी में दैनिक जागरण ने बजट-पूर्व परामर्श के दौरान झारखंड के मंत्री का स्वास्थ्य बजट दोगुना करने का सुझाव बताया। एबीपी लाइव की राष्ट्रीय बजट-पूर्व रिपोर्ट में बुनियादी ढाँचे, निवारक देखभाल और बीमा की अपेक्षाएँ थीं। ये माँगों और संभावित नीति के विवरण हैं; धन आवंटित होने या इलाज सुधरने का प्रमाण नहीं।\nअगली रिपोर्टिंग में अंतिम बजट और वास्तविक खर्च की तुलना रिक्त पदों, चालू सुविधाओं और मरीज़ों की पहुँच से करनी होगी। निर्माण या वित्तपोषण का वादा अकेले इन सवालों का उत्तर नहीं देता। यह समीक्षा निष्कर्ष नहीं देती कि झारखंड ने सुझाया लक्ष्य पूरा किया या नहीं।",
+      "sourceLinks": [
+        {
+          "title": "स्वास्थ्य का बजट हो दोगुना, पीडीएस में मिले सरसों तेल; झारखंड बजट 2026- 27 के लिए मंत्रियों ने दिए सुझाव",
+          "url": "https://www.jagran.com/jharkhand/ranchi-jharkhand-budget-202627-health-budget-doubled-pds-mustard-oil-40110364.html",
+          "publisher": "Dainik Jagran"
+        },
+        {
+          "title": "बजट 2026 से क्या हेल्थ सेक्टर का होगा कायाकल्प? जानें क्या है उम्मीदें और किस पर रह सकता है फोकस",
+          "url": "https://www.abplive.com/business/budget/budget-2026-what-health-sector-expectations-and-what-can-be-main-focus-3079747",
+          "publisher": "ABP Live Hindi"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-statistics",
+      "title": "The growth number changed. So did the measuring frame.",
+      "titleHi": "वृद्धि का आँकड़ा बदला, मापने का आधार भी",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/statistics/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "Keep the period, base year and release date attached to every estimate.\nFebruary brought a new GDP series using 2022–23 as the base year. MoSPI’s FAQ explains the change of reference period; the February PRS review records the new estimates. The January, June and August reviews contain estimates released at other stages. A reader who encounters different growth figures needs to know which period and statistical vintage each describes.\nPut those labels beside the number before making a trend chart or comparing headlines. Revisions do not automatically establish manipulation, and a newer estimate does not make the earlier report dishonest. A like-for-like comparison requires the underlying release tables.",
+      "textHi": "हर अनुमान के साथ अवधि, आधार वर्ष और जारी होने की तारीख रखें।\nफरवरी में 2022–23 आधार वर्ष वाली नई जीडीपी शृंखला आई। सांख्यिकी मंत्रालय के प्रश्नोत्तर आधार अवधि के बदलाव को बताते हैं; फरवरी का पीआरएस रिव्यू नए अनुमान दर्ज करता है। जनवरी, जून और अगस्त के रिव्यू में दूसरे चरणों पर जारी अनुमान हैं। अलग वृद्धि-दर देखने वाले पाठक को हर आँकड़े की अवधि और संस्करण जानना चाहिए।\nरुझान का चार्ट बनाने या शीर्षकों की तुलना करने से पहले ये विवरण आँकड़े के साथ रखें। संशोधन अपने आप हेरफेर सिद्ध नहीं करता और नया अनुमान पिछली रिपोर्ट को बेईमान नहीं बनाता। समान आधार की तुलना के लिए मूल तालिकाएँ चाहिए।",
+      "sourceLinks": [
+        {
+          "title": "FAQ on GDP rebasing",
+          "url": "https://www.mospi.gov.in/uploads/announcements/announcements_1772117257791_84ae898f-7be2-4b7d-a135-565e1a809513_FAQ_GDP_26022026_1902.pdf",
+          "publisher": "MoSPI"
+        },
+        {
+          "title": "January 2026",
+          "url": "https://prsindia.org/policy/monthly-policy-review/january-2026",
+          "publisher": "PRS Legislative Research"
+        },
+        {
+          "title": "February 2026",
+          "url": "https://prsindia.org/policy/monthly-policy-review/february-2026",
+          "publisher": "PRS Legislative Research"
+        },
+        {
+          "title": "June 2026",
+          "url": "https://prsindia.org/policy/monthly-policy-review/june-2026",
+          "publisher": "PRS Legislative Research"
+        },
+        {
+          "title": "August 2026",
+          "url": "https://prsindia.org/policy/monthly-policy-review/august-2026",
+          "publisher": "PRS Legislative Research"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-privacy",
+      "title": "Notified does not mean every provision has begun",
+      "titleHi": "अधिसूचना का मतलब हर प्रावधान शुरू होना नहीं",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/privacy/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "Read the timetable inside the privacy rules.\nThe November 2025 Gazette gives the Digital Personal Data Protection Rules staggered commencement dates. Some rules begin on publication, Rule 4 after a year, and several others after eighteen months. At this review’s 4 November 2026 cutoff, those later milestones had not all arrived. A headline about notification needs that qualification. The document’s date, the ministry’s posting date and the effective dates should remain separate.",
+      "textHi": "निजता के नियमों के अंदर की समय-सारणी पढ़ें।\nनवंबर 2025 का राजपत्र डिजिटल व्यक्तिगत डेटा संरक्षण नियमों के लिए अलग-अलग प्रारंभ-तिथियाँ देता है। कुछ नियम प्रकाशन पर, नियम 4 एक साल बाद और कई दूसरे नियम अठारह महीने बाद शुरू होने हैं। इस समीक्षा की 4 नवंबर 2026 की सीमा तक ये सभी बाद की तिथियाँ नहीं आई थीं। अधिसूचना के शीर्षक के साथ यह शर्त ज़रूरी है। दस्तावेज़ की तारीख, मंत्रालय की पोस्ट की तारीख और लागू होने की तिथियाँ अलग रखें।",
+      "sourceLinks": [
+        {
+          "title": "Digital Personal Data Protection Rules, 2025",
+          "url": "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf",
+          "publisher": "MeitY / Gazette of India"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-heat",
+      "title": "The temperature record misses part of the working day",
+      "titleHi": "तापमान का रिकॉर्ड कामकाजी दिन की पूरी कहानी नहीं",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/heat/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "Exposure depends on work, shelter and the ability to stop.\nDown To Earth’s June field reporting followed outdoor workers on a day that did not set a temperature record. Its Hindi reporting in May focused on poor workers and urban settlements. Together, the selected accounts turn attention from the hottest reading to the conditions in which people work and recover.\nAn August commentary uses workers’ heat diaries to discuss lost hours, overheated homes and income pressure. Commentary, testimony and weather measurement offer different evidence. The accounts make working conditions visible; they do not provide a representative national estimate of occupational harm. That distinction should survive a headline about heat.",
+      "textHi": "जोखिम काम, घर और काम रोक पाने की क्षमता से भी जुड़ा है।\nडाउन टू अर्थ की जून की मैदानी रिपोर्टिंग ने बाहर काम करने वालों को ऐसे दिन देखा जब तापमान का रिकॉर्ड नहीं टूटा था। मई की उसकी हिन्दी रिपोर्ट गरीब कामगारों और शहरी बस्तियों पर केंद्रित थी। चुने गए दोनों विवरण सबसे ऊँचे तापमान से ध्यान हटाकर काम करने और आराम पाने की परिस्थितियों पर लाते हैं।\nअगस्त का एक विचार-लेख कामगारों की गर्मी डायरी से काम के खोए घंटों, तपते घरों और आय के दबाव की चर्चा करता है। विचार-लेख, निजी अनुभव और मौसम का माप अलग तरह के सबूत देते हैं। ये विवरण काम की परिस्थितियाँ सामने लाते हैं; पूरे देश में काम से जुड़े नुकसान का प्रतिनिधि अनुमान नहीं देते। गर्मी के शीर्षक में यह अंतर बचना चाहिए।",
+      "sourceLinks": [
+        {
+          "title": "Unequal human cost of extreme heat: Experiences of Delhi’s outdoor workers",
+          "url": "https://www.downtoearth.org.in/climate-change/unequal-human-cost-of-extreme-heat-experiences-of-delhis-outdoor-workers",
+          "publisher": "Down To Earth"
+        },
+        {
+          "title": "भीषण गर्मी, बढ़ती असमानता: जलवायु संकट की सबसे भारी कीमत चुके रहे हैं गरीब मजदूर और शहरी बस्तियां",
+          "url": "https://hindi.downtoearth.org.in/climate-change/extreme-heat-rising-inequality-poor-workers-are-paying-the-heaviest-price-for-the-climate-crisis",
+          "publisher": "Down To Earth Hindi"
+        },
+        {
+          "title": "Heat is a disaster now. What does that mean for workers?",
+          "url": "https://www.downtoearth.org.in/climate-change/heat-is-a-disaster-now-what-does-that-mean-for-workers",
+          "publisher": "Down To Earth"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-floods",
+      "title": "A rainfall deficit and a flood can coexist",
+      "titleHi": "बारिश की कमी और बाढ़ एक साथ हो सकती हैं",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/floods/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "The accumulation period and the river catchment change the story.\nOnmanorama’s August report describes a sharp burst of rain after a June–July deficit in Kerala. Its short-period excess and the earlier seasonal deficit describe different windows. The report attributes the rainfall figures to IMD; the original IMD tables have not been independently retrieved for this comparison.\nMalayalam district reports add school closures, disrupted local events and damage assessments. Those details explain what a statewide total means in a particular place. The Indian Express’s Kerala explanation examines longer-running vulnerabilities. Its Assam reporting and Down To Earth’s June account of Assam and Arunachal add another essential distinction: rain at one location is not the same as water arriving through an upstream catchment.\nCasualty and displacement figures belong to a dated bulletin. Combining updates can count the same people twice. This review avoids turning changing live totals into a final annual toll.",
+      "textHi": "वर्षा की अवधि और नदी का जलग्रहण क्षेत्र तस्वीर बदलते हैं।\nऑनमनोरमा की अगस्त रिपोर्ट केरल में जून–जुलाई की कमी के बाद तेज़ बारिश बताती है। थोड़े समय की अधिक बारिश और पहले की मौसमी कमी अलग अवधियों का वर्णन हैं। रिपोर्ट वर्षा के आँकड़े आईएमडी को श्रेय देती है; इस तुलना के लिए मूल आईएमडी तालिकाएँ स्वतंत्र रूप से प्राप्त नहीं हुई हैं।\nमलयालम की ज़िला रिपोर्टें स्कूल बंद होने, स्थानीय आयोजनों में बाधा और नुकसान के आकलन जोड़ती हैं। इनसे पता चलता है कि राज्य का कुल आँकड़ा किसी जगह पर क्या अर्थ रखता है। इंडियन एक्सप्रेस का केरल विवरण पुरानी कमजोरियों को जाँचता है। उसकी असम रिपोर्टिंग तथा डाउन टू अर्थ का जून में असम और अरुणाचल पर लेख एक और अंतर जोड़ते हैं: किसी जगह की बारिश और ऊपरी जलग्रहण क्षेत्र से आने वाला पानी एक चीज़ नहीं।\nमौत और विस्थापन के आँकड़े किसी तारीख की स्थिति बताते हैं। अलग अपडेट जोड़ने पर वही लोग दो बार गिने जा सकते हैं। यह समीक्षा बदलते लाइव आँकड़ों को अंतिम वार्षिक कुल में नहीं बदलती।",
+      "sourceLinks": [
+        {
+          "title": "Kerala received 232% more rain than normal in 3 days, large excess showers in 13 districts",
+          "url": "https://www.onmanorama.com/news/kerala/2026/08/03/kerala-rain-increase-floods-landslip-disaster.html",
+          "publisher": "Onmanorama"
+        },
+        {
+          "title": "വീണ്ടും മഴ കനക്കുന്നു; തിങ്കളാഴ്ച 11 ജില്ലകളിലും രണ്ട് താലൂക്കിനും അവധി",
+          "url": "https://www.manoramaonline.com/news/latest-news/2026/08/02/kerala-rain-havoc-live-updates.html",
+          "publisher": "Malayala Manorama"
+        },
+        {
+          "title": "ആറന്മുള ക്ഷേത്രത്തിൽ ചടങ്ങുകൾ മാത്രം; വള്ളസദ്യകൾ മാറ്റിവച്ചു",
+          "url": "https://www.manoramaonline.com/district-news/pathanamthitta/2026/08/02/aranmula-temple-flood-impact.html",
+          "publisher": "Malayala Manorama"
+        },
+        {
+          "title": "മഴക്കെടുതി: ആലപ്പുഴ ജില്ലയിൽ 55.64 കോടിയുടെ നഷ്ടം; 68.17 കിലോമീറ്റർ റോഡ് തകർന്നു",
+          "url": "https://www.manoramaonline.com/district-news/alappuzha/2026/08/08/alappuzha-flood-damage.html",
+          "publisher": "Malayala Manorama"
+        },
+        {
+          "title": "27,000 in flood relief camps: How one climate disaster in Kerala is worsening the next",
+          "url": "https://indianexpress.com/article/explained/explained-climate/kerala-floods-explained-silted-rivers-wetlands-10819189/",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "Why Assam is experiencing unprecedented flooding this year",
+          "url": "https://indianexpress.com/article/explained/explained-climate/assam-floods-2026-causes-explained-10802845/",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "Assam and Arunachal have remained rain-deficit in June. Yet they are flooded; here is how",
+          "url": "https://www.downtoearth.org.in/natural-disasters/assam-and-arunachal-have-remained-rain-deficit-in-june-yet-they-are-flooded-here-is-how",
+          "publisher": "Down To Earth"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-video",
+      "title": "Questions in the room change the pollution story",
+      "titleHi": "कमरे में उठे सवाल प्रदूषण की कहानी बदलते हैं",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/video/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "One retrieved caption track lets us go beyond a video description.\nRetrieved captions from an India Today interview with Delhi’s environment minister include questions about an AQI reading, industrial inspections and NCR coordination, around 4:20, 7:00 and 8:20. These passages document an exchange, without independently confirming the minister’s figures.\nThe track mixes Hindi with English rendered in Devanagari and contains caption errors. English-track retrieval was rate-limited. Check the original video; its audio and visuals were not independently examined.",
+      "textHi": "मिला हुआ एक कैप्शन ट्रैक वीडियो विवरण से आगे जाने देता है।\nदिल्ली के पर्यावरण मंत्री के इंडिया टुडे साक्षात्कार के मिले कैप्शन में लगभग 4:20, 7:00 और 8:20 पर एक्यूआई रीडिंग, औद्योगिक जाँच और एनसीआर समन्वय के सवाल हैं। ये अंश बातचीत दर्ज करते हैं, मंत्री के आँकड़ों की स्वतंत्र पुष्टि नहीं।\nट्रैक में हिन्दी के साथ देवनागरी में लिखी अंग्रेज़ी और कैप्शन त्रुटियाँ हैं। अंग्रेज़ी ट्रैक दर-सीमा के कारण नहीं मिला। मूल वीडियो जाँचें; उसके ऑडियो और दृश्यों की स्वतंत्र जाँच नहीं हुई।",
+      "sourceLinks": [
+        {
+          "title": "Delhi environment minister discussion (research description; indexed title absent)",
+          "url": "https://www.youtube.com/watch?v=OTHrPnqMACQ",
+          "publisher": "India Today"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-science",
+      "title": "The mission page contains both a plan and an anomaly",
+      "titleHi": "अभियान के पन्ने पर योजना भी है, गड़बड़ी की सूचना भी",
+      "url": "https://parthawe.github.io/india-news-project/en/compare/science/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-04",
+      "kind": "research_draft",
+      "text": "An old preview can survive beside a later update.\nISRO’s retrieved PSLV-C62 page retains a pre-launch account, including the proposed January launch. Above it, the page now states that an anomaly occurred near the end of the PS3 stage and that analysis was initiated. Reading only the preview would miss that update. The page does not establish the technical cause, so this review does not supply one. Preserve the retrieval date as well as the date printed in the article.",
+      "textHi": "बाद के अपडेट के साथ पुराना पूर्वावलोकन भी रह सकता है।\nआईएसआरओ के प्राप्त पीएसएलवी-सी62 पन्ने में जनवरी के प्रस्तावित प्रक्षेपण का पूर्वावलोकन अब भी है। उसके ऊपर पन्ना बताता है कि पीएस3 चरण के अंत के पास गड़बड़ी हुई और विश्लेषण शुरू किया गया। केवल पूर्वावलोकन पढ़ने से अपडेट छूट जाता। पन्ना तकनीकी कारण स्थापित नहीं करता, इसलिए यह समीक्षा भी कारण नहीं बताती। लेख में छपी तारीख के साथ उसे प्राप्त करने की तारीख भी रखें।",
+      "sourceLinks": [
+        {
+          "title": "PSLV-C62 / EOS-N1 Mission\n \n \n \n Home\n \n / PSLV-C62 / EOS-N1 Mission",
+          "url": "https://www.isro.gov.in/Mission_PSLV_C62.html",
+          "publisher": "ISRO"
+        }
+      ],
+      "leaning": "unassessed"
+    },
+    {
+      "id": "archive-ganga-cleaning",
+      "title": "Haridwar’s Ganga clean-up: clearer water, then fresh litter reports",
+      "titleHi": "हरिद्वार में गंगा की सफाई: साफ दिखा पानी, फिर कचरे की खबरें",
+      "url": "https://parthawe.github.io/india-news-project/en/stories/ganga-cleaning/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-18",
+      "kind": "research_draft",
+      "text": "Compare the canal clean-up, reports of returning waste and what the visuals cannot establish.\nReporting describes waste removal around Haridwar during the Upper Ganga Canal’s annual maintenance closure. The Indian Express dates the closure from October 20–21 until water returned on November 7. This was a specific canal-fed stretch, not a clean-up of the entire Ganga.\nLater reports describe litter returning and officials proposing further measures. The reports appeared on different days. A clearer-looking stretch and subsequent litter are not, by themselves, contradictory accounts of the same moment.",
+      "textHi": "नहर की सफाई, दोबारा कचरा आने की रिपोर्ट और तस्वीरों से साबित न होने वाली बातों की तुलना।\nरिपोर्टों में ऊपरी गंगा नहर की सालाना रखरखाव बंदी के दौरान हरिद्वार के आसपास कचरा हटाने का विवरण है। Indian Express के अनुसार बंदी 20–21 अक्टूबर से पानी की वापसी 7 नवंबर तक रही। यह नहर से जुड़े एक हिस्से की सफाई थी, पूरी गंगा की नहीं।\nबाद की रिपोर्टों में कचरा लौटने और अधिकारियों के आगे के उपायों का उल्लेख है। ये खबरें अलग-अलग दिनों की हैं। साफ दिखता पानी और बाद में कचरा लौटना अपने आप एक ही समय के परस्पर विरोधी विवरण नहीं हैं।",
+      "sourceLinks": [
+        {
+          "title": "Haridwar’s canal closure, waste removal and wider river health",
+          "url": "https://indianexpress.com/article/long-reads/what-it-takes-to-clean-ganga-haridwar-ardh-kumbh-upper-ganga-canal-10958005/",
+          "publisher": "The Indian Express"
+        },
+        {
+          "title": "Clear-water footage after the Haridwar clean-up",
+          "url": "https://www.newindianexpress.com/india/2026/Nov/14/river-ganga-shimmers-after-150-tonnes-of-waste-cleared-ahead-of-haridwar-ardh-kumbh",
+          "publisher": "The New Indian Express"
+        },
+        {
+          "title": "Hindi reporting on returning litter and social-media reactions",
+          "url": "https://ndtv.in/zara-hatke/haridwar-ganga-cleaning-waste-ganga-river-pollution-again-12330101",
+          "publisher": "NDTV India"
+        },
+        {
+          "title": "Returning waste and the municipality’s proposed year-round response",
+          "url": "https://pioneeredge.in/ganga-dirtied-again-few-days-after-clean-up-drive-in-haridwar-mch-plans-year-round-measures/",
+          "publisher": "Pioneer Edge"
+        }
+      ],
+      "leaning": "unassessed"
+    }
+  ]
+}
