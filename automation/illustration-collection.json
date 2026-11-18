@@ -1,0 +1,785 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "year-in-review",
+      "title": {
+        "en": "Reporting across India",
+        "hi": "भारत की रिपोर्टिंग"
+      },
+      "subject": "A fan of folded newspaper pages connected by one continuous red ribbon, like a sculptural bridge between different viewpoints",
+      "path": "/images/editorial/year-in-review.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "labour",
+      "title": {
+        "en": "Labour and working conditions",
+        "hi": "श्रम और काम की स्थितियाँ"
+      },
+      "subject": "An intricate folded-paper workshop, a paper work glove and four upright newspaper rulebooks connected by a red thread",
+      "path": "/images/editorial/labour.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "budgets",
+      "title": {
+        "en": "Public budgets",
+        "hi": "सरकारी बजट"
+      },
+      "subject": "A folded newspaper budget ledger forming a staircase, with small paper coins and a vermilion ribbon moving between the steps",
+      "path": "/images/editorial/budgets.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "health",
+      "title": {
+        "en": "Public health",
+        "hi": "सार्वजनिक स्वास्थ्य"
+      },
+      "subject": "A paper hospital building and a carefully folded stethoscope connected by a red ribbon, with quiet empty space",
+      "path": "/images/editorial/health.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "statistics",
+      "title": {
+        "en": "Economic statistics",
+        "hi": "आर्थिक आँकड़े"
+      },
+      "subject": "A sculptural newspaper measuring ruler bending around three paper columns of different heights, a red ribbon acting as a baseline, no actual chart data",
+      "path": "/images/editorial/statistics.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "privacy",
+      "title": {
+        "en": "Digital privacy",
+        "hi": "डिजिटल गोपनीयता"
+      },
+      "subject": "A folded newspaper smartphone inside a delicate paper lock, with a narrow red ribbon threading through a protected opening",
+      "path": "/images/editorial/privacy.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "heat",
+      "title": {
+        "en": "Extreme heat",
+        "hi": "भीषण गर्मी"
+      },
+      "subject": "A large folded paper sun above a small paper bus shelter, with a red ribbon casting an abstract strip of shade",
+      "path": "/images/editorial/heat.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "floods",
+      "title": {
+        "en": "Flooding and monsoons",
+        "hi": "बाढ़ और मानसून"
+      },
+      "subject": "A layered newspaper landscape becoming a river around tiny paper houses, one red ribbon forming a raised safe walkway",
+      "path": "/images/editorial/floods.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "video",
+      "title": {
+        "en": "Examining video coverage",
+        "hi": "वीडियो कवरेज की जाँच"
+      },
+      "subject": "A folded-paper screen frame and three disconnected newspaper film frames joined by a taut red ribbon",
+      "path": "/images/editorial/video.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "science",
+      "title": {
+        "en": "Space and science",
+        "hi": "अंतरिक्ष और विज्ञान"
+      },
+      "subject": "A delicate newspaper satellite floating over a folded-paper Earth arc, its orbital path one clean red ribbon",
+      "path": "/images/editorial/science.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "chandrayaan-3",
+      "title": {
+        "en": "Lunar exploration",
+        "hi": "चंद्र अन्वेषण"
+      },
+      "subject": "An abstract folded newspaper lunar lander over a sculpted paper crater, a red ribbon tracing an exploratory path",
+      "path": "/images/editorial/chandrayaan-3.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "hospital-beds",
+      "title": {
+        "en": "Access to hospital beds",
+        "hi": "अस्पताल में बिस्तरों तक पहुँच"
+      },
+      "subject": "A row of tiny folded paper hospital beds beneath a newspaper roof, one red ribbon connecting the beds to a paper doorway",
+      "path": "/images/editorial/hospital-beds.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "rainfall-baselines",
+      "title": {
+        "en": "Understanding rainfall comparisons",
+        "hi": "बारिश की तुलना समझना"
+      },
+      "subject": "Two different-sized folded-paper measuring vessels beside a sculptural newspaper raincloud, linked by a red ribbon, no printed quantities",
+      "path": "/images/editorial/rainfall-baselines.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "ganga-cleaning",
+      "title": {
+        "en": "Ganga river cleaning",
+        "hi": "गंगा की सफाई"
+      },
+      "subject": "A serpentine river of layered newspaper flowing past abstract riverbank steps, with a red ribbon lifting crumpled paper debris into a small sieve",
+      "path": "/images/editorial/ganga-cleaning.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "agriculture",
+      "title": {
+        "en": "Agriculture",
+        "hi": "कृषि"
+      },
+      "subject": "A folded newspaper field with sculptural furrows and a tiny paper plough, a red ribbon winding between the rows",
+      "path": "/images/editorial/agriculture.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "farmers",
+      "title": {
+        "en": "Farmers and markets",
+        "hi": "किसान और बाज़ार"
+      },
+      "subject": "A newspaper grain sack and a paper weighing scale, with a red ribbon bridging field and market stall",
+      "path": "/images/editorial/farmers.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "food-security",
+      "title": {
+        "en": "Food security",
+        "hi": "खाद्य सुरक्षा"
+      },
+      "subject": "A folded paper grain store opening onto three simple paper bowls, connected by one red ribbon",
+      "path": "/images/editorial/food-security.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "irrigation",
+      "title": {
+        "en": "Irrigation",
+        "hi": "सिंचाई"
+      },
+      "subject": "A terraced folded-paper field and branching newspaper water channels, with a red ribbon operating a small abstract sluice",
+      "path": "/images/editorial/irrigation.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "urban-development",
+      "title": {
+        "en": "Urban development",
+        "hi": "शहरी विकास"
+      },
+      "subject": "A compact city of folded newspaper apartment blocks surrounding a single red ribbon street",
+      "path": "/images/editorial/urban-development.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "transport",
+      "title": {
+        "en": "Public transport",
+        "hi": "सार्वजनिक परिवहन"
+      },
+      "subject": "An elegant folded newspaper bus and a paper bus-stop canopy, connected by a red ribbon route",
+      "path": "/images/editorial/transport.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "railways",
+      "title": {
+        "en": "Railways",
+        "hi": "रेलवे"
+      },
+      "subject": "A folded newspaper train curving across an abstract paper bridge, with a red ribbon following the track",
+      "path": "/images/editorial/railways.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "roads",
+      "title": {
+        "en": "Road infrastructure",
+        "hi": "सड़क ढाँचा"
+      },
+      "subject": "A long folded newspaper road crossing a quiet layered paper landscape, a red ribbon marking a repaired stretch",
+      "path": "/images/editorial/roads.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "aviation",
+      "title": {
+        "en": "Civil aviation",
+        "hi": "नागरिक उड्डयन"
+      },
+      "subject": "A precisely folded newspaper passenger plane above an origami runway, with a single red ribbon flight path",
+      "path": "/images/editorial/aviation.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "manufacturing",
+      "title": {
+        "en": "Manufacturing",
+        "hi": "विनिर्माण"
+      },
+      "subject": "A paper factory roof and delicate newspaper gear wheels on a folded production belt, a red ribbon passing through them",
+      "path": "/images/editorial/manufacturing.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "small-business",
+      "title": {
+        "en": "Small businesses",
+        "hi": "छोटे व्यवसाय"
+      },
+      "subject": "A miniature folded newspaper neighbourhood shop with a paper ledger and a red ribbon unrolling as its counter",
+      "path": "/images/editorial/small-business.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "trade",
+      "title": {
+        "en": "Trade and exports",
+        "hi": "व्यापार और निर्यात"
+      },
+      "subject": "Paper shipping containers on a folded newspaper cargo boat, with a red ribbon bridging two abstract docks",
+      "path": "/images/editorial/trade.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "energy",
+      "title": {
+        "en": "Energy supply",
+        "hi": "ऊर्जा आपूर्ति"
+      },
+      "subject": "A folded newspaper power station and a sculptural paper light bulb connected by a red ribbon transmission line",
+      "path": "/images/editorial/energy.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "renewables",
+      "title": {
+        "en": "Renewable energy",
+        "hi": "नवीकरणीय ऊर्जा"
+      },
+      "subject": "Folded newspaper wind turbines and a paper solar-panel field, connected by a single red ribbon",
+      "path": "/images/editorial/renewables.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "water",
+      "title": {
+        "en": "Water access",
+        "hi": "पानी की उपलब्धता"
+      },
+      "subject": "A precise newspaper handpump and a folded paper vessel, joined by a red ribbon that becomes an abstract stream",
+      "path": "/images/editorial/water.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "sanitation",
+      "title": {
+        "en": "Sanitation",
+        "hi": "स्वच्छता"
+      },
+      "subject": "A folded newspaper drainage channel and a small paper treatment tank, with a red ribbon threading through a filter",
+      "path": "/images/editorial/sanitation.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "education",
+      "title": {
+        "en": "Education",
+        "hi": "शिक्षा"
+      },
+      "subject": "An open folded newspaper book becoming a small classroom with paper desks, a red ribbon acting as a bookmark",
+      "path": "/images/editorial/education.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "examinations",
+      "title": {
+        "en": "Examinations",
+        "hi": "परीक्षाएँ"
+      },
+      "subject": "A sculptural stack of folded newspaper answer sheets and a paper pencil balanced over a red ribbon bookmark, no legible writing",
+      "path": "/images/editorial/examinations.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "skills",
+      "title": {
+        "en": "Skills and training",
+        "hi": "कौशल और प्रशिक्षण"
+      },
+      "subject": "A folded paper toolbox opening into three newspaper tools and a small paper graduation cap, linked by a red ribbon",
+      "path": "/images/editorial/skills.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "connectivity",
+      "title": {
+        "en": "Digital infrastructure",
+        "hi": "डिजिटल ढाँचा"
+      },
+      "subject": "A folded newspaper telecom tower sending three delicate paper arcs toward a rural paper house, with a red ribbon ground connection",
+      "path": "/images/editorial/connectivity.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "cybersecurity",
+      "title": {
+        "en": "Cybersecurity",
+        "hi": "साइबर सुरक्षा"
+      },
+      "subject": "A newspaper shield protecting a delicate folded-paper network of small cubes, with a red ribbon woven through safe openings",
+      "path": "/images/editorial/cybersecurity.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "elections",
+      "title": {
+        "en": "Elections",
+        "hi": "चुनाव"
+      },
+      "subject": "An abstract folded newspaper ballot box with a single blank paper ballot and a red ribbon path, no party marks or candidates",
+      "path": "/images/editorial/elections.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "parliament",
+      "title": {
+        "en": "Parliament and legislation",
+        "hi": "संसद और कानून"
+      },
+      "subject": "An abstract semicircle of folded newspaper seats around a blank paper law book, one red ribbon crossing the composition",
+      "path": "/images/editorial/parliament.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "judiciary",
+      "title": {
+        "en": "Courts and justice",
+        "hi": "न्यायालय और न्याय"
+      },
+      "subject": "A sculptural newspaper balance scale over folded paper steps, with a quiet red ribbon passing under the balance",
+      "path": "/images/editorial/judiciary.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "federalism",
+      "title": {
+        "en": "States and public policy",
+        "hi": "राज्य और सार्वजनिक नीति"
+      },
+      "subject": "Several different-height folded newspaper buildings connected by a red ribbon bridge, no geographical borders or maps",
+      "path": "/images/editorial/federalism.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "social-security",
+      "title": {
+        "en": "Social protection",
+        "hi": "सामाजिक सुरक्षा"
+      },
+      "subject": "An unfolded newspaper umbrella sheltering three small paper household shapes, with a red ribbon forming a safety net",
+      "path": "/images/editorial/social-security.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "wages",
+      "title": {
+        "en": "Pay and working hours",
+        "hi": "वेतन और काम के घंटे"
+      },
+      "subject": "A folded newspaper clock with no numerals and a paper pay envelope connected by a red ribbon",
+      "path": "/images/editorial/wages.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "women",
+      "title": {
+        "en": "Women and public services",
+        "hi": "महिलाएँ और सार्वजनिक सेवाएँ"
+      },
+      "subject": "A newspaper doorway, folded paper schoolbook and sculptural paper health kit connected by a red ribbon, no stereotyped figures",
+      "path": "/images/editorial/women.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "accessibility",
+      "title": {
+        "en": "Accessible public spaces",
+        "hi": "सुगम सार्वजनिक स्थान"
+      },
+      "subject": "An elegant newspaper ramp joining two folded paper platforms beside a small abstract paper wheelchair, a red ribbon following the accessible route",
+      "path": "/images/editorial/accessibility.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "disaster-response",
+      "title": {
+        "en": "Disaster response",
+        "hi": "आपदा प्रतिक्रिया"
+      },
+      "subject": "A folded newspaper rescue boat and a paper emergency shelter connected by a red ribbon across layered paper terrain",
+      "path": "/images/editorial/disaster-response.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "weather",
+      "title": {
+        "en": "Weather reporting",
+        "hi": "मौसम की रिपोर्टिंग"
+      },
+      "subject": "A sculptural newspaper weather vane beneath folded paper cloud layers, with a red ribbon moving through changing conditions",
+      "path": "/images/editorial/weather.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "air-pollution",
+      "title": {
+        "en": "Air quality",
+        "hi": "हवा की गुणवत्ता"
+      },
+      "subject": "A newspaper city skyline partially covered by translucent folded paper haze, with a red ribbon passing through a paper air filter",
+      "path": "/images/editorial/air-pollution.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "biodiversity",
+      "title": {
+        "en": "Biodiversity",
+        "hi": "जैव विविधता"
+      },
+      "subject": "Folded newspaper bird, leaf and butterfly forms balanced around one red ribbon branch",
+      "path": "/images/editorial/biodiversity.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "forests",
+      "title": {
+        "en": "Forests",
+        "hi": "जंगल"
+      },
+      "subject": "A small stand of finely folded newspaper trees with intricate paper roots and a red ribbon winding along the forest floor",
+      "path": "/images/editorial/forests.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "coasts",
+      "title": {
+        "en": "Coastal communities",
+        "hi": "तटीय समुदाय"
+      },
+      "subject": "A folded newspaper fishing boat beside layered paper shoreline waves, one red ribbon marking an abstract coast",
+      "path": "/images/editorial/coasts.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "kerala-floods",
+      "title": {
+        "en": "Kerala monsoon reporting",
+        "hi": "केरल के मानसून की रिपोर्टिंग"
+      },
+      "subject": "A folded newspaper tiled-roof house and paper coconut palms surrounded by layered paper rainwater, with a red ribbon elevated path",
+      "path": "/images/editorial/kerala-floods.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "assam-floods",
+      "title": {
+        "en": "Assam flood reporting",
+        "hi": "असम की बाढ़ की रिपोर्टिंग"
+      },
+      "subject": "A broad layered newspaper river beside a folded-paper raised stilt house and a simple paper boat, joined by a red ribbon",
+      "path": "/images/editorial/assam-floods.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "maharashtra-labour",
+      "title": {
+        "en": "Regional labour reporting",
+        "hi": "क्षेत्रीय श्रम रिपोर्टिंग"
+      },
+      "subject": "A folded newspaper mill facade and a small paper work glove connected to a newspaper rulebook by a red ribbon",
+      "path": "/images/editorial/maharashtra-labour.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "gujarat-budget",
+      "title": {
+        "en": "Gujarat budget reporting",
+        "hi": "गुजरात के बजट की रिपोर्टिंग"
+      },
+      "subject": "A folded newspaper budget book opening into small workshop and water-channel paper models, a red ribbon linking allocations",
+      "path": "/images/editorial/gujarat-budget.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "tamil-budget",
+      "title": {
+        "en": "Tamil Nadu budget reporting",
+        "hi": "तमिलनाडु के बजट की रिपोर्टिंग"
+      },
+      "subject": "A folded newspaper ledger becoming a classroom and a paper bus, with a red ribbon linking public services",
+      "path": "/images/editorial/tamil-budget.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "telugu-rain",
+      "title": {
+        "en": "Regional rain reporting",
+        "hi": "क्षेत्रीय बारिश की रिपोर्टिंग"
+      },
+      "subject": "Folded newspaper hills beneath a layered paper raincloud and a tiny closed paper school gate, a red ribbon offering a sheltered route",
+      "path": "/images/editorial/telugu-rain.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "bengal-policy",
+      "title": {
+        "en": "Regional policy reporting",
+        "hi": "क्षेत्रीय नीति रिपोर्टिंग"
+      },
+      "subject": "A folded newspaper civic noticeboard, a paper schoolbook and blank paper ballot box linked by one red ribbon",
+      "path": "/images/editorial/bengal-policy.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "budget-markets",
+      "title": {
+        "en": "Budgets and markets",
+        "hi": "बजट और बाज़ार"
+      },
+      "subject": "A folded newspaper ledger beside abstract paper market columns and a red ribbon loosely tracing uncertainty, no numerical or real market chart",
+      "path": "/images/editorial/budget-markets.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "health-budget",
+      "title": {
+        "en": "Health budgets",
+        "hi": "स्वास्थ्य का बजट"
+      },
+      "subject": "A folded newspaper budget book becoming a hospital ward and a paper medical cross, with a red ribbon marking a spending pathway",
+      "path": "/images/editorial/health-budget.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "budget-households",
+      "title": {
+        "en": "Household budgets",
+        "hi": "घरेलू बजट"
+      },
+      "subject": "An open folded newspaper household envelope with a paper grocery bag, a tiny house and blank paper coins connected by a red ribbon",
+      "path": "/images/editorial/budget-households.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    },
+    {
+      "id": "policy-review",
+      "title": {
+        "en": "Monthly policy review",
+        "hi": "मासिक नीति समीक्षा"
+      },
+      "subject": "An orderly stack of twelve blank folded newspaper calendar leaves fanning around a red ribbon bookmark, no letters or dates",
+      "path": "/images/editorial/policy-review.webp",
+      "generated": true,
+      "reviewStatus": "visual-review-complete",
+      "generator": "image_gen built-in",
+      "reference": "india-year-editorial.webp"
+    }
+  ]
+}
