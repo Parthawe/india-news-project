@@ -523,6 +523,18 @@ function mount(root = document) {
   }
   addEventListener("hashchange", openLink);
   button.disabled = false;
+  if (!location.hash) {
+    try {
+      const provided = new URLSearchParams(location.search).get("url");
+      if (provided && provided.length <= 2000) {
+        const source = new URL(provided);
+        if (source.protocol === "https:" && !source.username && !source.password) {
+          form.elements.url.value = source.href;
+          status.textContent = t("Article link ready. Submit it to retrieve the text and start a private Qwen review.", "लेख लिंक तैयार है। पाठ प्राप्त करने और निजी Qwen समीक्षा शुरू करने के लिए इसे भेजें।");
+        }
+      }
+    } catch {}
+  }
   if (location.hash) openLink();
   else {
     try {

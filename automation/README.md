@@ -25,3 +25,11 @@ The source list links the publisher's reproduction policy and official feed dire
 `node automation/daily-news.mjs .`
 
 For future manual site releases, preserve existing `news/` history when copying the new export. The export script carries forward a newer cloud edition, but must not be used to delete previous daily files.
+
+## Source index and related-report candidates
+
+The collector now retains every valid inspected PIB headline in `news/coverage-index.json`, separately from the five daily selections. It keeps at most 2,000 metadata records from 30 days, with first/last seen timestamps and SHA-256 of the observed title. Prior snapshots remain in Git. It does not retain full article text.
+
+Headline-overlap matching examines the latest 250 records from seven days. It requires at least three meaningful shared tokens, 0.70 Dice similarity, the same source language and publication dates no more than two days apart. Generic government terms are excluded; incompatible numeric headlines are separated. Complete-link grouping avoids chaining unrelated reports through one intermediate headline. This is a conservative candidate-generation heuristic, not verified event clustering or evidence of coordinated reporting. Cross-language grouping is not implemented.
+
+Every candidate remains `awaiting_editor`, `confirmedSameEvent: false`, `publicationAllowed: false`. Its revision hashes member IDs and observed headline hashes. Changed membership or wording therefore invalidates that revision. The public coverage desk shows provenance and offers a URL-prefilled route into the existing private Qwen reviewer; the model runs only after submission and retains the existing shared free-plan cap. No automatic analysis publication or outlet assessment is enabled by this job.
