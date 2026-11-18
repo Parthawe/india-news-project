@@ -29,7 +29,7 @@ test('previously selected, stale and future-dated releases do not fill missing s
 test('partial editions stay explicit and publisher text is escaped in both languages',()=>{
  const data=edition([item(1,{title:'A headline with <img src=x onerror=alert(1)> & a claim'})]);
  assert.equal(validEdition(data),true);
- for(const lang of ['en','hi']){const html=renderDaily(data,lang);assert.ok(html.includes('&lt;img'));assert.ok(!html.includes('<img'));assert.ok(html.includes('1/5'));assert.ok(html.includes('Press Information Bureau'));}
+ for(const lang of ['en','hi']){const html=renderDaily(data,lang);assert.ok(html.includes('&lt;img'));assert.ok(!html.includes('<img src=x'));assert.ok(html.includes('/images/editorial/'));assert.ok(html.includes('/method/#illustrations'));assert.ok(!html.includes('onerror=alert(1)>')); assert.ok(html.includes('1/5'));assert.ok(html.includes('Press Information Bureau'));}
  assert.equal(validEdition({...data,collectedAt:null}),false);
  assert.equal(validEdition({...data,items:[item(1),item(1)]}),false);
  assert.equal(validEdition({...data,status:'complete'}),false);
