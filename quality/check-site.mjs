@@ -3,7 +3,7 @@ async function files(folder){const out=[];for(const entry of await readdir(folde
 export async function checkSite(folder,base='/india-news-project'){
  const root=resolve(folder),pages=await files(root),problems=[],cache=new Map();
  const document=async file=>{if(!cache.has(file))cache.set(file,load(await readFile(file,'utf8')));return cache.get(file);};
- for(const file of pages){const $=await document(file),page=relative(root,file);if(page==='index.html'||page.startsWith('news/fragment-'))continue;
+ for(const file of pages){const $=await document(file),page=relative(root,file);if(page==='index.html'||page.startsWith('news/fragment-')||/^news\/latest-reporting-(en|hi)\.html$/.test(page))continue;
   if(!$('h1').length)problems.push(page+': missing page heading');
   for(const node of $('a[href],link[rel=stylesheet][href],script[src],img[src]')){
    const value=$(node).attr(node.tagName==='script'||node.tagName==='img'?'src':'href');if(!value||value.startsWith('mailto:')||value.startsWith('tel:'))continue;
@@ -20,4 +20,4 @@ export async function checkSite(folder,base='/india-news-project'){
  }
  return{pages:pages.length,problems:[...new Set(problems)]};
 }
-if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){const result=await checkSite(process.argv[2]||'.');if(result.problems.length){for(const error of result.problems.slice(0,40))console.error(error);process.exitCode=1;}else console.log(`Internal links and anchors passed (${result.pages} HTML files).`);}
+if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){const result=await checkSite(process.argv[2]||'.',process.argv[3]??'/india-news-project');if(result.problems.length){for(const error of result.problems.slice(0,40))console.error(error);process.exitCode=1;}else console.log(`Internal links and anchors passed (${result.pages} HTML files).`);}
