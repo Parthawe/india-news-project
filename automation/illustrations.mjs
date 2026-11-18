@@ -21,7 +21,7 @@ const rules = [
  ['cybersecurity', /cyber|साइबर/i], ['connectivity', /telecom|digital infrastructure|broadband/i],
  ['judiciary', /court|justice|न्याय/i], ['parliament', /parliament|legislat|संसद/i],
  ['social-security', /social security|pension|सामाजिक सुरक्षा|पेंशन/i], ['women', /women|महिला/i],
- ['biodiversity', /biodiversity|wildlife|जैव|वन्य/i], ['forests', /forest|जंगल/i],
+ ['biodiversity', /biodiversity|wildlife|tiger|salamander|elephant|species|जैव|वन्य|बाघ|प्रजाति|বাঘ|জীববৈচিত্র/i], ['forests', /forest|जंगल/i],
  ['science', /isro|space|science|विज्ञान|अंतरिक्ष/i], ['floods', /flood|rain|बाढ़|बारिश/i],
  ['health', /health|hospital|स्वास्थ्य|अस्पताल/i], ['budgets', /budget|बजट/i],
  ['policy-review', /prs-|policy|governance|नीति/i],
