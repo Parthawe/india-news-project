@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible product failure
+title: '[Bug] '
+labels: ['type:bug', 'status:backlog']
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps and public page
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact, browser and language
+  - type: markdown
+    attributes:
+      value: Never paste a private review link, submission text, API key or environment value.
