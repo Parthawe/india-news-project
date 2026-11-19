@@ -1,79 +1,90 @@
 {
   "version": 1,
-  "date": "2026-11-18",
-  "collectedAt": "2026-11-18T15:42:47.732Z",
+  "date": "2026-11-19",
+  "collectedAt": "2026-11-19T10:46:14.964Z",
   "target": 5,
   "status": "complete",
   "items": [
     {
-      "id": "pib-2337667",
-      "title": "Union Agriculture Minister Shri Shivraj Singh Chouhan visits Samrala, Punjab, under ‘Khet Bachao Abhiyan’; says “farmers’ plans will be made in the fields, not sitting in offices in Delhi”",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337667",
+      "id": "pib-2338468",
+      "title": "MoRTH Revises Validity Periods of PUC Certificates Based on Vehicle Age and Emission Standards",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338468",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-17",
-      "publishedDateText": "Posted On: 17 NOV 2026 9:29PM by PIB Delhi",
-      "collectedAt": "2026-11-17T23:07:51.881Z",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 4:12PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Agriculture & Farmers Welfare"
+      "ministry": "Ministry of Road Transport & Highways"
     },
     {
-      "id": "pib-2337664",
-      "title": "Cabinet Secretary launches Karmayogi Sankalpa at NITI Aayog’s National Workshop on “Leadership as a Mission”",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337664",
+      "id": "pib-2338449",
+      "title": "Department of Drinking Water & Sanitation Organises 14th District Collectors’ Peyjal Samvad",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338449",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-17",
-      "publishedDateText": "Posted On: 17 NOV 2026 9:25PM by PIB Delhi",
-      "collectedAt": "2026-11-17T23:07:51.881Z",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:38PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "NITI Aayog"
+      "ministry": "Ministry of Jal Shakti"
     },
     {
-      "id": "pib-2337639",
-      "title": "Janjatiya Gaurav Diwas 2026 Celebrated Across the Country",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337639",
+      "id": "pib-2338440",
+      "title": "Union Minister Shri Rajiv Ranjan Singh to chair National Review Meeting on SVAMITVA Scheme in New Delhi tomorrow",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338440",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-17",
-      "publishedDateText": "Posted On: 17 NOV 2026 8:22PM by PIB Delhi",
-      "collectedAt": "2026-11-17T23:07:51.881Z",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:35PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Tribal Affairs"
+      "ministry": "Ministry of Panchayati Raj"
     },
     {
-      "id": "pib-2337633",
-      "title": "Extension of last date for submission of comments from stakeholders on the ‘Draft Telecommunication (Broadcasting & Cable) Services DRM Based Digital Addressable Systems Audit Manual, 2026’",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337633",
+      "id": "pib-2338433",
+      "title": "CCRH Organises National Campaign on Antimicrobial Resistance to Promote Responsible Antimicrobial Use",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338433",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-17",
-      "publishedDateText": "Posted On: 17 NOV 2026 8:19PM by PIB Delhi",
-      "collectedAt": "2026-11-17T23:07:51.881Z",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:28PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Communications"
+      "ministry": "AYUSH"
     },
     {
-      "id": "pib-2337624",
-      "title": "APEDA Facilitates First-Ever Export of Biscuits from Varanasi to Madagascar",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337624",
+      "id": "pib-2338413",
+      "title": "Media registration opens for Aero India 2027",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338413",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-17",
-      "publishedDateText": "Posted On: 17 NOV 2026 8:10PM by PIB Delhi",
-      "collectedAt": "2026-11-17T23:07:51.881Z",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:10PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Commerce & Industry"
+      "ministry": "Ministry of Defence"
     }
   ],
   "feeds": [
     {
       "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "status": "ok",
-      "accepted": 20,
+      "accepted": 18,
       "attempted": 20,
-      "excluded": 0,
-      "failures": []
+      "excluded": 2,
+      "failures": [
+        {
+          "id": "pib-2338445",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338445",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2338428",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338428",
+          "status": "publication_date_unavailable"
+        }
+      ]
     }
   ]
 }

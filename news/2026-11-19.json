@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "date": "2026-11-19",
+  "collectedAt": "2026-11-19T10:46:14.964Z",
+  "target": 5,
+  "status": "complete",
+  "items": [
+    {
+      "id": "pib-2338468",
+      "title": "MoRTH Revises Validity Periods of PUC Certificates Based on Vehicle Age and Emission Standards",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338468",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 4:12PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Road Transport & Highways"
+    },
+    {
+      "id": "pib-2338449",
+      "title": "Department of Drinking Water & Sanitation Organises 14th District Collectors’ Peyjal Samvad",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338449",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:38PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Jal Shakti"
+    },
+    {
+      "id": "pib-2338440",
+      "title": "Union Minister Shri Rajiv Ranjan Singh to chair National Review Meeting on SVAMITVA Scheme in New Delhi tomorrow",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338440",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:35PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Panchayati Raj"
+    },
+    {
+      "id": "pib-2338433",
+      "title": "CCRH Organises National Campaign on Antimicrobial Resistance to Promote Responsible Antimicrobial Use",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338433",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:28PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "AYUSH"
+    },
+    {
+      "id": "pib-2338413",
+      "title": "Media registration opens for Aero India 2027",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338413",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-19",
+      "publishedDateText": "Posted On: 19 NOV 2026 3:10PM by PIB Delhi",
+      "collectedAt": "2026-11-19T10:46:14.964Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Defence"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "status": "ok",
+      "accepted": 18,
+      "attempted": 20,
+      "excluded": 2,
+      "failures": [
+        {
+          "id": "pib-2338445",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338445",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2338428",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338428",
+          "status": "publication_date_unavailable"
+        }
+      ]
+    }
+  ]
+}
