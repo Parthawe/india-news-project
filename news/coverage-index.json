@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "collectedAt": "2026-11-21T10:15:09.176Z",
+  "collectedAt": "2026-11-22T10:19:29.977Z",
   "scope": {
     "sourceIds": [
       "pib-en"
@@ -14,19 +14,149 @@
     {
       "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "status": "ok",
-      "accepted": 19,
+      "accepted": 11,
       "attempted": 20,
-      "excluded": 1,
+      "excluded": 9,
       "failures": [
         {
-          "id": "pib-2339475",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339475",
+          "id": "pib-2339905",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339905",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339903",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339903",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339912",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339912",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339773",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339773",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339764",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339764",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339759",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339759",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339736",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339736",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339722",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339722",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339681",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339681",
           "status": "publication_date_unavailable"
         }
       ]
     }
   ],
   "articles": [
+    {
+      "id": "pib-2339842",
+      "title": "PM condoles loss of lives in a mishap in Kota, Rajasthan",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339842",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 10:55AM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "5acdad75d3704a5043c4511422be9bd69ae07952fc2628f181dc9fd301df7791",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339843",
+      "title": "PM condoles loss of lives in a mishap in Kutch, Gujarat",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339843",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 10:57AM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "5d26fc2bafb0d5a765dbc089a66a87c2cac9487e48457820447c5bf0e605737c",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339875",
+      "title": "Fit India’s 99th Sundays on Cycle Celebrated Across 26,000 Locations to Mark Samvidhan Divas",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339875",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 12:36PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Youth Affairs and Sports",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "79e68c2bda5afad2b16069c1d085dd7cf55d113f3aa44edfe9cd4de3b8e0cdea",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339876",
+      "title": "Prime Minister condoles passing of Shri Ramrao Wadkute Ji",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339876",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 12:43PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "5b3954afab3aa6beb7740fc88fa26b4f7dd953fe8b249c5b3d3981f52d0af484",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339914",
+      "title": "India’s Healthcare Research Focus Shifting to Prevention Through Futuristic Strategies at molecular and genetic levels: Dr Jitendra Singh",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339914",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 3:24PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Science & Technology",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "8eff72f1568f1080913fe0c96f04a515bbfdebaea8e523d76e1ddca4ef47b4b7",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
     {
       "id": "pib-2339423",
       "title": "India Crosses Historic Milestone of 1 Crore HPV Vaccine Doses Administered in Less Than Nine Months, Marking Major Progress in Cervical Cancer Prevention",
@@ -239,6 +369,114 @@
       "firstSeenAt": "2026-11-21T10:15:09.176Z",
       "lastSeenAt": "2026-11-21T10:15:09.176Z",
       "headlineSha256": "38bd056a09ddd874c9dbc25dbf2323904ae3c4ea0fad6b4dadb44e42e9c54588",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339719",
+      "title": "Prime Minister Shri Narendra Modi participates in the 5th Kaushal Deekshant Samaroh in Lucknow, Uttar Pradesh",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339719",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-21",
+      "publishedDateText": "Posted On: 21 NOV 2026 8:16PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "78e29d9c15a2fd05020226908f91800dde6cdfdfdb624496f3d5a46db2605d9b",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339731",
+      "title": "Sixth Round of India–Canada CEPA Negotiations Concludes in New Delhi",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339731",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-21",
+      "publishedDateText": "Posted On: 21 NOV 2026 8:33PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Commerce & Industry",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "0c7a75d82cac311cf38aaaa0ed1a0d5d816ab26c9fb0eacc4771d48c165200cb",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339739",
+      "title": "NISD Exchanges 23 MoUs with Universities and Institutions Across India to Strengthen Social Defence Initiatives",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339739",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-21",
+      "publishedDateText": "Posted On: 21 NOV 2026 8:38PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Social Justice & Empowerment",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "189a85860f7b1d4a53bbefb94246240b890f3e1ec6c3af0b13639085461042a7",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339742",
+      "title": "Union Minister Shri Gajendra Singh Shekhawat: “Shared Cultural Heritage a Strong Bridge Connecting SCO Nations”",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339742",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-21",
+      "publishedDateText": "Posted On: 21 NOV 2026 8:44PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Culture",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "0b7ae734ff31b27c1855a5ed9e3f9855d2bff45ee8bed8bd56ee9de03e5c441c",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339781",
+      "title": "English rendering of PM's address during participation in Kaushal Deekshant Samaroh in Lucknow, Uttar Pradesh",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339781",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-21",
+      "publishedDateText": "Posted On: 21 NOV 2026 9:49PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "e12dd301e0931d6f8231ce2b9de8669fcbb4460708ef8feed842ce536f81e8e9",
+      "materialExamined": "headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "sourceId": "pib-en"
+    },
+    {
+      "id": "pib-2339821",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah reviews law & order, internal security and border management in Arunachal Pradesh in a high-level meeting in Itanagar; also reviews state’s development works",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339821",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-21",
+      "publishedDateText": "Posted On: 21 NOV 2026 10:58PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Home Affairs",
+      "firstSeenAt": "2026-11-22T10:19:29.977Z",
+      "lastSeenAt": "2026-11-22T10:19:29.977Z",
+      "headlineSha256": "627bf28d44fc0da734707a1988ae02c031d3b86c31a9706e62db95894f38b21d",
       "materialExamined": "headline_and_publication_metadata",
       "bodyRetrieved": false,
       "sourceId": "pib-en"
@@ -2006,6 +2244,11 @@
     }
   ],
   "unmatchedArticleIds": [
+    "pib-2339842",
+    "pib-2339843",
+    "pib-2339875",
+    "pib-2339876",
+    "pib-2339914",
     "pib-2339423",
     "pib-2339431",
     "pib-2339440",
@@ -2018,6 +2261,12 @@
     "pib-2339481",
     "pib-2339488",
     "pib-2339506",
+    "pib-2339719",
+    "pib-2339731",
+    "pib-2339739",
+    "pib-2339742",
+    "pib-2339781",
+    "pib-2339821",
     "pib-2338934",
     "pib-2338937",
     "pib-2338943",
@@ -2115,10 +2364,10 @@
     "pib-2337667"
   ],
   "counts": {
-    "articles": 109,
-    "matchingArticles": 109,
+    "articles": 120,
+    "matchingArticles": 120,
     "suggestedGroups": 1,
-    "unmatchedArticles": 107,
+    "unmatchedArticles": 118,
     "publishers": 1
   },
   "review": {

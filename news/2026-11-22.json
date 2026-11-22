@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "date": "2026-11-22",
+  "collectedAt": "2026-11-22T10:19:29.977Z",
+  "target": 5,
+  "status": "complete",
+  "items": [
+    {
+      "id": "pib-2339914",
+      "title": "India’s Healthcare Research Focus Shifting to Prevention Through Futuristic Strategies at molecular and genetic levels: Dr Jitendra Singh",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339914",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 3:24PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Science & Technology"
+    },
+    {
+      "id": "pib-2339876",
+      "title": "Prime Minister condoles passing of Shri Ramrao Wadkute Ji",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339876",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 12:43PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office"
+    },
+    {
+      "id": "pib-2339875",
+      "title": "Fit India’s 99th Sundays on Cycle Celebrated Across 26,000 Locations to Mark Samvidhan Divas",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339875",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 12:36PM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Youth Affairs and Sports"
+    },
+    {
+      "id": "pib-2339843",
+      "title": "PM condoles loss of lives in a mishap in Kutch, Gujarat",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339843",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 10:57AM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office"
+    },
+    {
+      "id": "pib-2339842",
+      "title": "PM condoles loss of lives in a mishap in Kota, Rajasthan",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339842",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-22",
+      "publishedDateText": "Posted On: 22 NOV 2026 10:55AM by PIB Delhi",
+      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "status": "ok",
+      "accepted": 11,
+      "attempted": 20,
+      "excluded": 9,
+      "failures": [
+        {
+          "id": "pib-2339905",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339905",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339903",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339903",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339912",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339912",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339773",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339773",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339764",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339764",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339759",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339759",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339736",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339736",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339722",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339722",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2339681",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339681",
+          "status": "publication_date_unavailable"
+        }
+      ]
+    }
+  ]
+}
