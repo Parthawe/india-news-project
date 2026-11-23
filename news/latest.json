@@ -1,122 +1,87 @@
 {
   "version": 1,
-  "date": "2026-11-22",
-  "collectedAt": "2026-11-22T10:19:29.977Z",
+  "date": "2026-11-23",
+  "collectedAt": "2026-11-23T11:17:17.972Z",
   "target": 5,
   "status": "complete",
   "items": [
     {
-      "id": "pib-2339914",
-      "title": "India’s Healthcare Research Focus Shifting to Prevention Through Futuristic Strategies at molecular and genetic levels: Dr Jitendra Singh",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339914",
+      "id": "pib-2340360",
+      "title": "India's approach progressively shifting from Post- Disaster Relief to Disaster Prevention in Landslide Management: Dr. Jitendra Singh at 7th World Landslide Forum",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340360",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-22",
-      "publishedDateText": "Posted On: 22 NOV 2026 3:24PM by PIB Delhi",
-      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 4:25PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Earth Sciences"
+    },
+    {
+      "id": "pib-2340358",
+      "title": "Union Health Secretary Smt. Punya Salila Srivastava inaugurates India’s first dedicated Human Metabolic Chamber Facility at Christian Medical College (CMC) Vellore",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340358",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 4:23PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Health and Family Welfare"
+    },
+    {
+      "id": "pib-2340349",
+      "title": "Advancing Higher Education through NFSC Fellowship",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340349",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 4:07PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Social Justice & Empowerment"
+    },
+    {
+      "id": "pib-2340334",
+      "title": "New advanced material developed by incorporating metallic nanowires into MOFs can harness sunlight to degrade pollutants",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340334",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 3:49PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "ministry": "Ministry of Science & Technology"
     },
     {
-      "id": "pib-2339876",
-      "title": "Prime Minister condoles passing of Shri Ramrao Wadkute Ji",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339876",
+      "id": "pib-2340331",
+      "title": "Scientists discover a rare stellar fossil that preserves clues to the universe's first generations of stars",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340331",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-22",
-      "publishedDateText": "Posted On: 22 NOV 2026 12:43PM by PIB Delhi",
-      "collectedAt": "2026-11-22T10:19:29.977Z",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 3:46PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Prime Minister's Office"
-    },
-    {
-      "id": "pib-2339875",
-      "title": "Fit India’s 99th Sundays on Cycle Celebrated Across 26,000 Locations to Mark Samvidhan Divas",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339875",
-      "publisher": "Press Information Bureau",
-      "language": "en",
-      "publishedDate": "2026-11-22",
-      "publishedDateText": "Posted On: 22 NOV 2026 12:36PM by PIB Delhi",
-      "collectedAt": "2026-11-22T10:19:29.977Z",
-      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Youth Affairs and Sports"
-    },
-    {
-      "id": "pib-2339843",
-      "title": "PM condoles loss of lives in a mishap in Kutch, Gujarat",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339843",
-      "publisher": "Press Information Bureau",
-      "language": "en",
-      "publishedDate": "2026-11-22",
-      "publishedDateText": "Posted On: 22 NOV 2026 10:57AM by PIB Delhi",
-      "collectedAt": "2026-11-22T10:19:29.977Z",
-      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Prime Minister's Office"
-    },
-    {
-      "id": "pib-2339842",
-      "title": "PM condoles loss of lives in a mishap in Kota, Rajasthan",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339842",
-      "publisher": "Press Information Bureau",
-      "language": "en",
-      "publishedDate": "2026-11-22",
-      "publishedDateText": "Posted On: 22 NOV 2026 10:55AM by PIB Delhi",
-      "collectedAt": "2026-11-22T10:19:29.977Z",
-      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Prime Minister's Office"
+      "ministry": "Ministry of Science & Technology"
     }
   ],
   "feeds": [
     {
       "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "status": "ok",
-      "accepted": 11,
+      "accepted": 18,
       "attempted": 20,
-      "excluded": 9,
+      "excluded": 2,
       "failures": [
         {
-          "id": "pib-2339905",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339905",
+          "id": "pib-2340310",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340310",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2339903",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339903",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339912",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339912",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339773",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339773",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339764",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339764",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339759",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339759",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339736",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339736",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339722",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339722",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339681",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339681",
+          "id": "pib-2340295",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340295",
           "status": "publication_date_unavailable"
         }
       ]

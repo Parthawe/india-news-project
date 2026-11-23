@@ -1,59 +1,24 @@
 {
-  "date": "2026-11-22",
-  "checkedAt": "2026-11-22T10:19:29.977Z",
+  "date": "2026-11-23",
+  "checkedAt": "2026-11-23T11:17:17.972Z",
   "status": "complete",
   "count": 5,
   "feeds": [
     {
       "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "status": "ok",
-      "accepted": 11,
+      "accepted": 18,
       "attempted": 20,
-      "excluded": 9,
+      "excluded": 2,
       "failures": [
         {
-          "id": "pib-2339905",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339905",
+          "id": "pib-2340310",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340310",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2339903",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339903",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339912",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339912",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339773",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339773",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339764",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339764",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339759",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339759",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339736",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339736",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339722",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339722",
-          "status": "publication_date_unavailable"
-        },
-        {
-          "id": "pib-2339681",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2339681",
+          "id": "pib-2340295",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340295",
           "status": "publication_date_unavailable"
         }
       ]

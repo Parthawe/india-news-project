@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "date": "2026-11-23",
+  "collectedAt": "2026-11-23T11:17:17.972Z",
+  "target": 5,
+  "status": "complete",
+  "items": [
+    {
+      "id": "pib-2340360",
+      "title": "India's approach progressively shifting from Post- Disaster Relief to Disaster Prevention in Landslide Management: Dr. Jitendra Singh at 7th World Landslide Forum",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340360",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 4:25PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Earth Sciences"
+    },
+    {
+      "id": "pib-2340358",
+      "title": "Union Health Secretary Smt. Punya Salila Srivastava inaugurates India’s first dedicated Human Metabolic Chamber Facility at Christian Medical College (CMC) Vellore",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340358",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 4:23PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Health and Family Welfare"
+    },
+    {
+      "id": "pib-2340349",
+      "title": "Advancing Higher Education through NFSC Fellowship",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340349",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 4:07PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Social Justice & Empowerment"
+    },
+    {
+      "id": "pib-2340334",
+      "title": "New advanced material developed by incorporating metallic nanowires into MOFs can harness sunlight to degrade pollutants",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340334",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 3:49PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Science & Technology"
+    },
+    {
+      "id": "pib-2340331",
+      "title": "Scientists discover a rare stellar fossil that preserves clues to the universe's first generations of stars",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340331",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-23",
+      "publishedDateText": "Posted On: 23 NOV 2026 3:46PM by PIB Delhi",
+      "collectedAt": "2026-11-23T11:17:17.972Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Science & Technology"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "status": "ok",
+      "accepted": 18,
+      "attempted": 20,
+      "excluded": 2,
+      "failures": [
+        {
+          "id": "pib-2340310",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340310",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2340295",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340295",
+          "status": "publication_date_unavailable"
+        }
+      ]
+    }
+  ]
+}
