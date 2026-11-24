@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "collectedAt": "2026-11-24T12:56:54.202Z",
+  "target": 5,
+  "status": "complete",
+  "items": [
+    {
+      "id": "pib-2340862",
+      "title": "Prime Minister receives a telephone call from the Chancellor of the Federal Republic of Germany",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340862",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-24",
+      "publishedDateText": "Posted On: 24 NOV 2026 6:07PM by PIB Delhi",
+      "collectedAt": "2026-11-24T12:56:54.202Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Prime Minister's Office"
+    },
+    {
+      "id": "pib-2340857",
+      "title": "Vice-President Calls for Stronger Global Academic Partnerships to Address Emerging Economic and Social Challenges",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340857",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-24",
+      "publishedDateText": "Posted On: 24 NOV 2026 5:55PM by PIB Delhi",
+      "collectedAt": "2026-11-24T12:56:54.202Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Vice President's Secretariat"
+    },
+    {
+      "id": "pib-2340846",
+      "title": "Union Minister Shri Jyotiraditya M. Scindia Chairs Telecom Startups and MSME Conclave 2026; Calls for Strengthening Indigenous Telecom Innovation and Entrepreneurship",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340846",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-24",
+      "publishedDateText": "Posted On: 24 NOV 2026 5:12PM by PIB Delhi",
+      "collectedAt": "2026-11-24T12:56:54.202Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Communications"
+    },
+    {
+      "id": "pib-2340845",
+      "title": "India’s Space Economy Set for a Massive Leap to USD 40–45 billion as Private Sector Rewrites Growth Story: Dr. Jitendra Singh",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340845",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-24",
+      "publishedDateText": "Posted On: 24 NOV 2026 5:13PM by PIB Delhi",
+      "collectedAt": "2026-11-24T12:56:54.202Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Department of Space"
+    },
+    {
+      "id": "pib-2340843",
+      "title": "Union Minister Dr Virendra Kumar To Launch SAMAVESH And New E-Anudaan Portal Tomorrow November 25",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340843",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-24",
+      "publishedDateText": "Posted On: 24 NOV 2026 5:12PM by PIB Delhi",
+      "collectedAt": "2026-11-24T12:56:54.202Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Social Justice & Empowerment"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "status": "ok",
+      "accepted": 15,
+      "attempted": 20,
+      "excluded": 5,
+      "failures": [
+        {
+          "id": "pib-2340814",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340814",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2340841",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340841",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2340815",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340815",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2340795",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340795",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2340776",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340776",
+          "status": "publication_date_unavailable"
+        }
+      ]
+    }
+  ]
+}
