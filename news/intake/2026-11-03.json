@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-03",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-25T18:40:27.283Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 1,
+    "shortfall": 99,
+    "publishers": 1,
+    "languages": [
+      "hi"
+    ],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [
+    {
+      "id": "report-1e875f879b19fe0c800a6da7",
+      "url": "https://hindi.mongabay.com/2026/11/03/new-scheme-incentivises-trucks-buses-for-meeting-emissions-standards/",
+      "title": "दिल्ली को प्रदूषण से बचाने के लिए ट्रक, बसों को लेकर सरकार की नई योजना",
+      "author": "Simrin Sirur",
+      "sourceId": "mongabay-hi",
+      "publisher": "Mongabay हिन्दी",
+      "publisherGroup": "mongabay",
+      "language": "hi",
+      "kind": "reporting",
+      "publishedAt": "2026-11-03T12:18:50.000Z",
+      "firstSeenAt": "2026-11-25T18:40:27.283Z",
+      "lastSeenAt": "2026-11-25T18:40:27.283Z",
+      "headlineSha256": "5e1b440370bee040381714e3627518fc5ff132eca9e168c79383d067e2ff17e8",
+      "license": "CC BY-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "permissionUrl": "https://india.mongabay.com/about/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://hindi.mongabay.com/feed/"
+    }
+  ],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}

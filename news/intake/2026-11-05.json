@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-25T18:40:27.283Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 1,
+    "shortfall": 99,
+    "publishers": 1,
+    "languages": [
+      "hi"
+    ],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [
+    {
+      "id": "report-148454e568877f1c840e4a71",
+      "url": "https://hindi.mongabay.com/2026/11/05/kerala-snake-coexistence-awareness-conservation/",
+      "title": "सांपों के साथ रहना सीख रहा केरलम, जागरूकता और बचाव से खुल रहे संरक्षण के नए रास्ते",
+      "author": "Arathi M.R.",
+      "sourceId": "mongabay-hi",
+      "publisher": "Mongabay हिन्दी",
+      "publisherGroup": "mongabay",
+      "language": "hi",
+      "kind": "reporting",
+      "publishedAt": "2026-11-05T12:52:48.000Z",
+      "firstSeenAt": "2026-11-25T18:40:27.283Z",
+      "lastSeenAt": "2026-11-25T18:40:27.283Z",
+      "headlineSha256": "8cbc3d8e97ef3a9b50ca15deb7be8c823fa68a9d03570da171130e3d38af279c",
+      "license": "CC BY-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "permissionUrl": "https://india.mongabay.com/about/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://hindi.mongabay.com/feed/"
+    }
+  ],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}

@@ -19,7 +19,21 @@
       "sourceSHA256": "a2a6bf52dbe3f3646c708f1aad7921033cfc8798d5d4b26b259d6f3857d9f2ba",
       "assetSHA256": "ab3c0705292dff9dfc182efef0f1127c0a3c97d91458610bfd0be148c21ee1f6",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/year-in-review.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 16592
+        },
+        {
+          "path": "/images/editorial/800/year-in-review.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 37024
+        }
+      ]
     },
     {
       "id": "labour",
@@ -35,7 +49,21 @@
       "sourceSHA256": "1e4adba2aaa61e8543bcd683e73b5a020129970534d7e50355e8878ad9afdae6",
       "assetSHA256": "1e3c079ffca846397b787ad676458af9c4e67f66cd3af3357c0c0e3e4577e358",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/labour.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 16804
+        },
+        {
+          "path": "/images/editorial/800/labour.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 39284
+        }
+      ]
     },
     {
       "id": "budgets",
@@ -51,7 +79,21 @@
       "sourceSHA256": "8b58271c9a2a23f72d9905df6e8923f9997b6d56c84fc7a53f23be98da5e8da4",
       "assetSHA256": "1479961f76ae8b33f7b831b809c2550a19c3fe01fa66c556079bd455b44ca476",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/budgets.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14650
+        },
+        {
+          "path": "/images/editorial/800/budgets.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 32214
+        }
+      ]
     },
     {
       "id": "health",
@@ -67,7 +109,21 @@
       "sourceSHA256": "fa94e311c89455eaf41d2a9e38462f8b4506f25caaa6101794f1483a7da655e1",
       "assetSHA256": "7067fecd3b978ffcac75ad8569441d83b30ea351a5577a902ebed19069327760",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/health.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13406
+        },
+        {
+          "path": "/images/editorial/800/health.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28668
+        }
+      ]
     },
     {
       "id": "statistics",
@@ -83,7 +139,21 @@
       "sourceSHA256": "1c74bd96a1f86eed32fc83d85a6203012b79b40d601ea00150a6204c2fd94a70",
       "assetSHA256": "6060b1bedec2613f5d995b67e7b77fdbe712f220dc6e9dd813d3277c2c38b0fa",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/statistics.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 10388
+        },
+        {
+          "path": "/images/editorial/800/statistics.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 21806
+        }
+      ]
     },
     {
       "id": "privacy",
@@ -99,7 +169,21 @@
       "sourceSHA256": "3c623984ca926c7405e9fb7ee9758f8dbb9778d5ac9c5c46beac9cfac6082f34",
       "assetSHA256": "1c9a615b024da115924f8072d56c16c22cfd41198f833b10c6a6bae8d82d9780",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/privacy.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9308
+        },
+        {
+          "path": "/images/editorial/800/privacy.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 19840
+        }
+      ]
     },
     {
       "id": "heat",
@@ -115,7 +199,21 @@
       "sourceSHA256": "ebee3bb24a42c419b7983a7453ac0900748bafc85cb38f0c970e62b958d9c857",
       "assetSHA256": "7bdf3eff55eb9b8d84fc3a345c045c75f38a4fc62d4014a8fe3bab4843b16f10",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/heat.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11420
+        },
+        {
+          "path": "/images/editorial/800/heat.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 25740
+        }
+      ]
     },
     {
       "id": "floods",
@@ -131,7 +229,21 @@
       "sourceSHA256": "9279123a183d0cd43e6106bfa76035b4ffa0ea2ac0e43045854576d9ab7dc0dd",
       "assetSHA256": "7ab0ea8548c36c7fe114a8980996f9f0de5c2f0985f09f16db708a266f6411c5",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/floods.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17622
+        },
+        {
+          "path": "/images/editorial/800/floods.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 39810
+        }
+      ]
     },
     {
       "id": "video",
@@ -147,7 +259,21 @@
       "sourceSHA256": "bcefc5a7fe8c687fb1c68c231191c533d1739c7d1c0c8317d742858dc93732c2",
       "assetSHA256": "27e832d0f06bf7d6b77486871b94f6884ff1fb5fd8fcd8318fee19a993715c6f",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/video.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 10330
+        },
+        {
+          "path": "/images/editorial/800/video.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 21140
+        }
+      ]
     },
     {
       "id": "science",
@@ -163,7 +289,21 @@
       "sourceSHA256": "37800ac6b52100ff54cc1e4530f321943430ba8dff1238f087e52855b14c2ce5",
       "assetSHA256": "a04bd72720fe89592e770a181fba08c90d29fe51d422e805b52b061ebe7739d9",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/science.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14954
+        },
+        {
+          "path": "/images/editorial/800/science.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 31842
+        }
+      ]
     },
     {
       "id": "chandrayaan-3",
@@ -179,7 +319,21 @@
       "sourceSHA256": "627c6d840e96414d2e80464aa7fec267532d5a66132afa152bfdd6d2c6ea3495",
       "assetSHA256": "3a48cd35e60e62fcd569541b5d37abc1af803849bc3b4ae531f952c9989b2f91",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/chandrayaan-3.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15608
+        },
+        {
+          "path": "/images/editorial/800/chandrayaan-3.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35576
+        }
+      ]
     },
     {
       "id": "hospital-beds",
@@ -195,7 +349,21 @@
       "sourceSHA256": "7678f580701906a089ba38c06ff6f00e16c3215c89aebe672c3f2ee0f3ce1e41",
       "assetSHA256": "fdad9907e01b1f99edcebe120e7ecd5fd9aaa8c64f2efea2546a91105b1ff992",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/hospital-beds.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15128
+        },
+        {
+          "path": "/images/editorial/800/hospital-beds.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33724
+        }
+      ]
     },
     {
       "id": "rainfall-baselines",
@@ -211,7 +379,21 @@
       "sourceSHA256": "05013a8eef829b9344ef85601b8bbcdd2f4b55463de5425652e7d7c4a4084d67",
       "assetSHA256": "89241a270971f0e71def6d034a8770907c51b65232f8b45bdb451c1a68de02a9",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/rainfall-baselines.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12220
+        },
+        {
+          "path": "/images/editorial/800/rainfall-baselines.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 26744
+        }
+      ]
     },
     {
       "id": "ganga-cleaning",
@@ -227,7 +409,21 @@
       "sourceSHA256": "232ea0ebc2f90d4df25d000ca11eb82e82f2ad01f892b72624454441babf9400",
       "assetSHA256": "8e099e880d59c489d45b09b77dd6ed2cf799e67beff6758b2521f8ffe12eadd7",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/ganga-cleaning.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18202
+        },
+        {
+          "path": "/images/editorial/800/ganga-cleaning.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 39532
+        }
+      ]
     },
     {
       "id": "agriculture",
@@ -243,7 +439,21 @@
       "sourceSHA256": "54c5fca8b9c874953712a155aa1fc7e1a67f8b10928964aaaa5ba3e0bcb06588",
       "assetSHA256": "004884520713ae45264ed1a4d4d65a1a36b025ae178fb5ae3521f2e1b6cd20ae",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/agriculture.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17810
+        },
+        {
+          "path": "/images/editorial/800/agriculture.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 41484
+        }
+      ]
     },
     {
       "id": "farmers",
@@ -259,7 +469,21 @@
       "sourceSHA256": "cfe4d555e1349096fd1e3899a44995ecfe66e6fb766678f75078e521934b17eb",
       "assetSHA256": "6aaaf618d2f8512b0fcf1ed47826e25e707e70f3f9d9c7b1ca49a3d67258de6e",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/farmers.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15814
+        },
+        {
+          "path": "/images/editorial/800/farmers.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35378
+        }
+      ]
     },
     {
       "id": "food-security",
@@ -275,7 +499,21 @@
       "sourceSHA256": "a82ffda0b4cfca238fea282a2d4e23f02b94be34b460b0565815a2de89e03228",
       "assetSHA256": "5e0dc41c9551fa876f9e6b98797c8038c2eea9b3f2fde3952c6c57bb317827ed",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/food-security.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13396
+        },
+        {
+          "path": "/images/editorial/800/food-security.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 30186
+        }
+      ]
     },
     {
       "id": "irrigation",
@@ -291,7 +529,21 @@
       "sourceSHA256": "aaa2959cfc7a22bd803c46832f36cec7387c83d0ef3e8d682c8443127d63b48d",
       "assetSHA256": "d22f917237bcf511ecbcfa8f370ca2e71638ad00c6aed56d51e0abcbec3679a7",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/irrigation.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 23186
+        },
+        {
+          "path": "/images/editorial/800/irrigation.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 51072
+        }
+      ]
     },
     {
       "id": "urban-development",
@@ -307,7 +559,21 @@
       "sourceSHA256": "65a6b9efae32cc9044c589c04b8cecaac460d74d60963e5efa19b12609467250",
       "assetSHA256": "bbd473606156a22bfe7b05d3cf83d569603e061a0ba35e6a5192a4ba3fcf8678",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/urban-development.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18442
+        },
+        {
+          "path": "/images/editorial/800/urban-development.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 42928
+        }
+      ]
     },
     {
       "id": "transport",
@@ -323,7 +589,21 @@
       "sourceSHA256": "33bc4094519b537f77e7ab9d0a055811bef7415a488c8a1df16613976658e87e",
       "assetSHA256": "20dd15d78f18560cf311d4361f85adcfe9297e0e5bee522a849ba6b8c38f9dcc",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/transport.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12508
+        },
+        {
+          "path": "/images/editorial/800/transport.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 27458
+        }
+      ]
     },
     {
       "id": "railways",
@@ -339,7 +619,21 @@
       "sourceSHA256": "7106d90a0b7ca0c7723fccf548e3e7b1b68aab7fba4f5e89b518e70fcad2bcd0",
       "assetSHA256": "cb1617c865e5b408b04bcf6ca7aca892c8386796a6981cef2380dce9b156c54f",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/railways.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14808
+        },
+        {
+          "path": "/images/editorial/800/railways.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33064
+        }
+      ]
     },
     {
       "id": "roads",
@@ -355,7 +649,21 @@
       "sourceSHA256": "52ddef0b298375bee1b8a3d2622f502ef5835d148ad8e5efc4605b4d3315d230",
       "assetSHA256": "e146e934b246c86a9dc9e9e595067ccae1cc399ad0c9e517d084b5aa8ea806d1",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/roads.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11970
+        },
+        {
+          "path": "/images/editorial/800/roads.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 27368
+        }
+      ]
     },
     {
       "id": "aviation",
@@ -371,7 +679,21 @@
       "sourceSHA256": "b037ab48767dd1e58ab4dea3d40a6945c5f8529f7bdc5ded143cc89caebfb340",
       "assetSHA256": "4839cabc3fb07e4e5873712ffc7e7561c760dc25f301cd48aad1aeb48e7a1832",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/aviation.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13730
+        },
+        {
+          "path": "/images/editorial/800/aviation.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28912
+        }
+      ]
     },
     {
       "id": "manufacturing",
@@ -387,7 +709,21 @@
       "sourceSHA256": "671a5d4d8cd7fa3adf7a5ef2a4d696f9b46d45e747c4114bdfe4630ca0819aec",
       "assetSHA256": "be96dd4565bb60e7453aa9a19081871ce533d10998e92009e029e2f79c0f113f",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/manufacturing.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17072
+        },
+        {
+          "path": "/images/editorial/800/manufacturing.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 36516
+        }
+      ]
     },
     {
       "id": "small-business",
@@ -403,7 +739,21 @@
       "sourceSHA256": "b60b713cbb6bdb7533d2f4d27a24971c90c16f0f08e71e0f64986c87e66e2e32",
       "assetSHA256": "7831b3d9c16a626167931e9315fc2cecb9ae26663c77c7a03f1b15ddefe04925",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/small-business.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15160
+        },
+        {
+          "path": "/images/editorial/800/small-business.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 34048
+        }
+      ]
     },
     {
       "id": "trade",
@@ -419,7 +769,21 @@
       "sourceSHA256": "6d270babbd94f3d6d6e8a7bf825655e4fdda6556534134cc92ae50d73b34b6d3",
       "assetSHA256": "6aac7972d2e4df35b648cc0531bb53e700275e26faa95d192e418a37f14ad74e",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/trade.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13300
+        },
+        {
+          "path": "/images/editorial/800/trade.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28168
+        }
+      ]
     },
     {
       "id": "energy",
@@ -435,7 +799,21 @@
       "sourceSHA256": "fde1d20fb0c5c0face7448aed5b7b016e2187eb52e0318967abf982b75195637",
       "assetSHA256": "af8750d3a9243e2ab6d0af9e2dad07f720f318e738d2ad26abf85263aa9d4125",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/energy.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13588
+        },
+        {
+          "path": "/images/editorial/800/energy.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29294
+        }
+      ]
     },
     {
       "id": "renewables",
@@ -451,7 +829,21 @@
       "sourceSHA256": "d6712cd0f7d9e572dbcef6848682b11dc36cae8610fe90fdddc9bfae08d214a1",
       "assetSHA256": "e3a3313a6e72ebdcb3aefffd56be43c71a1a6094c2e6d00e2eba6ad59d2b8fd3",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/renewables.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9782
+        },
+        {
+          "path": "/images/editorial/800/renewables.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 20346
+        }
+      ]
     },
     {
       "id": "water",
@@ -467,7 +859,21 @@
       "sourceSHA256": "17ac53a413455536e38c1cc2c6be60e2bd256232c7832e2b9b341206e883274e",
       "assetSHA256": "f6b398dd3778577ac74fa8cd30520ece4dda07287ec6e0de4a861ce4ab62bb31",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/water.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 10640
+        },
+        {
+          "path": "/images/editorial/800/water.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 23564
+        }
+      ]
     },
     {
       "id": "sanitation",
@@ -483,7 +889,21 @@
       "sourceSHA256": "bb2d06e152850e3a655e1d5bcc040cc4a34e3a8f1b0e8b2f9738b6364065ef8e",
       "assetSHA256": "e1f8d5ccdae07eeb9ff510471ab50dd8353935bb10fa4efc90c86d2ea0c9e77f",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/sanitation.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12066
+        },
+        {
+          "path": "/images/editorial/800/sanitation.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 25978
+        }
+      ]
     },
     {
       "id": "education",
@@ -499,7 +919,21 @@
       "sourceSHA256": "466f058fb1899e16a64966122a4ba2a2d0db9a6ee94455413436603cd791ceb2",
       "assetSHA256": "5c4b9282771e8e42782be90cc5bc18194a9105011ce733b17d62f2b3fd5bac89",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/education.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15568
+        },
+        {
+          "path": "/images/editorial/800/education.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 34490
+        }
+      ]
     },
     {
       "id": "examinations",
@@ -515,7 +949,21 @@
       "sourceSHA256": "0923d7bb8337097da9f854b3fe69275424451d19692678a3c422a63798d9fd3b",
       "assetSHA256": "2b1bd57721ba4d668caedb8f8185df6881633f9a305c0d367af74098377dfecb",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/examinations.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13018
+        },
+        {
+          "path": "/images/editorial/800/examinations.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28570
+        }
+      ]
     },
     {
       "id": "skills",
@@ -531,7 +979,21 @@
       "sourceSHA256": "be6761d4dcee6abd7e494f0882d796a0ac12ee2df97a2a55b1310ea31bd21000",
       "assetSHA256": "3ad702fbf2501d4a14f3170eec682c121bf1c6e87b5193417c899bade867fc93",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/skills.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 16136
+        },
+        {
+          "path": "/images/editorial/800/skills.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 34896
+        }
+      ]
     },
     {
       "id": "connectivity",
@@ -547,7 +1009,21 @@
       "sourceSHA256": "8ac9ae7b83a7e4232177a5132e42540387aee4c60bcc094aebc3608962e6749a",
       "assetSHA256": "a8aba32e7e9bfcf2b268989291c8f4149fd9cdbfb41bb5965c1f596a2439290b",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/connectivity.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11196
+        },
+        {
+          "path": "/images/editorial/800/connectivity.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 23550
+        }
+      ]
     },
     {
       "id": "cybersecurity",
@@ -563,7 +1039,21 @@
       "sourceSHA256": "42e638980792aaa433e33a2aa075b7ff77577c00f3976a33b57e340c7c56ed61",
       "assetSHA256": "19e37710aa0909b91efd3f45bbd55c8a73688cf7c619450fc02937671bed3a39",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/cybersecurity.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13650
+        },
+        {
+          "path": "/images/editorial/800/cybersecurity.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29266
+        }
+      ]
     },
     {
       "id": "elections",
@@ -579,7 +1069,21 @@
       "sourceSHA256": "d9211dc7791fab5f585dc63bb87f09e23e004dc0b6bba1152d510e80bec600ce",
       "assetSHA256": "4461015236dc44c2bb853f3251d4c2867623aaf78da8c97a863762b0fe19157b",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/elections.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9686
+        },
+        {
+          "path": "/images/editorial/800/elections.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 22116
+        }
+      ]
     },
     {
       "id": "parliament",
@@ -595,7 +1099,21 @@
       "sourceSHA256": "cd45b36f14e635124d0fb4f462063df56809a99900756f994408d8c0b9d97392",
       "assetSHA256": "e03c2a10966a4dd4fe5c3aa651eeddb64e58832758972a1e7ac8107460793f86",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/parliament.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17998
+        },
+        {
+          "path": "/images/editorial/800/parliament.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 40900
+        }
+      ]
     },
     {
       "id": "judiciary",
@@ -611,7 +1129,21 @@
       "sourceSHA256": "7559b07ad0ef633e31de8c91a0e9e831044874e8bd90f21826140eec52b8f73d",
       "assetSHA256": "a84824ffb35d29c3c4853060c5480254417411458d3d3d147467547b902bb392",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/judiciary.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9118
+        },
+        {
+          "path": "/images/editorial/800/judiciary.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 19276
+        }
+      ]
     },
     {
       "id": "federalism",
@@ -627,7 +1159,21 @@
       "sourceSHA256": "60f602c8513864f8b63535ea404c825f8cafef8379cb5e45df00de5204be627b",
       "assetSHA256": "02d7eda138d9310051db060053634a1331af3439556dee3890d7b15de13746e4",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/federalism.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15512
+        },
+        {
+          "path": "/images/editorial/800/federalism.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35900
+        }
+      ]
     },
     {
       "id": "social-security",
@@ -643,7 +1189,21 @@
       "sourceSHA256": "ecc9ca9ae7d54fd7d65f31356368fc10684d5ab5fd269653e2a11e6699633734",
       "assetSHA256": "389ddb57d449e46fb634687f651b1e41ef4b9443fee9bb1f8f4a4c6668d2fb8f",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/social-security.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14852
+        },
+        {
+          "path": "/images/editorial/800/social-security.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 30104
+        }
+      ]
     },
     {
       "id": "wages",
@@ -659,7 +1219,21 @@
       "sourceSHA256": "84c2aefe9f6ff55433e495ca46668ec821f4ce4049e4ee746566f632cfce5311",
       "assetSHA256": "4e1c1757640c36728bc7008d322ba3cadff01552bf4a03d80c7e0194ee94589c",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/wages.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13822
+        },
+        {
+          "path": "/images/editorial/800/wages.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29810
+        }
+      ]
     },
     {
       "id": "women",
@@ -675,7 +1249,21 @@
       "sourceSHA256": "068cab6ceb2bbbc9a1134e7fbab932a02a6ddd27e8f4f7125fe64314894a78c5",
       "assetSHA256": "bc91f546e272214163b658e442bfe494481aa2ae808085305928f9d916bdfb80",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/women.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11780
+        },
+        {
+          "path": "/images/editorial/800/women.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 25878
+        }
+      ]
     },
     {
       "id": "accessibility",
@@ -691,7 +1279,21 @@
       "sourceSHA256": "46fdc3202ac2dc9d3ea02642f8cbb1560711a7af20ddff6d3fcc4b8adc27418a",
       "assetSHA256": "77c8675233eebd29d8a950ed97364b77e903b3745d10b6211359f2b23e0ed813",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/accessibility.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12410
+        },
+        {
+          "path": "/images/editorial/800/accessibility.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28660
+        }
+      ]
     },
     {
       "id": "disaster-response",
@@ -707,7 +1309,21 @@
       "sourceSHA256": "3709331f70485063105fcfe939b423d70142720e6fdab65326f45bfb496cb833",
       "assetSHA256": "51f1d0d18ab1785e55844761d07ebb218378e7161620210a2478f869a58129fd",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/disaster-response.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13800
+        },
+        {
+          "path": "/images/editorial/800/disaster-response.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 31340
+        }
+      ]
     },
     {
       "id": "weather",
@@ -723,7 +1339,21 @@
       "sourceSHA256": "21d384e85d36f16b9fbc74d1bed306a68d4ed3434965d102fea676167fe0ecc5",
       "assetSHA256": "e6fa3e98b978d645a882b14be91a246a2511da7cfe97b9d210486cbbf9f55cfc",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/weather.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13808
+        },
+        {
+          "path": "/images/editorial/800/weather.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29694
+        }
+      ]
     },
     {
       "id": "air-pollution",
@@ -739,7 +1369,21 @@
       "sourceSHA256": "3616ed8b6c28b12d98cfc30adc267ab4425c282b4759fe1d9b0bbf94f5598383",
       "assetSHA256": "c3270d7decaf616e29015d15d06a933a56c0f958392426e7bc81f2af88bf12be",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/air-pollution.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12576
+        },
+        {
+          "path": "/images/editorial/800/air-pollution.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28654
+        }
+      ]
     },
     {
       "id": "biodiversity",
@@ -755,7 +1399,21 @@
       "sourceSHA256": "5e570c3c6182ee85dcbb7495d0d4eb4fb3c0f1e96f603a625c10c68a1c23d65c",
       "assetSHA256": "8dd7ed32656521ec2f96308e344f3321f27621dc9e36d905db93253e16c4c6d8",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/biodiversity.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13430
+        },
+        {
+          "path": "/images/editorial/800/biodiversity.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29388
+        }
+      ]
     },
     {
       "id": "forests",
@@ -771,7 +1429,21 @@
       "sourceSHA256": "bd50014b4aed90f05456abccea3ee19782b22e9712f5b632bfebaa4dd4dd3986",
       "assetSHA256": "8906ce7b416fa9a6e71594e88b5f1fc60da51749fdff1f32c4a43d7ce6c8654c",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/forests.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18488
+        },
+        {
+          "path": "/images/editorial/800/forests.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 40252
+        }
+      ]
     },
     {
       "id": "coasts",
@@ -787,7 +1459,21 @@
       "sourceSHA256": "e9fed181f49787f367ea20ca4d38ca9c26c2b9bf9fd866d0198052fa50c04d70",
       "assetSHA256": "03270157ff32443ed1abe84ed7c94e3b1ea678517ea41fba49402bb62fbdf4b9",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/coasts.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14020
+        },
+        {
+          "path": "/images/editorial/800/coasts.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 31112
+        }
+      ]
     },
     {
       "id": "kerala-floods",
@@ -803,7 +1489,21 @@
       "sourceSHA256": "add526923eb21088df90bd53a6375c0d256120c5f77bf41eaaaefb4d3baf9a18",
       "assetSHA256": "076ae6d01b924d102445af96c93ce669cca0fd5032cc5c701e39d33fd865f268",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/kerala-floods.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 19700
+        },
+        {
+          "path": "/images/editorial/800/kerala-floods.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 45540
+        }
+      ]
     },
     {
       "id": "assam-floods",
@@ -819,7 +1519,21 @@
       "sourceSHA256": "95ab871eb5cdcb7042fb79e70ea5ac74ca02ab9e60aa07bf527707839fc100e0",
       "assetSHA256": "bb8912d07b5233ddbdf5d05ad0ceb68f86219c857c12fa4bdb79aa5c41fbccc6",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/assam-floods.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18590
+        },
+        {
+          "path": "/images/editorial/800/assam-floods.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 42364
+        }
+      ]
     },
     {
       "id": "maharashtra-labour",
@@ -835,7 +1549,21 @@
       "sourceSHA256": "d0d0d63d70235af39a425a30c5f1f9364f1dbef67d50d1f353027567ff558955",
       "assetSHA256": "0e14814051e0a6d883913eba2ce9bf3fd768445da2e90111f29455782d7c4ab7",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/maharashtra-labour.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14428
+        },
+        {
+          "path": "/images/editorial/800/maharashtra-labour.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 32032
+        }
+      ]
     },
     {
       "id": "gujarat-budget",
@@ -851,7 +1579,21 @@
       "sourceSHA256": "79e5f01c54b0eef772e72870b0345d25d94fb5bea6b003371da273945a341534",
       "assetSHA256": "b22a2373d35e7fea586955093d8ffa414243382eb9a7f9b75c57dffd894b578c",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/gujarat-budget.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 19068
+        },
+        {
+          "path": "/images/editorial/800/gujarat-budget.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 43996
+        }
+      ]
     },
     {
       "id": "tamil-budget",
@@ -867,7 +1609,21 @@
       "sourceSHA256": "832e809cede6510ff8cc0b2a6b61dccdb06833f452e491420911ac6b8047e15c",
       "assetSHA256": "d74585493bb945ef1cbefd4d67438339c24f081502f9c26f501572fda97959e6",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/tamil-budget.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15020
+        },
+        {
+          "path": "/images/editorial/800/tamil-budget.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33830
+        }
+      ]
     },
     {
       "id": "telugu-rain",
@@ -883,7 +1639,21 @@
       "sourceSHA256": "aa174c837c18cd0e9cac13f0a615e45449c4eae2ec68568edcfde26c27d9be17",
       "assetSHA256": "02082abcfb00756468e8495f6fc8db99a44d703ae72ba0ddb0365f5710a413fb",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/telugu-rain.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17872
+        },
+        {
+          "path": "/images/editorial/800/telugu-rain.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 38856
+        }
+      ]
     },
     {
       "id": "bengal-policy",
@@ -899,7 +1669,21 @@
       "sourceSHA256": "7af6158c1ca94b18b69bf3a67b891d87827d76b4cd178a48310a2ac048887d41",
       "assetSHA256": "4be089b374c8c843c5f02784b7b7cc746b77c83be41f8a86fe0616f5c0659123",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/bengal-policy.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13242
+        },
+        {
+          "path": "/images/editorial/800/bengal-policy.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 27950
+        }
+      ]
     },
     {
       "id": "budget-markets",
@@ -915,7 +1699,21 @@
       "sourceSHA256": "430d66b3d17619a28bfd2e2b8a8e506a081f65d08e4fc6671ee4dd44c96e8d4e",
       "assetSHA256": "8327ead3468a410ae26a138edff58819939571e9d72e18a51577e9fe07c9059d",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/budget-markets.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15118
+        },
+        {
+          "path": "/images/editorial/800/budget-markets.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33854
+        }
+      ]
     },
     {
       "id": "health-budget",
@@ -931,7 +1729,21 @@
       "sourceSHA256": "7f1f5db3d4d3841880b9b2902f6b67f9912ec49332a5ec0eabe7fb2e22608e5f",
       "assetSHA256": "f53c2d44deb25b93d36a322a323b78ad4beccaa9ad9831d80aa7cfb1fee5e2c6",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/health-budget.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15912
+        },
+        {
+          "path": "/images/editorial/800/health-budget.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35186
+        }
+      ]
     },
     {
       "id": "budget-households",
@@ -947,7 +1759,21 @@
       "sourceSHA256": "deeb412657a54a01fd891d78b1ed261da578a294e803ff0b6b63765ebf483194",
       "assetSHA256": "44cb8551c936eb2b051352f8d3fdc6da4fdc2d2affafe330374ecb8fdf840387",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/budget-households.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13644
+        },
+        {
+          "path": "/images/editorial/800/budget-households.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 30270
+        }
+      ]
     },
     {
       "id": "policy-review",
@@ -963,7 +1789,21 @@
       "sourceSHA256": "79ce30fb195a49dd928d6b0e653152a785f137cfe6d6d0ef757df5c42a594a64",
       "assetSHA256": "368dc9958579262f3aa1a7c143384326e40ac8ac0ab5b23b7f938db7f6de8af7",
       "reviewStatus": "visual-review-complete",
-      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval."
+      "review": "AI-assisted visual inspection of five contact sheets; format, subject and layout checks. Not human editorial approval.",
+      "variants": [
+        {
+          "path": "/images/editorial/480/policy-review.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13574
+        },
+        {
+          "path": "/images/editorial/800/policy-review.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28216
+        }
+      ]
     }
   ]
 }

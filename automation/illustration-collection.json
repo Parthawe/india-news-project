@@ -12,7 +12,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/year-in-review.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 16592
+        },
+        {
+          "path": "/images/editorial/800/year-in-review.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 37024
+        }
+      ]
     },
     {
       "id": "labour",
@@ -25,7 +39,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/labour.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 16804
+        },
+        {
+          "path": "/images/editorial/800/labour.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 39284
+        }
+      ]
     },
     {
       "id": "budgets",
@@ -38,7 +66,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/budgets.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14650
+        },
+        {
+          "path": "/images/editorial/800/budgets.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 32214
+        }
+      ]
     },
     {
       "id": "health",
@@ -51,7 +93,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/health.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13406
+        },
+        {
+          "path": "/images/editorial/800/health.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28668
+        }
+      ]
     },
     {
       "id": "statistics",
@@ -64,7 +120,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/statistics.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 10388
+        },
+        {
+          "path": "/images/editorial/800/statistics.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 21806
+        }
+      ]
     },
     {
       "id": "privacy",
@@ -77,7 +147,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/privacy.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9308
+        },
+        {
+          "path": "/images/editorial/800/privacy.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 19840
+        }
+      ]
     },
     {
       "id": "heat",
@@ -90,7 +174,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/heat.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11420
+        },
+        {
+          "path": "/images/editorial/800/heat.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 25740
+        }
+      ]
     },
     {
       "id": "floods",
@@ -103,7 +201,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/floods.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17622
+        },
+        {
+          "path": "/images/editorial/800/floods.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 39810
+        }
+      ]
     },
     {
       "id": "video",
@@ -116,7 +228,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/video.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 10330
+        },
+        {
+          "path": "/images/editorial/800/video.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 21140
+        }
+      ]
     },
     {
       "id": "science",
@@ -129,7 +255,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/science.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14954
+        },
+        {
+          "path": "/images/editorial/800/science.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 31842
+        }
+      ]
     },
     {
       "id": "chandrayaan-3",
@@ -142,7 +282,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/chandrayaan-3.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15608
+        },
+        {
+          "path": "/images/editorial/800/chandrayaan-3.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35576
+        }
+      ]
     },
     {
       "id": "hospital-beds",
@@ -155,7 +309,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/hospital-beds.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15128
+        },
+        {
+          "path": "/images/editorial/800/hospital-beds.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33724
+        }
+      ]
     },
     {
       "id": "rainfall-baselines",
@@ -168,7 +336,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/rainfall-baselines.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12220
+        },
+        {
+          "path": "/images/editorial/800/rainfall-baselines.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 26744
+        }
+      ]
     },
     {
       "id": "ganga-cleaning",
@@ -181,7 +363,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/ganga-cleaning.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18202
+        },
+        {
+          "path": "/images/editorial/800/ganga-cleaning.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 39532
+        }
+      ]
     },
     {
       "id": "agriculture",
@@ -194,7 +390,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/agriculture.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17810
+        },
+        {
+          "path": "/images/editorial/800/agriculture.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 41484
+        }
+      ]
     },
     {
       "id": "farmers",
@@ -207,7 +417,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/farmers.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15814
+        },
+        {
+          "path": "/images/editorial/800/farmers.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35378
+        }
+      ]
     },
     {
       "id": "food-security",
@@ -220,7 +444,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/food-security.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13396
+        },
+        {
+          "path": "/images/editorial/800/food-security.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 30186
+        }
+      ]
     },
     {
       "id": "irrigation",
@@ -233,7 +471,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/irrigation.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 23186
+        },
+        {
+          "path": "/images/editorial/800/irrigation.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 51072
+        }
+      ]
     },
     {
       "id": "urban-development",
@@ -246,7 +498,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/urban-development.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18442
+        },
+        {
+          "path": "/images/editorial/800/urban-development.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 42928
+        }
+      ]
     },
     {
       "id": "transport",
@@ -259,7 +525,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/transport.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12508
+        },
+        {
+          "path": "/images/editorial/800/transport.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 27458
+        }
+      ]
     },
     {
       "id": "railways",
@@ -272,7 +552,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/railways.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14808
+        },
+        {
+          "path": "/images/editorial/800/railways.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33064
+        }
+      ]
     },
     {
       "id": "roads",
@@ -285,7 +579,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/roads.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11970
+        },
+        {
+          "path": "/images/editorial/800/roads.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 27368
+        }
+      ]
     },
     {
       "id": "aviation",
@@ -298,7 +606,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/aviation.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13730
+        },
+        {
+          "path": "/images/editorial/800/aviation.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28912
+        }
+      ]
     },
     {
       "id": "manufacturing",
@@ -311,7 +633,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/manufacturing.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17072
+        },
+        {
+          "path": "/images/editorial/800/manufacturing.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 36516
+        }
+      ]
     },
     {
       "id": "small-business",
@@ -324,7 +660,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/small-business.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15160
+        },
+        {
+          "path": "/images/editorial/800/small-business.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 34048
+        }
+      ]
     },
     {
       "id": "trade",
@@ -337,7 +687,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/trade.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13300
+        },
+        {
+          "path": "/images/editorial/800/trade.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28168
+        }
+      ]
     },
     {
       "id": "energy",
@@ -350,7 +714,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/energy.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13588
+        },
+        {
+          "path": "/images/editorial/800/energy.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29294
+        }
+      ]
     },
     {
       "id": "renewables",
@@ -363,7 +741,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/renewables.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9782
+        },
+        {
+          "path": "/images/editorial/800/renewables.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 20346
+        }
+      ]
     },
     {
       "id": "water",
@@ -376,7 +768,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/water.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 10640
+        },
+        {
+          "path": "/images/editorial/800/water.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 23564
+        }
+      ]
     },
     {
       "id": "sanitation",
@@ -389,7 +795,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/sanitation.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12066
+        },
+        {
+          "path": "/images/editorial/800/sanitation.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 25978
+        }
+      ]
     },
     {
       "id": "education",
@@ -402,7 +822,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/education.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15568
+        },
+        {
+          "path": "/images/editorial/800/education.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 34490
+        }
+      ]
     },
     {
       "id": "examinations",
@@ -415,7 +849,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/examinations.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13018
+        },
+        {
+          "path": "/images/editorial/800/examinations.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28570
+        }
+      ]
     },
     {
       "id": "skills",
@@ -428,7 +876,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/skills.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 16136
+        },
+        {
+          "path": "/images/editorial/800/skills.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 34896
+        }
+      ]
     },
     {
       "id": "connectivity",
@@ -441,7 +903,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/connectivity.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11196
+        },
+        {
+          "path": "/images/editorial/800/connectivity.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 23550
+        }
+      ]
     },
     {
       "id": "cybersecurity",
@@ -454,7 +930,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/cybersecurity.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13650
+        },
+        {
+          "path": "/images/editorial/800/cybersecurity.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29266
+        }
+      ]
     },
     {
       "id": "elections",
@@ -467,7 +957,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/elections.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9686
+        },
+        {
+          "path": "/images/editorial/800/elections.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 22116
+        }
+      ]
     },
     {
       "id": "parliament",
@@ -480,7 +984,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/parliament.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17998
+        },
+        {
+          "path": "/images/editorial/800/parliament.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 40900
+        }
+      ]
     },
     {
       "id": "judiciary",
@@ -493,7 +1011,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/judiciary.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 9118
+        },
+        {
+          "path": "/images/editorial/800/judiciary.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 19276
+        }
+      ]
     },
     {
       "id": "federalism",
@@ -506,7 +1038,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/federalism.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15512
+        },
+        {
+          "path": "/images/editorial/800/federalism.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35900
+        }
+      ]
     },
     {
       "id": "social-security",
@@ -519,7 +1065,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/social-security.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14852
+        },
+        {
+          "path": "/images/editorial/800/social-security.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 30104
+        }
+      ]
     },
     {
       "id": "wages",
@@ -532,7 +1092,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/wages.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13822
+        },
+        {
+          "path": "/images/editorial/800/wages.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29810
+        }
+      ]
     },
     {
       "id": "women",
@@ -545,7 +1119,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/women.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 11780
+        },
+        {
+          "path": "/images/editorial/800/women.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 25878
+        }
+      ]
     },
     {
       "id": "accessibility",
@@ -558,7 +1146,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/accessibility.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12410
+        },
+        {
+          "path": "/images/editorial/800/accessibility.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28660
+        }
+      ]
     },
     {
       "id": "disaster-response",
@@ -571,7 +1173,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/disaster-response.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13800
+        },
+        {
+          "path": "/images/editorial/800/disaster-response.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 31340
+        }
+      ]
     },
     {
       "id": "weather",
@@ -584,7 +1200,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/weather.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13808
+        },
+        {
+          "path": "/images/editorial/800/weather.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29694
+        }
+      ]
     },
     {
       "id": "air-pollution",
@@ -597,7 +1227,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/air-pollution.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 12576
+        },
+        {
+          "path": "/images/editorial/800/air-pollution.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28654
+        }
+      ]
     },
     {
       "id": "biodiversity",
@@ -610,7 +1254,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/biodiversity.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13430
+        },
+        {
+          "path": "/images/editorial/800/biodiversity.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 29388
+        }
+      ]
     },
     {
       "id": "forests",
@@ -623,7 +1281,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/forests.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18488
+        },
+        {
+          "path": "/images/editorial/800/forests.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 40252
+        }
+      ]
     },
     {
       "id": "coasts",
@@ -636,7 +1308,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/coasts.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14020
+        },
+        {
+          "path": "/images/editorial/800/coasts.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 31112
+        }
+      ]
     },
     {
       "id": "kerala-floods",
@@ -649,7 +1335,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/kerala-floods.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 19700
+        },
+        {
+          "path": "/images/editorial/800/kerala-floods.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 45540
+        }
+      ]
     },
     {
       "id": "assam-floods",
@@ -662,7 +1362,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/assam-floods.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 18590
+        },
+        {
+          "path": "/images/editorial/800/assam-floods.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 42364
+        }
+      ]
     },
     {
       "id": "maharashtra-labour",
@@ -675,7 +1389,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/maharashtra-labour.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 14428
+        },
+        {
+          "path": "/images/editorial/800/maharashtra-labour.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 32032
+        }
+      ]
     },
     {
       "id": "gujarat-budget",
@@ -688,7 +1416,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/gujarat-budget.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 19068
+        },
+        {
+          "path": "/images/editorial/800/gujarat-budget.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 43996
+        }
+      ]
     },
     {
       "id": "tamil-budget",
@@ -701,7 +1443,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/tamil-budget.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15020
+        },
+        {
+          "path": "/images/editorial/800/tamil-budget.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33830
+        }
+      ]
     },
     {
       "id": "telugu-rain",
@@ -714,7 +1470,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/telugu-rain.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 17872
+        },
+        {
+          "path": "/images/editorial/800/telugu-rain.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 38856
+        }
+      ]
     },
     {
       "id": "bengal-policy",
@@ -727,7 +1497,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/bengal-policy.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13242
+        },
+        {
+          "path": "/images/editorial/800/bengal-policy.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 27950
+        }
+      ]
     },
     {
       "id": "budget-markets",
@@ -740,7 +1524,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/budget-markets.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15118
+        },
+        {
+          "path": "/images/editorial/800/budget-markets.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 33854
+        }
+      ]
     },
     {
       "id": "health-budget",
@@ -753,7 +1551,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/health-budget.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 15912
+        },
+        {
+          "path": "/images/editorial/800/health-budget.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 35186
+        }
+      ]
     },
     {
       "id": "budget-households",
@@ -766,7 +1578,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/budget-households.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13644
+        },
+        {
+          "path": "/images/editorial/800/budget-households.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 30270
+        }
+      ]
     },
     {
       "id": "policy-review",
@@ -779,7 +1605,21 @@
       "generated": true,
       "reviewStatus": "visual-review-complete",
       "generator": "image_gen built-in",
-      "reference": "india-year-editorial.webp"
+      "reference": "india-year-editorial.webp",
+      "variants": [
+        {
+          "path": "/images/editorial/480/policy-review.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 13574
+        },
+        {
+          "path": "/images/editorial/800/policy-review.webp",
+          "width": 800,
+          "height": 400,
+          "bytes": 28216
+        }
+      ]
     }
   ]
 }

@@ -121,3 +121,6 @@
   .coverage-lane { padding: 12px 5px; }
   .coverage-badges > a { width: 88px; }
 }
+
+@media(max-width:1024px){.review-messages{min-height:0;padding:20px}.review-message{padding:20px;margin-bottom:16px}.review-composer{padding:20px;gap:16px}.review-composer summary{min-height:44px}.review-chat .review-saved-tools button{min-height:44px}}
+@media(max-width:700px){.review-messages{padding:14px}.review-message{padding:16px}.review-composer{padding:20px 14px}.review-composer select{max-width:100%;width:100%}.review-composer .button{width:100%}}

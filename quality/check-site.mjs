@@ -17,6 +17,14 @@ export async function checkSite(folder,base='/india-news-project'){
     if(id.startsWith('review='))continue;const doc=await document(target);if(!doc('[id]').toArray().some(n=>doc(n).attr('id')===id))problems.push(page+': missing anchor '+id);
    }
   }
+  for(const node of $('img[srcset]'))for(const candidate of $(node).attr('srcset').split(',')){
+   const match=candidate.trim().match(/^(\S+)\s+\d+w$/);if(!match){problems.push(page+': invalid image srcset');continue;}
+   const current=new URL(base+'/'+page,'https://site.test');let url;try{url=new URL(match[1],current)}catch{problems.push(page+': invalid responsive image URL');continue;}
+   if(url.origin!==current.origin)continue;if(!url.pathname.startsWith(base+'/')){problems.push(page+': responsive image escapes deployment base');continue;}
+   const target=resolve(root,decodeURIComponent(url.pathname.slice(base.length)).replace(/^\//,''));if(!target.startsWith(root+'/')){problems.push(page+': responsive image escapes site root');continue;}
+   try{if(!(await stat(target)).isFile())throw Error('Not a file')}catch{problems.push(page+': missing responsive image '+url.pathname);}
+  }
+
  }
  return{pages:pages.length,problems:[...new Set(problems)]};
 }

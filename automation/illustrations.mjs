@@ -33,10 +33,12 @@ export function illustrationFor(input = {}) {
  for (const [id, pattern] of rules) if (pattern.test(text)) return byId.get(id);
  return byId.get('year-in-review');
 }
+export function illustrationSrcSet(art,base=''){return [...(art.variants||[]),{path:art.path,width:1200}].map(v=>`${base}${v.path} ${v.width}w`).join(', ')}
+export const illustrationSizes=compact=>compact?'auto, (max-width:480px) calc(100vw - 40px), 220px':'(max-width:700px) calc(100vw - 40px), (max-width:1100px) 70vw, 900px';
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function illustrationHTML(input, lang = 'en', base = '', compact = false) {
  const art = illustrationFor(input), hi = lang === 'hi';
  const alt = hi ? `${art.title.hi} पर कागज़ से बनी वैचारिक कलाकृति` : `Conceptual paper sculpture about ${art.title.en.toLowerCase()}`;
  const label = hi ? 'जनरेटिव मॉडल से बनाया चित्र। चित्रों की विधि पढ़ें।' : 'Illustration made with a generative model. Read about our illustrations.';
- return `<figure class="editorial-illustration${compact?' editorial-illustration--compact':''}" data-illustration="${escape(art.id)}"><img src="${base}${art.path}" width="1200" height="600" loading="lazy" decoding="async" alt="${escape(alt)}"><a class="illustration-seal" href="${base}/${hi?'hi':'en'}/method/#illustrations" aria-label="${escape(label)}" title="${hi?'चित्र के बारे में':'About this illustration'}">INP</a></figure>`;
+ return `<figure class="editorial-illustration${compact?' editorial-illustration--compact':''}" data-illustration="${escape(art.id)}"><img src="${base}${art.path}" srcset="${escape(illustrationSrcSet(art,base))}" sizes="${escape(illustrationSizes(compact))}" width="1200" height="600" loading="lazy" decoding="async" alt="${escape(alt)}"><a class="illustration-seal" href="${base}/${hi?'hi':'en'}/method/#illustrations" aria-label="${escape(label)}" title="${hi?'चित्र के बारे में':'About this illustration'}">INP</a></figure>`;
 }
