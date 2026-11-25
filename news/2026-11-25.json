@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "date": "2026-11-25",
+  "collectedAt": "2026-11-25T11:44:17.910Z",
+  "target": 5,
+  "status": "complete",
+  "items": [
+    {
+      "id": "pib-2341320",
+      "title": "From Financial Hardship To Academic Aspirations",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341320",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-25",
+      "publishedDateText": "Posted On: 25 NOV 2026 5:03PM by PIB Delhi",
+      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Social Justice & Empowerment"
+    },
+    {
+      "id": "pib-2341316",
+      "title": "Department of Drinking Water and Sanitation Signs MoU with Directorate General of Training to Skill 1 Lakh Youth under Jal Jeevan Mission 2.0",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341316",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-25",
+      "publishedDateText": "Posted On: 25 NOV 2026 5:00PM by PIB Delhi",
+      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Jal Shakti"
+    },
+    {
+      "id": "pib-2341271",
+      "title": "Ministry of Statistics and Programme Implementation (MoSPI) and Data Security Council of India (DSCI) sign MoU to enable trusted data sharing for official statistics",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341271",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-25",
+      "publishedDateText": "Posted On: 25 NOV 2026 4:36PM by PIB Delhi",
+      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Statistics & Programme Implementation"
+    },
+    {
+      "id": "pib-2341256",
+      "title": "PRESIDENT OF INDIA GRACES THE NATIONAL SCIENTIFIC CONVENTION ON HOMOEOPATHY AT BHUBANESWAR",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341256",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-25",
+      "publishedDateText": "Posted On: 25 NOV 2026 4:30PM by PIB Delhi",
+      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "President's Secretariat"
+    },
+    {
+      "id": "pib-2341254",
+      "title": "From Informal Work To Dignified Employment",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341254",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-25",
+      "publishedDateText": "Posted On: 25 NOV 2026 4:30PM by PIB Delhi",
+      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Social Justice & Empowerment"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "status": "ok",
+      "accepted": 19,
+      "attempted": 20,
+      "excluded": 1,
+      "failures": [
+        {
+          "id": "pib-2341202",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341202",
+          "status": "publication_date_unavailable"
+        }
+      ]
+    }
+  ]
+}
