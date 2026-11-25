@@ -76,6 +76,18 @@ jobs:
         with:
           path: _site
           retention-days: 1
+      - name: Confirm Pages artifact is visible
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Artifact upload can finish before the Actions listing API sees it.
+          for attempt in $(seq 1 15); do
+            count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length')
+            if [ "$count" -gt 0 ]; then exit 0; fi
+            sleep 3
+          done
+          echo 'Pages artifact is not visible after upload; stopping deployment.' >&2
+          exit 1
       - name: Deploy public website
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

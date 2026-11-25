@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "date": "2026-11-11",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-25T18:40:27.283Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 2,
+    "shortfall": 98,
+    "publishers": 2,
+    "languages": [
+      "bn",
+      "hi"
+    ],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [
+    {
+      "id": "report-a121049b428e06e41f4f153d",
+      "url": "https://bn.globalvoices.org/2026/11/11/66402/",
+      "title": "ভাষা সংরক্ষণের নামে যেন হারিয়ে না যায় মানুষের অধিকার: ভান গুজ্জরি লেখক তৌকির আলমের সাক্ষাৎকার",
+      "author": "সৌম্যদীপ দেওয়ানজী",
+      "sourceId": "globalvoices-bn",
+      "publisher": "Global Voices বাংলা",
+      "publisherGroup": "globalvoices",
+      "language": "bn",
+      "kind": "reporting",
+      "publishedAt": "2026-11-11T14:00:40.000Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-25T18:40:27.283Z",
+      "headlineSha256": "ebffc9ef80960af2a9da2634a4dd01382a9a5de8258389d76e213dea2de1ae69",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "permissionUrl": "https://globalvoices.org/about/global-voices-attribution-policy/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://bn.globalvoices.org/category/world/south-asia/india/feed/"
+    },
+    {
+      "id": "report-fafb51b76093446e65d358fc",
+      "url": "https://hindi.mongabay.com/2026/11/11/how-is-solar-plant-responsible-for-increasing-temperature-in-rewa/",
+      "title": "रीवा का विशाल सोलर पार्क और बढ़ती गर्मी की आशंका",
+      "author": "Sayali Parate",
+      "sourceId": "mongabay-hi",
+      "publisher": "Mongabay हिन्दी",
+      "publisherGroup": "mongabay",
+      "language": "hi",
+      "kind": "reporting",
+      "publishedAt": "2026-11-11T12:22:19.000Z",
+      "firstSeenAt": "2026-11-25T18:40:27.283Z",
+      "lastSeenAt": "2026-11-25T18:40:27.283Z",
+      "headlineSha256": "4c6a328530085184871f66535672ceb03de3796e898af526c2b126dee52fdd84",
+      "license": "CC BY-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "permissionUrl": "https://india.mongabay.com/about/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://hindi.mongabay.com/feed/"
+    }
+  ],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}

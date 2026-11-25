@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-25T18:40:27.283Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 1,
+    "shortfall": 99,
+    "publishers": 1,
+    "languages": [
+      "hi"
+    ],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [
+    {
+      "id": "report-56829483ad5ad38eb6f4a0db",
+      "url": "https://hindi.mongabay.com/2026/10/27/new-kali-night-frog-western-ghats/",
+      "title": "दिखने में दूसरे मेंढकों जैसा, लेकिन डीएनए से अलग निकला ‘काली नाइट फ्रॉग’",
+      "author": "Arathi Menon",
+      "sourceId": "mongabay-hi",
+      "publisher": "Mongabay हिन्दी",
+      "publisherGroup": "mongabay",
+      "language": "hi",
+      "kind": "reporting",
+      "publishedAt": "2026-10-27T06:29:30.000Z",
+      "firstSeenAt": "2026-11-25T18:40:27.283Z",
+      "lastSeenAt": "2026-11-25T18:40:27.283Z",
+      "headlineSha256": "9166341d79c1eddcc8a1d896a4305fe63fcd48ad6bc0cbac33b947bc3ff4edce",
+      "license": "CC BY-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "permissionUrl": "https://india.mongabay.com/about/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://hindi.mongabay.com/feed/"
+    }
+  ],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}

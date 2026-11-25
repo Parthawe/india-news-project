@@ -1,6 +1,7 @@
 import Parser from'rss-parser';import{load}from'cheerio';import{readFile,writeFile,mkdir}from'node:fs/promises';import{join,resolve}from'node:path';
 import sources from'./reporting-sources.json' with{type:'json'};
 import{allowedURL,recordFrom,validRecord,buildLatest,renderLatest}from'./latest-core.mjs';
+import{buildIntake,indiaDay}from'./intake-core.mjs';
 import{publisherDate}from'./daily-core.ts';
 const root=resolve(process.argv[2]||'.'),folder=join(root,'news'),now=new Date(),base=process.env.PAGES_BASE_PATH??'/india-news-project';await mkdir(folder,{recursive:true});
 const readJSON=async path=>{try{return JSON.parse(await readFile(path,'utf8'))}catch{return null}};
@@ -27,14 +28,15 @@ for(const source of sources.filter(s=>s.enabled)){
   const response=await resource(source.url,source,cached?.excluded||!known.length?{}:(cached||{}));
   if(response.notModified){incoming.push(...known.map(a=>({...a,lastSeenAt:now.toISOString()})));feeds.push({...status,status:'not_modified',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:known[0]?.publishedAt||cached?.newestPublishedAt||null});continue;}
   if(/<!DOCTYPE|<!ENTITY/i.test(response.text))throw Error('Unsupported XML declaration');
-  const feed=await parser.parseString(response.text);let newest=null;const exclusions={};
-  for(const raw of feed.items.slice(0,20)){
+  const feed=await parser.parseString(response.text);let newest=null,metadataReads=0;const exclusions={};
+  for(const raw of feed.items.slice(0,60)){
    try{
     const title=load('<span>'+String(raw.title||'')+'</span>').text().replace(/\s+/g,' ').trim();
     const url=allowedURL(raw.link,source),old=known.find(a=>a.url===url),item={...raw,title};
     if(!Number.isFinite(Date.parse(item.isoDate||item.pubDate||''))){
      if(old&&old.title===title)item.isoDate=old.publishedAt;
-     else if(source.kind==='official'||status.excluded<10){
+     else if(metadataReads<10){
+      metadataReads++;
       const page=await resource(url,source),$=load(page.text);
       const date=$('meta[property="article:published_time"]').attr('content')||$('meta[name="date"]').attr('content')||$('time[datetime]').first().attr('datetime');
       const pibDate=source.kind==='official'?publisherDate($('.ReleaseDateSubHeaddateTime').text()):null;
@@ -52,6 +54,15 @@ for(const source of sources.filter(s=>s.enabled)){
 }
 const index=buildLatest(previous,incoming,feeds,sources,now);const json=JSON.stringify(index,null,2)+'\n';
 await writeFile(join(folder,'latest-reporting.json'),json);
+const intakeFolder=join(folder,'intake');await mkdir(intakeFolder,{recursive:true});
+const intakeRecords=[...index.articles,...incoming];
+const days=new Set([indiaDay(now),...intakeRecords.map(a=>a.datePrecision==='day'?a.publishedAt.slice(0,10):indiaDay(a.publishedAt))]);
+for(const day of [...days].sort()){
+ const path=join(intakeFolder,day+'.json'),archive=buildIntake(await readJSON(path),intakeRecords,sources,day,now);
+ await writeFile(path,JSON.stringify(archive,null,2)+'\n');
+ if(day===indiaDay(now))await writeFile(join(folder,'intake-latest.json'),JSON.stringify(archive,null,2)+'\n');
+}
+
 for(const lang of['en','hi']){
  const fragment=renderLatest(index,lang,base);
  await writeFile(join(folder,`latest-reporting-${lang}.html`),fragment);

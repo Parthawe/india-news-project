@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-25T18:40:27.283Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 1,
+    "shortfall": 99,
+    "publishers": 1,
+    "languages": [
+      "hi"
+    ],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [
+    {
+      "id": "report-ec4cdfa6047e45c40921bcb5",
+      "url": "https://hindi.mongabay.com/2026/10/30/pachmarhi-champak-lake-ngt-ecotourism/",
+      "title": "अनियमित इको-टूरिज़्म से मध्य प्रदेश के जैव विविधता वाले क्षेत्रों पर बढ़ता दबाव",
+      "author": "Pallav JainRajeev Tyagi",
+      "sourceId": "mongabay-hi",
+      "publisher": "Mongabay हिन्दी",
+      "publisherGroup": "mongabay",
+      "language": "hi",
+      "kind": "reporting",
+      "publishedAt": "2026-10-30T08:36:18.000Z",
+      "firstSeenAt": "2026-11-25T18:40:27.283Z",
+      "lastSeenAt": "2026-11-25T18:40:27.283Z",
+      "headlineSha256": "800b95b5cb08349752ad00df63ea92a84fc25447a3901fcd8839598d62046f69",
+      "license": "CC BY-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "permissionUrl": "https://india.mongabay.com/about/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://hindi.mongabay.com/feed/"
+    }
+  ],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}

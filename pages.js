@@ -16,8 +16,11 @@ if (menuButton && mainNav) {
   function showMenu(open) {
     menu.hidden = !open;
     menuButton.setAttribute("aria-expanded", String(open));
+    if(open)menu.querySelector("a")?.focus({preventScroll:true});
   }
   menuButton.addEventListener("click", () => showMenu(menu.hidden));
+  document.addEventListener('pointerdown',event=>{if(!menu.hidden&&!menuButton.closest('header').contains(event.target))showMenu(false)});
+  const menuBreakpoint=matchMedia('(max-width:1024px)');menuBreakpoint.addEventListener('change',()=>{if(!menuBreakpoint.matches)showMenu(false)});
   menu.addEventListener("click", event => {
     if (event.target.closest("a")) showMenu(false);
   });
