@@ -1,5 +1,6 @@
 import{regionalReleaseLinks}from'./pib-regional.mjs';
 import{feedPublicationDate}from'./feed-dates.mjs';
+import{recoverIntake}from'./recover-intake.mjs';
 import Parser from'rss-parser';import{load}from'cheerio';import{readFile,writeFile,mkdir}from'node:fs/promises';import{join,resolve}from'node:path';
 import sources from'./reporting-sources.json' with{type:'json'};
 import{allowedURL,recordFrom,validRecord,buildLatest,renderLatest}from'./latest-core.mjs';
@@ -8,6 +9,7 @@ import{publisherDate}from'./daily-core.ts';
 const root=resolve(process.argv[2]||'.'),folder=join(root,'news'),now=new Date(),base=process.env.PAGES_BASE_PATH??'/india-news-project';await mkdir(folder,{recursive:true});
 const readJSON=async path=>{try{return JSON.parse(await readFile(path,'utf8'))}catch{return null}};
 const previous=await readJSON(join(folder,'latest-reporting.json'));
+const restored=await recoverIntake(join(folder,'intake'),sources,now);
 const parser=new Parser(),incoming=[],feeds=[];
 async function resource(url,source,conditional={}){
  let current=allowedURL(url,source);
@@ -28,7 +30,7 @@ async function collectSource(source){
  const status={id:source.id,publisher:source.publisher,language:source.language,permissionUrl:source.permissionUrl,checkedAt:now.toISOString(),accepted:0,excluded:0,lastSuccessAt:cached?.lastSuccessAt||null};
  try{
   const response=await resource(source.url,source,cached?.excluded||!known.length?{}:(cached||{}));
-  if(response.notModified){incoming.push(...known.map(a=>({...a,lastSeenAt:now.toISOString()})));feeds.push({...status,status:'not_modified',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:known[0]?.publishedAt||cached?.newestPublishedAt||null});return;}
+  if(response.notModified){incoming.push(...known);feeds.push({...status,status:'not_modified',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:known[0]?.publishedAt||cached?.newestPublishedAt||null});return;}
   if(source.format!=='pib_html'&&/<!DOCTYPE|<!ENTITY/i.test(response.text))throw Error('Unsupported XML declaration');
   const feed=source.format==='pib_html'?{items:regionalReleaseLinks(response.text,source)}:await parser.parseString(response.text);let newest=null,metadataReads=0;const exclusions={};
   for(const raw of feed.items.slice(0,60)){
@@ -57,7 +59,7 @@ async function collectSource(source){
 }
 const enabled=sources.filter(s=>s.enabled);for(let i=0;i<enabled.length;i+=3)await Promise.all(enabled.slice(i,i+3).map(collectSource));
 feeds.sort((a,b)=>enabled.findIndex(s=>s.id===a.id)-enabled.findIndex(s=>s.id===b.id));
-const index=buildLatest(previous,incoming,feeds,sources,now);const json=JSON.stringify(index,null,2)+'\n';
+const index=buildLatest(previous,[...restored.articles,...incoming],feeds,sources,now);index.archiveRecovery=restored.recovery;const json=JSON.stringify(index,null,2)+'\n';
 await writeFile(join(folder,'latest-reporting.json'),json);
 const intakeFolder=join(folder,'intake');await mkdir(intakeFolder,{recursive:true});
 const intakeRecords=[...index.articles,...incoming];
@@ -75,3 +77,4 @@ for(const lang of['en','hi']){
 }
 console.log(JSON.stringify({status:index.status,records:index.articles.length,publishers:index.counts.publishers,languages:index.counts.languages,feeds:feeds.map(f=>({id:f.id,status:f.status,accepted:f.accepted,excluded:f.excluded}))}));
 if(index.status!=='ok')console.log('::warning::Some reporting feeds failed. Dated records retained and source failures disclosed.');
+if(restored.recovery.status==='partial')console.log('::warning::Some archives or records could not be recovered; details are recorded in the index.');

@@ -1,12 +1,14 @@
 import{sampleScope}from'../automation/sample-scope.mjs';
+import{validRetention,validRecovery}from'../automation/news-retention.mjs';
 import{pathToFileURL}from'node:url';import{resolve}from'node:path';
 export function collectionHealth(index,now=new Date()){
  const stamp=Date.parse(index?.checkedAt),age=now.getTime()-stamp;
  if(!Number.isFinite(stamp)||age< -300000)return{status:'fail',check:'collection',reason:'invalid_collection_timestamp'};
  if(age>12*3600000)return{status:'fail',check:'collection',reason:'collection_older_than_12_hours'};
  if(!Array.isArray(index.articles)||!index.articles.length||index.articles.length>500||!Array.isArray(index.feeds)||!index.feeds.length)return{status:'fail',check:'collection',reason:'invalid_or_empty_collection'};
- const failed=index.feeds.filter(f=>f.status==='failed').length,scope=sampleScope(index.articles),concentrated=Boolean(scope.largest&&scope.largest.percent>=80);
- return{status:failed===index.feeds.length?'fail':failed||concentrated?'warn':'pass',check:'collection',reason:failed?'source_failures':concentrated?'publisher_concentration':'fresh_metadata',sourceMix:scope,records:index.articles.length,failedFeeds:failed,checkedAt:index.checkedAt};
+ if(!validRetention(index.retention,index.articles.length)||!validRecovery(index.archiveRecovery))return{status:'fail',check:'collection',reason:'invalid_retention_metadata'};
+ const failed=index.feeds.filter(f=>f.status==='failed').length,scope=sampleScope(index.articles),pool=index.retention?.eligibleSourceMix||scope,concentrated=Boolean(pool.largest&&pool.largest.percent>=80),partial=index.archiveRecovery?.status==='partial';
+ return{status:failed===index.feeds.length?'fail':failed||concentrated||partial?'warn':'pass',check:'collection',reason:failed?'source_failures':concentrated?'publisher_concentration':partial?'archive_recovery_partial':'fresh_metadata',sourceMix:scope,eligibleSourceMix:pool,archiveRecovery:index.archiveRecovery,records:index.articles.length,failedFeeds:failed,checkedAt:index.checkedAt};
 }
 export async function checkReader(fetcher=fetch,now=new Date()){
  const root='https://parthawe.github.io/india-news-project',checks=[];
