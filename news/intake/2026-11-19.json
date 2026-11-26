@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-19",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-26T21:24:15.536Z",
+  "checkedAt": "2026-11-26T21:42:25.475Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -10,9 +10,9 @@
     "ranking": "none"
   },
   "counts": {
-    "links": 108,
+    "links": 110,
     "shortfall": 0,
-    "publishers": 3,
+    "publishers": 5,
     "languages": [
       "en",
       "hi"
@@ -92,6 +92,29 @@
       "sourceFeed": "https://india.mongabay.com/feed/"
     },
     {
+      "id": "report-627c37453c9a4d16be2b45d8",
+      "url": "https://www.isignal.in/isignal-interviews/the-state-of-indias-green-hydrogen-mission-991760",
+      "title": "Interview: The State Of India’s Green Hydrogen Mission",
+      "author": "Nivedita Khandekar",
+      "sourceId": "isignal-en",
+      "publisher": "ISignal (formerly IndiaSpend)",
+      "publisherGroup": "isignal",
+      "language": "en",
+      "kind": "reporting",
+      "publishedAt": "2026-11-19T08:37:02.000Z",
+      "firstSeenAt": "2026-11-26T21:42:25.475Z",
+      "lastSeenAt": "2026-11-26T21:42:25.475Z",
+      "headlineSha256": "66548f13de37e4578c96b5fe7329faf901fb931ffe5ad4ec68725efd7eeca4df",
+      "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+      "licenseUrl": "https://www.isignal.in/feeds.xml",
+      "permissionUrl": "https://www.isignal.in/feeds.xml",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://www.isignal.in/feeds.xml"
+    },
+    {
       "id": "report-773c5abb961c3039e909fdd2",
       "url": "https://hindi.mongabay.com/2026/11/19/artificial-light-at-night-alters-foraging-behaviour-in-kites/",
       "title": "कृत्रिम रोशनी बदल रही है चीलों के भोजन तलाशने की आदतें",
@@ -103,7 +126,7 @@
       "kind": "reporting",
       "publishedAt": "2026-11-19T08:00:06.000Z",
       "firstSeenAt": "2026-11-26T18:16:56.744Z",
-      "lastSeenAt": "2026-11-26T21:24:15.536Z",
+      "lastSeenAt": "2026-11-26T21:42:25.475Z",
       "headlineSha256": "fd2e6a9dc4ea8e0bb1018a6daa49d56655bd96fb8b39cf332409c22e3dfc9256",
       "license": "CC BY-ND 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
@@ -136,6 +159,29 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://idronline.org/feed/"
+    },
+    {
+      "id": "report-7811f34f2df758d72841150e",
+      "url": "https://behanbox.com/2026/11/18/a-vote-against-the-data-centre-boom-farmers-fight-land-acquisition-in-andhra-pradesh/",
+      "title": "A Vote Against The Data Centre Boom: Farmers Fight Land Acquisition In Andhra Pradesh",
+      "author": "Bhaskar Basava",
+      "sourceId": "behanbox-en",
+      "publisher": "BehanBox",
+      "publisherGroup": "behanbox",
+      "language": "en",
+      "kind": "reporting",
+      "publishedAt": "2026-11-19T03:32:01.000Z",
+      "firstSeenAt": "2026-11-26T21:42:25.475Z",
+      "lastSeenAt": "2026-11-26T21:42:25.475Z",
+      "headlineSha256": "035670893c094e42b3606fb5406ad0a3a05a9f0029fa5d51511f5e782834dc36",
+      "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+      "licenseUrl": "https://behanbox.com/feed/",
+      "permissionUrl": "https://behanbox.com/feed/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://behanbox.com/feed/"
     },
     {
       "id": "report-0236a83795c19bc1376ed372",

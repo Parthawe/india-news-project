@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-17",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-26T21:24:15.536Z",
+  "checkedAt": "2026-11-26T21:42:25.475Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -10,9 +10,9 @@
     "ranking": "none"
   },
   "counts": {
-    "links": 6,
-    "shortfall": 94,
-    "publishers": 2,
+    "links": 7,
+    "shortfall": 93,
+    "publishers": 3,
     "languages": [
       "en",
       "hi"
@@ -103,7 +103,7 @@
       "kind": "reporting",
       "publishedAt": "2026-11-17T08:01:04.000Z",
       "firstSeenAt": "2026-11-26T18:16:56.744Z",
-      "lastSeenAt": "2026-11-26T21:24:15.536Z",
+      "lastSeenAt": "2026-11-26T21:42:25.475Z",
       "headlineSha256": "e8fcf45ade5b5600fdbd2be664cd1f783e8d304cd97854b738659ca03e099537",
       "license": "CC BY-ND 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
@@ -159,6 +159,29 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://idronline.org/feed/"
+    },
+    {
+      "id": "report-19a8bdf1896e3311112dff4b",
+      "url": "https://behanbox.com/2026/11/17/lost-and-unfound-how-all-systems-fail-missing-persons-with-cognitive-disabilities/",
+      "title": "Lost And Unfound: How All Systems Fail Missing Persons With Cognitive Disabilities",
+      "author": "Vandana Menon",
+      "sourceId": "behanbox-en",
+      "publisher": "BehanBox",
+      "publisherGroup": "behanbox",
+      "language": "en",
+      "kind": "reporting",
+      "publishedAt": "2026-11-17T05:56:54.000Z",
+      "firstSeenAt": "2026-11-26T21:42:25.475Z",
+      "lastSeenAt": "2026-11-26T21:42:25.475Z",
+      "headlineSha256": "6e5f5965981851d7a2b2738dcaed78e086e9067be73246131740d739116861f7",
+      "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+      "licenseUrl": "https://behanbox.com/feed/",
+      "permissionUrl": "https://behanbox.com/feed/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://behanbox.com/feed/"
     }
   ],
   "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."

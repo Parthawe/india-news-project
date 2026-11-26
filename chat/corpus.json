@@ -322,6 +322,35 @@
         }
       ],
       "leaning": "unassessed"
+    },
+    {
+      "id": "current-cop31-outcome",
+      "title": "COP31’s unfinished deal: three Indian newsrooms, three points of emphasis",
+      "titleHi": "COP31 का अधूरा समझौता: तीन भारतीय न्यूज़रूम, तीन अलग ज़ोर",
+      "url": "https://parthawe.github.io/india-news-project/en/stories/cop31-outcome/",
+      "publisher": "INP research collection",
+      "publishedAt": "2026-11-26",
+      "kind": "research_draft",
+      "text": "Compare reporting on the Antalya summit’s closing outcome, with source wording and the limits of this three-report sample.\nEditorial review pending.\nAll three reports describe the failure to agree on COP31’s overarching political cover decision. They discuss disputes over fossil fuels and climate finance.\nDown To Earth distinguishes that failure from decisions adopted under individual negotiating tracks. “No cover deal” should not become “nothing was agreed.”\nThe reports discuss the same closing negotiations and draw on shared institutional material and reactions. Three newsrooms do not establish three independent confirmations of every claim. Wire origin and editorial ownership have not been established here.",
+      "textHi": "अंताल्या सम्मेलन के अंतिम नतीजे की रिपोर्टिंग की तुलना करें। स्रोत के शब्द और तीन रिपोर्टों के इस नमूने की सीमाएँ साथ हैं।\nसंपादकीय समीक्षा बाकी।\nतीनों रिपोर्ट COP31 के व्यापक राजनीतिक कवर निर्णय पर सहमति न बन पाने का वर्णन करती हैं। इनमें जीवाश्म ईंधन और जलवायु वित्त के विवाद हैं।\nडाउन टू अर्थ उस विफलता को अलग वार्ता विषयों पर अपनाए गए निर्णयों से अलग रखता है। कवर समझौता न होना, किसी भी निर्णय का न होना नहीं है।\nरिपोर्टें उसी अंतिम वार्ता और साझा संस्थागत सामग्री व प्रतिक्रियाओं का उपयोग करती हैं। तीन न्यूज़रूम हर दावे की तीन स्वतंत्र पुष्टियाँ नहीं हैं। यहाँ वायर स्रोत और संपादकीय स्वामित्व स्थापित नहीं किए गए हैं।",
+      "sourceLinks": [
+        {
+          "title": "Fossil fuel divide fractures consensus at climate talks in Antalya",
+          "url": "https://india.mongabay.com/2026/11/fossil-fuel-divide-fractures-consensus-at-climate-talks-in-antalya/",
+          "publisher": "Mongabay India"
+        },
+        {
+          "title": "COP31 ends with no major deal, divisions over fossil fuels and climate finance deepen",
+          "url": "https://www.downtoearth.org.in/climate-change/cop31-ends-with-no-major-deal-divisions-over-fossil-fuels-and-climate-finance-deepen",
+          "publisher": "Down To Earth"
+        },
+        {
+          "title": "COP31 Ends Without Consensus Even As 2026 Is Set To Be Among Hottest Years",
+          "url": "https://www.isignal.in/climate-change/cop31-ends-without-consensus-even-as-2026-is-set-to-be-among-hottest-years-991871",
+          "publisher": "ISignal (formerly IndiaSpend)"
+        }
+      ],
+      "leaning": "unassessed"
     }
   ]
 }

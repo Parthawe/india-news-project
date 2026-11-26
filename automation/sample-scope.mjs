@@ -6,4 +6,4 @@ export function sampleScope(records){
  return{links:records.length,official,reporting,unclassified,publisherGroups:groups.size,largest:largest?{id:largest[0],links:largest[1],percent:Math.round(largest[1]*100/records.length)}:null};
 }
 
-export const publisherGroupLabel=id=>({pib:'PIB',idr:'India Development Review',mongabay:'Mongabay',globalvoices:'Global Voices'}[id]||id);
+export const publisherGroupLabel=id=>({pib:'PIB',idr:'India Development Review',mongabay:'Mongabay',globalvoices:'Global Voices',isignal:'ISignal (formerly IndiaSpend)',behanbox:'BehanBox'}[id]||id);
