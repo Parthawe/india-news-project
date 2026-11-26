@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cop31-outcome",
+    "title": {
+      "en": "COP31’s unfinished deal: three Indian newsrooms, three points of emphasis",
+      "hi": "COP31 का अधूरा समझौता: तीन भारतीय न्यूज़रूम, तीन अलग ज़ोर"
+    },
+    "path": "/stories/cop31-outcome",
+    "editorialStatus": "pending",
+    "sameEventApproved": false,
+    "wireReview": "pending",
+    "urls": [
+      "https://india.mongabay.com/2026/11/fossil-fuel-divide-fractures-consensus-at-climate-talks-in-antalya/",
+      "https://www.downtoearth.org.in/climate-change/cop31-ends-with-no-major-deal-divisions-over-fossil-fuels-and-climate-finance-deepen",
+      "https://www.isignal.in/climate-change/cop31-ends-without-consensus-even-as-2026-is-set-to-be-among-hottest-years-991871"
+    ]
+  }
+]

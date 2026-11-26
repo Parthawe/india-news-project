@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "method": "inp-monitored-coverage-v1",
+  "checkedAt": "2026-11-26T22:36:56.800Z",
+  "collectionCheckedAt": "2026-11-26T22:36:02.180Z",
+  "windowStart": "2026-11-21",
+  "windowEnd": "2026-11-27",
+  "scope": "Selected source feeds; not full publisher archives or the entire Indian media landscape.",
+  "sample": [
+    {
+      "publisherGroup": "pib",
+      "name": "Press Information Bureau",
+      "profileId": "pib",
+      "sourceIds": [
+        "pib-en",
+        "pib-hi",
+        "pib-mr-regional",
+        "pib-ta-regional",
+        "pib-te-regional",
+        "pib-kn-regional",
+        "pib-gu-regional",
+        "pib-ml-regional",
+        "pib-bn-regional",
+        "pib-or-regional",
+        "pib-as-regional"
+      ],
+      "languages": [
+        "en",
+        "hi",
+        "mr",
+        "ta",
+        "te",
+        "kn",
+        "gu",
+        "ml",
+        "bn",
+        "or",
+        "as"
+      ],
+      "official": true,
+      "healthy": true,
+      "eligible": false,
+      "leaning": null,
+      "reasons": [
+        "official_communication",
+        "editorial_approval_pending",
+        "political_position_unassessed",
+        "assessment_rationale_unsupported",
+        "reporting_sample_insufficient",
+        "edition_scope_not_established",
+        "review_missing_or_stale",
+        "review_record_missing"
+      ]
+    },
+    {
+      "publisherGroup": "mongabay",
+      "name": "Mongabay India",
+      "profileId": "mongabay-india",
+      "sourceIds": [
+        "mongabay-en",
+        "mongabay-hi"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "official": false,
+      "healthy": true,
+      "eligible": false,
+      "leaning": null,
+      "reasons": [
+        "editorial_approval_pending",
+        "political_position_unassessed",
+        "assessment_rationale_unsupported",
+        "reporting_sample_insufficient",
+        "edition_scope_not_established",
+        "review_missing_or_stale",
+        "review_record_missing"
+      ]
+    },
+    {
+      "publisherGroup": "globalvoices",
+      "name": "Global Voices",
+      "profileId": "global-voices",
+      "sourceIds": [
+        "globalvoices-en",
+        "globalvoices-hi",
+        "globalvoices-bn"
+      ],
+      "languages": [
+        "en",
+        "hi",
+        "bn"
+      ],
+      "official": false,
+      "healthy": true,
+      "eligible": false,
+      "leaning": null,
+      "reasons": [
+        "editorial_approval_pending",
+        "political_position_unassessed",
+        "assessment_rationale_unsupported",
+        "reporting_sample_insufficient",
+        "edition_scope_not_established",
+        "review_missing_or_stale",
+        "review_record_missing"
+      ]
+    },
+    {
+      "publisherGroup": "idr",
+      "name": "India Development Review",
+      "profileId": "india-development-review",
+      "sourceIds": [
+        "idr-en",
+        "idr-hi"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "official": false,
+      "healthy": true,
+      "eligible": false,
+      "leaning": null,
+      "reasons": [
+        "editorial_approval_pending",
+        "political_position_unassessed",
+        "assessment_rationale_unsupported",
+        "reporting_sample_insufficient",
+        "edition_scope_not_established",
+        "review_missing_or_stale",
+        "review_record_missing"
+      ]
+    },
+    {
+      "publisherGroup": "isignal",
+      "name": "ISignal (formerly IndiaSpend)",
+      "profileId": "isignal",
+      "sourceIds": [
+        "isignal-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "eligible": false,
+      "leaning": null,
+      "reasons": [
+        "editorial_approval_pending",
+        "political_position_unassessed",
+        "assessment_rationale_unsupported",
+        "reporting_sample_insufficient",
+        "edition_scope_not_established",
+        "review_missing_or_stale",
+        "review_record_missing"
+      ]
+    },
+    {
+      "publisherGroup": "behanbox",
+      "name": "BehanBox",
+      "profileId": "behanbox",
+      "sourceIds": [
+        "behanbox-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "eligible": false,
+      "leaning": null,
+      "reasons": [
+        "editorial_approval_pending",
+        "political_position_unassessed",
+        "assessment_rationale_unsupported",
+        "reporting_sample_insufficient",
+        "edition_scope_not_established",
+        "review_missing_or_stale",
+        "review_record_missing"
+      ]
+    }
+  ],
+  "classified": 0,
+  "cohorts": {
+    "left": 0,
+    "centre": 0,
+    "right": 0
+  },
+  "evaluations": [
+    {
+      "id": "cop31-outcome",
+      "title": {
+        "en": "COP31’s unfinished deal: three Indian newsrooms, three points of emphasis",
+        "hi": "COP31 का अधूरा समझौता: तीन भारतीय न्यूज़रूम, तीन अलग ज़ोर"
+      },
+      "path": "/stories/cop31-outcome",
+      "observedPublisherGroups": [
+        "mongabay",
+        "isignal"
+      ],
+      "unobservedPublisherGroups": [
+        "pib",
+        "globalvoices",
+        "idr",
+        "behanbox"
+      ],
+      "unmonitoredReferenceUrls": [
+        "https://www.downtoearth.org.in/climate-change/cop31-ends-with-no-major-deal-divisions-over-fossil-fuels-and-climate-finance-deepen"
+      ],
+      "reasons": [
+        "classified_cohorts_insufficient",
+        "event_review_pending",
+        "wire_origin_review_pending"
+      ],
+      "coverage": {
+        "left": 0,
+        "centre": 0,
+        "right": 0
+      },
+      "denominators": {
+        "left": 0,
+        "centre": 0,
+        "right": 0
+      },
+      "rates": {
+        "left": null,
+        "centre": null,
+        "right": null
+      },
+      "finding": null
+    }
+  ],
+  "findings": [],
+  "status": "insufficient_evidence"
+}
