@@ -1,8 +1,8 @@
 {
   "version": 1,
   "method": "inp-monitored-coverage-v1",
-  "checkedAt": "2026-11-26T22:36:56.800Z",
-  "collectionCheckedAt": "2026-11-26T22:36:02.180Z",
+  "checkedAt": "2026-11-26T22:40:52.013Z",
+  "collectionCheckedAt": "2026-11-26T22:40:52.013Z",
   "windowStart": "2026-11-21",
   "windowEnd": "2026-11-27",
   "scope": "Selected source feeds; not full publisher archives or the entire Indian media landscape.",
