@@ -1,0 +1,22 @@
+name: Reader maintenance
+on:
+  schedule:
+    # Public availability and metadata checks only; scheduling can be delayed.
+    - cron: '41 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: reader-maintenance
+  cancel-in-progress: false
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '24'
+      - name: Check live reading pages, collection and archive
+        run: node quality/maintenance.mjs
