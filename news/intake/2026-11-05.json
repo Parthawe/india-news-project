@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-05",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-26T12:22:10.665Z",
+  "checkedAt": "2026-11-26T16:37:41.086Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -10,10 +10,11 @@
     "ranking": "none"
   },
   "counts": {
-    "links": 1,
-    "shortfall": 99,
-    "publishers": 1,
+    "links": 2,
+    "shortfall": 98,
+    "publishers": 2,
     "languages": [
+      "bn",
       "hi"
     ],
     "fullTextAnalyses": 0,
@@ -32,8 +33,8 @@
       "language": "hi",
       "kind": "reporting",
       "publishedAt": "2026-11-05T12:52:48.000Z",
-      "firstSeenAt": "2026-11-26T12:22:10.665Z",
-      "lastSeenAt": "2026-11-26T12:22:10.665Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-26T16:32:14.081Z",
       "headlineSha256": "8cbc3d8e97ef3a9b50ca15deb7be8c823fa68a9d03570da171130e3d38af279c",
       "license": "CC BY-ND 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
@@ -43,6 +44,29 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://hindi.mongabay.com/feed/"
+    },
+    {
+      "id": "report-98bdcb864feefc84683bc224",
+      "url": "https://bn.globalvoices.org/2026/11/05/66240/",
+      "title": "এআই ব্যবহারে এগিয়ে চলেছে ভারত, কিন্তু মানবাধিকারের সুরক্ষা কতটা নিশ্চিত, উঠছে সেই প্রশ্ন।",
+      "author": "সৌম্যদীপ দেওয়ানজী",
+      "sourceId": "globalvoices-bn",
+      "publisher": "Global Voices বাংলা",
+      "publisherGroup": "globalvoices",
+      "language": "bn",
+      "kind": "reporting",
+      "publishedAt": "2026-11-05T03:00:19.000Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-18T15:17:50.994Z",
+      "headlineSha256": "30669303fa01aa1def78de5428b50457b776db3dd98e1dcc198da91214ecb059",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "permissionUrl": "https://globalvoices.org/about/global-voices-attribution-policy/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://bn.globalvoices.org/category/world/south-asia/india/feed/"
     }
   ],
   "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."

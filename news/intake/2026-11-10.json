@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-26T16:37:41.086Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 2,
+    "shortfall": 98,
+    "publishers": 1,
+    "languages": [
+      "en"
+    ],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [
+    {
+      "id": "report-dbc14e3bc688b08924b4a705",
+      "url": "https://india.mongabay.com/2026/11/communities-experiment-with-new-ways-to-protect-old-caves/",
+      "title": "Communities experiment with new ways to protect old caves",
+      "author": "Jyoti ThakurPratik Chakarborty",
+      "sourceId": "mongabay-en",
+      "publisher": "Mongabay India",
+      "publisherGroup": "mongabay",
+      "language": "en",
+      "kind": "reporting",
+      "publishedAt": "2026-11-10T14:53:07.000Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-18T15:17:50.994Z",
+      "headlineSha256": "5a9255cf00d2edbe2a4975953216d5f607dbf3de1ec76d21cfaa134a33e76e1f",
+      "license": "CC BY-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "permissionUrl": "https://india.mongabay.com/about/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://india.mongabay.com/feed/"
+    },
+    {
+      "id": "report-ba02b6ab51cea9a9b91efdbf",
+      "url": "https://india.mongabay.com/2026/11/kashmir-musk-deer-face-steep-habitat-losses-under-high-emissions-scenarios/",
+      "title": "Kashmir musk deer face steep habitat losses under high emissions scenarios",
+      "author": "Sneha Mahale",
+      "sourceId": "mongabay-en",
+      "publisher": "Mongabay India",
+      "publisherGroup": "mongabay",
+      "language": "en",
+      "kind": "reporting",
+      "publishedAt": "2026-11-10T12:29:20.000Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-18T15:17:50.994Z",
+      "headlineSha256": "0e56dd052961620f3af076e7f85f5f1b7844fdb5161acd057b767fbfaea233b2",
+      "license": "CC BY-ND 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "permissionUrl": "https://india.mongabay.com/about/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://india.mongabay.com/feed/"
+    }
+  ],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}

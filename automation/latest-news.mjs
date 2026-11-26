@@ -1,3 +1,4 @@
+import{regionalReleaseLinks}from'./pib-regional.mjs';
 import Parser from'rss-parser';import{load}from'cheerio';import{readFile,writeFile,mkdir}from'node:fs/promises';import{join,resolve}from'node:path';
 import sources from'./reporting-sources.json' with{type:'json'};
 import{allowedURL,recordFrom,validRecord,buildLatest,renderLatest}from'./latest-core.mjs';
@@ -21,21 +22,21 @@ async function resource(url,source,conditional={}){
   return{text:text+decoder.decode(),etag:r.headers.get('etag')?.slice(0,500),lastModified:r.headers.get('last-modified')?.slice(0,200)};
  }throw Error('Too many source redirects');
 }
-for(const source of sources.filter(s=>s.enabled)){
+async function collectSource(source){
  const cached=previous?.feeds?.find(f=>f.id===source.id),known=(previous?.articles||[]).filter(a=>a.sourceId===source.id&&validRecord(a,sources,now));
  const status={id:source.id,publisher:source.publisher,language:source.language,permissionUrl:source.permissionUrl,checkedAt:now.toISOString(),accepted:0,excluded:0,lastSuccessAt:cached?.lastSuccessAt||null};
  try{
   const response=await resource(source.url,source,cached?.excluded||!known.length?{}:(cached||{}));
-  if(response.notModified){incoming.push(...known.map(a=>({...a,lastSeenAt:now.toISOString()})));feeds.push({...status,status:'not_modified',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:known[0]?.publishedAt||cached?.newestPublishedAt||null});continue;}
-  if(/<!DOCTYPE|<!ENTITY/i.test(response.text))throw Error('Unsupported XML declaration');
-  const feed=await parser.parseString(response.text);let newest=null,metadataReads=0;const exclusions={};
+  if(response.notModified){incoming.push(...known.map(a=>({...a,lastSeenAt:now.toISOString()})));feeds.push({...status,status:'not_modified',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:known[0]?.publishedAt||cached?.newestPublishedAt||null});return;}
+  if(source.format!=='pib_html'&&/<!DOCTYPE|<!ENTITY/i.test(response.text))throw Error('Unsupported XML declaration');
+  const feed=source.format==='pib_html'?{items:regionalReleaseLinks(response.text,source)}:await parser.parseString(response.text);let newest=null,metadataReads=0;const exclusions={};
   for(const raw of feed.items.slice(0,60)){
    try{
     const title=load('<span>'+String(raw.title||'')+'</span>').text().replace(/\s+/g,' ').trim();
     const url=allowedURL(raw.link,source),old=known.find(a=>a.url===url),item={...raw,title};
     if(!Number.isFinite(Date.parse(item.isoDate||item.pubDate||''))){
      if(old&&old.title===title)item.isoDate=old.publishedAt;
-     else if(metadataReads<10){
+     else if(metadataReads<(source.format==='pib_html'?20:10)){
       metadataReads++;
       const page=await resource(url,source),$=load(page.text);
       const date=$('meta[property="article:published_time"]').attr('content')||$('meta[name="date"]').attr('content')||$('time[datetime]').first().attr('datetime');
@@ -52,6 +53,8 @@ for(const source of sources.filter(s=>s.enabled)){
   feeds.push({...status,status:'ok',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:newest,exclusions});
  }catch(error){feeds.push({...status,status:'failed',error:error.message.slice(0,160),etag:cached?.etag,lastModified:cached?.lastModified,newestPublishedAt:cached?.newestPublishedAt||null});}
 }
+const enabled=sources.filter(s=>s.enabled);for(let i=0;i<enabled.length;i+=3)await Promise.all(enabled.slice(i,i+3).map(collectSource));
+feeds.sort((a,b)=>enabled.findIndex(s=>s.id===a.id)-enabled.findIndex(s=>s.id===b.id));
 const index=buildLatest(previous,incoming,feeds,sources,now);const json=JSON.stringify(index,null,2)+'\n';
 await writeFile(join(folder,'latest-reporting.json'),json);
 const intakeFolder=join(folder,'intake');await mkdir(intakeFolder,{recursive:true});

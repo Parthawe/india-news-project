@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-07",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-26T16:37:41.086Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 1,
+    "shortfall": 99,
+    "publishers": 1,
+    "languages": [
+      "bn"
+    ],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [
+    {
+      "id": "report-5e23374e7a693c8198e34531",
+      "url": "https://bn.globalvoices.org/2026/11/07/66199/",
+      "title": "প্রতিবাদ: গণতন্ত্রের এক স্তম্ভ",
+      "author": "মাসুদুল জারিফ",
+      "sourceId": "globalvoices-bn",
+      "publisher": "Global Voices বাংলা",
+      "publisherGroup": "globalvoices",
+      "language": "bn",
+      "kind": "reporting",
+      "publishedAt": "2026-11-06T19:02:33.000Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-26T16:32:14.081Z",
+      "headlineSha256": "6c0db3a9842b603de8efc2188c1c61fce3ed3bff51b1eefe997f16bb350baf4d",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "permissionUrl": "https://globalvoices.org/about/global-voices-attribution-policy/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://bn.globalvoices.org/category/world/south-asia/india/feed/"
+    }
+  ],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}

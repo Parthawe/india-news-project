@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-10-30",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-25T18:40:27.283Z",
+  "checkedAt": "2026-11-26T16:37:41.086Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -10,9 +10,9 @@
     "ranking": "none"
   },
   "counts": {
-    "links": 1,
-    "shortfall": 99,
-    "publishers": 1,
+    "links": 2,
+    "shortfall": 98,
+    "publishers": 2,
     "languages": [
       "hi"
     ],
@@ -32,8 +32,8 @@
       "language": "hi",
       "kind": "reporting",
       "publishedAt": "2026-10-30T08:36:18.000Z",
-      "firstSeenAt": "2026-11-25T18:40:27.283Z",
-      "lastSeenAt": "2026-11-25T18:40:27.283Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-26T16:32:14.081Z",
       "headlineSha256": "800b95b5cb08349752ad00df63ea92a84fc25447a3901fcd8839598d62046f69",
       "license": "CC BY-ND 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
@@ -43,6 +43,29 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://hindi.mongabay.com/feed/"
+    },
+    {
+      "id": "report-027b8385a81303e6598041ec",
+      "url": "https://hindi.idronline.org/article/naukari-chhodkar-kuchh-alag-karne-ke-naye-ideas/",
+      "title": "सुनी-सुनाई: नौकरी के बाद, ज़िंदगी के ख़्वाब!",
+      "author": "Pooja Rathi",
+      "sourceId": "idr-hi",
+      "publisher": "India Development Review हिन्दी",
+      "publisherGroup": "idr",
+      "language": "hi",
+      "kind": "reporting",
+      "publishedAt": "2026-10-30T06:00:00.000Z",
+      "firstSeenAt": "2026-11-26T16:32:14.081Z",
+      "lastSeenAt": "2026-11-26T16:32:14.081Z",
+      "headlineSha256": "23592d2fab777e6178e4401b48f9433540c69f1726b901e79d291647a9f86e53",
+      "license": "CC BY-SA 4.0; publisher guidelines apply",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "permissionUrl": "https://hindi.idronline.org/republishing-guidelines/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://hindi.idronline.org/feed/"
     }
   ],
   "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
