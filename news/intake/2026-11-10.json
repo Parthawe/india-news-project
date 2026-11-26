@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-10",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-26T21:24:15.536Z",
+  "checkedAt": "2026-11-26T21:42:25.475Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -10,9 +10,9 @@
     "ranking": "none"
   },
   "counts": {
-    "links": 2,
-    "shortfall": 98,
-    "publishers": 1,
+    "links": 3,
+    "shortfall": 97,
+    "publishers": 2,
     "languages": [
       "en"
     ],
@@ -66,6 +66,29 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://india.mongabay.com/feed/"
+    },
+    {
+      "id": "report-b6909954ffdcc770f06d1790",
+      "url": "https://behanbox.com/2026/11/09/the-many-little-rebellions-of-an-early-malayali-feminist/",
+      "title": "The Many Little Rebellions Of An Early Malayali Feminist",
+      "author": "Kochattil Kalyanikkutty Amma",
+      "sourceId": "behanbox-en",
+      "publisher": "BehanBox",
+      "publisherGroup": "behanbox",
+      "language": "en",
+      "kind": "reporting",
+      "publishedAt": "2026-11-10T03:48:52.000Z",
+      "firstSeenAt": "2026-11-26T21:42:25.475Z",
+      "lastSeenAt": "2026-11-26T21:42:25.475Z",
+      "headlineSha256": "b7ac9876586b5b9b7415f0b791d1ccae98cd084bd7bb09938fb94e4301ecd503",
+      "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+      "licenseUrl": "https://behanbox.com/feed/",
+      "permissionUrl": "https://behanbox.com/feed/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://behanbox.com/feed/"
     }
   ],
   "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."

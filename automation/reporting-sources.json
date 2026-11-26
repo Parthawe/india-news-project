@@ -331,5 +331,45 @@
     "reviewedOn": "2026-11-26",
     "scope": "Original feed title, author and link only. Private bounded text for evidence-linked draft review. Do not republish full articles, media or bulk mirrors; retain author attribution and original source links.",
     "analysisAllowed": true
+  },
+  {
+    "id": "isignal-en",
+    "publisher": "ISignal (formerly IndiaSpend)",
+    "publisherGroup": "isignal",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://www.isignal.in/feeds.xml",
+    "hosts": [
+      "www.isignal.in",
+      "isignal.in"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://www.isignal.in/feeds.xml",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided RSS headline, named author, date and original link only. No article body, excerpt, image, translation or automated analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata",
+    "publisherPolicyUrl": "https://www.isignal.in/about-us"
+  },
+  {
+    "id": "behanbox-en",
+    "publisher": "BehanBox",
+    "publisherGroup": "behanbox",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://behanbox.com/feed/",
+    "hosts": [
+      "behanbox.com",
+      "www.behanbox.com"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://behanbox.com/feed/",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided RSS headline, named author, date and original link only. No article body, excerpt, image, translation or automated analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata",
+    "publisherPolicyUrl": "https://behanbox.com/about-us/"
   }
 ]
