@@ -1,5 +1,5 @@
 import{createHash}from'node:crypto';
-import{relatedHeadlines}from'./story-index.mjs';
+import{groupReporting}from'./reporting-groups.mjs';
 export const digest=value=>createHash('sha256').update(value).digest('hex');
 export const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function allowedURL(value,source){const u=new URL(value);if(u.protocol!=='https:'||u.username||u.password||u.port||!source.hosts.includes(u.hostname))throw Error('Unapproved source URL');u.hash='';u.searchParams.sort();for(const k of [...u.searchParams.keys()])if(k.startsWith('utm_')||['fbclid','gclid'].includes(k))u.searchParams.delete(k);return u.href;}
@@ -18,10 +18,9 @@ export function validRecord(a,sources,now=new Date()){
 export function buildLatest(previous,incoming,feeds,sources,now=new Date()){
  const map=new Map();for(const a of [...(previous?.articles||[]),...incoming])if(validRecord(a,sources,now)){const source=sources.find(s=>s.id===a.sourceId);const clean=recordFrom({link:a.url,title:a.title,creator:a.author,isoDate:a.publishedAt,datePrecision:a.datePrecision},source,now,a);clean.lastSeenAt=a.lastSeenAt;map.set(a.id,clean);}
  const articles=[...map.values()].sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt)||a.id.localeCompare(b.id)).slice(0,500);
- const recent=articles.filter(a=>Date.parse(a.publishedAt)>=now.getTime()-7*86400000).slice(0,150),used=new Set(),candidates=[];
- for(const a of recent){if(used.has(a.id))continue;const peers=[a];for(const b of recent){if(b===a||used.has(b.id)||b.language!==a.language)continue;if(peers.every(p=>relatedHeadlines({...p,publishedDate:p.publishedAt.slice(0,10)},{...b,publishedDate:b.publishedAt.slice(0,10)})))peers.push(b);}if(peers.length>1){peers.forEach(p=>used.add(p.id));candidates.push({id:'group-'+digest(peers.map(p=>p.id).sort().join('|')).slice(0,20),articleIds:peers.map(p=>p.id),publisherCount:new Set(peers.map(p=>p.publisherGroup)).size,status:'awaiting_editor',confirmedSameEvent:false,publicationAllowed:false});}}
+ const{candidates,grouping}=groupReporting(articles,now);
  const successful=feeds.filter(f=>f.status==='ok'||f.status==='not_modified').length;
- return{version:1,checkedAt:now.toISOString(),status:successful===feeds.length?'ok':successful?'partial':'unavailable',scope:{retainedDays:30,maxArticles:500,matchingDays:7,sourceCount:sources.filter(s=>s.enabled).length,automaticStoryPublication:false},feeds,articles,candidates,counts:{articles:articles.length,publishers:new Set(articles.map(a=>a.publisherGroup)).size,languages:[...new Set(articles.map(a=>a.language))],suggestedGroups:candidates.length},limitations:'An attributed link index from selected feeds. No fact-checks, political ratings, full-text extraction or automatically approved stories.'};
+ return{version:1,checkedAt:now.toISOString(),status:successful===feeds.length?'ok':successful?'partial':'unavailable',scope:{retainedDays:30,maxArticles:500,matchingDays:7,sourceCount:sources.filter(s=>s.enabled).length,automaticStoryPublication:false},feeds,articles,candidates,grouping,counts:{articles:articles.length,publishers:new Set(articles.map(a=>a.publisherGroup)).size,languages:[...new Set(articles.map(a=>a.language))],suggestedGroups:candidates.length},limitations:'An attributed link index from selected feeds. No fact-checks, political ratings, full-text extraction or automatically approved stories.'};
 }
 export function validLatest(x,sources,now=new Date()){
  if(x?.version!==1||!['ok','partial','unavailable'].includes(x.status)||!Number.isFinite(Date.parse(x.checkedAt))||!Array.isArray(x.articles)||x.articles.length>500||!x.articles.every(a=>validRecord(a,sources,now))||new Set(x.articles.map(a=>a.id)).size!==x.articles.length||x.scope?.automaticStoryPublication!==false||x.scope.retainedDays!==30)return false;
