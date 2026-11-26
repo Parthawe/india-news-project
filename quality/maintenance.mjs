@@ -1,5 +1,6 @@
 import{sampleScope}from'../automation/sample-scope.mjs';
 import{validRetention,validRecovery}from'../automation/news-retention.mjs';
+import services from'../automation/services.json'with{type:'json'};
 import{pathToFileURL}from'node:url';import{resolve}from'node:path';
 export function collectionHealth(index,now=new Date()){
  const stamp=Date.parse(index?.checkedAt),age=now.getTime()-stamp;
@@ -19,7 +20,7 @@ export async function checkReader(fetcher=fetch,now=new Date()){
  try{const archive=await read(root+'/news/intake/'+previousDay+'.json',true),count=archive?.counts?.links;if(archive.date!==previousDay||!Number.isSafeInteger(count)||count<0)throw Error('invalid_archive');checks.push({check:'previous_india_day',status:count>=100?'pass':'warn',date:previousDay,links:count,shortfall:Math.max(0,100-count)})}catch{checks.push({check:'previous_india_day',status:'fail',reason:'daily_archive_unavailable',date:previousDay})}
  const queueExpected=process.env.NEWS_QUEUE_EXPECTED==='true';
  const queueFailure=reason=>({check:'analysis_queue',status:queueExpected?'fail':'warn',reason});
- try{const r=await fetcher('https://india-news-article-review.india-news-project.workers.dev/api/news/status',{signal:AbortSignal.timeout(10000)});if(r.status===404||r.status===503){await r.body?.cancel();checks.push(queueFailure('not_connected'));}else if(!r.ok){await r.body?.cancel();checks.push(queueFailure('status_http_error'));}else{const x=await r.json(),stamp=Date.parse(x.checkedAt),age=now.getTime()-stamp;if(!Number.isFinite(stamp)||age< -300000)checks.push(queueFailure('invalid_status_timestamp'));else if(age>=2*3600000)checks.push(queueFailure('status_older_than_2_hours'));else checks.push({check:'analysis_queue',status:'pass',reason:'fresh_status'});}}catch{checks.push(queueFailure('status_unavailable'))}
+ try{const r=await fetcher(services.newsStatusEndpoint,{signal:AbortSignal.timeout(10000)});if(r.status===404||r.status===503){await r.body?.cancel();checks.push(queueFailure('not_connected'));}else if(!r.ok){await r.body?.cancel();checks.push(queueFailure('status_http_error'));}else{const x=await r.json(),stamp=Date.parse(x.checkedAt),age=now.getTime()-stamp;if(!Number.isFinite(stamp)||age< -300000)checks.push(queueFailure('invalid_status_timestamp'));else if(age>=2*3600000)checks.push(queueFailure('status_older_than_2_hours'));else checks.push({check:'analysis_queue',status:'pass',reason:'fresh_status'});}}catch{checks.push(queueFailure('status_unavailable'))}
 
  return{checkedAt:now.toISOString(),status:checks.some(x=>x.status==='fail')?'fail':checks.some(x=>x.status==='warn')?'warn':'pass',checks,modelCalls:0};
 }
