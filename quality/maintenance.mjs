@@ -9,7 +9,7 @@ export function collectionHealth(index,now=new Date()){
 }
 export async function checkReader(fetcher=fetch,now=new Date()){
  const root='https://parthawe.github.io/india-news-project',checks=[];
- async function read(url,json=false){const r=await fetcher(url,{signal:AbortSignal.timeout(12000),headers:{Accept:json?'application/json':'text/html'}});if(!r.ok)throw Error('http_'+r.status);if(!json)return null;const text=await r.text();if(text.length>2500000)throw Error('response_limit');return JSON.parse(text)}
+ async function read(url,json=false){const r=await fetcher(url,{signal:AbortSignal.timeout(12000),headers:{Accept:json?'application/json':'text/html'}});if(!r.ok)throw Error('http_'+r.status);if(!json){await r.body?.cancel();return null;}const text=await r.text();if(text.length>2500000)throw Error('response_limit');return JSON.parse(text)}
  for(const path of ['/en/','/hi/','/en/latest/','/en/chat/'])try{await read(root+path);checks.push({check:path,status:'pass'})}catch{checks.push({check:path,status:'fail',reason:'reader_page_unavailable'})}
  try{checks.push(collectionHealth(await read(root+'/news/latest-reporting.json',true),now))}catch{checks.push({check:'collection',status:'fail',reason:'metadata_unavailable'})}
  const previousDay=new Date(now.getTime()-86400000).toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'});
