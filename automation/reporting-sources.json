@@ -1,9 +1,335 @@
 [
- {"id":"pib-en","publisher":"Press Information Bureau","publisherGroup":"pib","kind":"official","language":"en","url":"https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48","hosts":["www.pib.gov.in","pib.gov.in"],"enabled":true,"license":"PIB reproduction policy","permissionUrl":"https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30","reviewedOn":"2026-11-18","scope":"Unchanged attributed headlines and publication metadata only; exclude third-party media."},
- {"id":"pib-hi","publisher":"Press Information Bureau","publisherGroup":"pib","kind":"official","language":"hi","url":"https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3","hosts":["www.pib.gov.in","pib.gov.in"],"enabled":true,"license":"PIB reproduction policy","permissionUrl":"https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30","reviewedOn":"2026-11-18","scope":"Unchanged attributed Hindi headlines and publication metadata only; exclude third-party media."},
- {"id":"mongabay-en","publisher":"Mongabay India","publisherGroup":"mongabay","kind":"reporting","language":"en","url":"https://india.mongabay.com/feed/","hosts":["india.mongabay.com"],"enabled":true,"license":"CC BY-ND 4.0","licenseUrl":"https://creativecommons.org/licenses/by-nd/4.0/","permissionUrl":"https://india.mongabay.com/about/","reviewedOn":"2026-11-18","scope":"Unchanged feed titles with author and original link. No full text, translation or third-party media redistribution."},
- {"id":"mongabay-hi","publisher":"Mongabay हिन्दी","publisherGroup":"mongabay","kind":"reporting","language":"hi","url":"https://hindi.mongabay.com/feed/","hosts":["hindi.mongabay.com"],"enabled":true,"license":"CC BY-ND 4.0","licenseUrl":"https://creativecommons.org/licenses/by-nd/4.0/","permissionUrl":"https://india.mongabay.com/about/","reviewedOn":"2026-11-18","scope":"Original Hindi feed titles with author and link; no generated translation or full text. India portal policy covers English and Hindi."},
- {"id":"globalvoices-en","publisher":"Global Voices","publisherGroup":"globalvoices","kind":"reporting","language":"en","url":"https://globalvoices.org/-/world/south-asia/india/feed/","hosts":["globalvoices.org"],"enabled":true,"license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","permissionUrl":"https://globalvoices.org/about/global-voices-attribution-policy/","reviewedOn":"2026-11-18","scope":"India category only. Unchanged title, original author and source link; exclude third-party media."},
- {"id":"globalvoices-hi","publisher":"Global Voices हिन्दी","publisherGroup":"globalvoices","kind":"reporting","language":"hi","url":"https://hi.globalvoices.org/category/world/south-asia/india/feed/","hosts":["hi.globalvoices.org"],"enabled":true,"license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","permissionUrl":"https://globalvoices.org/about/global-voices-attribution-policy/","reviewedOn":"2026-11-18","scope":"India category only. Original-language titles, author and source links; old entries stay visibly dated."},
- {"id":"globalvoices-bn","publisher":"Global Voices বাংলা","publisherGroup":"globalvoices","kind":"reporting","language":"bn","url":"https://bn.globalvoices.org/category/world/south-asia/india/feed/","hosts":["bn.globalvoices.org"],"enabled":true,"license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","permissionUrl":"https://globalvoices.org/about/global-voices-attribution-policy/","reviewedOn":"2026-11-18","scope":"India category only. Original Bengali title, author and source link; no generated translation."}
+  {
+    "id": "pib-en",
+    "publisher": "Press Information Bureau",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "en",
+    "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-18",
+    "scope": "Unchanged attributed headlines and publication metadata only; exclude third-party media. Private bounded text extraction for evidence-linked draft review; no third-party media.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-hi",
+    "publisher": "Press Information Bureau",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "hi",
+    "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-18",
+    "scope": "Unchanged attributed Hindi headlines and publication metadata only; exclude third-party media. Private bounded text extraction for evidence-linked draft review; no third-party media.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "mongabay-en",
+    "publisher": "Mongabay India",
+    "publisherGroup": "mongabay",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://india.mongabay.com/feed/",
+    "hosts": [
+      "india.mongabay.com"
+    ],
+    "enabled": true,
+    "license": "CC BY-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "permissionUrl": "https://india.mongabay.com/about/",
+    "reviewedOn": "2026-11-18",
+    "scope": "Unchanged feed titles with author and original link. No full text, translation or third-party media redistribution.",
+    "analysisAllowed": false
+  },
+  {
+    "id": "mongabay-hi",
+    "publisher": "Mongabay हिन्दी",
+    "publisherGroup": "mongabay",
+    "kind": "reporting",
+    "language": "hi",
+    "url": "https://hindi.mongabay.com/feed/",
+    "hosts": [
+      "hindi.mongabay.com"
+    ],
+    "enabled": true,
+    "license": "CC BY-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "permissionUrl": "https://india.mongabay.com/about/",
+    "reviewedOn": "2026-11-18",
+    "scope": "Original Hindi feed titles with author and link; no generated translation or full text. India portal policy covers English and Hindi.",
+    "analysisAllowed": false
+  },
+  {
+    "id": "globalvoices-en",
+    "publisher": "Global Voices",
+    "publisherGroup": "globalvoices",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://globalvoices.org/-/world/south-asia/india/feed/",
+    "hosts": [
+      "globalvoices.org"
+    ],
+    "enabled": true,
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "permissionUrl": "https://globalvoices.org/about/global-voices-attribution-policy/",
+    "reviewedOn": "2026-11-18",
+    "scope": "India category only. Unchanged title, original author and source link; exclude third-party media.",
+    "analysisAllowed": false
+  },
+  {
+    "id": "globalvoices-hi",
+    "publisher": "Global Voices हिन्दी",
+    "publisherGroup": "globalvoices",
+    "kind": "reporting",
+    "language": "hi",
+    "url": "https://hi.globalvoices.org/category/world/south-asia/india/feed/",
+    "hosts": [
+      "hi.globalvoices.org"
+    ],
+    "enabled": true,
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "permissionUrl": "https://globalvoices.org/about/global-voices-attribution-policy/",
+    "reviewedOn": "2026-11-18",
+    "scope": "India category only. Original-language titles, author and source links; old entries stay visibly dated.",
+    "analysisAllowed": false
+  },
+  {
+    "id": "globalvoices-bn",
+    "publisher": "Global Voices বাংলা",
+    "publisherGroup": "globalvoices",
+    "kind": "reporting",
+    "language": "bn",
+    "url": "https://bn.globalvoices.org/category/world/south-asia/india/feed/",
+    "hosts": [
+      "bn.globalvoices.org"
+    ],
+    "enabled": true,
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "permissionUrl": "https://globalvoices.org/about/global-voices-attribution-policy/",
+    "reviewedOn": "2026-11-18",
+    "scope": "India category only. Original Bengali title, author and source link; no generated translation.",
+    "analysisAllowed": false
+  },
+  {
+    "id": "pib-mr-regional",
+    "publisher": "Press Information Bureau / Marathi",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "mr",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=1&lang=9",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-ta-regional",
+    "publisher": "Press Information Bureau / Tamil",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "ta",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=6&lang=11",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-te-regional",
+    "publisher": "Press Information Bureau / Telugu",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "te",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=5&lang=16",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-kn-regional",
+    "publisher": "Press Information Bureau / Kannada",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "kn",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=20&lang=8",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-gu-regional",
+    "publisher": "Press Information Bureau / Gujarati",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "gu",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=22&lang=13",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-ml-regional",
+    "publisher": "Press Information Bureau / Malayalam",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "ml",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=24&lang=15",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-bn-regional",
+    "publisher": "Press Information Bureau / Bengali",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "bn",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=19&lang=4",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-or-regional",
+    "publisher": "Press Information Bureau / Odia",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "or",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=21&lang=18",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "pib-as-regional",
+    "publisher": "Press Information Bureau / Assamese",
+    "publisherGroup": "pib",
+    "kind": "official",
+    "language": "as",
+    "url": "https://www.pib.gov.in/allRel.aspx?reg=23&lang=10",
+    "hosts": [
+      "www.pib.gov.in",
+      "pib.gov.in"
+    ],
+    "format": "pib_html",
+    "enabled": true,
+    "license": "PIB reproduction policy",
+    "permissionUrl": "https://www.pib.gov.in/content/102_2_Copyright-Policy.aspx?lang=1&reg=30",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original attributed regional government-release headlines. Dates verified on the release page. Private bounded text extraction for draft review; no third-party media. Translations may cover the same event.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "idr-en",
+    "publisher": "India Development Review",
+    "publisherGroup": "idr",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://idronline.org/feed/",
+    "hosts": [
+      "idronline.org"
+    ],
+    "enabled": true,
+    "license": "CC BY-SA 4.0; publisher guidelines apply",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "permissionUrl": "https://idronline.org/republishing-guidelines/",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original feed title, author and link only. Private bounded text for evidence-linked draft review. Do not republish full articles, media or bulk mirrors; retain author attribution and original source links.",
+    "analysisAllowed": true
+  },
+  {
+    "id": "idr-hi",
+    "publisher": "India Development Review हिन्दी",
+    "publisherGroup": "idr",
+    "kind": "reporting",
+    "language": "hi",
+    "url": "https://hindi.idronline.org/feed/",
+    "hosts": [
+      "hindi.idronline.org"
+    ],
+    "enabled": true,
+    "license": "CC BY-SA 4.0; publisher guidelines apply",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "permissionUrl": "https://hindi.idronline.org/republishing-guidelines/",
+    "reviewedOn": "2026-11-26",
+    "scope": "Original feed title, author and link only. Private bounded text for evidence-linked draft review. Do not republish full articles, media or bulk mirrors; retain author attribution and original source links.",
+    "analysisAllowed": true
+  }
 ]

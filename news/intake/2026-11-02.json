@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-02",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-26T12:22:10.665Z",
+  "checkedAt": "2026-11-26T16:37:41.086Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -10,9 +10,9 @@
     "ranking": "none"
   },
   "counts": {
-    "links": 1,
-    "shortfall": 99,
-    "publishers": 1,
+    "links": 2,
+    "shortfall": 98,
+    "publishers": 2,
     "languages": [
       "hi"
     ],
@@ -32,8 +32,8 @@
       "language": "hi",
       "kind": "reporting",
       "publishedAt": "2026-11-02T11:01:21.000Z",
-      "firstSeenAt": "2026-11-26T12:22:10.665Z",
-      "lastSeenAt": "2026-11-26T12:22:10.665Z",
+      "firstSeenAt": "2026-11-18T15:17:50.994Z",
+      "lastSeenAt": "2026-11-26T16:32:14.081Z",
       "headlineSha256": "717fb25056916753eab5aaa45a4e03387745bfe503d06165d3bd00344b0884c4",
       "license": "CC BY-ND 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
@@ -43,6 +43,29 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://hindi.mongabay.com/feed/"
+    },
+    {
+      "id": "report-26b511a74a813f8b9abe5476",
+      "url": "https://hindi.idronline.org/article/jharkhand-me-acchi-teacher-education-ki-kami/",
+      "title": "झारखंड में शिक्षक बनने के सपनों पर व्यवस्था की मार",
+      "author": "Indresh Sharma",
+      "sourceId": "idr-hi",
+      "publisher": "India Development Review हिन्दी",
+      "publisherGroup": "idr",
+      "language": "hi",
+      "kind": "reporting",
+      "publishedAt": "2026-11-02T06:00:00.000Z",
+      "firstSeenAt": "2026-11-26T16:32:14.081Z",
+      "lastSeenAt": "2026-11-26T16:32:14.081Z",
+      "headlineSha256": "ae8842d489977ba884b8ea019369a7f4b8371901c891669b8f52391a7ae826c7",
+      "license": "CC BY-SA 4.0; publisher guidelines apply",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "permissionUrl": "https://hindi.idronline.org/republishing-guidelines/",
+      "datePrecision": "timestamp",
+      "materialExamined": "feed_headline_and_publication_metadata",
+      "bodyRetrieved": false,
+      "reviewStatus": "unreviewed",
+      "sourceFeed": "https://hindi.idronline.org/feed/"
     }
   ],
   "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
