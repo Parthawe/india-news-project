@@ -1,38 +1,131 @@
 [
   {
     "group": "mongabay",
-    "path": "/sources/mongabay-india"
+    "path": "/sources/mongabay-india",
+    "assessment": null
   },
   {
     "group": "down-to-earth",
-    "path": "/sources/down-to-earth"
+    "path": "/sources/down-to-earth",
+    "assessment": null
   },
   {
     "group": "isignal",
-    "path": "/sources/isignal"
+    "path": "/sources/isignal",
+    "assessment": null
   },
   {
     "group": "behanbox",
-    "path": "/sources/behanbox"
+    "path": "/sources/behanbox",
+    "assessment": null
   },
   {
     "group": "idr",
-    "path": "/sources/india-development-review"
+    "path": "/sources/india-development-review",
+    "assessment": null
   },
   {
     "group": "globalvoices",
-    "path": "/sources/global-voices"
+    "path": "/sources/global-voices",
+    "assessment": null
   },
   {
     "group": "pib",
-    "path": "/sources/pib"
+    "path": "/sources/pib",
+    "assessment": null
   },
   {
     "group": "swarajya",
-    "path": "/sources/swarajya"
+    "path": "/sources/swarajya",
+    "assessment": null
   },
   {
     "group": "janata-weekly",
-    "path": "/sources/janata-weekly"
+    "path": "/sources/janata-weekly",
+    "assessment": null
+  },
+  {
+    "group": "organiser",
+    "path": "/sources/organiser",
+    "assessment": {
+      "leaning": "right",
+      "publishers": [
+        "Organiser"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z"
+    }
+  },
+  {
+    "group": "tfipost",
+    "path": "/sources/tfipost",
+    "assessment": {
+      "leaning": "right",
+      "publishers": [
+        "TFI"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z"
+    }
+  },
+  {
+    "group": "opindia",
+    "path": "/sources/opindia",
+    "assessment": {
+      "leaning": "right",
+      "publishers": [
+        "OpIndia English"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z"
+    }
+  },
+  {
+    "group": "the-wire",
+    "path": "/sources/the-wire",
+    "assessment": {
+      "leaning": "left",
+      "publishers": [
+        "The Wire English"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z"
+    }
+  },
+  {
+    "group": "scroll",
+    "path": "/sources/scroll",
+    "assessment": {
+      "leaning": "left",
+      "publishers": [
+        "Scroll English"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z"
+    }
+  },
+  {
+    "group": "peoples-democracy",
+    "path": "/sources/peoples-democracy",
+    "assessment": {
+      "leaning": "left",
+      "publishers": [
+        "People’s Democracy"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z"
+    }
+  },
+  {
+    "group": "sabrang-india",
+    "path": "/sources/sabrang-india",
+    "assessment": {
+      "leaning": "left",
+      "publishers": [
+        "Sabrang India"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z"
+    }
   }
 ]

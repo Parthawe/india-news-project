@@ -371,5 +371,115 @@
     "analysisAllowed": false,
     "permissionBasis": "publisher_rss_metadata",
     "publisherPolicyUrl": "https://behanbox.com/about-us/"
+  },
+  {
+    "id": "organiser-en",
+    "publisher": "Organiser",
+    "publisherGroup": "organiser",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://organiser.org/feed/",
+    "hosts": [
+      "organiser.org"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://organiser.org/feed/",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided headline, institutional or named byline, date and original link only. No article body, excerpt, image, translation or automatic AI analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata"
+  },
+  {
+    "id": "tfipost-en",
+    "publisher": "TFI",
+    "publisherGroup": "tfipost",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://tfipost.com/feed/",
+    "hosts": [
+      "tfipost.com"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://tfipost.com/feed/",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided headline, institutional or named byline, date and original link only. No article body, excerpt, image, translation or automatic AI analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata"
+  },
+  {
+    "id": "opindia-en",
+    "publisher": "OpIndia English",
+    "publisherGroup": "opindia",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://www.opindia.com/feed/",
+    "hosts": [
+      "www.opindia.com",
+      "opindia.com"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://www.opindia.com/feed/",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided headline, institutional or named byline, date and original link only. No article body, excerpt, image, translation or automatic AI analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata"
+  },
+  {
+    "id": "scroll-en",
+    "publisher": "Scroll English",
+    "publisherGroup": "scroll",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://feeds.feedburner.com/ScrollinArticles.rss",
+    "hosts": [
+      "feeds.feedburner.com",
+      "scroll.in"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://feeds.feedburner.com/ScrollinArticles.rss",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided headline, institutional or named byline, date and original link only. No article body, excerpt, image, translation or automatic AI analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata"
+  },
+  {
+    "id": "peoples-democracy-en",
+    "publisher": "People’s Democracy",
+    "publisherGroup": "peoples-democracy",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://peoplesdemocracy.in/rss.xml",
+    "hosts": [
+      "peoplesdemocracy.in"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://peoplesdemocracy.in/rss.xml",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided headline, institutional or named byline, date and original link only. No article body, excerpt, image, translation or automatic AI analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata"
+  },
+  {
+    "id": "sabrang-india-en",
+    "publisher": "Sabrang India",
+    "publisherGroup": "sabrang-india",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://sabrangindia.in/feed/",
+    "hosts": [
+      "sabrangindia.in"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://sabrangindia.in/feed/",
+    "reviewedOn": "2026-11-26",
+    "scope": "Publisher-provided headline, institutional or named byline, date and original link only. No article body, excerpt, image, translation or automatic AI analysis. Feed availability is not a full-content republication licence.",
+    "analysisAllowed": false,
+    "permissionBasis": "publisher_rss_metadata"
   }
 ]

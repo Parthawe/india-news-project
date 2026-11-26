@@ -1,5 +1,6 @@
 import registry from './source-profiles.json' with {type:'json'};
 import events from './blindspot-events.json' with {type:'json'};
+import {buildBlindspotCorpus} from './blindspot-corpus.mjs';
 import {evaluateBlindspots} from './blindspot-core.mjs';
 import {renderBlindspots} from './blindspot-render.mjs';
 import{regionalReleaseLinks}from'./pib-regional.mjs';
@@ -41,6 +42,7 @@ async function collectSource(source){
    try{
     const title=load('<span>'+String(raw.title||'')+'</span>').text().replace(/\s+/g,' ').trim();
     const url=allowedURL(raw.link,source),old=known.find(a=>a.url===url),item={...raw,title};
+    if(source.id==='peoples-democracy-en'&&item.creator==='uploader')item.creator='People’s Democracy (feed institutional byline; individual author not supplied)';
     const suppliedDate=feedPublicationDate(item.isoDate||item.pubDate||'',source.language);if(suppliedDate)item.isoDate=suppliedDate;
     if(!Number.isFinite(Date.parse(item.isoDate||item.pubDate||''))){
      if(old&&old.title===title)item.isoDate=old.publishedAt;
@@ -65,7 +67,9 @@ const enabled=sources.filter(s=>s.enabled);for(let i=0;i<enabled.length;i+=3)awa
 feeds.sort((a,b)=>enabled.findIndex(s=>s.id===a.id)-enabled.findIndex(s=>s.id===b.id));
 const index=buildLatest(previous,[...restored.articles,...incoming],feeds,sources,now);index.archiveRecovery=restored.recovery;const json=JSON.stringify(index,null,2)+'\n';
 await writeFile(join(folder,'latest-reporting.json'),json);
-const blindspots=evaluateBlindspots(index,registry,events,sources,now);
+const corpus=buildBlindspotCorpus(index,restored,incoming,sources,now);
+await writeFile(join(folder,'coverage-corpus.json'),JSON.stringify(corpus,null,2)+'\n');
+const blindspots=evaluateBlindspots(corpus,registry,events,sources,now);
 await writeFile(join(folder,'blindspots.json'),JSON.stringify(blindspots,null,2)+'\n');
 const intakeFolder=join(folder,'intake');await mkdir(intakeFolder,{recursive:true});
 const intakeRecords=[...index.articles,...incoming];
