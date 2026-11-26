@@ -1,4 +1,5 @@
 import{regionalReleaseLinks}from'./pib-regional.mjs';
+import{feedPublicationDate}from'./feed-dates.mjs';
 import Parser from'rss-parser';import{load}from'cheerio';import{readFile,writeFile,mkdir}from'node:fs/promises';import{join,resolve}from'node:path';
 import sources from'./reporting-sources.json' with{type:'json'};
 import{allowedURL,recordFrom,validRecord,buildLatest,renderLatest}from'./latest-core.mjs';
@@ -34,6 +35,7 @@ async function collectSource(source){
    try{
     const title=load('<span>'+String(raw.title||'')+'</span>').text().replace(/\s+/g,' ').trim();
     const url=allowedURL(raw.link,source),old=known.find(a=>a.url===url),item={...raw,title};
+    const suppliedDate=feedPublicationDate(item.isoDate||item.pubDate||'',source.language);if(suppliedDate)item.isoDate=suppliedDate;
     if(!Number.isFinite(Date.parse(item.isoDate||item.pubDate||''))){
      if(old&&old.title===title)item.isoDate=old.publishedAt;
      else if(metadataReads<(source.format==='pib_html'?20:10)){

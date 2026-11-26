@@ -1,11 +1,12 @@
 import{createHash}from'node:crypto';
 import{groupReporting}from'./reporting-groups.mjs';
+import{feedPublicationDate}from'./feed-dates.mjs';
 export const digest=value=>createHash('sha256').update(value).digest('hex');
 export const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function allowedURL(value,source){const u=new URL(value);if(u.protocol!=='https:'||u.username||u.password||u.port||!source.hosts.includes(u.hostname))throw Error('Unapproved source URL');u.hash='';u.searchParams.sort();for(const k of [...u.searchParams.keys()])if(k.startsWith('utm_')||['fbclid','gclid'].includes(k))u.searchParams.delete(k);return u.href;}
 export function recordFrom(item,source,now=new Date(),previous){
  const url=allowedURL(item.link,source),title=String(item.title||'').replace(/\s+/g,' ').trim(),author=String(item.creator||item.author||'').replace(/\s+/g,' ').trim();
- const publishedAt=new Date(item.isoDate||item.pubDate||'');
+ const publishedAt=new Date(feedPublicationDate(item.isoDate||item.pubDate||'',source.language)||'');
  if(title.length<8||title.length>700||/[<>]/.test(title)||!Number.isFinite(publishedAt.getTime())||publishedAt>now||publishedAt.getTime()<now.getTime()-30*86400000)throw Error('Missing, future or stale publication metadata');
  if(source.kind==='reporting'&&!author)throw Error('Author required for attribution');
  const id='report-'+digest(source.publisherGroup+'|'+url).slice(0,24);
