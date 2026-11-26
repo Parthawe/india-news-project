@@ -1,82 +1,92 @@
 {
   "version": 1,
-  "date": "2026-11-25",
-  "collectedAt": "2026-11-25T11:44:17.910Z",
+  "date": "2026-11-26",
+  "collectedAt": "2026-11-26T11:29:49.822Z",
   "target": 5,
   "status": "complete",
   "items": [
     {
-      "id": "pib-2341320",
-      "title": "From Financial Hardship To Academic Aspirations",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341320",
+      "id": "pib-2341985",
+      "title": "New approach to detecting solar particle events could expand the geographic coverage of ground-based observations",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341985",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-25",
-      "publishedDateText": "Posted On: 25 NOV 2026 5:03PM by PIB Delhi",
-      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 4:36PM by PIB Delhi",
+      "collectedAt": "2026-11-26T11:29:49.822Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Social Justice & Empowerment"
+      "ministry": "Ministry of Earth Sciences"
     },
     {
-      "id": "pib-2341316",
-      "title": "Department of Drinking Water and Sanitation Signs MoU with Directorate General of Training to Skill 1 Lakh Youth under Jal Jeevan Mission 2.0",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341316",
+      "id": "pib-2341976",
+      "title": "Union Minister for Culture and Tourism Shri Gajendra Singh Shekhawat Attends Closing Programme of Observance of 350th Shaheedi Diwas of Sri Guru Tegh Bahadur Ji",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341976",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-25",
-      "publishedDateText": "Posted On: 25 NOV 2026 5:00PM by PIB Delhi",
-      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 4:34PM by PIB Delhi",
+      "collectedAt": "2026-11-26T11:29:49.822Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Jal Shakti"
+      "ministry": "Ministry of Culture"
     },
     {
-      "id": "pib-2341271",
-      "title": "Ministry of Statistics and Programme Implementation (MoSPI) and Data Security Council of India (DSCI) sign MoU to enable trusted data sharing for official statistics",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341271",
+      "id": "pib-2341975",
+      "title": "National Milk Day 2026 Celebrated in Patna, Bihar, with Launch of Key Initiatives and Dedication of Major Dairy and Livestock Infrastructure Projects",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341975",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-25",
-      "publishedDateText": "Posted On: 25 NOV 2026 4:36PM by PIB Delhi",
-      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 4:27PM by PIB Delhi",
+      "collectedAt": "2026-11-26T11:29:49.822Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Statistics & Programme Implementation"
+      "ministry": "Ministry of Fisheries, Animal Husbandry & Dairying"
     },
     {
-      "id": "pib-2341256",
-      "title": "PRESIDENT OF INDIA GRACES THE NATIONAL SCIENTIFIC CONVENTION ON HOMOEOPATHY AT BHUBANESWAR",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341256",
+      "id": "pib-2341972",
+      "title": "Updated edition of the Constitution of India released in all 22 Scheduled Languages on Constitution Day 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341972",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-25",
-      "publishedDateText": "Posted On: 25 NOV 2026 4:30PM by PIB Delhi",
-      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 4:31PM by PIB Delhi",
+      "collectedAt": "2026-11-26T11:29:49.822Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "President's Secretariat"
+      "ministry": "Ministry of Law and Justice"
     },
     {
-      "id": "pib-2341254",
-      "title": "From Informal Work To Dignified Employment",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341254",
+      "id": "pib-2341965",
+      "title": "Union Health Secretary Smt. Punya Salila Srivastava highlights Prime Minister Shri Narendra Modi’s emphasis on greater investment and public-private partnerships in the health sector",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341965",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-25",
-      "publishedDateText": "Posted On: 25 NOV 2026 4:30PM by PIB Delhi",
-      "collectedAt": "2026-11-25T11:44:17.910Z",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 4:28PM by PIB Delhi",
+      "collectedAt": "2026-11-26T11:29:49.822Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Social Justice & Empowerment"
+      "ministry": "Ministry of Health and Family Welfare"
     }
   ],
   "feeds": [
     {
       "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "status": "ok",
-      "accepted": 19,
+      "accepted": 17,
       "attempted": 20,
-      "excluded": 1,
+      "excluded": 3,
       "failures": [
         {
-          "id": "pib-2341202",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341202",
+          "id": "pib-2341919",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341919",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2341895",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341895",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2341853",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2341853",
           "status": "publication_date_unavailable"
         }
       ]
