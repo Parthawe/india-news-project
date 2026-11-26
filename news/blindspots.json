@@ -1,11 +1,13 @@
 {
-  "version": 1,
-  "method": "inp-monitored-coverage-v1",
-  "checkedAt": "2026-11-26T22:40:52.013Z",
-  "collectionCheckedAt": "2026-11-26T22:40:52.013Z",
+  "version": 2,
+  "method": "inp-monitored-coverage-v2",
+  "checkedAt": "2026-11-26T23:34:46.624Z",
+  "collectionCheckedAt": "2026-11-26T23:24:29.796Z",
   "windowStart": "2026-11-21",
   "windowEnd": "2026-11-27",
-  "scope": "Selected source feeds; not full publisher archives or the entire Indian media landscape.",
+  "scope": "Archived captured metadata from selected feeds; not full publisher archives or all Indian media.",
+  "archiveComplete": true,
+  "capturedLinks": 615,
   "sample": [
     {
       "publisherGroup": "pib",
@@ -39,6 +41,10 @@
       ],
       "official": true,
       "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T00:00:00.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 471,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -47,9 +53,11 @@
         "political_position_unassessed",
         "assessment_rationale_unsupported",
         "reporting_sample_insufficient",
+        "qualitative_review_incomplete",
         "edition_scope_not_established",
         "review_missing_or_stale",
-        "review_record_missing"
+        "review_record_missing",
+        "review_content_changed"
       ]
     },
     {
@@ -66,6 +74,10 @@
       ],
       "official": false,
       "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T17:19:01.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 12,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -73,9 +85,11 @@
         "political_position_unassessed",
         "assessment_rationale_unsupported",
         "reporting_sample_insufficient",
+        "qualitative_review_incomplete",
         "edition_scope_not_established",
         "review_missing_or_stale",
-        "review_record_missing"
+        "review_record_missing",
+        "review_content_changed"
       ]
     },
     {
@@ -94,6 +108,10 @@
       ],
       "official": false,
       "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T04:00:11.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 6,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -101,9 +119,11 @@
         "political_position_unassessed",
         "assessment_rationale_unsupported",
         "reporting_sample_insufficient",
+        "qualitative_review_incomplete",
         "edition_scope_not_established",
         "review_missing_or_stale",
-        "review_record_missing"
+        "review_record_missing",
+        "review_content_changed"
       ]
     },
     {
@@ -120,6 +140,10 @@
       ],
       "official": false,
       "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T09:30:00.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 9,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -127,9 +151,11 @@
         "political_position_unassessed",
         "assessment_rationale_unsupported",
         "reporting_sample_insufficient",
+        "qualitative_review_incomplete",
         "edition_scope_not_established",
         "review_missing_or_stale",
-        "review_record_missing"
+        "review_record_missing",
+        "review_content_changed"
       ]
     },
     {
@@ -144,6 +170,10 @@
       ],
       "official": false,
       "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T00:30:56.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 2,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -151,9 +181,11 @@
         "political_position_unassessed",
         "assessment_rationale_unsupported",
         "reporting_sample_insufficient",
+        "qualitative_review_incomplete",
         "edition_scope_not_established",
         "review_missing_or_stale",
-        "review_record_missing"
+        "review_record_missing",
+        "review_content_changed"
       ]
     },
     {
@@ -168,26 +200,313 @@
       ],
       "official": false,
       "healthy": true,
+      "active": false,
+      "newestPublishedAt": null,
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 0,
       "eligible": false,
       "leaning": null,
       "reasons": [
+        "no_recent_observations",
         "editorial_approval_pending",
         "political_position_unassessed",
         "assessment_rationale_unsupported",
         "reporting_sample_insufficient",
+        "qualitative_review_incomplete",
         "edition_scope_not_established",
         "review_missing_or_stale",
-        "review_record_missing"
+        "review_record_missing",
+        "review_content_changed"
       ]
+    },
+    {
+      "publisherGroup": "organiser",
+      "name": "Organiser",
+      "profileId": "organiser",
+      "sourceIds": [
+        "organiser-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T17:53:06.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 10,
+      "eligible": true,
+      "leaning": "right",
+      "reasons": []
+    },
+    {
+      "publisherGroup": "tfipost",
+      "name": "TFI",
+      "profileId": "tfipost",
+      "sourceIds": [
+        "tfipost-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T11:30:12.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 15,
+      "eligible": true,
+      "leaning": "right",
+      "reasons": []
+    },
+    {
+      "publisherGroup": "opindia",
+      "name": "OpIndia English",
+      "profileId": "opindia",
+      "sourceIds": [
+        "opindia-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T14:29:47.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 10,
+      "eligible": true,
+      "leaning": "right",
+      "reasons": []
+    },
+    {
+      "publisherGroup": "scroll",
+      "name": "Scroll English",
+      "profileId": "scroll",
+      "sourceIds": [
+        "scroll-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T16:45:46.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 60,
+      "eligible": true,
+      "leaning": "left",
+      "reasons": []
+    },
+    {
+      "publisherGroup": "peoples-democracy",
+      "name": "People’s Democracy",
+      "profileId": "peoples-democracy",
+      "sourceIds": [
+        "peoples-democracy-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-21T18:30:00.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 10,
+      "eligible": true,
+      "leaning": "left",
+      "reasons": []
+    },
+    {
+      "publisherGroup": "sabrang-india",
+      "name": "Sabrang India",
+      "profileId": "sabrang-india",
+      "sourceIds": [
+        "sabrang-india-en"
+      ],
+      "languages": [
+        "en"
+      ],
+      "official": false,
+      "healthy": true,
+      "active": true,
+      "newestPublishedAt": "2026-11-26T13:23:21.000Z",
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 10,
+      "eligible": true,
+      "leaning": "left",
+      "reasons": []
     }
   ],
-  "classified": 0,
+  "classified": 6,
   "cohorts": {
-    "left": 0,
+    "left": 3,
     "centre": 0,
-    "right": 0
+    "right": 3
   },
   "evaluations": [
+    {
+      "id": "thiruparankundram-compliance",
+      "title": {
+        "en": "Thiruparankundram: the lamp ceremony, compliance and competing frames",
+        "hi": "तिरुपरनकुंद्रम: दीप समारोह, अनुपालन और अलग प्रस्तुतियाँ"
+      },
+      "path": "/blindspots#thiruparankundram-compliance",
+      "summary": {
+        "en": "Seven examined articles from four publishers discuss the 24 November ceremony and the subsequent compliance dispute. Their accounts describe a lamp lit at the traditional site rather than the disputed pillar. Whether officials committed contempt, and the underlying title and customary-rights questions, are not settled by this comparison. The court orders and affidavits have not been independently audited by INP.",
+        "hi": "चार प्रकाशकों के सात जाँचे लेख 24 नवंबर के समारोह और बाद के अनुपालन विवाद पर हैं। उनके अनुसार दीप विवादित स्तंभ के बजाय पारंपरिक स्थान पर जला। अवमानना, स्वामित्व और प्रथागत अधिकारों के प्रश्न इस तुलना से तय नहीं होते। INP ने अदालती आदेशों और शपथपत्रों का स्वतंत्र ऑडिट नहीं किया है।"
+      },
+      "comparison": [
+        {
+          "publisherGroup": "organiser",
+          "publisher": "Organiser",
+          "url": "https://organiser.org/2026/11/26/429162/politics/rss-urges-tamil-nadu-govt-to-respect-peoples-legitimate-wishes-recognised-by-sc-in-thiruparankundram-deepam-issue/",
+          "title": "RSS demands Tamil Nadu govt to respect people’s legitimate wishes recognised by SC in Thiruparankundram Deepam issue",
+          "publishedAt": "2026-11-26T17:10:55+00:00",
+          "materialHash": "cb6596b95ebe2515e6fd0506ef88cdcca6c76bd31c53a89a250f84dab772902d",
+          "textSource": "Public article text",
+          "framing": {
+            "en": "Leads with the RSS demand that the state comply. The organisation’s allegations are attributed; the one-time court arrangement is acknowledged.",
+            "hi": "RSS की सरकार से अनुपालन की माँग प्रमुख है। संगठन के आरोप उसी के हवाले से हैं; अदालत की एकबारगी व्यवस्था भी बताई गई है।"
+          }
+        },
+        {
+          "publisherGroup": "organiser",
+          "publisher": "Organiser",
+          "url": "https://organiser.org/2026/11/26/429062/bharat/tamil-nadu/apology-cannot-undo-court-contempt-hindu-munnani-seeks-action-against-madurai-collector-thiruparankundram-deepam/",
+          "title": "‘Apology cannot undo court contempt’: Hindu Munnani seeks action against Madurai Collector | Thiruparankundram Deepam",
+          "publishedAt": "2026-11-26T09:30:57+00:00",
+          "materialHash": "62cb0809566c20747531b4589b8bc07d2df84649d61395a8de5a14d48e95d66e",
+          "textSource": "Public article text",
+          "framing": {
+            "en": "Centres Hindu Munnani’s accusation of deliberate obstruction and its demand for punishment. A speaker’s allegation is not a court finding of contempt.",
+            "hi": "हिंदू मुन्नानी का जानबूझकर बाधा डालने का आरोप और सज़ा की माँग प्रमुख हैं। वक्ता का आरोप अदालत का अवमानना निष्कर्ष नहीं है।"
+          }
+        },
+        {
+          "publisherGroup": "organiser",
+          "publisher": "Organiser",
+          "url": "https://organiser.org/2026/11/26/429071/bharat/tamil-nadu/thiruparankundram-deepathoon-row-fresh-contempt-plea-seeks-to-establish-vijay-government-role-in-defying-sc-order/",
+          "title": "Thiruparankundram Deepathoon Row: Fresh contempt plea seeks to establish role of Vijay government in defying SC order",
+          "publishedAt": "2026-11-26T09:00:36+00:00",
+          "materialHash": "3247630d92719698c9b7aeec73fc877151044ae27ab84308be3c609249a1b050",
+          "textSource": "Public article text",
+          "framing": {
+            "en": "Examines a fresh contempt petition and requests for official records. A request to establish ministerial involvement does not establish that involvement.",
+            "hi": "नई अवमानना याचिका और सरकारी रिकॉर्ड की माँग प्रमुख है। मंत्री की भूमिका जानने की माँग, भूमिका का सबूत नहीं है।"
+          }
+        },
+        {
+          "publisherGroup": "tfipost",
+          "publisher": "TFI",
+          "url": "https://tfipost.com/2026/11/lamp-hill-and-government-tamil-nadus-thiruparankundram-test/",
+          "title": "Lamp, Hill and Government: Tamil Nadu’s Thiruparankundram Test",
+          "publishedAt": "2026-11-25T07:18:32+00:00",
+          "materialHash": "d3d0f8a4887f072bcbd1f3bb6a21cde7a740e656490d3ce6b407c3d79992fbc6",
+          "textSource": "Public article text",
+          "framing": {
+            "en": "Questions the state’s handling from a Hindu-worship-rights perspective, while setting out the government’s and dargah’s arguments and the interim order’s limits.",
+            "hi": "हिंदू उपासना अधिकारों के पक्ष से सरकार पर सवाल हैं; सरकार व दरगाह के तर्क और अंतरिम आदेश की सीमाएँ भी दी गई हैं।"
+          }
+        },
+        {
+          "publisherGroup": "opindia",
+          "publisher": "OpIndia English",
+          "url": "https://www.opindia.com/2026/11/prevented-court-ordered-lighting-karthigai-deepam-deepathoon-challenged-madras-hc-order-remove-periyar-statue-temple-land-tvk-outperformed-dmk-anti-hindu/",
+          "title": "Prevented court-ordered lighting of Karthigai Deepam at Deepathoon, challenged Madras HC order to remove Periyar statue from temple land: How TVK has outperformed DMK in being anti-Hindu in just six months ",
+          "publishedAt": "2026-11-25T15:06:04.000Z",
+          "materialHash": "82b5db7c44448eb9b1fe6ec99052adc911a6be06a12d0a537950e40cbdbc1673",
+          "textSource": "Publisher-supplied RSS text; webpage HTTP 403",
+          "framing": {
+            "en": "Interprets the ceremony dispute as anti-Hindu policy and minority appeasement, extending it to separate statue and welfare issues. The state’s stated legal objections are reported; motives asserted by the author remain unverified.",
+            "hi": "लेख समारोह विवाद को हिंदू-विरोधी नीति और अल्पसंख्यक तुष्टिकरण मानकर अलग प्रतिमा व कल्याण विवादों से जोड़ता है। सरकार के कानूनी तर्क दिए गए हैं; लेखक के मंशा-संबंधी निष्कर्ष अपुष्ट हैं।"
+          }
+        },
+        {
+          "publisherGroup": "scroll",
+          "publisher": "Scroll English",
+          "url": "https://scroll.in/latest/1097290/tamil-nadu-defies-sc-order-on-lighting-lamp-at-disputed-pillar-atop-thiruparankundram-hill",
+          "title": "Tamil Nadu defies SC order on lighting lamp at disputed pillar atop Thiruparankundram hill",
+          "publishedAt": "2026-11-25T12:01:00+05:30",
+          "materialHash": "6d9674a9b67d3b6ecdd51cf075b40c3e4db2fb2a8f46d00f0cd817b8ca6a7e99",
+          "textSource": "Public article text",
+          "framing": {
+            "en": "Leads with non-compliance, explains the temple administration’s refusal and collector’s apology, and states that the Supreme Court stayed ownership observations. Credits The Hindu, Bar and Bench, PTI and The New Indian Express.",
+            "hi": "अनुपालन न होना प्रमुख है; मंदिर प्रशासन का इनकार, कलेक्टर की माफ़ी और स्वामित्व संबंधी टिप्पणियों पर रोक बताई गई है। The Hindu, Bar and Bench, PTI और The New Indian Express को श्रेय है।"
+          }
+        },
+        {
+          "publisherGroup": "scroll",
+          "publisher": "Scroll English",
+          "url": "https://scroll.in/latest/1097287/madras-hc-restrains-protests-against-sc-order-allowing-lighting-of-lamp-on-thiruparankundram-hill",
+          "title": "Madras HC restrains protests against SC order allowing lighting of lamp on Thiruparankundram hill",
+          "publishedAt": "2026-11-24T20:28:00+05:30",
+          "materialHash": "6d65a0523af3b4b6a4b918f199798f5bf404a1f4167ea52bf90e486b399be36e",
+          "textSource": "Public article text",
+          "framing": {
+            "en": "Focuses on restrictions against calls to obstruct the order, the administration’s defence and the one-time limits. Credits legal newsrooms and The Hindu; this is not an additional independent court-record audit.",
+            "hi": "आदेश रोकने के आह्वान पर पाबंदी, प्रशासन का बचाव और एकबारगी सीमाएँ प्रमुख हैं। कानूनी न्यूज़रूम और The Hindu को श्रेय है; यह अदालत के रिकॉर्ड की एक और स्वतंत्र जाँच नहीं है।"
+          }
+        }
+      ],
+      "originNotes": {
+        "en": "Origin review completed for the examined text, with limits: Scroll expressly credits The Hindu, Bar and Bench, Live Law, PTI and other reporting; Organiser relies on RSS/Hindu Munnani statements and petition accounts; TFI and OpIndia combine commentary with attributed reporting and legal arguments. Shared statements and legal reporting can underlie several articles. Publisher counts measure coverage, not independent confirmations. No full wire-text licence or originality audit is claimed. OpIndia was examined through its RSS edition only.",
+        "hi": "जाँचे पाठ की स्रोत समीक्षा पूरी है, इन सीमाओं के साथ: Scroll ने The Hindu, Bar and Bench, Live Law, PTI व दूसरी रिपोर्टिंग को श्रेय दिया है; Organiser में RSS/हिंदू मुन्नानी के बयान और याचिका विवरण हैं; TFI और OpIndia टिप्पणी को स्रोत सहित रिपोर्टिंग व कानूनी तर्कों से जोड़ते हैं। कई लेख एक बयान या कानूनी रिपोर्ट पर आधारित हो सकते हैं। प्रकाशक गिनती कवरेज है, स्वतंत्र पुष्टि की गिनती नहीं। पूरे वायर पाठ का लाइसेंस या मौलिकता ऑडिट नहीं किया गया। OpIndia केवल RSS संस्करण से जाँचा गया।"
+      },
+      "review": {
+        "reviewer": "INP AI editorial review",
+        "type": "ai_editorial",
+        "humanReviewed": false,
+        "reviewedAt": "2026-11-26T23:26:54.726Z",
+        "expiresAt": "2026-12-03T23:26:54.726Z",
+        "evidenceHash": "f1ec9ad56ee274f5c07a33bc41a4d3e31d629cdc6e868283d0b078b666d7b991"
+      },
+      "observedPublisherGroups": [
+        "organiser",
+        "opindia",
+        "tfipost",
+        "scroll"
+      ],
+      "unobservedPublisherGroups": [
+        "pib",
+        "mongabay",
+        "globalvoices",
+        "idr",
+        "isignal",
+        "behanbox",
+        "peoples-democracy",
+        "sabrang-india"
+      ],
+      "excludedForOpportunity": [
+        "peoples-democracy"
+      ],
+      "unreviewedMatches": [],
+      "unmonitoredReferenceUrls": [
+        "https://organiser.org/2026/11/26/429062/bharat/tamil-nadu/apology-cannot-undo-court-contempt-hindu-munnani-seeks-action-against-madurai-collector-thiruparankundram-deepam/",
+        "https://organiser.org/2026/11/26/429071/bharat/tamil-nadu/thiruparankundram-deepathoon-row-fresh-contempt-plea-seeks-to-establish-vijay-government-role-in-defying-sc-order/"
+      ],
+      "reasons": [
+        "classified_cohorts_insufficient"
+      ],
+      "coverage": {
+        "left": 1,
+        "centre": 0,
+        "right": 3
+      },
+      "denominators": {
+        "left": 2,
+        "centre": 0,
+        "right": 3
+      },
+      "rates": {
+        "left": 0.5,
+        "centre": null,
+        "right": 1
+      },
+      "finding": null
+    },
     {
       "id": "cop31-outcome",
       "title": {
@@ -195,6 +514,10 @@
         "hi": "COP31 का अधूरा समझौता: तीन भारतीय न्यूज़रूम, तीन अलग ज़ोर"
       },
       "path": "/stories/cop31-outcome",
+      "summary": null,
+      "comparison": [],
+      "originNotes": null,
+      "review": null,
       "observedPublisherGroups": [
         "mongabay",
         "isignal"
@@ -203,15 +526,33 @@
         "pib",
         "globalvoices",
         "idr",
-        "behanbox"
+        "behanbox",
+        "organiser",
+        "tfipost",
+        "opindia",
+        "scroll",
+        "peoples-democracy",
+        "sabrang-india"
       ],
+      "excludedForOpportunity": [
+        "organiser",
+        "tfipost",
+        "opindia",
+        "scroll",
+        "peoples-democracy",
+        "sabrang-india"
+      ],
+      "unreviewedMatches": [],
       "unmonitoredReferenceUrls": [
         "https://www.downtoearth.org.in/climate-change/cop31-ends-with-no-major-deal-divisions-over-fossil-fuels-and-climate-finance-deepen"
       ],
       "reasons": [
         "classified_cohorts_insufficient",
         "event_review_pending",
-        "wire_origin_review_pending"
+        "wire_origin_review_pending",
+        "unreviewed_event_matches",
+        "comparison_evidence_incomplete",
+        "covering_publishers_insufficient"
       ],
       "coverage": {
         "left": 0,
