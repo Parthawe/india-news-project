@@ -1,0 +1,3 @@
+{
+  "newsStatusEndpoint": "https://inp-news-pipeline.pawar-d-parth.workers.dev/api/news/status"
+}
