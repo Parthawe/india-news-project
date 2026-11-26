@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "date": "2026-11-27",
+  "collectedAt": "2026-11-26T18:46:38.426Z",
+  "target": 5,
+  "status": "complete",
+  "items": [
+    {
+      "id": "pib-2342239",
+      "title": "WOAH PVS Mission Begins Evaluation of India's Aquatic Animal Health Services",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342239",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 8:36PM by PIB Delhi",
+      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Fisheries, Animal Husbandry & Dairying"
+    },
+    {
+      "id": "pib-2342219",
+      "title": "India Post Accelerates Its Transformation with ₹2,632 Crore Financial Outlay Following Cabinet Approval",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342219",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 8:08PM by PIB Delhi",
+      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Communications"
+    },
+    {
+      "id": "pib-2342210",
+      "title": "India and UAE agree to accelerate co-development & co-production of next generation defence equipment at 14th JDCC meeting in Abu Dhabi",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342210",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 8:00PM by PIB Delhi",
+      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Defence"
+    },
+    {
+      "id": "pib-2342209",
+      "title": "Dr. Ambedkar Foundation Celebrates Constitution Day 2026; Reaffirms Commitment to Constitutional Values, Social Justice and Inclusive Democracy",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342209",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 7:52PM by PIB Delhi",
+      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Social Justice & Empowerment"
+    },
+    {
+      "id": "pib-2342207",
+      "title": "Pension Reforms Division in Department of Financial Services tops Grievance Redressal Assessment & Index (GRAI) ranking in Group B Category by Department of Administrative Reforms and Public Grievances for October, 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342207",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-26",
+      "publishedDateText": "Posted On: 26 NOV 2026 7:58PM by PIB Delhi",
+      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Finance"
+    }
+  ],
+  "feeds": [
+    {
+      "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "status": "ok",
+      "accepted": 16,
+      "attempted": 20,
+      "excluded": 4,
+      "failures": [
+        {
+          "id": "pib-2342215",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342215",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2342206",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342206",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2342197",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342197",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2342194",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342194",
+          "status": "publication_date_unavailable"
+        }
+      ]
+    }
+  ]
+}
