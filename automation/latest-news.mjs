@@ -1,3 +1,7 @@
+import registry from './source-profiles.json' with {type:'json'};
+import events from './blindspot-events.json' with {type:'json'};
+import {evaluateBlindspots} from './blindspot-core.mjs';
+import {renderBlindspots} from './blindspot-render.mjs';
 import{regionalReleaseLinks}from'./pib-regional.mjs';
 import{feedPublicationDate}from'./feed-dates.mjs';
 import{recoverIntake}from'./recover-intake.mjs';
@@ -61,6 +65,8 @@ const enabled=sources.filter(s=>s.enabled);for(let i=0;i<enabled.length;i+=3)awa
 feeds.sort((a,b)=>enabled.findIndex(s=>s.id===a.id)-enabled.findIndex(s=>s.id===b.id));
 const index=buildLatest(previous,[...restored.articles,...incoming],feeds,sources,now);index.archiveRecovery=restored.recovery;const json=JSON.stringify(index,null,2)+'\n';
 await writeFile(join(folder,'latest-reporting.json'),json);
+const blindspots=evaluateBlindspots(index,registry,events,sources,now);
+await writeFile(join(folder,'blindspots.json'),JSON.stringify(blindspots,null,2)+'\n');
 const intakeFolder=join(folder,'intake');await mkdir(intakeFolder,{recursive:true});
 const intakeRecords=[...index.articles,...incoming];
 const days=new Set([indiaDay(now),...intakeRecords.map(a=>a.datePrecision==='day'?a.publishedAt.slice(0,10):indiaDay(a.publishedAt))]);
@@ -71,6 +77,9 @@ for(const day of [...days].sort()){
 }
 
 for(const lang of['en','hi']){
+ const blindspotFragment=renderBlindspots(blindspots,lang,base);
+ const blindspotPage=join(root,lang,'blindspots/index.html');
+ try{let html=await readFile(blindspotPage,'utf8');if(!/<!--BLINDSPOTS:START-->[\s\S]*?<!--BLINDSPOTS:END-->/.test(html))throw Error('Blindspots insertion point missing');html=html.replace(/<!--BLINDSPOTS:START-->[\s\S]*?<!--BLINDSPOTS:END-->/,()=>`<!--BLINDSPOTS:START-->${blindspotFragment}<!--BLINDSPOTS:END-->`);await writeFile(blindspotPage,html);}catch(e){if(e.code!=='ENOENT')throw e;}
  const fragment=renderLatest(index,lang,base);
  await writeFile(join(folder,`latest-reporting-${lang}.html`),fragment);
  const page=join(root,lang,'latest/index.html');try{let html=await readFile(page,'utf8');if(!/<!--LATEST:START-->[\s\S]*?<!--LATEST:END-->/.test(html))throw Error('Latest page insertion point missing');html=html.replace(/<!--LATEST:START-->[\s\S]*?<!--LATEST:END-->/,()=>`<!--LATEST:START-->${fragment}<!--LATEST:END-->`);await writeFile(page,html);}catch(e){if(e.code!=='ENOENT')throw e;}

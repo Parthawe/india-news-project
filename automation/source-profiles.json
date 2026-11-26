@@ -1,0 +1,844 @@
+{
+  "version": 1,
+  "checkedAt": "2026-11-26T22:22:27.496Z",
+  "methodVersion": "inp-source-assessment-v1",
+  "profiles": [
+    {
+      "id": "mongabay-india",
+      "name": "Mongabay India",
+      "url": "https://india.mongabay.com/",
+      "publisherGroup": "mongabay",
+      "aliases": [
+        "Mongabay India",
+        "Mongabay हिन्दी"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "Environment and conservation reporting from India.",
+        "hi": "भारत में पर्यावरण और संरक्षण की रिपोर्टिंग।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "The India desk documents a conservation focus. That focus and one COP31 article do not establish an India-wide Left/Centre/Right position; a global parent rating is not automatically transferable.",
+          "hi": "भारत डेस्क संरक्षण पर ध्यान बताता है। यह ध्यान और एक COP31 लेख भारतीय राजनीति में वाम/मध्य/दक्षिण स्थिति तय नहीं करते; वैश्विक नेटवर्क की रेटिंग अपने आप लागू नहीं होती।"
+        },
+        "evidenceIds": [
+          "india-about",
+          "network-about"
+        ],
+        "articleSample": [
+          {
+            "url": "https://india.mongabay.com/2026/11/fossil-fuel-divide-fractures-consensus-at-climate-talks-in-antalya/",
+            "publishedDate": "2026-11-23",
+            "author": "Soumya Sarkar",
+            "topic": "climate",
+            "genre": "news",
+            "fullTextExamined": true,
+            "materialHash": "b1f4f126612beddd90d57e724e5104423014e6ae6995922e65436324d5752d29",
+            "evidenceId": "examined-cop31",
+            "countryContext": "india"
+          }
+        ],
+        "topicSample": [
+          "climate"
+        ],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "india-about",
+          "title": "Mongabay India: about",
+          "url": "https://india.mongabay.com/about/",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "network-about",
+          "title": "Mongabay organisation: about",
+          "url": "https://mongabay.org/about/",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "examined-cop31",
+          "title": "Examined COP31 report",
+          "url": "https://india.mongabay.com/2026/11/fossil-fuel-divide-fractures-consensus-at-climate-talks-in-antalya/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T21:39:13.168Z"
+        }
+      ],
+      "relationships": [
+        {
+          "entity": "Mongabay",
+          "kind": "network_affiliation",
+          "statement": {
+            "en": "The India portal identifies itself as part of the Mongabay network.",
+            "hi": "भारत पोर्टल खुद को मोंगाबे नेटवर्क का हिस्सा बताता है।"
+          },
+          "evidenceId": "india-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "funding": [
+        {
+          "entity": "Nonprofit model",
+          "kind": "funding_model",
+          "statement": {
+            "en": "The network describes itself as nonprofit; this is not an audited India-desk funding breakdown.",
+            "hi": "नेटवर्क खुद को गैर-लाभकारी बताता है; यह भारत डेस्क के वित्त की जाँची हुई सूची नहीं है।"
+          },
+          "evidenceId": "network-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "declaration": null,
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "down-to-earth",
+      "name": "Down To Earth",
+      "url": "https://www.downtoearth.org.in/",
+      "publisherGroup": "down-to-earth",
+      "aliases": [
+        "Down To Earth"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "Environment, science, health and livelihoods.",
+        "hi": "पर्यावरण, विज्ञान, स्वास्थ्य और आजीविका।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "Environmental advocacy is documented, but is not a sufficient basis for an Indian political label. Our current comparison examines one climate report.",
+          "hi": "पर्यावरण के पक्ष में घोषित दृष्टिकोण है, पर भारतीय राजनीतिक लेबल के लिए यह पर्याप्त नहीं। मौजूदा तुलना में एक जलवायु रिपोर्ट जाँची गई है।"
+        },
+        "evidenceIds": [
+          "dte-terms",
+          "dte-about"
+        ],
+        "articleSample": [
+          {
+            "url": "https://www.downtoearth.org.in/climate-change/cop31-ends-with-no-major-deal-divisions-over-fossil-fuels-and-climate-finance-deepen",
+            "publishedDate": "2026-11-22",
+            "author": "Puja Das",
+            "topic": "climate",
+            "genre": "news",
+            "fullTextExamined": true,
+            "materialHash": "b4d3a9d163cc3bd6b8d91830948620e955a1f63b637986f35f977ec80c41be94",
+            "evidenceId": "examined-cop31",
+            "countryContext": "india"
+          }
+        ],
+        "topicSample": [
+          "climate"
+        ],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "dte-terms",
+          "title": "Down To Earth: terms",
+          "url": "https://www.downtoearth.org.in/terms-and-conditions",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "dte-about",
+          "title": "Down To Earth: about",
+          "url": "https://www.downtoearth.org.in/about-us",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "examined-cop31",
+          "title": "Examined COP31 report",
+          "url": "https://www.downtoearth.org.in/climate-change/cop31-ends-with-no-major-deal-divisions-over-fossil-fuels-and-climate-finance-deepen",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T21:39:13.168Z"
+        }
+      ],
+      "relationships": [
+        {
+          "entity": "Society for Environmental Communications",
+          "kind": "publisher",
+          "statement": {
+            "en": "DTE’s terms identify Society for Environmental Communications in connection with its service.",
+            "hi": "DTE की शर्तें अपनी सेवा के साथ सोसायटी फ़ॉर एनवायरनमेंटल कम्युनिकेशंस का नाम देती हैं।"
+          },
+          "evidenceId": "dte-terms",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "funding": [
+        {
+          "entity": "Subscriptions",
+          "kind": "funding_model",
+          "statement": {
+            "en": "The publisher asks readers for subscription support; this does not quantify its revenue mix.",
+            "hi": "प्रकाशक पाठकों से सदस्यता समर्थन माँगता है; इससे आय के स्रोतों का अनुपात तय नहीं होता।"
+          },
+          "evidenceId": "dte-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "declaration": null,
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "isignal",
+      "name": "ISignal (formerly IndiaSpend)",
+      "url": "https://www.isignal.in/",
+      "publisherGroup": "isignal",
+      "aliases": [
+        "ISignal (formerly IndiaSpend)",
+        "ISignal",
+        "IndiaSpend"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "Data-led reporting on India’s social and political economy.",
+        "hi": "भारत की सामाजिक और राजनीतिक अर्थव्यवस्था पर आँकड़ा-आधारित रिपोर्टिंग।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "Data-led reporting is a method, not evidence of political centrism. One COP31 report is insufficient for an outlet-wide political assessment.",
+          "hi": "आँकड़ा-आधारित रिपोर्टिंग एक तरीका है, राजनीतिक मध्यवाद का सबूत नहीं। पूरे प्रकाशक के आकलन के लिए एक COP31 रिपोर्ट पर्याप्त नहीं।"
+        },
+        "evidenceIds": [
+          "isignal-weekly",
+          "isignal-about"
+        ],
+        "articleSample": [
+          {
+            "url": "https://www.isignal.in/climate-change/cop31-ends-without-consensus-even-as-2026-is-set-to-be-among-hottest-years-991871",
+            "publishedDate": "2026-11-22",
+            "author": "Tanvi Deshpande",
+            "topic": "climate",
+            "genre": "news",
+            "fullTextExamined": true,
+            "materialHash": "ebbe3583eae63bcf3b6bb4a2ecd922b879ffa8feaa084c46ec6767f7b7417164",
+            "evidenceId": "examined-cop31",
+            "countryContext": "india"
+          }
+        ],
+        "topicSample": [
+          "climate"
+        ],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "isignal-weekly",
+          "title": "ISignal Weekly: about",
+          "url": "https://weekly.isignal.in/about",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "isignal-about",
+          "title": "ISignal: about",
+          "url": "https://www.isignal.in/about-us",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "examined-cop31",
+          "title": "Examined COP31 report",
+          "url": "https://www.isignal.in/climate-change/cop31-ends-without-consensus-even-as-2026-is-set-to-be-among-hottest-years-991871",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T21:39:13.168Z"
+        }
+      ],
+      "relationships": [
+        {
+          "entity": "The Spending & Policy Research Foundation",
+          "kind": "operator",
+          "statement": {
+            "en": "ISignal’s newsletter identifies it as a project of this foundation. Registration and current control have not been independently checked.",
+            "hi": "ISignal का न्यूज़लेटर इसे इस संस्था की परियोजना बताता है। पंजीकरण और वर्तमान नियंत्रण की स्वतंत्र जाँच नहीं हुई है।"
+          },
+          "evidenceId": "isignal-weekly",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "funding": [],
+      "declaration": null,
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "behanbox",
+      "name": "BehanBox",
+      "url": "https://behanbox.com/",
+      "publisherGroup": "behanbox",
+      "aliases": [
+        "BehanBox"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "Gender-focused reporting on policy, work, climate and health.",
+        "hi": "नीति, काम, जलवायु और स्वास्थ्य पर लैंगिक दृष्टिकोण से रिपोर्टिंग।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "Its women-led mission and gender lens are explicit. They do not by themselves establish political leaning; no representative political sample has been reviewed.",
+          "hi": "महिला नेतृत्व और लैंगिक दृष्टिकोण घोषित हैं। इनसे अपने आप राजनीतिक झुकाव तय नहीं होता; प्रतिनिधि राजनीतिक नमूने की समीक्षा नहीं हुई है।"
+        },
+        "evidenceIds": [
+          "behanbox-about"
+        ],
+        "articleSample": [],
+        "topicSample": [],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "behanbox-about",
+          "title": "BehanBox: about",
+          "url": "https://behanbox.com/about-us/",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        }
+      ],
+      "relationships": [],
+      "funding": [],
+      "declaration": null,
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "india-development-review",
+      "name": "India Development Review",
+      "url": "https://idronline.org/",
+      "publisherGroup": "idr",
+      "aliases": [
+        "India Development Review",
+        "India Development Review हिन्दी",
+        "IDR"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "Reporting and practitioner perspectives on social development.",
+        "hi": "सामाजिक विकास पर रिपोर्टिंग और क्षेत्र में काम करने वालों के विचार।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "Its development focus and independence statement do not establish centrism. Contributor opinions must be distinguished from organisational positions.",
+          "hi": "विकास पर ध्यान और स्वतंत्रता की घोषणा मध्यवाद तय नहीं करते। योगदानकर्ताओं के विचार और संस्थागत रुख अलग रखने होंगे।"
+        },
+        "evidenceIds": [
+          "idr-about"
+        ],
+        "articleSample": [],
+        "topicSample": [],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "idr-about",
+          "title": "IDR: governance, ethics and funding partners",
+          "url": "https://idronline.org/about/",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        }
+      ],
+      "relationships": [
+        {
+          "entity": "India Development Review",
+          "kind": "legal_form",
+          "statement": {
+            "en": "IDR describes itself as a Section 8 nonprofit company with board oversight. No beneficial-owner audit was performed.",
+            "hi": "IDR खुद को बोर्ड की निगरानी वाली धारा 8 गैर-लाभकारी कंपनी बताता है। लाभकारी स्वामित्व की जाँच नहीं हुई।"
+          },
+          "evidenceId": "idr-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "funding": [
+        {
+          "entity": "Past and current funding partners",
+          "kind": "disclosed_funders",
+          "statement": {
+            "en": "IDR publishes a combined past/current partner list. Amounts, periods and current support are not established by that list alone.",
+            "hi": "IDR पुराने और मौजूदा साझेदारों की मिली-जुली सूची देता है। केवल इससे राशि, अवधि या वर्तमान सहायता स्थापित नहीं होती।"
+          },
+          "evidenceId": "idr-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "declaration": null,
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "global-voices",
+      "name": "Global Voices",
+      "url": "https://globalvoices.org/",
+      "publisherGroup": "globalvoices",
+      "aliases": [
+        "Global Voices",
+        "Global Voices हिन्दी",
+        "Global Voices বাংলা"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "Community reporting and translation, including India coverage.",
+        "hi": "भारत सहित समुदायों की रिपोर्टिंग और अनुवाद।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "A global civic mission is not an India-specific political assessment. Language editions share a network and do not count as separate newsrooms.",
+          "hi": "वैश्विक नागरिक मिशन भारतीय राजनीतिक आकलन नहीं है। अलग भाषाओं के संस्करण एक नेटवर्क के हैं, अलग न्यूज़रूम नहीं।"
+        },
+        "evidenceIds": [
+          "gv-about"
+        ],
+        "articleSample": [],
+        "topicSample": [],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "gv-about",
+          "title": "Global Voices: legal status and funding",
+          "url": "https://globalvoices.org/about/",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        }
+      ],
+      "relationships": [
+        {
+          "entity": "Stichting Global Voices",
+          "kind": "operator",
+          "statement": {
+            "en": "Global Voices identifies this Netherlands nonprofit foundation as governing its global operations.",
+            "hi": "ग्लोबल वॉयसेज़ इस नीदरलैंड की गैर-लाभकारी संस्था को वैश्विक संचालन का शासी निकाय बताता है।"
+          },
+          "evidenceId": "gv-about",
+          "verification": "publisher_disclosed"
+        },
+        {
+          "entity": "Friends of Global Voices, Inc.",
+          "kind": "donation_recipient",
+          "statement": {
+            "en": "The publisher identifies a separate US charity receiving donations and grants in support of its mission. This is not a parent-company claim.",
+            "hi": "प्रकाशक एक अलग अमेरिकी संस्था को अपने मिशन के लिए दान और अनुदान लेने वाली संस्था बताता है। यह मूल कंपनी होने का दावा नहीं है।"
+          },
+          "evidenceId": "gv-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "funding": [
+        {
+          "entity": "Grants, donations, sponsorships and services",
+          "kind": "funding_model",
+          "statement": {
+            "en": "These are publisher-disclosed funding categories, not independently verified transactions.",
+            "hi": "ये प्रकाशक के बताए वित्त-स्रोत हैं, स्वतंत्र रूप से जाँचे गए लेनदेन नहीं।"
+          },
+          "evidenceId": "gv-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "declaration": null,
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "pib",
+      "name": "Press Information Bureau",
+      "url": "https://www.pib.gov.in/",
+      "publisherGroup": "pib",
+      "aliases": [
+        "Press Information Bureau"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "Official Government of India communication.",
+        "hi": "भारत सरकार की आधिकारिक सूचना।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "Government communication is a source type, not a Right classification. Party ideology and factual support must be assessed separately.",
+          "hi": "सरकारी संचार एक स्रोत प्रकार है, दक्षिण का वर्गीकरण नहीं। पार्टी विचारधारा और तथ्य के समर्थन की अलग जाँच चाहिए।"
+        },
+        "evidenceIds": [
+          "pib-portal"
+        ],
+        "articleSample": [],
+        "topicSample": [],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Official government communication; this is not an assessment of party-political leaning.",
+        "hi": "आधिकारिक सरकारी संचार; यह पार्टी-राजनीतिक झुकाव का आकलन नहीं है।"
+      },
+      "evidence": [
+        {
+          "id": "pib-portal",
+          "title": "PIB: official government portal",
+          "url": "https://www.pib.gov.in/",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        }
+      ],
+      "relationships": [
+        {
+          "entity": "Government of India",
+          "kind": "government_body",
+          "statement": {
+            "en": "PIB identifies itself as the Government of India’s information bureau.",
+            "hi": "PIB खुद को भारत सरकार का सूचना ब्यूरो बताता है।"
+          },
+          "evidenceId": "pib-portal",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "funding": [],
+      "declaration": null,
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "swarajya",
+      "name": "Swarajya",
+      "url": "https://swarajyamag.com/",
+      "publisherGroup": "swarajya",
+      "aliases": [
+        "Swarajya"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "A publisher-declared liberal centre-right perspective on India.",
+        "hi": "भारत पर प्रकाशक का घोषित उदार मध्य-दक्षिण दृष्टिकोण।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "The publisher’s own declaration is recorded separately. It is an undated self-description, not an INP-reviewed sample of current reporting. No automatic Right classification is made.",
+          "hi": "प्रकाशक की घोषणा अलग दर्ज है। यह बिना तारीख का स्व-वर्णन है, वर्तमान रिपोर्टिंग के नमूने की INP समीक्षा नहीं। दक्षिण का स्वतः वर्गीकरण नहीं किया गया है।"
+        },
+        "evidenceIds": [
+          "swarajya-about"
+        ],
+        "articleSample": [],
+        "topicSample": [],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "swarajya-about",
+          "title": "Swarajya store: publisher about page",
+          "url": "https://store.swarajyamag.com/pages/about-us",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        }
+      ],
+      "relationships": [],
+      "funding": [],
+      "declaration": {
+        "label": {
+          "en": "Liberal centre-right — publisher self-description",
+          "hi": "उदार मध्य-दक्षिण — प्रकाशक का स्व-वर्णन"
+        },
+        "quote": "liberal centre-right",
+        "evidenceId": "swarajya-about",
+        "date": "undated",
+        "blindspotEligible": false
+      },
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    },
+    {
+      "id": "janata-weekly",
+      "name": "Janata Weekly",
+      "url": "https://janataweekly.org/",
+      "publisherGroup": "janata-weekly",
+      "aliases": [
+        "Janata Weekly"
+      ],
+      "version": 1,
+      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "review": {
+        "type": "ai_research",
+        "humanReviewed": false,
+        "editorialStatus": "pending",
+        "translationStatus": "pending"
+      },
+      "focus": {
+        "en": "A publisher-declared democratic socialist perspective.",
+        "hi": "प्रकाशक का घोषित लोकतांत्रिक समाजवादी दृष्टिकोण।"
+      },
+      "assessment": {
+        "leaning": "unassessed",
+        "status": "draft",
+        "context": "india",
+        "methodVersion": "inp-source-assessment-v1",
+        "rationale": {
+          "en": "The publication’s socialist self-description is documented. Its history does not substitute for a current, reviewed outlet-wide assessment or monitored coverage sample.",
+          "hi": "प्रकाशन का समाजवादी स्व-वर्णन दर्ज है। उसका इतिहास वर्तमान प्रकाशक आकलन या निगरानी किए कवरेज नमूने का विकल्प नहीं है।"
+        },
+        "evidenceIds": [
+          "janata-about"
+        ],
+        "articleSample": [],
+        "topicSample": [],
+        "approval": null,
+        "basis": "india_reporting_sample",
+        "appliesTo": []
+      },
+      "governmentAlignment": {
+        "en": "Not assessed. Government relationships and political ideology require separate evidence.",
+        "hi": "आकलन नहीं हुआ। सरकारी संबंधों और राजनीतिक विचारधारा के लिए अलग सबूत चाहिए।"
+      },
+      "evidence": [
+        {
+          "id": "janata-about",
+          "title": "Janata Weekly: publisher history",
+          "url": "https://janataweekly.org/about-us/",
+          "type": "primary_publisher_disclosure",
+          "observedAt": "2026-11-26T22:22:27.496Z"
+        }
+      ],
+      "relationships": [
+        {
+          "entity": "Janata Trust",
+          "kind": "historical_ownership",
+          "statement": {
+            "en": "The publisher’s history says ownership was vested in this trust in 1977. Current control has not been independently verified.",
+            "hi": "प्रकाशक के इतिहास के अनुसार 1977 में स्वामित्व इस ट्रस्ट में रखा गया। वर्तमान नियंत्रण की स्वतंत्र पुष्टि नहीं हुई है।"
+          },
+          "evidenceId": "janata-about",
+          "verification": "publisher_disclosed"
+        }
+      ],
+      "funding": [],
+      "declaration": {
+        "label": {
+          "en": "Democratic socialist — publisher self-description",
+          "hi": "लोकतांत्रिक समाजवादी — प्रकाशक का स्व-वर्णन"
+        },
+        "quote": "democratic socialist perspective",
+        "evidenceId": "janata-about",
+        "date": "undated",
+        "blindspotEligible": false
+      },
+      "controlAudit": {
+        "en": "Ultimate control and beneficial ownership have not been independently audited.",
+        "hi": "अंतिम नियंत्रण और लाभकारी स्वामित्व की स्वतंत्र जाँच नहीं हुई है।"
+      },
+      "history": [
+        {
+          "version": 1,
+          "at": "2026-11-26T22:22:27.496Z",
+          "action": "Primary-source research record created; no INP political rating approved."
+        }
+      ]
+    }
+  ]
+}

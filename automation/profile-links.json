@@ -1,0 +1,38 @@
+[
+  {
+    "group": "mongabay",
+    "path": "/sources/mongabay-india"
+  },
+  {
+    "group": "down-to-earth",
+    "path": "/sources/down-to-earth"
+  },
+  {
+    "group": "isignal",
+    "path": "/sources/isignal"
+  },
+  {
+    "group": "behanbox",
+    "path": "/sources/behanbox"
+  },
+  {
+    "group": "idr",
+    "path": "/sources/india-development-review"
+  },
+  {
+    "group": "globalvoices",
+    "path": "/sources/global-voices"
+  },
+  {
+    "group": "pib",
+    "path": "/sources/pib"
+  },
+  {
+    "group": "swarajya",
+    "path": "/sources/swarajya"
+  },
+  {
+    "group": "janata-weekly",
+    "path": "/sources/janata-weekly"
+  }
+]

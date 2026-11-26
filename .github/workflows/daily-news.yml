@@ -50,7 +50,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add news en/index.html hi/index.html en/latest/index.html hi/latest/index.html
+          git add news en/index.html hi/index.html en/latest/index.html hi/latest/index.html en/blindspots/index.html hi/blindspots/index.html
           if ! git diff --cached --quiet; then
             git commit -m 'Update dated news links and source collection health'
             git push
