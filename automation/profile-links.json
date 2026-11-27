@@ -2,46 +2,108 @@
   {
     "group": "mongabay",
     "path": "/sources/mongabay-india",
-    "assessment": null
+    "publishers": [
+      "Mongabay India",
+      "Mongabay हिन्दी"
+    ],
+    "assessment": null,
+    "review": {
+      "outcome": "unassessed",
+      "publishers": [
+        "Mongabay India"
+      ],
+      "reviewedAt": "2026-11-27T02:12:14.156Z",
+      "expiresAt": "2026-12-27T02:12:14.164Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 2
+    }
   },
   {
     "group": "down-to-earth",
     "path": "/sources/down-to-earth",
-    "assessment": null
+    "publishers": [
+      "Down To Earth"
+    ],
+    "assessment": null,
+    "review": null
   },
   {
     "group": "isignal",
     "path": "/sources/isignal",
-    "assessment": null
+    "publishers": [
+      "ISignal (formerly IndiaSpend)",
+      "ISignal",
+      "IndiaSpend"
+    ],
+    "assessment": null,
+    "review": null
   },
   {
     "group": "behanbox",
     "path": "/sources/behanbox",
-    "assessment": null
+    "publishers": [
+      "BehanBox"
+    ],
+    "assessment": null,
+    "review": null
   },
   {
     "group": "idr",
     "path": "/sources/india-development-review",
-    "assessment": null
+    "publishers": [
+      "India Development Review",
+      "India Development Review हिन्दी",
+      "IDR"
+    ],
+    "assessment": null,
+    "review": {
+      "outcome": "issue-dependent",
+      "publishers": [
+        "India Development Review"
+      ],
+      "reviewedAt": "2026-11-27T02:05:39.323Z",
+      "expiresAt": "2026-12-27T02:05:39.323Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 2
+    }
   },
   {
     "group": "globalvoices",
     "path": "/sources/global-voices",
-    "assessment": null
+    "publishers": [
+      "Global Voices",
+      "Global Voices हिन्दी",
+      "Global Voices বাংলা"
+    ],
+    "assessment": null,
+    "review": null
   },
   {
     "group": "pib",
     "path": "/sources/pib",
-    "assessment": null
+    "publishers": [
+      "Press Information Bureau"
+    ],
+    "assessment": null,
+    "review": null
   },
   {
     "group": "swarajya",
     "path": "/sources/swarajya",
-    "assessment": null
+    "publishers": [
+      "Swarajya"
+    ],
+    "assessment": null,
+    "review": null
   },
   {
     "group": "janata-weekly",
     "path": "/sources/janata-weekly",
+    "publishers": [
+      "Janata Weekly"
+    ],
     "assessment": {
       "leaning": "left",
       "publishers": [
@@ -49,11 +111,25 @@
       ],
       "reviewedAt": "2026-11-27T02:31:56.680Z",
       "expiresAt": "2026-12-27T02:31:56.680Z"
+    },
+    "review": {
+      "outcome": "left",
+      "publishers": [
+        "Janata Weekly"
+      ],
+      "reviewedAt": "2026-11-27T02:31:56.680Z",
+      "expiresAt": "2026-12-27T02:31:56.680Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 3
     }
   },
   {
     "group": "organiser",
     "path": "/sources/organiser",
+    "publishers": [
+      "Organiser"
+    ],
     "assessment": {
       "leaning": "right",
       "publishers": [
@@ -61,11 +137,25 @@
       ],
       "reviewedAt": "2026-11-26T23:33:38.653Z",
       "expiresAt": "2026-12-26T23:33:38.653Z"
+    },
+    "review": {
+      "outcome": "right",
+      "publishers": [
+        "Organiser"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 1
     }
   },
   {
     "group": "tfipost",
     "path": "/sources/tfipost",
+    "publishers": [
+      "TFI"
+    ],
     "assessment": {
       "leaning": "right",
       "publishers": [
@@ -73,11 +163,25 @@
       ],
       "reviewedAt": "2026-11-26T23:33:38.653Z",
       "expiresAt": "2026-12-26T23:33:38.653Z"
+    },
+    "review": {
+      "outcome": "right",
+      "publishers": [
+        "TFI"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 1
     }
   },
   {
     "group": "opindia",
     "path": "/sources/opindia",
+    "publishers": [
+      "OpIndia English"
+    ],
     "assessment": {
       "leaning": "right",
       "publishers": [
@@ -85,11 +189,25 @@
       ],
       "reviewedAt": "2026-11-26T23:33:38.653Z",
       "expiresAt": "2026-12-26T23:33:38.653Z"
+    },
+    "review": {
+      "outcome": "right",
+      "publishers": [
+        "OpIndia English"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 1
     }
   },
   {
     "group": "the-wire",
     "path": "/sources/the-wire",
+    "publishers": [
+      "The Wire English"
+    ],
     "assessment": {
       "leaning": "left",
       "publishers": [
@@ -97,11 +215,25 @@
       ],
       "reviewedAt": "2026-11-26T23:33:38.653Z",
       "expiresAt": "2026-12-26T23:33:38.653Z"
+    },
+    "review": {
+      "outcome": "left",
+      "publishers": [
+        "The Wire English"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 1
     }
   },
   {
     "group": "scroll",
     "path": "/sources/scroll",
+    "publishers": [
+      "Scroll English"
+    ],
     "assessment": {
       "leaning": "left",
       "publishers": [
@@ -109,11 +241,25 @@
       ],
       "reviewedAt": "2026-11-26T23:33:38.653Z",
       "expiresAt": "2026-12-26T23:33:38.653Z"
+    },
+    "review": {
+      "outcome": "left",
+      "publishers": [
+        "Scroll English"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 1
     }
   },
   {
     "group": "peoples-democracy",
     "path": "/sources/peoples-democracy",
+    "publishers": [
+      "People’s Democracy"
+    ],
     "assessment": {
       "leaning": "left",
       "publishers": [
@@ -121,11 +267,25 @@
       ],
       "reviewedAt": "2026-11-26T23:33:38.653Z",
       "expiresAt": "2026-12-26T23:33:38.653Z"
+    },
+    "review": {
+      "outcome": "left",
+      "publishers": [
+        "People’s Democracy"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 1
     }
   },
   {
     "group": "sabrang-india",
     "path": "/sources/sabrang-india",
+    "publishers": [
+      "Sabrang India"
+    ],
     "assessment": {
       "leaning": "left",
       "publishers": [
@@ -133,6 +293,17 @@
       ],
       "reviewedAt": "2026-11-26T23:33:38.653Z",
       "expiresAt": "2026-12-26T23:33:38.653Z"
+    },
+    "review": {
+      "outcome": "left",
+      "publishers": [
+        "Sabrang India"
+      ],
+      "reviewedAt": "2026-11-26T23:33:38.653Z",
+      "expiresAt": "2026-12-26T23:33:38.653Z",
+      "type": "ai_editorial",
+      "humanReviewed": false,
+      "version": 1
     }
   }
 ]
