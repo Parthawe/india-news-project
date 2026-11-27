@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-11-28",
+  "timeZone": "Asia/Kolkata",
+  "checkedAt": "2026-11-27T22:30:56.800Z",
+  "target": {
+    "links": 100,
+    "unit": "article_or_video_links",
+    "basis": "publication_day",
+    "ranking": "none"
+  },
+  "counts": {
+    "links": 0,
+    "shortfall": 100,
+    "publishers": 0,
+    "languages": [],
+    "fullTextAnalyses": 0,
+    "transcriptAnalyses": 0
+  },
+  "analysisStatus": "metadata_only",
+  "articles": [],
+  "limitations": "Selected permitted feeds only. Links are not distinct stories or completed reviews. No daily minimum is guaranteed. No video transcript intake is enabled. Day-only publisher dates are retained as supplied."
+}
