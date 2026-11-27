@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-02",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-27T03:22:35.372Z",
+  "checkedAt": "2026-11-27T05:00:02.077Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -33,7 +33,7 @@
       "kind": "reporting",
       "publishedAt": "2026-11-02T11:01:21.000Z",
       "firstSeenAt": "2026-11-26T18:16:56.744Z",
-      "lastSeenAt": "2026-11-27T03:22:35.372Z",
+      "lastSeenAt": "2026-11-27T05:00:02.077Z",
       "headlineSha256": "717fb25056916753eab5aaa45a4e03387745bfe503d06165d3bd00344b0884c4",
       "license": "CC BY-ND 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
