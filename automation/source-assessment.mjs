@@ -9,6 +9,7 @@ export function assessmentDigest(profile){const {approval,...assessment}=profile
 export function assessEligibility(profile,now=new Date()){
  const a=profile?.assessment,reasons=[];const add=x=>{if(!reasons.includes(x))reasons.push(x)};
  if(!a||a.status!=='published'||!a.approval||profile?.review?.editorialStatus!=='approved')add('editorial_approval_pending');
+ if(a?.status==='published'&&profile?.review?.translationStatus!=='approved')add('translation_approval_pending');
  if(!a||!['left','centre','right'].includes(a.leaning))add('political_position_unassessed');
  if(a?.context!=='india'||a?.basis!=='india_reporting_sample')add('india_scope_not_established');
  if(a?.methodVersion!==assessmentPolicy.version)add('method_version_unrecognised');

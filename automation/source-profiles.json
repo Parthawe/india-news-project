@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "checkedAt": "2026-11-26T23:33:38.653Z",
+  "checkedAt": "2026-11-27T02:12:14.164Z",
   "methodVersion": "inp-source-assessment-v2",
   "profiles": [
     {
@@ -12,13 +12,13 @@
         "Mongabay India",
         "Mongabay हिन्दी"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:12:14.164Z",
       "review": {
-        "type": "ai_research",
+        "type": "ai_editorial",
         "humanReviewed": false,
-        "editorialStatus": "pending",
-        "translationStatus": "pending"
+        "editorialStatus": "approved",
+        "translationStatus": "approved"
       },
       "focus": {
         "en": "Environment and conservation reporting from India.",
@@ -26,36 +26,424 @@
       },
       "assessment": {
         "leaning": "unassessed",
-        "status": "draft",
+        "status": "published",
         "context": "india",
         "methodVersion": "inp-source-assessment-v2",
         "rationale": {
-          "en": "The India desk documents a conservation focus. That focus and one COP31 article do not establish an India-wide Left/Centre/Right position; a global parent rating is not automatically transferable.",
-          "hi": "भारत डेस्क संरक्षण पर ध्यान बताता है। यह ध्यान और एक COP31 लेख भारतीय राजनीति में वाम/मध्य/दक्षिण स्थिति तय नहीं करते; वैश्विक नेटवर्क की रेटिंग अपने आप लागू नहीं होती।"
+          "en": "Twelve English articles show a conservation and environmental-accountability remit, scientific reporting and attention to affected communities. They include disagreement among conservation specialists and scrutiny of both public and private projects. This sample does not establish a broad Indian political position. Scientific methods, multiple quotations or restrained prose do not establish Centre, and the single authored land-rights commentary cannot stand for the whole newsroom. The reviewed outcome remains politically unassessed.",
+          "hi": "बारह अंग्रेज़ी लेख संरक्षण और पर्यावरणीय जवाबदेही का दायरा, वैज्ञानिक रिपोर्टिंग और प्रभावित समुदायों पर ध्यान दिखाते हैं। संरक्षण विशेषज्ञों में असहमति और सार्वजनिक व निजी परियोजनाओं की जाँच दोनों हैं। यह नमूना व्यापक भारतीय राजनीतिक स्थिति स्थापित नहीं करता। वैज्ञानिक तरीके, कई पक्षों के उद्धरण या संयमित भाषा मध्य रेटिंग स्थापित नहीं करते; भूमि-अधिकार पर एक लेखक की टिप्पणी पूरे न्यूज़रूम का पक्ष नहीं हो सकती। समीक्षा पूरी है, पर राजनीतिक झुकाव अनाकलित है।"
         },
         "evidenceIds": [
-          "india-about",
-          "network-about"
+          "sample-1",
+          "sample-2",
+          "sample-3",
+          "sample-4",
+          "sample-5",
+          "sample-6",
+          "sample-7",
+          "sample-8",
+          "sample-9",
+          "sample-10",
+          "sample-11",
+          "sample-12"
         ],
         "articleSample": [
           {
+            "url": "https://india.mongabay.com/2026/11/translocated-tigress-miscarriage-and-injuries-raise-welfare-concerns/",
+            "title": "Translocated tigress’ miscarriage and injuries raise welfare concerns",
+            "publishedDate": "2026-11-26",
+            "author": "Arathi Menon",
+            "authorKnown": true,
+            "topic": "wildlife",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "e4572da1665c42fd779a4ee2809e4934658164a2150273b8ed4687129ec64160",
+            "evidenceId": "sample-1",
+            "note": {
+              "en": "Questions translocation welfare and records conflicting expert assessments, an anonymous official’s account and unanswered requests. Alleged political pressure and the miscarriage’s causes remain unresolved; criticism of an operation is not a party rating.",
+              "hi": "स्थानांतरण में पशु कल्याण पर सवाल, विशेषज्ञों की असहमति, अनाम अधिकारी का विवरण और अनुत्तरित सवाल हैं। राजनीतिक दबाव और गर्भपात के कारण अनसुलझे हैं; एक अभियान की आलोचना पार्टी की रेटिंग नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/large-scale-climate-drivers-influence-sardine-and-anchovy-fisheries/",
+            "title": "Large-scale climate drivers influence sardine and anchovy fisheries",
+            "publishedDate": "2026-11-26",
+            "author": "Phalguni Ranjan",
+            "authorKnown": true,
+            "topic": "fisheries",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "d09066455ff94689e60175de81301f9f28deb07d425670bbbc233895870aa58d",
+            "evidenceId": "sample-2",
+            "note": {
+              "en": "Explains research with explicit cautions about correlation, fishing effort and landings versus abundance. Those reporting practices do not establish political centrism or independently validate the study.",
+              "hi": "सहसंबंध, मछली पकड़ने के प्रयास और पकड़ बनाम आबादी के अंतर की स्पष्ट शर्तों के साथ शोध बताता है। ये तरीके राजनीतिक मध्य या अध्ययन की स्वतंत्र पुष्टि नहीं हैं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/neelakurinji-tourism-brings-crowds-but-not-all-areas-are-monitored-the-same/",
+            "title": "Neelakurinji tourism brings crowds, but not all areas are monitored the same",
+            "publishedDate": "2026-11-25",
+            "author": "Roshni K.A.",
+            "authorKnown": true,
+            "topic": "tourism",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "bb75e04932a41680cfa3aba5ae1d626691424ff2a03188462ed3d628e015d53c",
+            "evidenceId": "sample-3",
+            "note": {
+              "en": "Juxtaposes ecological risks and field observation with the forest officer’s protection measures. Conservation priorities and tourism regulation are observable; a general Left/Centre/Right position is not.",
+              "hi": "पर्यावरणीय जोखिम और स्थल अवलोकन के साथ वन अधिकारी के सुरक्षा उपाय हैं। संरक्षण और पर्यटन नियंत्रण की प्राथमिकता दिखती है; सामान्य वाम/मध्य/दक्षिण स्थिति नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/a-climbing-palms-genetics-reveals-evolutionary-secrets/",
+            "title": "A climbing palm’s genetics reveals evolutionary secrets",
+            "publishedDate": "2026-11-24",
+            "author": "Anusha Krishnan",
+            "authorKnown": true,
+            "topic": "science",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "2e13125ca043b59f59b5e40cf6129072f34a87aa52ff2fa6fc2554833ea09577",
+            "evidenceId": "sample-4",
+            "note": {
+              "en": "Reports genetic research and conservation implications with sampling limits. The text gives 21,000 years for the last glacial maximum but a quoted passage says 2,100; that internal discrepancy needs checking and is not resolved by this framing review.",
+              "hi": "नमूने की सीमाओं सहित आनुवंशिक शोध और संरक्षण के असर बताता है। पाठ अंतिम हिम-अधिकतम के लिए 21,000 वर्ष देता है, पर उद्धरण में 2,100 है; इस आंतरिक अंतर की जाँच चाहिए, प्रस्तुति समीक्षा इसे हल नहीं करती।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
             "url": "https://india.mongabay.com/2026/11/fossil-fuel-divide-fractures-consensus-at-climate-talks-in-antalya/",
+            "title": "Fossil fuel divide fractures consensus at climate talks in Antalya",
             "publishedDate": "2026-11-23",
             "author": "Soumya Sarkar",
+            "authorKnown": true,
             "topic": "climate",
-            "genre": "news",
+            "genre": "analysis",
+            "countryContext": "india",
             "fullTextExamined": true,
-            "materialHash": "b1f4f126612beddd90d57e724e5104423014e6ae6995922e65436324d5752d29",
-            "evidenceId": "examined-cop31",
-            "countryContext": "india"
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "7df73a9f0490066eddfdc53f7e8c182f5f6e2e3a933fa47e6c30c4dab32c150b",
+            "evidenceId": "sample-5",
+            "note": {
+              "en": "Foregrounds fossil-fuel transition, climate finance and historical responsibility, while explaining India’s development argument and acknowledging separate summit outcomes. Climate justice is not mapped automatically to an Indian party label.",
+              "hi": "जीवाश्म ईंधन से बदलाव, जलवायु वित्त और ऐतिहासिक जिम्मेदारी प्रमुख हैं; भारत का विकास तर्क और सम्मेलन के अलग नतीजे भी बताए गए हैं। जलवायु न्याय से अपने आप भारतीय पार्टी का लेबल नहीं निकलता।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/why-deforestation-science-gets-shifting-cultivation-wrong-commentary/",
+            "title": "Why deforestation science gets shifting cultivation wrong [Commentary]",
+            "publishedDate": "2026-11-23",
+            "author": "Amit John Kurien",
+            "authorKnown": true,
+            "topic": "land_rights",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "82ee4be9d8da811fadb0615d456979ec8cd8a007da8a91bf1ecef8571cdff193",
+            "evidenceId": "sample-6",
+            "note": {
+              "en": "The contributor explicitly defends shifting cultivators and challenges state/colonial land classifications. The publisher identifies these as the author’s views; the paper’s mapping claims have not been independently audited.",
+              "hi": "लेखक स्थानांतरित खेती करने वालों का स्पष्ट बचाव और सरकारी/औपनिवेशिक भूमि वर्गीकरण की आलोचना करता है। प्रकाशक इसे लेखक का पक्ष बताता है; अध्ययन के मानचित्र दावों का स्वतंत्र ऑडिट नहीं हुआ।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/the-climate-risks-behind-pumped-storage-expansion/",
+            "title": "The climate risks behind pumped-storage expansion",
+            "publishedDate": "2026-11-23",
+            "author": "Lisann Dias",
+            "authorKnown": true,
+            "topic": "energy",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "65edded08b539f3d2afb675480e2b6942738a033e0fbdf88895d86847f59c65e",
+            "evidenceId": "sample-7",
+            "note": {
+              "en": "Explains pumped storage’s grid benefits alongside landslide and cumulative-risk criticism, with multiple expert perspectives. This is neither blanket opposition to energy infrastructure nor evidence of a broad political Centre.",
+              "hi": "अलग विशेषज्ञों के साथ पंप्ड स्टोरेज के ग्रिड लाभ और भूस्खलन व संयुक्त जोखिम की आलोचना बताता है। यह हर ऊर्जा ढाँचे का विरोध या व्यापक राजनीतिक मध्य का सबूत नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/forest-villagers-protest-tourism-curbs-after-tiger-translocation/",
+            "title": "Forest villagers protest tourism curbs after tiger translocation",
+            "publishedDate": "2026-11-20",
+            "author": "Nabarun Guha",
+            "authorKnown": true,
+            "topic": "livelihoods",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "a5b417a50bef2d15d3c60c05fa64b307264b2f94be950a6c0298bdbc9844331a",
+            "evidenceId": "sample-8",
+            "note": {
+              "en": "Sets forest villagers’ livelihoods and rights demands against the administration’s tiger-acclimatisation rationale. Supports scrutiny of conservation trade-offs, not a single outlet-wide party alignment.",
+              "hi": "वनवासियों की आजीविका और अधिकार की माँग के सामने प्रशासन का बाघ को अनुकूल बनाने का तर्क है। संरक्षण के विकल्पों की जाँच है, पूरे प्रकाशन का एक पार्टी से जुड़ाव नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/el-nino-could-deepen-tamil-nadus-water-stress-and-threaten-agriculture/",
+            "title": "El Niño could deepen Tamil Nadu’s water stress and threaten agriculture",
+            "publishedDate": "2026-11-19",
+            "author": "Krithiga Narayanan",
+            "authorKnown": true,
+            "topic": "agriculture",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "7c110369d963db31fa9dc5a8dc11a0cfaae75c1f2cf93cfb94ce1d25586a531a",
+            "evidenceId": "sample-9",
+            "note": {
+              "en": "Includes regional forecast uncertainty and a scientist’s expectation that El Niño can improve northeast-monsoon rain, alongside drought preparation and criticism of implementation. The forecasts are dated source claims, not INP’s current weather advice.",
+              "hi": "सूखे की तैयारी और लागू करने की आलोचना के साथ क्षेत्रीय पूर्वानुमान की अनिश्चितता तथा एल नीनो से उत्तर-पूर्वी वर्षा बढ़ने का वैज्ञानिक पक्ष है। ये दिनांकित स्रोत-दावे हैं, INP की वर्तमान मौसम सलाह नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/india-thought-it-eliminated-kala-azar-the-disease-now-gets-reported-from-a-non-endemic-state/",
+            "title": "India thought it eliminated kala-azar. The disease now gets reported from a non-endemic state",
+            "publishedDate": "2026-11-24",
+            "author": "Aatreyee Dhar, Swati Thapa",
+            "authorKnown": true,
+            "topic": "health",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "d9102dcb3ff1e3d00b0992ede021634fb36b3a1fd5f6d258a2bc26786fc3cbd8",
+            "evidenceId": "sample-10",
+            "note": {
+              "en": "Investigates surveillance gaps while recognising national disease-control gains, official responses and unresolved transmission mechanisms. The article discloses MSF–DNDi reporting support. This review does not validate medical claims or offer treatment advice.",
+              "hi": "राष्ट्रीय रोग नियंत्रण की उपलब्धि, सरकारी जवाब और संचरण की अनसुलझी प्रक्रियाओं के साथ निगरानी की कमियाँ जाँचता है। लेख MSF–DNDi रिपोर्टिंग सहायता बताता है। यह समीक्षा चिकित्सकीय दावों की पुष्टि या उपचार सलाह नहीं है।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/institutional-campuses-could-expand-indias-conservation-network-but-challenges-remain/",
+            "title": "Institutional campuses could expand India’s conservation network, but challenges remain",
+            "publishedDate": "2026-11-17",
+            "author": "Nikhil Sreekandan",
+            "authorKnown": true,
+            "topic": "conservation_policy",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "95bcc082cccadefed4a7f6ff57b1da42ebf4443d70e8d7ddb5a5d1fefbffb880",
+            "evidenceId": "sample-11",
+            "note": {
+              "en": "Presents institutional-campus conservation as a potential policy tool and includes concerns over weak legal safeguards, invasive species and greenwashing. Opposing expert views do not by themselves establish Centre.",
+              "hi": "संस्थागत परिसर के संरक्षण को संभावित नीति उपाय मानने के साथ कमजोर कानूनी सुरक्षा, आक्रामक प्रजातियों और ग्रीनवॉशिंग की चिंता है। विशेषज्ञों के विरोधी पक्ष अकेले मध्य स्थापित नहीं करते।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://india.mongabay.com/2026/11/motherhood-changes-how-sloth-bears-use-forests-in-central-india/",
+            "title": "Motherhood changes how sloth bears use forests in central India",
+            "publishedDate": "2026-11-17",
+            "author": "Ananya Singh",
+            "authorKnown": true,
+            "topic": "science",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "f713c6d9b635fd22bfcd1792b86b650123daad552217b4479efc3d4fa387c9b1",
+            "evidenceId": "sample-12",
+            "note": {
+              "en": "Separates observed bear habitat use from hypotheses about infanticide and competition, and reports core-zone and seasonal sampling limits. The behaviour study offers little direct evidence of national political positioning.",
+              "hi": "भालुओं के देखे गए निवास उपयोग को शावक-हत्या और प्रतिस्पर्धा की परिकल्पना से अलग रखता है; कोर क्षेत्र और मौसम के नमूने की सीमाएँ भी हैं। व्यवहार अध्ययन राष्ट्रीय राजनीतिक स्थिति का बहुत कम प्रत्यक्ष सबूत देता है।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
           }
         ],
         "topicSample": [
-          "climate"
+          "wildlife",
+          "fisheries",
+          "tourism",
+          "science",
+          "climate",
+          "land_rights",
+          "energy",
+          "livelihoods",
+          "agriculture",
+          "health",
+          "conservation_policy"
         ],
-        "approval": null,
+        "approval": {
+          "type": "ai_editorial",
+          "humanReviewed": false,
+          "reviewer": "INP AI editorial review",
+          "reviewedAt": "2026-11-27T02:12:14.156Z",
+          "expiresAt": "2026-12-27T02:12:14.164Z",
+          "recordUrl": "https://parthawe.github.io/india-news-project/en/sources/mongabay-india/#review-record",
+          "assessmentHash": "8ee29c7608c700f3acf4ad9f956a834715d5a286955f1e0b14bbbf461a2d9689"
+        },
         "basis": "india_reporting_sample",
-        "appliesTo": []
+        "appliesTo": [
+          "Mongabay India"
+        ],
+        "qualification": {
+          "sampling": {
+            "en": "Twelve English India-desk articles across wildlife, fisheries, science, health, climate, energy, land rights and conservation policy. Hindi is not assessed from the English sample. An illustrated fisheries story was not used to meet the sample floor because its image panels were not examined.",
+            "hi": "भारत डेस्क के बारह अंग्रेज़ी लेख: वन्यजीव, मत्स्य, विज्ञान, स्वास्थ्य, जलवायु, ऊर्जा, भूमि अधिकार और संरक्षण नीति। अंग्रेज़ी नमूने से हिंदी का आकलन नहीं हुआ। चित्रित मत्स्य कहानी नमूने की न्यूनतम संख्या में नहीं है क्योंकि चित्र-पैनल नहीं जाँचे गए।"
+          },
+          "limitations": {
+            "en": "Provisional AI editorial and translation review; not human-reviewed. A purposive short baseline does not estimate the whole archive. Contributor arguments, article framing and factual support are separate. No factuality score or party-control finding is assigned.",
+            "hi": "अस्थायी एआई संपादकीय और अनुवाद समीक्षा; मानव समीक्षा नहीं हुई। उद्देश्यपूर्ण छोटा नमूना पूरे संग्रह का अनुमान नहीं देता। लेखक के तर्क, लेख की प्रस्तुति और तथ्य के सबूत अलग हैं। सत्यता की रेटिंग या पार्टी नियंत्रण का निष्कर्ष नहीं दिया गया।"
+          },
+          "confidence": "limited",
+          "counterexamples": [
+            {
+              "evidenceId": "sample-1",
+              "note": {
+                "en": "Questions translocation welfare and records conflicting expert assessments, an anonymous official’s account and unanswered requests. Alleged political pressure and the miscarriage’s causes remain unresolved; criticism of an operation is not a party rating.",
+                "hi": "स्थानांतरण में पशु कल्याण पर सवाल, विशेषज्ञों की असहमति, अनाम अधिकारी का विवरण और अनुत्तरित सवाल हैं। राजनीतिक दबाव और गर्भपात के कारण अनसुलझे हैं; एक अभियान की आलोचना पार्टी की रेटिंग नहीं।"
+              }
+            },
+            {
+              "evidenceId": "sample-2",
+              "note": {
+                "en": "Explains research with explicit cautions about correlation, fishing effort and landings versus abundance. Those reporting practices do not establish political centrism or independently validate the study.",
+                "hi": "सहसंबंध, मछली पकड़ने के प्रयास और पकड़ बनाम आबादी के अंतर की स्पष्ट शर्तों के साथ शोध बताता है। ये तरीके राजनीतिक मध्य या अध्ययन की स्वतंत्र पुष्टि नहीं हैं।"
+              }
+            },
+            {
+              "evidenceId": "sample-7",
+              "note": {
+                "en": "Explains pumped storage’s grid benefits alongside landslide and cumulative-risk criticism, with multiple expert perspectives. This is neither blanket opposition to energy infrastructure nor evidence of a broad political Centre.",
+                "hi": "अलग विशेषज्ञों के साथ पंप्ड स्टोरेज के ग्रिड लाभ और भूस्खलन व संयुक्त जोखिम की आलोचना बताता है। यह हर ऊर्जा ढाँचे का विरोध या व्यापक राजनीतिक मध्य का सबूत नहीं।"
+              }
+            },
+            {
+              "evidenceId": "sample-8",
+              "note": {
+                "en": "Sets forest villagers’ livelihoods and rights demands against the administration’s tiger-acclimatisation rationale. Supports scrutiny of conservation trade-offs, not a single outlet-wide party alignment.",
+                "hi": "वनवासियों की आजीविका और अधिकार की माँग के सामने प्रशासन का बाघ को अनुकूल बनाने का तर्क है। संरक्षण के विकल्पों की जाँच है, पूरे प्रकाशन का एक पार्टी से जुड़ाव नहीं।"
+              }
+            },
+            {
+              "evidenceId": "sample-11",
+              "note": {
+                "en": "Presents institutional-campus conservation as a potential policy tool and includes concerns over weak legal safeguards, invasive species and greenwashing. Opposing expert views do not by themselves establish Centre.",
+                "hi": "संस्थागत परिसर के संरक्षण को संभावित नीति उपाय मानने के साथ कमजोर कानूनी सुरक्षा, आक्रामक प्रजातियों और ग्रीनवॉशिंग की चिंता है। विशेषज्ञों के विरोधी पक्ष अकेले मध्य स्थापित नहीं करते।"
+              }
+            },
+            {
+              "evidenceId": "sample-12",
+              "note": {
+                "en": "Separates observed bear habitat use from hypotheses about infanticide and competition, and reports core-zone and seasonal sampling limits. The behaviour study offers little direct evidence of national political positioning.",
+                "hi": "भालुओं के देखे गए निवास उपयोग को शावक-हत्या और प्रतिस्पर्धा की परिकल्पना से अलग रखता है; कोर क्षेत्र और मौसम के नमूने की सीमाएँ भी हैं। व्यवहार अध्ययन राष्ट्रीय राजनीतिक स्थिति का बहुत कम प्रत्यक्ष सबूत देता है।"
+              }
+            }
+          ],
+          "axes": [
+            {
+              "id": "social-cultural",
+              "finding": "not_established",
+              "rationale": {
+                "en": "Twelve English articles show a conservation and environmental-accountability remit, scientific reporting and attention to affected communities. They include disagreement among conservation specialists and scrutiny of both public and private projects. This sample does not establish a broad Indian political position. Scientific methods, multiple quotations or restrained prose do not establish Centre, and the single authored land-rights commentary cannot stand for the whole newsroom. The reviewed outcome remains politically unassessed.",
+                "hi": "बारह अंग्रेज़ी लेख संरक्षण और पर्यावरणीय जवाबदेही का दायरा, वैज्ञानिक रिपोर्टिंग और प्रभावित समुदायों पर ध्यान दिखाते हैं। संरक्षण विशेषज्ञों में असहमति और सार्वजनिक व निजी परियोजनाओं की जाँच दोनों हैं। यह नमूना व्यापक भारतीय राजनीतिक स्थिति स्थापित नहीं करता। वैज्ञानिक तरीके, कई पक्षों के उद्धरण या संयमित भाषा मध्य रेटिंग स्थापित नहीं करते; भूमि-अधिकार पर एक लेखक की टिप्पणी पूरे न्यूज़रूम का पक्ष नहीं हो सकती। समीक्षा पूरी है, पर राजनीतिक झुकाव अनाकलित है।"
+              },
+              "evidenceIds": [
+                "sample-5",
+                "sample-6"
+              ]
+            },
+            {
+              "id": "economic",
+              "finding": "not_established",
+              "rationale": {
+                "en": "Environmental and scientific reporting alone does not establish a general position on Indian economic policy.",
+                "hi": "पर्यावरण और विज्ञान की रिपोर्टिंग अकेले भारतीय आर्थिक नीति पर सामान्य स्थिति स्थापित नहीं करती।"
+              },
+              "evidenceIds": [
+                "sample-1",
+                "sample-12"
+              ]
+            }
+          ]
+        }
       },
       "governmentAlignment": {
         "en": "Not assessed. Government relationships and political ideology require separate evidence.",
@@ -77,11 +465,88 @@
           "observedAt": "2026-11-26T22:22:27.496Z"
         },
         {
-          "id": "examined-cop31",
-          "title": "Examined COP31 report",
+          "id": "sample-1",
+          "title": "Translocated tigress’ miscarriage and injuries raise welfare concerns",
+          "url": "https://india.mongabay.com/2026/11/translocated-tigress-miscarriage-and-injuries-raise-welfare-concerns/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:00.220Z"
+        },
+        {
+          "id": "sample-2",
+          "title": "Large-scale climate drivers influence sardine and anchovy fisheries",
+          "url": "https://india.mongabay.com/2026/11/large-scale-climate-drivers-influence-sardine-and-anchovy-fisheries/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:00.221Z"
+        },
+        {
+          "id": "sample-3",
+          "title": "Neelakurinji tourism brings crowds, but not all areas are monitored the same",
+          "url": "https://india.mongabay.com/2026/11/neelakurinji-tourism-brings-crowds-but-not-all-areas-are-monitored-the-same/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:00.389Z"
+        },
+        {
+          "id": "sample-4",
+          "title": "A climbing palm’s genetics reveals evolutionary secrets",
+          "url": "https://india.mongabay.com/2026/11/a-climbing-palms-genetics-reveals-evolutionary-secrets/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:00.389Z"
+        },
+        {
+          "id": "sample-5",
+          "title": "Fossil fuel divide fractures consensus at climate talks in Antalya",
           "url": "https://india.mongabay.com/2026/11/fossil-fuel-divide-fractures-consensus-at-climate-talks-in-antalya/",
           "type": "examined_article",
-          "observedAt": "2026-11-26T21:39:13.168Z"
+          "observedAt": "2026-11-26T22:50:01.173Z"
+        },
+        {
+          "id": "sample-6",
+          "title": "Why deforestation science gets shifting cultivation wrong [Commentary]",
+          "url": "https://india.mongabay.com/2026/11/why-deforestation-science-gets-shifting-cultivation-wrong-commentary/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:01.173Z"
+        },
+        {
+          "id": "sample-7",
+          "title": "The climate risks behind pumped-storage expansion",
+          "url": "https://india.mongabay.com/2026/11/the-climate-risks-behind-pumped-storage-expansion/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:01.173Z"
+        },
+        {
+          "id": "sample-8",
+          "title": "Forest villagers protest tourism curbs after tiger translocation",
+          "url": "https://india.mongabay.com/2026/11/forest-villagers-protest-tourism-curbs-after-tiger-translocation/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:01.325Z"
+        },
+        {
+          "id": "sample-9",
+          "title": "El Niño could deepen Tamil Nadu’s water stress and threaten agriculture",
+          "url": "https://india.mongabay.com/2026/11/el-nino-could-deepen-tamil-nadus-water-stress-and-threaten-agriculture/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:01.325Z"
+        },
+        {
+          "id": "sample-10",
+          "title": "India thought it eliminated kala-azar. The disease now gets reported from a non-endemic state",
+          "url": "https://india.mongabay.com/2026/11/india-thought-it-eliminated-kala-azar-the-disease-now-gets-reported-from-a-non-endemic-state/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:00.389Z"
+        },
+        {
+          "id": "sample-11",
+          "title": "Institutional campuses could expand India’s conservation network, but challenges remain",
+          "url": "https://india.mongabay.com/2026/11/institutional-campuses-could-expand-indias-conservation-network-but-challenges-remain/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:01.631Z"
+        },
+        {
+          "id": "sample-12",
+          "title": "Motherhood changes how sloth bears use forests in central India",
+          "url": "https://india.mongabay.com/2026/11/motherhood-changes-how-sloth-bears-use-forests-in-central-india/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:01.778Z"
         }
       ],
       "relationships": [
@@ -106,6 +571,16 @@
           },
           "evidenceId": "network-about",
           "verification": "publisher_disclosed"
+        },
+        {
+          "entity": "MSF–DNDi reporting grant",
+          "kind": "story_support",
+          "statement": {
+            "en": "The examined kala-azar story discloses MSF–DNDi grant support through the Without Borders Media Fellowship. This is a story-specific publisher disclosure, not an audited newsroom funding breakdown.",
+            "hi": "जाँची काला-अज़ार कहानी Without Borders Media Fellowship के माध्यम से MSF–DNDi अनुदान बताती है। यह एक कहानी की प्रकाशक घोषणा है, पूरे न्यूज़रूम के वित्त का ऑडिट नहीं।"
+          },
+          "evidenceId": "sample-10",
+          "verification": "publisher_disclosed"
         }
       ],
       "declaration": null,
@@ -118,8 +593,33 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:05:39.323Z",
+          "action": "Twelve-article English sample and bilingual notes reviewed by AI. Review completed without a broad political classification. Not human-reviewed.",
+          "actionHi": "बारह लेखों की एआई समीक्षा पूरी; व्यापक राजनीतिक वर्गीकरण नहीं। मानव समीक्षा नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "reviewed",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 17,
+        "examinedTexts": 13,
+        "qualifyingArticles": 12,
+        "summary": {
+          "en": "Twelve qualifying English articles reviewed; no broad political label established. The illustrated fisheries feature was excluded from the floor.",
+          "hi": "बारह योग्य अंग्रेज़ी लेखों की समीक्षा पूरी; व्यापक राजनीतिक लेबल स्थापित नहीं। चित्रित मत्स्य फीचर न्यूनतम संख्या से बाहर है।"
+        },
+        "nextStep": {
+          "en": "Review other language editions separately and check the identified numerical discrepancy.",
+          "hi": "दूसरे भाषाई संस्करणों की अलग समीक्षा और पहचाने आँकड़े के अंतर की जाँच करें।"
+        },
+        "evidenceIds": [
+          "india-about",
+          "network-about"
+        ]
+      }
     },
     {
       "id": "down-to-earth",
@@ -129,8 +629,8 @@
       "aliases": [
         "Down To Earth"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
         "type": "ai_research",
         "humanReviewed": false,
@@ -235,8 +735,33 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:09:17.098Z",
+          "action": "AI research progress updated; no political rating approved.",
+          "actionHi": "एआई शोध की प्रगति अपडेट हुई; राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "permission_review",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 1,
+        "examinedTexts": 1,
+        "qualifyingArticles": 0,
+        "summary": {
+          "en": "One earlier comparison text was examined. The publisher’s terms restrict non-personal storage and reuse; permission for a larger stored-text corpus is not established. No Centre inference is made.",
+          "hi": "पहले की तुलना का एक पाठ जाँचा गया। प्रकाशक की शर्तें गैर-निजी संग्रह व पुनः उपयोग सीमित करती हैं; बड़े संग्रहीत पाठ समूह की अनुमति स्थापित नहीं। मध्य का अनुमान नहीं लगाया गया।"
+        },
+        "nextStep": {
+          "en": "Resolve the permitted research/storage scope before bulk collection; retain attributed links and the stated limitation.",
+          "hi": "बड़े संग्रह से पहले शोध/भंडारण की अनुमत सीमा स्पष्ट करें; स्रोत-सहित लिंक और सीमा बनाए रखें।"
+        },
+        "evidenceIds": [
+          "dte-terms",
+          "dte-about"
+        ]
+      }
     },
     {
       "id": "isignal",
@@ -248,8 +773,8 @@
         "ISignal",
         "IndiaSpend"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
         "type": "ai_research",
         "humanReviewed": false,
@@ -343,8 +868,33 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:09:17.098Z",
+          "action": "AI research progress updated; no political rating approved.",
+          "actionHi": "एआई शोध की प्रगति अपडेट हुई; राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "sample_pending",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 1,
+        "examinedTexts": 1,
+        "qualifyingArticles": 0,
+        "summary": {
+          "en": "The current publisher feeds expose three dated links. One earlier COP31 text was examined; a broader annotated political sample is not yet complete. Data journalism does not establish Centre.",
+          "hi": "वर्तमान प्रकाशक फ़ीड में तीन दिनांकित लिंक हैं। पहले का एक COP31 पाठ जाँचा गया; विस्तृत टिप्पणी वाला राजनीतिक नमूना पूरा नहीं। डेटा पत्रकारिता मध्य स्थापित नहीं करती।"
+        },
+        "nextStep": {
+          "en": "Collect permitted original reporting across more topics and dates, then review authorial positions and counterexamples.",
+          "hi": "अधिक विषयों और तारीखों की अनुमत मूल रिपोर्टिंग जुटाएँ, फिर लेखक के पक्ष और विरोधी उदाहरण जाँचें।"
+        },
+        "evidenceIds": [
+          "isignal-weekly",
+          "isignal-about"
+        ]
+      }
     },
     {
       "id": "behanbox",
@@ -354,8 +904,8 @@
       "aliases": [
         "BehanBox"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
         "type": "ai_research",
         "humanReviewed": false,
@@ -409,8 +959,32 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:09:17.098Z",
+          "action": "AI research progress updated; no political rating approved.",
+          "actionHi": "एआई शोध की प्रगति अपडेट हुई; राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "sample_pending",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 15,
+        "examinedTexts": 1,
+        "qualifyingArticles": 1,
+        "summary": {
+          "en": "Fifteen candidate article texts collected. One complete text examined in this pass; the twelve-article qualitative review is unfinished. Its gender mission alone cannot set a political label.",
+          "hi": "पंद्रह संभावित लेख-पाठ जुटाए। इस चरण में एक पूरा पाठ जाँचा; बारह लेखों की गुणात्मक समीक्षा अधूरी है। केवल लैंगिक मिशन से राजनीतिक लेबल नहीं मिलता।"
+        },
+        "nextStep": {
+          "en": "Review the remaining text, separate reporting from commentary and document contrary examples before approval.",
+          "hi": "मंज़ूरी से पहले शेष पाठ जाँचें, रिपोर्टिंग व टिप्पणी अलग करें और विरोधी उदाहरण दर्ज करें।"
+        },
+        "evidenceIds": [
+          "behanbox-about"
+        ]
+      }
     },
     {
       "id": "india-development-review",
@@ -422,35 +996,443 @@
         "India Development Review हिन्दी",
         "IDR"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
-        "type": "ai_research",
+        "type": "ai_editorial",
         "humanReviewed": false,
-        "editorialStatus": "pending",
-        "translationStatus": "pending"
+        "editorialStatus": "approved",
+        "translationStatus": "approved"
       },
       "focus": {
         "en": "Reporting and practitioner perspectives on social development.",
         "hi": "सामाजिक विकास पर रिपोर्टिंग और क्षेत्र में काम करने वालों के विचार।"
       },
       "assessment": {
-        "leaning": "unassessed",
-        "status": "draft",
+        "leaning": "issue-dependent",
+        "status": "published",
         "context": "india",
         "methodVersion": "inp-source-assessment-v2",
         "rationale": {
-          "en": "Its development focus and independence statement do not establish centrism. Contributor opinions must be distinguished from organisational positions.",
-          "hi": "विकास पर ध्यान और स्वतंत्रता की घोषणा मध्यवाद तय नहीं करते। योगदानकर्ताओं के विचार और संस्थागत रुख अलग रखने होंगे।"
+          "en": "The English sample combines market-oriented social-enterprise advice and government–philanthropy partnerships with explicit anti-caste arguments, labour protections and participatory public-service proposals. Several pieces are practitioner interviews or credited republications. This supports an issue-dependent finding, not a general Centre rating: averaging different contributors’ positions does not establish a common centrist editorial programme.",
+          "hi": "अंग्रेज़ी नमूने में बाज़ार-आधारित सामाजिक उद्यम की सलाह और सरकार–परोपकार साझेदारी के साथ स्पष्ट जाति-विरोध, श्रम सुरक्षा और भागीदारी वाली सार्वजनिक सेवाओं के प्रस्ताव हैं। कई लेख कार्यकर्ताओं के साक्षात्कार या साभार पुनर्प्रकाशन हैं। इससे विषय-निर्भर निष्कर्ष निकलता है, सामान्य मध्य रेटिंग नहीं: अलग लेखकों के पक्षों का औसत साझा मध्य संपादकीय कार्यक्रम स्थापित नहीं करता।"
         },
         "evidenceIds": [
-          "idr-about"
+          "sample-1",
+          "sample-2",
+          "sample-3",
+          "sample-4",
+          "sample-5",
+          "sample-6",
+          "sample-7",
+          "sample-8",
+          "sample-9",
+          "sample-10",
+          "sample-11",
+          "sample-12"
         ],
-        "articleSample": [],
-        "topicSample": [],
-        "approval": null,
+        "articleSample": [
+          {
+            "url": "https://idronline.org/article/social-business/how-can-small-scale-enterprises-build-brand-dentity-and-trust/",
+            "title": "How can small-scale enterprises build brand identity and trust | IDR",
+            "publishedDate": "2026-11-25",
+            "author": "Renza Kalarikkandy Maliyekkal",
+            "authorKnown": true,
+            "topic": "enterprise",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "b91833d2195f2036675db3e0b202afc81e33f63d0fb2b8982d0c3981a6ed8f67",
+            "evidenceId": "sample-1",
+            "note": {
+              "en": "Practical branding advice for rural social enterprises accepts markets and organisational growth. It is a practitioner’s account, not an endorsement of a national party or an economic Right rating.",
+              "hi": "ग्रामीण सामाजिक उद्यमों की ब्रांड सलाह बाज़ार और संगठन के विकास को स्वीकारती है। यह कार्यकर्ता का विवरण है, राष्ट्रीय पार्टी का समर्थन या आर्थिक दक्षिण रेटिंग नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/fundraising-and-communications/fundraisers-have-the-ability-to-change-hearts-and-minds/",
+            "title": "“Fundraisers have the ability to change hearts and minds,” says Ingrid Srinath | IDR",
+            "publishedDate": "2026-11-26",
+            "author": "Smarinita Shetty",
+            "authorKnown": true,
+            "topic": "philanthropy",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "17abdc91ea5b6b4b32b08b91bf7ffe203f30b6c0d72074f010f8e915626339be",
+            "evidenceId": "sample-2",
+            "note": {
+              "en": "The interviewee criticises billionaire-driven governance and corporate metrics while accepting private giving. Her explicitly political views remain attributed; they are not automatically the publication’s position.",
+              "hi": "साक्षात्कार देने वाली निजी दान को स्वीकारते हुए अरबपति-केंद्रित शासन और कॉरपोरेट मापदंडों की आलोचना करती हैं। उनके राजनीतिक पक्ष उन्हीं के हवाले से हैं, अपने आप प्रकाशन की नीति नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/youth/how-a-volleyball-league-rallies-thousands-of-youths-in-assam/",
+            "title": "How a volleyball league rallies thousands of youths in Assam | IDR",
+            "publishedDate": "2026-11-24",
+            "author": "Abhijit Bhattacharya",
+            "authorKnown": true,
+            "topic": "community",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "8772a36392ab7eb998c16817134cc4f72c541da3d4a733a0b74a335210e04b74",
+            "evidenceId": "sample-3",
+            "note": {
+              "en": "A first-person account supports community control, equal participation and public-sector/company assistance for sport. The programme’s claimed outcomes were not independently audited.",
+              "hi": "प्रथम-पुरुष विवरण खेल में सामुदायिक नियंत्रण, बराबर भागीदारी और सार्वजनिक क्षेत्र/कंपनी की मदद का समर्थन करता है। कार्यक्रम के बताए नतीजों का स्वतंत्र ऑडिट नहीं हुआ।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/scale/why-we-must-fund-systems-change/",
+            "title": "Why we must fund systems change | IDR",
+            "publishedDate": "2026-11-25",
+            "author": "Arnav Kapur, Geeta Goel",
+            "authorKnown": true,
+            "topic": "philanthropy",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "7d0f9cb60f1aa887917e54ef0463d933ff4daba876966d12afbdc23e89283720",
+            "evidenceId": "sample-4",
+            "note": {
+              "en": "Named foundation practitioners advocate government partnerships, measurable outcomes and private technical assistance. This differs from the interview’s criticism of funder metrics and demonstrates contributor variation, not mathematical centrism.",
+              "hi": "नामित फाउंडेशन कार्यकर्ता सरकारी साझेदारी, मापने योग्य नतीजों और निजी तकनीकी मदद के पक्ष में हैं। यह दूसरे साक्षात्कार में दानदाताओं के मापदंडों की आलोचना से अलग है; लेखकों की विविधता है, गणितीय मध्य नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/climate-emergency/relocation-without-rehabilitation-in-odishas-climate-colony/",
+            "title": "Relocation without rehabilitation in Odisha’s ‘climate colony’ | IDR",
+            "publishedDate": "2026-11-04",
+            "author": "Dimple Behal",
+            "authorKnown": true,
+            "topic": "housing",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "36fb95147b1f23e17b4782382db20e8730ea519c3a5b99999d3c794f5334662c",
+            "evidenceId": "sample-5",
+            "note": {
+              "en": "A credited Dialogue Earth republication examines climate relocation through residents’ losses and service gaps, while describing official assistance and unanswered requests. The republished text is not a separate independent confirmation.",
+              "hi": "Dialogue Earth का साभार पुनर्प्रकाशन निवासियों के नुकसान और सेवा की कमियों से जलवायु विस्थापन जाँचता है; सरकारी मदद और अनुत्तरित सवाल भी बताता है। पुनर्प्रकाशन अलग स्वतंत्र पुष्टि नहीं है।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/perspectives/someone-always-asks-why-are-you-saving-animals-while-humans-are-suffering/",
+            "title": "‘Someone always asks, why are you saving animals while humans are suffering?’ | IDR",
+            "publishedDate": "2026-11-19",
+            "author": "Saloni Meghani, Smarinita Shetty",
+            "authorKnown": true,
+            "topic": "philanthropy",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "ce1169e29fa8c78ee6da8a9be74184c72ebf7177473726154aca328880ea25bb",
+            "evidenceId": "sample-6",
+            "note": {
+              "en": "The donor interview favours trust-based funding, animal welfare and cultural heritage. These attributed choices do not establish ownership, publisher sponsorship or a national political label.",
+              "hi": "दानदाता का साक्षात्कार भरोसे पर आधारित दान, पशु कल्याण और सांस्कृतिक विरासत के पक्ष में है। ये स्रोत-सहित पसंद स्वामित्व, प्रकाशक का प्रायोजन या राष्ट्रीय राजनीतिक लेबल स्थापित नहीं करतीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/livelihoods/counted-yet-excluded-home-based-workers-in-indias-new-labour-codes/",
+            "title": "Counted, yet excluded: Home-based workers in India's new labour codes | IDR",
+            "publishedDate": "2026-11-20",
+            "author": "ISignal, Rohini Krishnamurthy",
+            "authorKnown": true,
+            "topic": "labour",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "17a4f89bc87b54cef544afce89159e716a0a18ec721014dff32ebeba1653502c",
+            "evidenceId": "sample-7",
+            "note": {
+              "en": "An ISignal republication foregrounds informal women workers and gaps in labour protections, while including official scheme descriptions and a government officer’s proposed model. It is not independent duplicate reporting.",
+              "hi": "ISignal का पुनर्प्रकाशन अनौपचारिक महिला श्रमिकों और श्रम सुरक्षा की कमियाँ प्रमुख करता है; सरकारी योजनाओं के विवरण और अधिकारी का प्रस्तावित मॉडल भी है। यह अलग स्वतंत्र रिपोर्टिंग नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/health/theres-nothing-called-burnout-in-an-unjust-world/",
+            "title": "There's nothing called burnout in an unjust world | IDR",
+            "publishedDate": "2026-11-17",
+            "author": "Dr Raviraj Shetty",
+            "authorKnown": true,
+            "topic": "health",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "fc200cab0488015a143230a397364c3999d7936f7284ecdf3d32822f091b870c",
+            "evidenceId": "sample-8",
+            "note": {
+              "en": "The contributor expressly links distress to caste and oppressive institutions and rejects individualised burnout explanations. This is ideological evidence of that contributor’s argument; clinical and causal claims have not been validated by INP.",
+              "hi": "लेखक परेशानी को जाति और दमनकारी संस्थाओं से स्पष्ट जोड़ता है और व्यक्तिगत बर्नआउट व्याख्या को नकारता है। यह उस लेखक के तर्क की वैचारिक सामग्री है; चिकित्सकीय और कारण-संबंधी दावों की INP ने पुष्टि नहीं की।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/urban/making-the-right-to-housing-a-reality-in-indias-small-cities/",
+            "title": "Making the right to housing a reality in India’s small cities | IDR",
+            "publishedDate": "2026-11-13",
+            "author": "Aseem Mishra",
+            "authorKnown": true,
+            "topic": "housing",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "20245e06916572004bbe844951f336bc8280ec7152fdf14b56174c0497964de8",
+            "evidenceId": "sample-9",
+            "note": {
+              "en": "The Ideas for India republication advocates tenure rights and community participation, but expressly rejects a simple demand to abandon PMAY or restore RAY. It proposes reforms within existing public programmes.",
+              "hi": "Ideas for India का पुनर्प्रकाशन भूमि अधिकार और सामुदायिक भागीदारी के पक्ष में है, पर PMAY छोड़ने या RAY वापस लाने की सरल माँग को स्पष्ट नकारता है। मौजूदा सार्वजनिक कार्यक्रमों में सुधार प्रस्तावित हैं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/water-sanitation/who-keeps-the-taps-running/",
+            "title": "Who keeps the taps running? | IDR",
+            "publishedDate": "2026-11-12",
+            "author": "Ekta Sawant, Zibi Jamal",
+            "authorKnown": true,
+            "topic": "public_services",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "b7fef3f8e75be211eb651067e7b81b2f013b7e43e600aea84a01de5b767bceb6",
+            "evidenceId": "sample-10",
+            "note": {
+              "en": "Practitioners advocate community ownership of sanitation alongside monthly household maintenance contributions, nonprofit support and government accountability. This combines instruments rather than establishing an outlet-wide ideological midpoint.",
+              "hi": "कार्यकर्ता स्वच्छता के सामुदायिक स्वामित्व के साथ घरों के मासिक रखरखाव योगदान, गैर-लाभकारी मदद और सरकारी जवाबदेही का समर्थन करते हैं। यह उपायों का संयोजन है, पूरे प्रकाशन का वैचारिक मध्य नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/gender/women-need-to-be-at-the-forefront-of-indias-water-governance/",
+            "title": "Women need to be at the forefront of India's water governance | IDR",
+            "publishedDate": "2026-11-05",
+            "author": "Deepanjana Saha, Sarvesh JP",
+            "authorKnown": true,
+            "topic": "gender",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "a6df8cc66456c6b26635c5319799ed5e62eb663424aaa1be771e49d588ec521e",
+            "evidenceId": "sample-11",
+            "note": {
+              "en": "Advocates women’s decision-making authority in water governance while acknowledging government programme gains, paid-work costs and limits of quotas. Gender inclusion alone is not treated as proof of Left alignment.",
+              "hi": "जल शासन में महिलाओं के निर्णय-अधिकार का समर्थन है; सरकारी कार्यक्रमों के लाभ, समय/भुगतान की लागत और कोटे की सीमाएँ भी मानता है। केवल लैंगिक समावेशन को वाम झुकाव का सबूत नहीं माना गया।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://idronline.org/article/inequality/indias-wage-gap-is-widening-economic-inequalities/",
+            "title": "India’s wage gap is widening economic inequalities | IDR",
+            "publishedDate": "2026-11-06",
+            "author": "Meghana Mohan, Pankhuri Shah, Priyanka Parle",
+            "authorKnown": true,
+            "topic": "labour",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "da0cd3f28cabcf5b0e8ceccb5471dae76e5eaf05fa69076884f7582ae8627243",
+            "evidenceId": "sample-12",
+            "note": {
+              "en": "Advocates living wages, enforcement and income support, while recognising growth, reforms and state initiatives across party lines. Statistics and claimed scheme effects remain the authors’ analysis, not an INP factuality verdict.",
+              "hi": "जीवन-निर्वाह योग्य मज़दूरी, नियम लागू करने और आय सहायता के पक्ष में है; दलों से परे विकास, सुधार और राज्य योजनाओं को भी मानता है। आँकड़े और योजनाओं के बताए असर लेखकों का विश्लेषण हैं, INP का सत्यता निर्णय नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          }
+        ],
+        "topicSample": [
+          "enterprise",
+          "philanthropy",
+          "community",
+          "housing",
+          "labour",
+          "health",
+          "public_services",
+          "gender"
+        ],
+        "approval": {
+          "type": "ai_editorial",
+          "humanReviewed": false,
+          "reviewer": "INP AI editorial review",
+          "reviewedAt": "2026-11-27T02:05:39.323Z",
+          "expiresAt": "2026-12-27T02:05:39.323Z",
+          "recordUrl": "https://parthawe.github.io/india-news-project/en/sources/india-development-review/#review-record",
+          "assessmentHash": "64b734a335d5afe1b75a89c8a8c019a21208e384fbe67731cb0eab5895482e5b"
+        },
         "basis": "india_reporting_sample",
-        "appliesTo": []
+        "appliesTo": [
+          "India Development Review"
+        ],
+        "qualification": {
+          "sampling": {
+            "en": "Twelve English articles published 4–26 November 2026 across enterprise, philanthropy, labour, housing, community services and gender. Practitioner voices and republications are identified. The video-led parastatal item and an incomplete quotation in the bridge feature were excluded from the qualifying sample.",
+            "hi": "4–26 नवंबर 2026 के बारह अंग्रेज़ी लेख: उद्यम, परोपकार, श्रम, आवास, सामुदायिक सेवा और लिंग। कार्यकर्ता के पक्ष और पुनर्प्रकाशन पहचाने गए हैं। वीडियो-प्रधान स्थानीय शासन सामग्री और पुल फीचर में अधूरा उद्धरण योग्य नमूने से बाहर हैं।"
+          },
+          "limitations": {
+            "en": "Provisional AI editorial and translation review; not human-reviewed. A purposive short baseline does not estimate the whole archive. Contributor arguments, article framing and factual support are separate. No factuality score or party-control finding is assigned.",
+            "hi": "अस्थायी एआई संपादकीय और अनुवाद समीक्षा; मानव समीक्षा नहीं हुई। उद्देश्यपूर्ण छोटा नमूना पूरे संग्रह का अनुमान नहीं देता। लेखक के तर्क, लेख की प्रस्तुति और तथ्य के सबूत अलग हैं। सत्यता की रेटिंग या पार्टी नियंत्रण का निष्कर्ष नहीं दिया गया।"
+          },
+          "confidence": "limited",
+          "counterexamples": [
+            {
+              "evidenceId": "sample-2",
+              "note": {
+                "en": "The interviewee criticises billionaire-driven governance and corporate metrics while accepting private giving. Her explicitly political views remain attributed; they are not automatically the publication’s position.",
+                "hi": "साक्षात्कार देने वाली निजी दान को स्वीकारते हुए अरबपति-केंद्रित शासन और कॉरपोरेट मापदंडों की आलोचना करती हैं। उनके राजनीतिक पक्ष उन्हीं के हवाले से हैं, अपने आप प्रकाशन की नीति नहीं।"
+              }
+            },
+            {
+              "evidenceId": "sample-4",
+              "note": {
+                "en": "Named foundation practitioners advocate government partnerships, measurable outcomes and private technical assistance. This differs from the interview’s criticism of funder metrics and demonstrates contributor variation, not mathematical centrism.",
+                "hi": "नामित फाउंडेशन कार्यकर्ता सरकारी साझेदारी, मापने योग्य नतीजों और निजी तकनीकी मदद के पक्ष में हैं। यह दूसरे साक्षात्कार में दानदाताओं के मापदंडों की आलोचना से अलग है; लेखकों की विविधता है, गणितीय मध्य नहीं।"
+              }
+            },
+            {
+              "evidenceId": "sample-6",
+              "note": {
+                "en": "The donor interview favours trust-based funding, animal welfare and cultural heritage. These attributed choices do not establish ownership, publisher sponsorship or a national political label.",
+                "hi": "दानदाता का साक्षात्कार भरोसे पर आधारित दान, पशु कल्याण और सांस्कृतिक विरासत के पक्ष में है। ये स्रोत-सहित पसंद स्वामित्व, प्रकाशक का प्रायोजन या राष्ट्रीय राजनीतिक लेबल स्थापित नहीं करतीं।"
+              }
+            },
+            {
+              "evidenceId": "sample-8",
+              "note": {
+                "en": "The contributor expressly links distress to caste and oppressive institutions and rejects individualised burnout explanations. This is ideological evidence of that contributor’s argument; clinical and causal claims have not been validated by INP.",
+                "hi": "लेखक परेशानी को जाति और दमनकारी संस्थाओं से स्पष्ट जोड़ता है और व्यक्तिगत बर्नआउट व्याख्या को नकारता है। यह उस लेखक के तर्क की वैचारिक सामग्री है; चिकित्सकीय और कारण-संबंधी दावों की INP ने पुष्टि नहीं की।"
+              }
+            },
+            {
+              "evidenceId": "sample-9",
+              "note": {
+                "en": "The Ideas for India republication advocates tenure rights and community participation, but expressly rejects a simple demand to abandon PMAY or restore RAY. It proposes reforms within existing public programmes.",
+                "hi": "Ideas for India का पुनर्प्रकाशन भूमि अधिकार और सामुदायिक भागीदारी के पक्ष में है, पर PMAY छोड़ने या RAY वापस लाने की सरल माँग को स्पष्ट नकारता है। मौजूदा सार्वजनिक कार्यक्रमों में सुधार प्रस्तावित हैं।"
+              }
+            },
+            {
+              "evidenceId": "sample-12",
+              "note": {
+                "en": "Advocates living wages, enforcement and income support, while recognising growth, reforms and state initiatives across party lines. Statistics and claimed scheme effects remain the authors’ analysis, not an INP factuality verdict.",
+                "hi": "जीवन-निर्वाह योग्य मज़दूरी, नियम लागू करने और आय सहायता के पक्ष में है; दलों से परे विकास, सुधार और राज्य योजनाओं को भी मानता है। आँकड़े और योजनाओं के बताए असर लेखकों का विश्लेषण हैं, INP का सत्यता निर्णय नहीं।"
+              }
+            }
+          ],
+          "axes": [
+            {
+              "id": "social-cultural",
+              "finding": "mixed",
+              "rationale": {
+                "en": "The English sample combines market-oriented social-enterprise advice and government–philanthropy partnerships with explicit anti-caste arguments, labour protections and participatory public-service proposals. Several pieces are practitioner interviews or credited republications. This supports an issue-dependent finding, not a general Centre rating: averaging different contributors’ positions does not establish a common centrist editorial programme.",
+                "hi": "अंग्रेज़ी नमूने में बाज़ार-आधारित सामाजिक उद्यम की सलाह और सरकार–परोपकार साझेदारी के साथ स्पष्ट जाति-विरोध, श्रम सुरक्षा और भागीदारी वाली सार्वजनिक सेवाओं के प्रस्ताव हैं। कई लेख कार्यकर्ताओं के साक्षात्कार या साभार पुनर्प्रकाशन हैं। इससे विषय-निर्भर निष्कर्ष निकलता है, सामान्य मध्य रेटिंग नहीं: अलग लेखकों के पक्षों का औसत साझा मध्य संपादकीय कार्यक्रम स्थापित नहीं करता।"
+              },
+              "evidenceIds": [
+                "sample-1",
+                "sample-2",
+                "sample-3",
+                "sample-4",
+                "sample-6",
+                "sample-8",
+                "sample-9",
+                "sample-10",
+                "sample-11",
+                "sample-12"
+              ]
+            },
+            {
+              "id": "economic",
+              "finding": "mixed",
+              "rationale": {
+                "en": "The sample hosts both social-enterprise/technical-assistance strategies and structural critiques of inequality and funder power. Distinct contributors are not averaged into Centre.",
+                "hi": "नमूने में सामाजिक उद्यम/तकनीकी मदद की रणनीति और असमानता व दानदाता शक्ति की संरचनात्मक आलोचना दोनों हैं। अलग लेखकों का औसत लेकर मध्य नहीं बनाया गया।"
+              },
+              "evidenceIds": [
+                "sample-1",
+                "sample-12"
+              ]
+            }
+          ]
+        }
       },
       "governmentAlignment": {
         "en": "Not assessed. Government relationships and political ideology require separate evidence.",
@@ -463,6 +1445,90 @@
           "url": "https://idronline.org/about/",
           "type": "primary_publisher_disclosure",
           "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "sample-1",
+          "title": "How can small-scale enterprises build brand identity and trust | IDR",
+          "url": "https://idronline.org/article/social-business/how-can-small-scale-enterprises-build-brand-dentity-and-trust/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:04.895Z"
+        },
+        {
+          "id": "sample-2",
+          "title": "“Fundraisers have the ability to change hearts and minds,” says Ingrid Srinath | IDR",
+          "url": "https://idronline.org/article/fundraising-and-communications/fundraisers-have-the-ability-to-change-hearts-and-minds/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:04.895Z"
+        },
+        {
+          "id": "sample-3",
+          "title": "How a volleyball league rallies thousands of youths in Assam | IDR",
+          "url": "https://idronline.org/article/youth/how-a-volleyball-league-rallies-thousands-of-youths-in-assam/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:05.571Z"
+        },
+        {
+          "id": "sample-4",
+          "title": "Why we must fund systems change | IDR",
+          "url": "https://idronline.org/article/scale/why-we-must-fund-systems-change/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:05.570Z"
+        },
+        {
+          "id": "sample-5",
+          "title": "Relocation without rehabilitation in Odisha’s ‘climate colony’ | IDR",
+          "url": "https://idronline.org/article/climate-emergency/relocation-without-rehabilitation-in-odishas-climate-colony/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:06.794Z"
+        },
+        {
+          "id": "sample-6",
+          "title": "‘Someone always asks, why are you saving animals while humans are suffering?’ | IDR",
+          "url": "https://idronline.org/article/perspectives/someone-always-asks-why-are-you-saving-animals-while-humans-are-suffering/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:05.758Z"
+        },
+        {
+          "id": "sample-7",
+          "title": "Counted, yet excluded: Home-based workers in India's new labour codes | IDR",
+          "url": "https://idronline.org/article/livelihoods/counted-yet-excluded-home-based-workers-in-indias-new-labour-codes/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:05.758Z"
+        },
+        {
+          "id": "sample-8",
+          "title": "There's nothing called burnout in an unjust world | IDR",
+          "url": "https://idronline.org/article/health/theres-nothing-called-burnout-in-an-unjust-world/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:05.949Z"
+        },
+        {
+          "id": "sample-9",
+          "title": "Making the right to housing a reality in India’s small cities | IDR",
+          "url": "https://idronline.org/article/urban/making-the-right-to-housing-a-reality-in-indias-small-cities/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:06.119Z"
+        },
+        {
+          "id": "sample-10",
+          "title": "Who keeps the taps running? | IDR",
+          "url": "https://idronline.org/article/water-sanitation/who-keeps-the-taps-running/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:06.395Z"
+        },
+        {
+          "id": "sample-11",
+          "title": "Women need to be at the forefront of India's water governance | IDR",
+          "url": "https://idronline.org/article/gender/women-need-to-be-at-the-forefront-of-indias-water-governance/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:06.589Z"
+        },
+        {
+          "id": "sample-12",
+          "title": "India’s wage gap is widening economic inequalities | IDR",
+          "url": "https://idronline.org/article/inequality/indias-wage-gap-is-widening-economic-inequalities/",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:50:06.589Z"
         }
       ],
       "relationships": [
@@ -499,8 +1565,32 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:05:39.323Z",
+          "action": "Twelve-article English sample and bilingual notes reviewed by AI. Issue-dependent outcome; no Centre rating established. Not human-reviewed.",
+          "actionHi": "बारह लेखों की एआई समीक्षा; विषय-निर्भर निष्कर्ष, मध्य रेटिंग स्थापित नहीं। मानव समीक्षा नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "reviewed",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 19,
+        "examinedTexts": 14,
+        "qualifyingArticles": 12,
+        "summary": {
+          "en": "Twelve qualifying English articles reviewed; contributor positions are issue-dependent. Mixed positions are not averaged into Centre.",
+          "hi": "बारह योग्य अंग्रेज़ी लेखों की समीक्षा पूरी; लेखकों के पक्ष विषय-निर्भर हैं। अलग पक्षों का औसत लेकर मध्य नहीं बनाया गया।"
+        },
+        "nextStep": {
+          "en": "Broaden the authored political sample if a general spectrum assessment is revisited; inspect practitioner interests and original reporting.",
+          "hi": "सामान्य राजनीतिक आकलन दोबारा करने पर लेखक की राजनीतिक सामग्री का नमूना बढ़ाएँ; कार्यकर्ताओं के हित और मूल रिपोर्टिंग जाँचें।"
+        },
+        "evidenceIds": [
+          "idr-about"
+        ]
+      }
     },
     {
       "id": "global-voices",
@@ -512,8 +1602,8 @@
         "Global Voices हिन्दी",
         "Global Voices বাংলা"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
         "type": "ai_research",
         "humanReviewed": false,
@@ -599,8 +1689,32 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:09:17.098Z",
+          "action": "AI research progress updated; no political rating approved.",
+          "actionHi": "एआई शोध की प्रगति अपडेट हुई; राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "sample_pending",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 15,
+        "examinedTexts": 0,
+        "qualifyingArticles": 0,
+        "summary": {
+          "en": "Fifteen candidate texts retrieved; India relevance and extraction completeness still need review. A global network label cannot substitute for an India-desk sample.",
+          "hi": "पंद्रह संभावित पाठ मिले; भारत से संबंध और पाठ की पूर्णता जाँचना बाकी है। वैश्विक नेटवर्क का लेबल भारत डेस्क के नमूने की जगह नहीं ले सकता।"
+        },
+        "nextStep": {
+          "en": "Check the India scope of each candidate and examine full text before adding it to the qualifying sample.",
+          "hi": "योग्य नमूने में जोड़ने से पहले हर उम्मीदवार का भारत-संबंध और पूरा पाठ जाँचें।"
+        },
+        "evidenceIds": [
+          "gv-about"
+        ]
+      }
     },
     {
       "id": "pib",
@@ -610,8 +1724,8 @@
       "aliases": [
         "Press Information Bureau"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
         "type": "ai_research",
         "humanReviewed": false,
@@ -676,8 +1790,32 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:09:17.098Z",
+          "action": "AI research progress updated; no political rating approved.",
+          "actionHi": "एआई शोध की प्रगति अपडेट हुई; राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "excluded_official",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 0,
+        "examinedTexts": 0,
+        "qualifyingArticles": 0,
+        "summary": {
+          "en": "PIB is official government communication, outside political newsroom cohorts. This source-type decision does not require assigning it Left, Centre or Right.",
+          "hi": "PIB सरकारी आधिकारिक संचार है और राजनीतिक न्यूज़रूम समूहों से बाहर है। स्रोत-प्रकार के इस निर्णय के लिए वाम, मध्य या दक्षिण देना ज़रूरी नहीं।"
+        },
+        "nextStep": {
+          "en": "Verify individual official claims against reporting and primary evidence; keep government alignment separate from ideology.",
+          "hi": "अलग सरकारी दावों को रिपोर्टिंग और मूल सबूतों से जाँचें; सरकारी संबंध और विचारधारा अलग रखें।"
+        },
+        "evidenceIds": [
+          "pib-portal"
+        ]
+      }
     },
     {
       "id": "swarajya",
@@ -687,8 +1825,8 @@
       "aliases": [
         "Swarajya"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
         "type": "ai_research",
         "humanReviewed": false,
@@ -751,8 +1889,32 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:09:17.098Z",
+          "action": "AI research progress updated; no political rating approved.",
+          "actionHi": "एआई शोध की प्रगति अपडेट हुई; राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "access_restricted",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 0,
+        "examinedTexts": 0,
+        "qualifyingArticles": 0,
+        "summary": {
+          "en": "The crawler policy blocks this AI access. No reporting text was collected after that restriction was identified. The publisher’s centre-right self-description is not an INP rating.",
+          "hi": "क्रॉलर नीति इस एआई की पहुँच रोकती है। रोक पहचानने के बाद रिपोर्टिंग पाठ नहीं जुटाया गया। प्रकाशक का मध्य-दक्षिण परिचय INP की रेटिंग नहीं।"
+        },
+        "nextStep": {
+          "en": "Use only material supplied with appropriate permission or obtain publisher access; do not bypass the crawler restriction.",
+          "hi": "उचित अनुमति से मिली सामग्री या प्रकाशक की पहुँच लें; क्रॉलर रोक को न लाँघें।"
+        },
+        "evidenceIds": [
+          "swarajya-about"
+        ]
+      }
     },
     {
       "id": "janata-weekly",
@@ -762,35 +1924,444 @@
       "aliases": [
         "Janata Weekly"
       ],
-      "version": 1,
-      "checkedAt": "2026-11-26T22:22:27.496Z",
+      "version": 2,
+      "checkedAt": "2026-11-27T02:09:17.098Z",
       "review": {
-        "type": "ai_research",
+        "type": "ai_editorial",
         "humanReviewed": false,
-        "editorialStatus": "pending",
-        "translationStatus": "pending"
+        "editorialStatus": "approved",
+        "translationStatus": "approved"
       },
       "focus": {
         "en": "A publisher-declared democratic socialist perspective.",
         "hi": "प्रकाशक का घोषित लोकतांत्रिक समाजवादी दृष्टिकोण।"
       },
       "assessment": {
-        "leaning": "unassessed",
-        "status": "draft",
+        "leaning": "left",
+        "status": "published",
         "context": "india",
         "methodVersion": "inp-source-assessment-v2",
         "rationale": {
-          "en": "The publication’s socialist self-description is documented. Its history does not substitute for a current, reviewed outlet-wide assessment or monitored coverage sample.",
-          "hi": "प्रकाशन का समाजवादी स्व-वर्णन दर्ज है। उसका इतिहास वर्तमान प्रकाशक आकलन या निगरानी किए कवरेज नमूने का विकल्प नहीं है।"
+          "en": "The examined English selection repeatedly endorses labour welfare, redistributive public services, local democratic control and resistance to concentrated corporate power. Authored commentary opposes Hindu majoritarianism and centralised executive control. This supports a provisional Left tendency in this Indian sample. Several pieces are credited republications: the assessment concerns the publication’s selection and presentation, not twelve independent investigations or every contributor’s position.",
+          "hi": "जाँचे अंग्रेज़ी चयन में श्रमिक कल्याण, पुनर्वितरण वाली सार्वजनिक सेवाओं, स्थानीय लोकतांत्रिक नियंत्रण और केंद्रित कॉरपोरेट शक्ति के विरोध का बार-बार समर्थन है। लेखक की टिप्पणियाँ हिंदू बहुसंख्यकवाद और केंद्रीकृत कार्यपालिका का विरोध करती हैं। इससे भारतीय नमूने में अस्थायी वाम झुकाव समर्थित है। कई लेख साभार पुनर्प्रकाशन हैं: आकलन प्रकाशन के चयन और प्रस्तुति का है, बारह स्वतंत्र जाँचों या हर लेखक के पक्ष का नहीं।"
         },
         "evidenceIds": [
-          "janata-about"
+          "sample-1",
+          "sample-2",
+          "sample-3",
+          "sample-4",
+          "sample-5",
+          "sample-6",
+          "sample-7",
+          "sample-8",
+          "sample-9",
+          "sample-10",
+          "sample-11",
+          "sample-12"
         ],
-        "articleSample": [],
-        "topicSample": [],
-        "approval": null,
+        "articleSample": [
+          {
+            "url": "https://janataweekly.org/articles/in-the-land-of-mahatma-gandhi-judiciary-guillotines-satyagraha",
+            "title": "In the Land of Mahatma Gandhi, Judiciary Guillotines Satyagraha",
+            "publishedDate": "2026-11-17",
+            "author": "Sankara Narayanan",
+            "authorKnown": true,
+            "topic": "civil_liberties",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "8eead0ba804d21fb4a6aed13903b6c11cad183d6f6f53133e5295492e62dfce2",
+            "evidenceId": "sample-1",
+            "note": {
+              "en": "The author defends student protest while accepting punishment for proven violence. Criticism of China and Egypt limits any claim of blanket support for governments associated with the Left.",
+              "hi": "लेखक छात्र विरोध का समर्थन करते हुए साबित हिंसा की सज़ा स्वीकारता है। चीन और मिस्र की आलोचना से वाम से जुड़े सभी शासन के समर्थन का दावा सीमित होता है।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/how-the-indian-government-made-a-worker-welfare-scheme-toothless",
+            "title": "How the Indian Government Made a Worker Welfare Scheme Toothless",
+            "publishedDate": "2026-11-17",
+            "author": "Bhargav Oza and Harsh Kinger",
+            "authorKnown": true,
+            "topic": "labour",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "4b3120fed0efe42f391414ea8dc1d5282ad7be2b418803360c52d395fec5004b",
+            "evidenceId": "sample-2",
+            "note": {
+              "en": "Advocates enforceable universal worker insurance and criticises pro-capital labour policy. It also acknowledges expanded coverage in the new code. Credited to The Wire; the audits and numerical claims were not independently verified here.",
+              "hi": "सार्वभौमिक श्रमिक बीमा लागू करने के पक्ष में है और पूँजी-पक्षीय श्रम नीति की आलोचना करता है। नए कोड में बढ़े दायरे को भी मानता है। The Wire को श्रेय है; ऑडिट और आँकड़ों की यहाँ स्वतंत्र पुष्टि नहीं हुई।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/hinduising-the-armed-forces-is-a-dangerous-pursuit",
+            "title": "Hinduising the Armed Forces Is a Dangerous Pursuit",
+            "publishedDate": "2026-11-17",
+            "author": "Ghazala Wahab",
+            "authorKnown": true,
+            "topic": "security",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "48da26405a47801986d2ded083091cf490b34232c81c9225b73edb6657bba03c",
+            "evidenceId": "sample-3",
+            "note": {
+              "en": "The author opposes religious majoritarianism in the military and also criticises appointments under Nehru and Vajpayee. Credited to The Wire; historical allegations remain the author’s claims.",
+              "hi": "लेखक सेना में धार्मिक बहुसंख्यकवाद का विरोध करता है और नेहरू व वाजपेयी काल की नियुक्तियों की भी आलोचना करता है। The Wire को श्रेय है; ऐतिहासिक आरोप लेखक के दावे हैं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/when-the-government-disregards-its-own-laws-the-case-of-indias-forest-rights-act",
+            "title": "When the Government Disregards Its Own Laws: The Case of India’s Forest Rights Act",
+            "publishedDate": "2026-11-17",
+            "author": "Rama Naga",
+            "authorKnown": true,
+            "topic": "land_rights",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "a5fea807060069ca557c109758daf183558044a4d6711613a55623db5043901d",
+            "evidenceId": "sample-4",
+            "note": {
+              "en": "Supports gram sabha authority and critiques dispossession through a rule-of-law argument. The account includes contested decisions before 2014. Credited to Scroll; this review does not resolve the legal interpretation.",
+              "hi": "कानून के शासन के तर्क से ग्राम सभा के अधिकार का समर्थन और बेदखली की आलोचना है। 2014 से पहले के विवादित निर्णय भी शामिल हैं। Scroll को श्रेय है; कानूनी व्याख्या यहाँ तय नहीं होती।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/a-guardian-spirit-takes-on-nuclear-power",
+            "title": "A Guardian Spirit Takes On Nuclear Power",
+            "publishedDate": "2026-11-17",
+            "author": "Avadhoot Dongare",
+            "authorKnown": true,
+            "topic": "environment",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "cb095b262ade757a53b9853ca67994b3c033ec1fd2ac6897278045be8171678b",
+            "evidenceId": "sample-5",
+            "note": {
+              "en": "Sympathetic to local resistance against large projects, while exploring religious traditions as tools for secular ecological action and their caste contradictions. Credited to The India Forum; not evidence that Left framing rejects all tradition.",
+              "hi": "बड़ी परियोजनाओं के स्थानीय विरोध के प्रति सहानुभूति है; धर्मनिरपेक्ष पर्यावरण कार्य में धार्मिक परंपरा और उसकी जातिगत अंतर्विरोधों पर भी चर्चा है। The India Forum को श्रेय है; वाम प्रस्तुति का अर्थ हर परंपरा का विरोध नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/no-safe-havens-how-indias-censorship-regime-is-closing-indias-private-film-screening-spaces",
+            "title": "No Safe Havens: How India’s Censorship Regime Is Closing India’s Private Film-Screening Spaces",
+            "publishedDate": "2026-11-17",
+            "author": "Tatsam Mukherjee",
+            "authorKnown": true,
+            "topic": "culture",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "4cf86ed2abc3f8f2526f5a410914337c4bcaba38fd796454ddcb4b55f5d22742",
+            "evidenceId": "sample-6",
+            "note": {
+              "en": "Foregrounds filmmakers’ civil-liberties concerns, but includes the ministry’s denial, a regulator’s response and unanswered requests. Credited to Article 14; the quoted speakers’ claims are not all publisher positions or independent confirmations.",
+              "hi": "फिल्मकारों की नागरिक स्वतंत्रता की चिंता प्रमुख है; मंत्रालय का इनकार, नियामक का जवाब और अनुत्तरित सवाल भी हैं। Article 14 को श्रेय है; उद्धृत दावे सभी प्रकाशक के अपने पक्ष या स्वतंत्र पुष्टियाँ नहीं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/4-hours-and-9-minutes-why-a-free-bus-ticket-for-indias-women-is-not-charity",
+            "title": "4 Hours and 9 Minutes: Why a Free Bus Ticket for India’s Women Is Not Charity",
+            "publishedDate": "2026-11-17",
+            "author": "N.V. Geetha",
+            "authorKnown": true,
+            "topic": "public_services",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "f8693c6c9e2d2dcf06bf46a17ceca7eb700a427fcdf799143fb85c5ef6a6941c",
+            "evidenceId": "sample-7",
+            "note": {
+              "en": "Treats free transport as a public right and unpaid care as structural inequality. It distinguishes ridership from employment effects, discusses mixed studies and fiscal/service constraints, and scrutinises a Congress-led state policy. Credited to Article 14.",
+              "hi": "मुफ़्त परिवहन को सार्वजनिक अधिकार और अवैतनिक देखभाल को संरचनात्मक असमानता मानता है। यात्रियों की संख्या और रोज़गार के असर में अंतर, मिश्रित अध्ययन व वित्त/सेवा सीमाएँ बताता है और कांग्रेस-नेतृत्व की राज्य नीति की जाँच करता है। Article 14 को श्रेय है।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/delhis-latest-proposal-for-ladakh-is-complete-subservience",
+            "title": "Delhi’s Latest Proposal for Ladakh Is Complete Subservience",
+            "publishedDate": "2026-11-17",
+            "author": "Ashish Kothari",
+            "authorKnown": true,
+            "topic": "federalism",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "8cd7fc73855588311b729eff15895e4e8fe0ce5895cfd9f8e079cfc51bdb12ad",
+            "evidenceId": "sample-8",
+            "note": {
+              "en": "Argues for Ladakhi autonomy and against centralised commercial extraction, while welcoming specified Union concessions and acknowledging that the draft is not final. Credited to Scroll; the author’s motive claims remain unverified.",
+              "hi": "लद्दाखी स्वायत्तता के पक्ष और केंद्रीकृत व्यावसायिक दोहन के विरोध में है; केंद्र की कुछ रियायतों का स्वागत और मसौदे के अंतिम न होने की शर्त भी है। Scroll को श्रेय है; मंशा के लेखक-दावे अपुष्ट हैं।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/sonia-gandhi-interview-great-damage-done-to-the-fabric-of-india-by-bjp",
+            "title": "Sonia Gandhi Interview: ‘Great Damage Done to the Fabric of India by BJP’",
+            "publishedDate": "2026-11-17",
+            "author": "N. Ram",
+            "authorKnown": true,
+            "topic": "politics",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "50693815e4df22a51fd65308e9512a97793e732d5f9e6ceecfdd34a69f15978b",
+            "evidenceId": "sample-9",
+            "note": {
+              "en": "A short attributed account of Sonia Gandhi’s criticism, not a full interview transcript. Her statements alone do not establish the publisher’s ideology; the original interview and quotations were not independently authenticated.",
+              "hi": "सोनिया गांधी की आलोचना का छोटा स्रोत-सहित विवरण है, पूरे साक्षात्कार का प्रतिलेख नहीं। उनके बयान अकेले प्रकाशक की विचारधारा स्थापित नहीं करते; मूल साक्षात्कार और उद्धरणों का स्वतंत्र प्रमाणीकरण नहीं हुआ।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/in-goa-real-estate-land-grab-threatens-protected-eco-sensitive-slopes",
+            "title": "In Goa, Real Estate Land Grab Threatens Protected Eco-Sensitive Slopes",
+            "publishedDate": "2026-11-01",
+            "author": "Shreya Raman",
+            "authorKnown": true,
+            "topic": "land_rights",
+            "genre": "news",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "78ba9a3cff3303d2a98947575b0cb61b5c189f437b7883b1f64edcd267fda18b",
+            "evidenceId": "sample-10",
+            "note": {
+              "en": "Credits ISignal’s Goa investigation and foregrounds environmental safeguards. It records the government’s rationale and a court ruling favouring a developer, complicating a one-sided advocacy reading. INP has not independently audited the maps.",
+              "hi": "ISignal की गोवा जाँच को श्रेय और पर्यावरण सुरक्षा को प्राथमिकता है। सरकारी तर्क और डेवलपर के पक्ष के अदालती निर्णय को भी दर्ज करता है। INP ने मानचित्रों का स्वतंत्र ऑडिट नहीं किया।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/indian-governments-job-statistics-are-misleading",
+            "title": "Indian Government’s Job Statistics Are Misleading",
+            "publishedDate": "2026-11-01",
+            "author": "Santosh Mehrotra and Kingshuk Sarkar",
+            "authorKnown": true,
+            "topic": "labour",
+            "genre": "analysis",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "ab9a26777a7a3fe1e2c4734c3b4ce60d1d52affc5753f6e95e292220484149cf",
+            "evidenceId": "sample-11",
+            "note": {
+              "en": "Questions payroll counts as a proxy for secure jobs, while recognising formalisation and manufacturing employment gains as valuable. Credited to 360info; the authors’ statistical and causal claims are not independently verified here.",
+              "hi": "सुरक्षित नौकरियों के संकेत के रूप में पेरोल गिनती पर सवाल है; औपचारिकीकरण और विनिर्माण रोज़गार बढ़ने के लाभ भी मानता है। 360info को श्रेय है; लेखक के सांख्यिकीय और कारण-संबंधी दावों की स्वतंत्र पुष्टि नहीं हुई।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          },
+          {
+            "url": "https://janataweekly.org/articles/why-plan-prepared-by-top-rice-scientist-dr-richharia-has-increased-relevance-now",
+            "title": "Why Plan Prepared by Top Rice Scientist Dr. Richharia Has Increased Relevance Now",
+            "publishedDate": "2026-11-01",
+            "author": "Bharat Dogra",
+            "authorKnown": true,
+            "topic": "agriculture",
+            "genre": "opinion",
+            "countryContext": "india",
+            "fullTextExamined": true,
+            "reviewedText": true,
+            "extractionStatus": "complete",
+            "materialHash": "0f3fa6bf829f8aa9c3a95015aabbaa26dcad445f931621103bb8f440e7371749",
+            "evidenceId": "sample-12",
+            "note": {
+              "en": "Explicitly favours small farmers, decentralised seed stewardship and organic farming against corporate control and gene-edited rice. Scientific risk and yield assertions are the author’s claims, not validated by this political-framing review.",
+              "hi": "स्पष्ट रूप से छोटे किसानों, विकेंद्रित बीज संरक्षण और जैविक खेती के पक्ष तथा कॉरपोरेट नियंत्रण व जीन-संपादित धान के विरोध में है। वैज्ञानिक जोखिम और पैदावार के दावे लेखक के हैं; राजनीतिक प्रस्तुति की यह समीक्षा उनकी पुष्टि नहीं करती।"
+            },
+            "textSource": "Public article text; credited republications identified in the notes",
+            "limitation": {
+              "en": "Article text only. Linked studies, embedded media and source allegations were not independently verified.",
+              "hi": "केवल लेख का पाठ। जुड़े अध्ययन, एम्बेडेड मीडिया और स्रोत के आरोपों की स्वतंत्र पुष्टि नहीं हुई।"
+            }
+          }
+        ],
+        "topicSample": [
+          "civil_liberties",
+          "labour",
+          "security",
+          "land_rights",
+          "environment",
+          "culture",
+          "public_services",
+          "federalism",
+          "politics",
+          "agriculture"
+        ],
+        "approval": {
+          "type": "ai_editorial",
+          "humanReviewed": false,
+          "reviewer": "INP AI editorial review",
+          "reviewedAt": "2026-11-27T02:05:39.323Z",
+          "expiresAt": "2026-12-27T02:05:39.323Z",
+          "recordUrl": "https://parthawe.github.io/india-news-project/en/sources/janata-weekly/#review-record",
+          "assessmentHash": "5f169b6a69ee3d2480f7dbd98ffa87f1cf9ac090d141e6e3cfb9a68e7a511b1c"
+        },
         "basis": "india_reporting_sample",
-        "appliesTo": []
+        "appliesTo": [
+          "Janata Weekly"
+        ],
+        "qualification": {
+          "sampling": {
+            "en": "Twelve purposively selected English India-related articles, including credited republications. Publisher metadata dates this set 17 November 2026; underlying reporting and event dates may be earlier. This is not a random sample or twelve original investigations.",
+            "hi": "भारत से जुड़े बारह उद्देश्यपूर्ण चुने अंग्रेज़ी लेख, साभार पुनर्प्रकाशन सहित। प्रकाशक का मेटाडेटा इस समूह को 17 नवंबर 2026 बताता है; मूल रिपोर्टिंग व घटनाएँ पहले की हो सकती हैं। यह यादृच्छिक नमूना या बारह मूल जाँच नहीं।"
+          },
+          "limitations": {
+            "en": "Provisional AI editorial and translation review; not human-reviewed. A purposive short baseline does not estimate the whole archive. Contributor arguments, article framing and factual support are separate. No factuality score or party-control finding is assigned.",
+            "hi": "अस्थायी एआई संपादकीय और अनुवाद समीक्षा; मानव समीक्षा नहीं हुई। उद्देश्यपूर्ण छोटा नमूना पूरे संग्रह का अनुमान नहीं देता। लेखक के तर्क, लेख की प्रस्तुति और तथ्य के सबूत अलग हैं। सत्यता की रेटिंग या पार्टी नियंत्रण का निष्कर्ष नहीं दिया गया।"
+          },
+          "confidence": "limited",
+          "counterexamples": [
+            {
+              "evidenceId": "sample-1",
+              "note": {
+                "en": "The author defends student protest while accepting punishment for proven violence. Criticism of China and Egypt limits any claim of blanket support for governments associated with the Left.",
+                "hi": "लेखक छात्र विरोध का समर्थन करते हुए साबित हिंसा की सज़ा स्वीकारता है। चीन और मिस्र की आलोचना से वाम से जुड़े सभी शासन के समर्थन का दावा सीमित होता है।"
+              }
+            },
+            {
+              "evidenceId": "sample-3",
+              "note": {
+                "en": "The author opposes religious majoritarianism in the military and also criticises appointments under Nehru and Vajpayee. Credited to The Wire; historical allegations remain the author’s claims.",
+                "hi": "लेखक सेना में धार्मिक बहुसंख्यकवाद का विरोध करता है और नेहरू व वाजपेयी काल की नियुक्तियों की भी आलोचना करता है। The Wire को श्रेय है; ऐतिहासिक आरोप लेखक के दावे हैं।"
+              }
+            },
+            {
+              "evidenceId": "sample-7",
+              "note": {
+                "en": "Treats free transport as a public right and unpaid care as structural inequality. It distinguishes ridership from employment effects, discusses mixed studies and fiscal/service constraints, and scrutinises a Congress-led state policy. Credited to Article 14.",
+                "hi": "मुफ़्त परिवहन को सार्वजनिक अधिकार और अवैतनिक देखभाल को संरचनात्मक असमानता मानता है। यात्रियों की संख्या और रोज़गार के असर में अंतर, मिश्रित अध्ययन व वित्त/सेवा सीमाएँ बताता है और कांग्रेस-नेतृत्व की राज्य नीति की जाँच करता है। Article 14 को श्रेय है।"
+              }
+            },
+            {
+              "evidenceId": "sample-8",
+              "note": {
+                "en": "Argues for Ladakhi autonomy and against centralised commercial extraction, while welcoming specified Union concessions and acknowledging that the draft is not final. Credited to Scroll; the author’s motive claims remain unverified.",
+                "hi": "लद्दाखी स्वायत्तता के पक्ष और केंद्रीकृत व्यावसायिक दोहन के विरोध में है; केंद्र की कुछ रियायतों का स्वागत और मसौदे के अंतिम न होने की शर्त भी है। Scroll को श्रेय है; मंशा के लेखक-दावे अपुष्ट हैं।"
+              }
+            },
+            {
+              "evidenceId": "sample-10",
+              "note": {
+                "en": "Credits ISignal’s Goa investigation and foregrounds environmental safeguards. It records the government’s rationale and a court ruling favouring a developer, complicating a one-sided advocacy reading. INP has not independently audited the maps.",
+                "hi": "ISignal की गोवा जाँच को श्रेय और पर्यावरण सुरक्षा को प्राथमिकता है। सरकारी तर्क और डेवलपर के पक्ष के अदालती निर्णय को भी दर्ज करता है। INP ने मानचित्रों का स्वतंत्र ऑडिट नहीं किया।"
+              }
+            },
+            {
+              "evidenceId": "sample-11",
+              "note": {
+                "en": "Questions payroll counts as a proxy for secure jobs, while recognising formalisation and manufacturing employment gains as valuable. Credited to 360info; the authors’ statistical and causal claims are not independently verified here.",
+                "hi": "सुरक्षित नौकरियों के संकेत के रूप में पेरोल गिनती पर सवाल है; औपचारिकीकरण और विनिर्माण रोज़गार बढ़ने के लाभ भी मानता है। 360info को श्रेय है; लेखक के सांख्यिकीय और कारण-संबंधी दावों की स्वतंत्र पुष्टि नहीं हुई।"
+              }
+            }
+          ],
+          "axes": [
+            {
+              "id": "social-cultural",
+              "finding": "left",
+              "rationale": {
+                "en": "The examined English selection repeatedly endorses labour welfare, redistributive public services, local democratic control and resistance to concentrated corporate power. Authored commentary opposes Hindu majoritarianism and centralised executive control. This supports a provisional Left tendency in this Indian sample. Several pieces are credited republications: the assessment concerns the publication’s selection and presentation, not twelve independent investigations or every contributor’s position.",
+                "hi": "जाँचे अंग्रेज़ी चयन में श्रमिक कल्याण, पुनर्वितरण वाली सार्वजनिक सेवाओं, स्थानीय लोकतांत्रिक नियंत्रण और केंद्रित कॉरपोरेट शक्ति के विरोध का बार-बार समर्थन है। लेखक की टिप्पणियाँ हिंदू बहुसंख्यकवाद और केंद्रीकृत कार्यपालिका का विरोध करती हैं। इससे भारतीय नमूने में अस्थायी वाम झुकाव समर्थित है। कई लेख साभार पुनर्प्रकाशन हैं: आकलन प्रकाशन के चयन और प्रस्तुति का है, बारह स्वतंत्र जाँचों या हर लेखक के पक्ष का नहीं।"
+              },
+              "evidenceIds": [
+                "sample-1",
+                "sample-2",
+                "sample-3",
+                "sample-4",
+                "sample-5",
+                "sample-7",
+                "sample-8",
+                "sample-11",
+                "sample-12"
+              ]
+            },
+            {
+              "id": "economic",
+              "finding": "left",
+              "rationale": {
+                "en": "Authored arguments favour enforceable social insurance, redistributive public services and small-farmer control against corporate concentration.",
+                "hi": "लेखक के तर्क लागू सामाजिक बीमा, पुनर्वितरण वाली सार्वजनिक सेवा और केंद्रित कॉरपोरेट शक्ति के विरुद्ध छोटे किसानों के नियंत्रण के पक्ष में हैं।"
+              },
+              "evidenceIds": [
+                "sample-1",
+                "sample-12"
+              ]
+            }
+          ]
+        }
       },
       "governmentAlignment": {
         "en": "Not assessed. Government relationships and political ideology require separate evidence.",
@@ -803,6 +2374,90 @@
           "url": "https://janataweekly.org/about-us/",
           "type": "primary_publisher_disclosure",
           "observedAt": "2026-11-26T22:22:27.496Z"
+        },
+        {
+          "id": "sample-1",
+          "title": "In the Land of Mahatma Gandhi, Judiciary Guillotines Satyagraha",
+          "url": "https://janataweekly.org/articles/in-the-land-of-mahatma-gandhi-judiciary-guillotines-satyagraha",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:57.385Z"
+        },
+        {
+          "id": "sample-2",
+          "title": "How the Indian Government Made a Worker Welfare Scheme Toothless",
+          "url": "https://janataweekly.org/articles/how-the-indian-government-made-a-worker-welfare-scheme-toothless",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:57.956Z"
+        },
+        {
+          "id": "sample-3",
+          "title": "Hinduising the Armed Forces Is a Dangerous Pursuit",
+          "url": "https://janataweekly.org/articles/hinduising-the-armed-forces-is-a-dangerous-pursuit",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:57.956Z"
+        },
+        {
+          "id": "sample-4",
+          "title": "When the Government Disregards Its Own Laws: The Case of India’s Forest Rights Act",
+          "url": "https://janataweekly.org/articles/when-the-government-disregards-its-own-laws-the-case-of-indias-forest-rights-act",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:57.956Z"
+        },
+        {
+          "id": "sample-5",
+          "title": "A Guardian Spirit Takes On Nuclear Power",
+          "url": "https://janataweekly.org/articles/a-guardian-spirit-takes-on-nuclear-power",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:58.372Z"
+        },
+        {
+          "id": "sample-6",
+          "title": "No Safe Havens: How India’s Censorship Regime Is Closing India’s Private Film-Screening Spaces",
+          "url": "https://janataweekly.org/articles/no-safe-havens-how-indias-censorship-regime-is-closing-indias-private-film-screening-spaces",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:58.372Z"
+        },
+        {
+          "id": "sample-7",
+          "title": "4 Hours and 9 Minutes: Why a Free Bus Ticket for India’s Women Is Not Charity",
+          "url": "https://janataweekly.org/articles/4-hours-and-9-minutes-why-a-free-bus-ticket-for-indias-women-is-not-charity",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:58.729Z"
+        },
+        {
+          "id": "sample-8",
+          "title": "Delhi’s Latest Proposal for Ladakh Is Complete Subservience",
+          "url": "https://janataweekly.org/articles/delhis-latest-proposal-for-ladakh-is-complete-subservience",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:58.728Z"
+        },
+        {
+          "id": "sample-9",
+          "title": "Sonia Gandhi Interview: ‘Great Damage Done to the Fabric of India by BJP’",
+          "url": "https://janataweekly.org/articles/sonia-gandhi-interview-great-damage-done-to-the-fabric-of-india-by-bjp",
+          "type": "examined_article",
+          "observedAt": "2026-11-26T22:49:59.122Z"
+        },
+        {
+          "id": "sample-10",
+          "title": "In Goa, Real Estate Land Grab Threatens Protected Eco-Sensitive Slopes",
+          "url": "https://janataweekly.org/articles/in-goa-real-estate-land-grab-threatens-protected-eco-sensitive-slopes",
+          "type": "examined_article",
+          "observedAt": "2026-11-27T01:56:36.956Z"
+        },
+        {
+          "id": "sample-11",
+          "title": "Indian Government’s Job Statistics Are Misleading",
+          "url": "https://janataweekly.org/articles/indian-governments-job-statistics-are-misleading",
+          "type": "examined_article",
+          "observedAt": "2026-11-27T01:56:37.472Z"
+        },
+        {
+          "id": "sample-12",
+          "title": "Why Plan Prepared by Top Rice Scientist Dr. Richharia Has Increased Relevance Now",
+          "url": "https://janataweekly.org/articles/why-plan-prepared-by-top-rice-scientist-dr-richharia-has-increased-relevance-now",
+          "type": "examined_article",
+          "observedAt": "2026-11-27T01:56:37.762Z"
         }
       ],
       "relationships": [
@@ -837,8 +2492,32 @@
           "version": 1,
           "at": "2026-11-26T22:22:27.496Z",
           "action": "Primary-source research record created; no INP political rating approved."
+        },
+        {
+          "version": 2,
+          "at": "2026-11-27T02:05:39.323Z",
+          "action": "Twelve-article English sample and bilingual notes reviewed by AI. Provisional Left assessment approved. Not human-reviewed.",
+          "actionHi": "बारह लेखों और द्विभाषी टिप्पणियों की एआई समीक्षा; अस्थायी वाम निष्कर्ष मंज़ूर। मानव समीक्षा नहीं हुई।"
         }
-      ]
+      ],
+      "research": {
+        "status": "reviewed",
+        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "retrievedCandidates": 25,
+        "examinedTexts": 12,
+        "qualifyingArticles": 12,
+        "summary": {
+          "en": "Twelve India-related English articles reviewed; provisional Left finding. Most selected material is credited republication, not independent original reporting.",
+          "hi": "भारत-संबंधी बारह अंग्रेज़ी लेख समीक्षित; अस्थायी वाम निष्कर्ष। चुनी सामग्री का बड़ा हिस्सा साभार पुनर्प्रकाशन है, अलग मूल रिपोर्टिंग नहीं।"
+        },
+        "nextStep": {
+          "en": "Monitor the publisher RSS without treating its old issue dates as current coverage or evidence of silence.",
+          "hi": "प्रकाशक की RSS पर निगरानी रखें; पुराने अंक की तारीख को वर्तमान कवरेज या चुप्पी का सबूत न मानें।"
+        },
+        "evidenceIds": [
+          "janata-about"
+        ]
+      }
     },
     {
       "id": "organiser",

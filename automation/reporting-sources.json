@@ -481,5 +481,23 @@
     "scope": "Publisher-provided headline, institutional or named byline, date and original link only. No article body, excerpt, image, translation or automatic AI analysis. Feed availability is not a full-content republication licence.",
     "analysisAllowed": false,
     "permissionBasis": "publisher_rss_metadata"
+  },
+  {
+    "id": "janata-weekly-en",
+    "publisher": "Janata Weekly",
+    "publisherGroup": "janata-weekly",
+    "kind": "reporting",
+    "language": "en",
+    "url": "https://janataweekly.org/feed/",
+    "hosts": [
+      "janataweekly.org"
+    ],
+    "enabled": true,
+    "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
+    "permissionUrl": "https://janataweekly.org/feed/",
+    "permissionBasis": "publisher_rss_metadata",
+    "reviewedOn": "2026-11-27",
+    "scope": "Publisher-supplied headline, named or institutional byline, publication date and original link only. Credited republications remain linked to their displayed publisher; no original-reporting claim, media redistribution or automatic article analysis.",
+    "analysisAllowed": false
   }
 ]
