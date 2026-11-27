@@ -1,3 +1,4 @@
+import {coverageObservation} from './coverage-observation.mjs';
 import registry from './source-profiles.json' with {type:'json'};
 import events from './blindspot-events.json' with {type:'json'};
 import {buildBlindspotCorpus} from './blindspot-corpus.mjs';
@@ -37,7 +38,7 @@ async function collectSource(source){
   const response=await resource(source.url,source,cached?.excluded||!known.length?{}:(cached||{}));
   if(response.notModified){incoming.push(...known);feeds.push({...status,status:'not_modified',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:known[0]?.publishedAt||cached?.newestPublishedAt||null});return;}
   if(source.format!=='pib_html'&&/<!DOCTYPE|<!ENTITY/i.test(response.text))throw Error('Unsupported XML declaration');
-  const feed=source.format==='pib_html'?{items:regionalReleaseLinks(response.text,source)}:await parser.parseString(response.text);let newest=null,metadataReads=0;const exclusions={};
+  const feed=source.format==='pib_html'?{items:regionalReleaseLinks(response.text,source)}:await parser.parseString(response.text);let newest=null,oldest=null,metadataReads=0;const exclusions={};
   for(const raw of feed.items.slice(0,60)){
    try{
     const title=load('<span>'+String(raw.title||'')+'</span>').text().replace(/\s+/g,' ').trim();
@@ -57,13 +58,14 @@ async function collectSource(source){
     }
     const candidateDate=Date.parse(item.isoDate||item.pubDate||'');if(Number.isFinite(candidateDate)&&(!newest||candidateDate>Date.parse(newest)))newest=new Date(candidateDate).toISOString();
     const article=recordFrom(item,source,now,old);if(item.datePrecision==='day')article.datePrecision='day';else article.datePrecision='timestamp';
-    incoming.push(article);status.accepted++;
+    incoming.push(article);status.accepted++;if(!oldest||Date.parse(article.publishedAt)<Date.parse(oldest))oldest=article.publishedAt;
    }catch(error){status.excluded++;const reason=error.message==='Unapproved source URL'?'source_url_rejected':'publication_metadata_unavailable_or_outside_window';exclusions[reason]=(exclusions[reason]||0)+1;}
   }
-  feeds.push({...status,status:'ok',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:newest,exclusions});
+  feeds.push({...status,status:'ok',lastSuccessAt:now.toISOString(),etag:response.etag,lastModified:response.lastModified,newestPublishedAt:newest,oldestPublishedAt:oldest,exclusions});
  }catch(error){feeds.push({...status,status:'failed',error:error.message.slice(0,160),etag:cached?.etag,lastModified:cached?.lastModified,newestPublishedAt:cached?.newestPublishedAt||null});}
 }
 const enabled=sources.filter(s=>s.enabled);for(let i=0;i<enabled.length;i+=3)await Promise.all(enabled.slice(i,i+3).map(collectSource));
+for(const f of feeds)Object.assign(f,coverageObservation(previous?.feeds?.find(p=>p.id===f.id),f,now));
 feeds.sort((a,b)=>enabled.findIndex(s=>s.id===a.id)-enabled.findIndex(s=>s.id===b.id));
 const index=buildLatest(previous,[...restored.articles,...incoming],feeds,sources,now);index.archiveRecovery=restored.recovery;const json=JSON.stringify(index,null,2)+'\n';
 await writeFile(join(folder,'latest-reporting.json'),json);
