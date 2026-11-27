@@ -202,10 +202,10 @@ function mount(root = document) {
     blindspotPanel.replaceChildren();
     const section = add(blindspotPanel, "section", ""); section.className = "review-message review-blindspots";
     add(section, "p", t("Coverage gaps", "कवरेज में कमियाँ")).className = "review-role";
-    add(section, "h2", t("Blindspot check", "ब्लाइंडस्पॉट जाँच"));
+    add(section, "h2", t("Coverage gap check", "कवरेज में अंतर जाँच"));
     add(section, "p", t("What might be outside this comparison?", "इस तुलना से क्या छूट सकता है?"));
     const finding = add(section, "div", ""); finding.className = "blindspot-finding";
-    add(finding, "strong", t("Political blindspots: not measurable yet", "राजनीतिक ब्लाइंडस्पॉट: अभी मापना संभव नहीं"));
+    add(finding, "strong", t("Political blindspots: not measurable yet", "राजनीतिक कवरेज में अंतर: अभी मापना संभव नहीं"));
     add(finding, "p", t("Reader-added links cannot tell us which political side is under-covering a story. We need a monitored source list, a time window, reviewed story matches and documented outlet assessments.",
       "पाठक के जोड़े लिंक यह नहीं बताते कि किस राजनीतिक पक्ष में किसी खबर की कवरेज कम है। इसके लिए निगरानी किए गए स्रोतों की सूची, समय सीमा, जाँचे गए घटना-मिलान और प्रमाणित प्रकाशक आकलन चाहिए।"));
     const sample = record.blindspots?.sample;
@@ -240,10 +240,10 @@ function mount(root = document) {
       }
     }
     const detail = add(section, "details", ""); detail.open = Boolean(expanded);
-    add(detail, "summary", t("How a political blindspot will be established", "राजनीतिक ब्लाइंडस्पॉट कैसे तय होगा"));
+    add(detail, "summary", t("How a political coverage gap will be established", "राजनीतिक कवरेज में अंतर कैसे तय होगा"));
     add(detail, "p", t("We will compare unique, assessed outlets covering the same confirmed event within a disclosed monitoring window. The sample, counts, unassessed outlets and inaccessible material must remain visible. A low count is a finding about that monitored sample, not proof that a whole political side ignored the story.",
       "घोषित निगरानी अवधि में एक ही पुष्टि की गई घटना की कवरेज करने वाले अलग-अलग आकलित प्रकाशकों की तुलना होगी। नमूना, संख्या, अनाकलित प्रकाशक और अप्राप्य सामग्री दिखाई जाएगी। कम संख्या उस नमूने का निष्कर्ष है; इससे यह साबित नहीं होता कि पूरे राजनीतिक पक्ष ने खबर को अनदेखा किया।"));
-    const method = add(detail, "a", t("Read the blindspot method", "ब्लाइंडस्पॉट की विधि पढ़ें"));
+    const method = add(detail, "a", t("Read the coverage-gap method", "कवरेज में अंतर की विधि पढ़ें"));
     method.href = form.dataset.methodUrl || "../method/#blindspots";
   }
 
