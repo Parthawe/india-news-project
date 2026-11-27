@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-11-27",
-  "collectedAt": "2026-11-27T03:22:29.854Z",
+  "collectedAt": "2026-11-27T11:25:35.018Z",
   "target": 5,
   "status": "complete",
   "items": [
@@ -75,23 +75,23 @@
       "excluded": 4,
       "failures": [
         {
-          "id": "pib-2342215",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342215",
+          "id": "pib-2342544",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342544",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342197",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342197",
+          "id": "pib-2342558",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342558",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342206",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342206",
+          "id": "pib-2342508",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342508",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342194",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342194",
+          "id": "pib-2342467",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342467",
           "status": "publication_date_unavailable"
         }
       ]

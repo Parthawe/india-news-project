@@ -1,13 +1,13 @@
 {
   "version": 2,
   "method": "inp-monitored-coverage-v3",
-  "checkedAt": "2026-11-27T08:31:19.743Z",
-  "collectionCheckedAt": "2026-11-27T05:00:02.077Z",
+  "checkedAt": "2026-11-27T11:25:42.124Z",
+  "collectionCheckedAt": "2026-11-27T11:25:42.124Z",
   "windowStart": "2026-11-21",
   "windowEnd": "2026-11-27",
   "scope": "Archived captured metadata from selected feeds; not full publisher archives or all Indian media.",
   "archiveComplete": true,
-  "capturedLinks": 637,
+  "capturedLinks": 706,
   "sample": [
     {
       "publisherGroup": "pib",
@@ -40,18 +40,16 @@
         "as"
       ],
       "official": true,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": null,
       "continuousFrom": null,
       "newestPublishedAt": "2026-11-27T00:00:00.000Z",
       "newestDatePrecision": "day",
-      "capturedLinks": 476,
+      "capturedLinks": 521,
       "eligible": false,
       "leaning": null,
       "reasons": [
-        "collection_stale",
-        "feed_unavailable",
         "official_communication",
         "editorial_approval_pending",
         "political_position_unassessed",
@@ -77,7 +75,7 @@
         "hi"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": null,
       "continuousFrom": null,
@@ -87,8 +85,6 @@
       "eligible": false,
       "leaning": null,
       "reasons": [
-        "collection_stale",
-        "feed_unavailable",
         "political_position_unassessed"
       ]
     },
@@ -107,7 +103,7 @@
         "bn"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": null,
       "continuousFrom": null,
@@ -117,8 +113,6 @@
       "eligible": false,
       "leaning": null,
       "reasons": [
-        "collection_stale",
-        "feed_unavailable",
         "editorial_approval_pending",
         "political_position_unassessed",
         "assessment_rationale_unsupported",
@@ -143,18 +137,16 @@
         "hi"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
-      "newestPublishedAt": "2026-11-26T09:30:00.000Z",
+      "continuousFrom": "2026-11-27T11:25:42.124Z",
+      "newestPublishedAt": "2026-11-27T06:30:00.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 9,
+      "capturedLinks": 11,
       "eligible": false,
       "leaning": null,
       "reasons": [
-        "collection_stale",
-        "feed_unavailable",
         "political_position_unassessed"
       ]
     },
@@ -169,18 +161,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
+      "continuousFrom": "2026-11-27T11:25:42.124Z",
       "newestPublishedAt": "2026-11-26T00:30:56.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 2,
       "eligible": false,
       "leaning": null,
       "reasons": [
-        "collection_stale",
-        "feed_unavailable",
         "editorial_approval_pending",
         "political_position_unassessed",
         "assessment_rationale_unsupported",
@@ -203,7 +193,7 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": null,
       "continuousFrom": null,
@@ -213,8 +203,6 @@
       "eligible": false,
       "leaning": null,
       "reasons": [
-        "collection_stale",
-        "feed_unavailable",
         "editorial_approval_pending",
         "political_position_unassessed",
         "assessment_rationale_unsupported",
@@ -237,19 +225,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
-      "newestPublishedAt": "2026-11-27T04:30:59.000Z",
+      "continuousFrom": null,
+      "newestPublishedAt": "2026-11-27T11:00:53.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 17,
-      "eligible": false,
-      "leaning": null,
-      "reasons": [
-        "collection_stale",
-        "feed_unavailable"
-      ]
+      "capturedLinks": 27,
+      "eligible": true,
+      "leaning": "right",
+      "reasons": []
     },
     {
       "publisherGroup": "tfipost",
@@ -262,19 +247,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
+      "continuousFrom": "2026-11-27T11:25:42.124Z",
       "newestPublishedAt": "2026-11-26T11:30:12.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 15,
-      "eligible": false,
-      "leaning": null,
-      "reasons": [
-        "collection_stale",
-        "feed_unavailable"
-      ]
+      "capturedLinks": 17,
+      "eligible": true,
+      "leaning": "right",
+      "reasons": []
     },
     {
       "publisherGroup": "opindia",
@@ -287,19 +269,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
+      "continuousFrom": "2026-11-27T11:25:42.124Z",
       "newestPublishedAt": "2026-11-27T04:59:30.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 12,
-      "eligible": false,
-      "leaning": null,
-      "reasons": [
-        "collection_stale",
-        "feed_unavailable"
-      ]
+      "eligible": true,
+      "leaning": "right",
+      "reasons": []
     },
     {
       "publisherGroup": "scroll",
@@ -312,19 +291,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
-      "newestPublishedAt": "2026-11-27T04:25:08.000Z",
+      "continuousFrom": "2026-11-27T11:25:42.124Z",
+      "newestPublishedAt": "2026-11-27T10:59:00.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 65,
-      "eligible": false,
-      "leaning": null,
-      "reasons": [
-        "collection_stale",
-        "feed_unavailable"
-      ]
+      "capturedLinks": 75,
+      "eligible": true,
+      "leaning": "left",
+      "reasons": []
     },
     {
       "publisherGroup": "peoples-democracy",
@@ -337,19 +313,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
+      "continuousFrom": null,
       "newestPublishedAt": "2026-11-21T18:30:00.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 10,
-      "eligible": false,
-      "leaning": null,
-      "reasons": [
-        "collection_stale",
-        "feed_unavailable"
-      ]
+      "eligible": true,
+      "leaning": "left",
+      "reasons": []
     },
     {
       "publisherGroup": "sabrang-india",
@@ -362,19 +335,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
+      "continuousFrom": "2026-11-27T11:25:42.124Z",
       "newestPublishedAt": "2026-11-27T04:55:50.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 11,
-      "eligible": false,
-      "leaning": null,
-      "reasons": [
-        "collection_stale",
-        "feed_unavailable"
-      ]
+      "eligible": true,
+      "leaning": "left",
+      "reasons": []
     },
     {
       "publisherGroup": "janata-weekly",
@@ -387,27 +357,25 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": false,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T02:11:29.830Z",
+      "continuousFrom": "2026-11-27T11:25:42.124Z",
       "newestPublishedAt": null,
       "newestDatePrecision": "timestamp",
       "capturedLinks": 0,
       "eligible": false,
       "leaning": null,
       "reasons": [
-        "collection_stale",
-        "feed_unavailable",
         "no_recent_observations"
       ]
     }
   ],
-  "classified": 0,
+  "classified": 6,
   "cohorts": {
-    "left": 0,
+    "left": 3,
     "centre": 0,
-    "right": 0
+    "right": 3
   },
   "evaluations": [
     {
@@ -543,8 +511,17 @@
         "sabrang-india",
         "janata-weekly"
       ],
-      "excludedForOpportunity": [],
-      "excludedForMonitoring": [],
+      "excludedForOpportunity": [
+        "peoples-democracy"
+      ],
+      "excludedForMonitoring": [
+        "organiser",
+        "tfipost",
+        "opindia",
+        "scroll",
+        "peoples-democracy",
+        "sabrang-india"
+      ],
       "observedMix": {
         "left": 1,
         "centre": 0,
@@ -557,8 +534,7 @@
         "https://organiser.org/2026/11/26/429071/bharat/tamil-nadu/thiruparankundram-deepathoon-row-fresh-contempt-plea-seeks-to-establish-vijay-government-role-in-defying-sc-order/"
       ],
       "reasons": [
-        "collection_stale",
-        "feed_health_incomplete",
+        "event_monitoring_incomplete",
         "classified_cohorts_insufficient",
         "covering_publishers_insufficient"
       ],
@@ -607,8 +583,22 @@
         "sabrang-india",
         "janata-weekly"
       ],
-      "excludedForOpportunity": [],
-      "excludedForMonitoring": [],
+      "excludedForOpportunity": [
+        "organiser",
+        "tfipost",
+        "opindia",
+        "scroll",
+        "peoples-democracy",
+        "sabrang-india"
+      ],
+      "excludedForMonitoring": [
+        "organiser",
+        "tfipost",
+        "opindia",
+        "scroll",
+        "peoples-democracy",
+        "sabrang-india"
+      ],
       "observedMix": {
         "left": 0,
         "centre": 0,
@@ -620,8 +610,7 @@
         "https://www.downtoearth.org.in/climate-change/cop31-ends-with-no-major-deal-divisions-over-fossil-fuels-and-climate-finance-deepen"
       ],
       "reasons": [
-        "collection_stale",
-        "feed_health_incomplete",
+        "event_monitoring_incomplete",
         "classified_cohorts_insufficient",
         "event_review_pending",
         "wire_origin_review_pending",
