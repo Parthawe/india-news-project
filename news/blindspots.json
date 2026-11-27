@@ -1,13 +1,13 @@
 {
   "version": 2,
   "method": "inp-monitored-coverage-v3",
-  "checkedAt": "2026-11-27T12:18:13.312Z",
-  "collectionCheckedAt": "2026-11-27T12:13:06.671Z",
+  "checkedAt": "2026-11-27T14:59:52.813Z",
+  "collectionCheckedAt": "2026-11-27T14:59:52.813Z",
   "windowStart": "2026-11-21",
   "windowEnd": "2026-11-27",
   "scope": "Archived captured metadata from selected feeds; not full publisher archives or all Indian media.",
   "archiveComplete": true,
-  "capturedLinks": 744,
+  "capturedLinks": 794,
   "sample": [
     {
       "publisherGroup": "pib",
@@ -45,8 +45,8 @@
       "assessmentLeaning": null,
       "continuousFrom": null,
       "newestPublishedAt": "2026-11-27T00:00:00.000Z",
-      "newestDatePrecision": "timestamp",
-      "capturedLinks": 552,
+      "newestDatePrecision": "day",
+      "capturedLinks": 597,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -79,9 +79,9 @@
       "active": true,
       "assessmentLeaning": null,
       "continuousFrom": null,
-      "newestPublishedAt": "2026-11-26T17:19:01.000Z",
+      "newestPublishedAt": "2026-11-27T13:36:23.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 12,
+      "capturedLinks": 13,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -140,7 +140,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-27T11:25:42.124Z",
+      "continuousFrom": "2026-11-27T14:59:52.813Z",
       "newestPublishedAt": "2026-11-27T06:30:00.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 11,
@@ -164,7 +164,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-27T11:25:42.124Z",
+      "continuousFrom": "2026-11-27T14:59:52.813Z",
       "newestPublishedAt": "2026-11-26T00:30:56.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 2,
@@ -225,16 +225,18 @@
         "en"
       ],
       "official": false,
-      "healthy": true,
+      "healthy": false,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T12:13:06.671Z",
+      "continuousFrom": null,
       "newestPublishedAt": "2026-11-27T12:00:16.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 29,
-      "eligible": true,
-      "leaning": "right",
-      "reasons": []
+      "eligible": false,
+      "leaning": null,
+      "reasons": [
+        "feed_unavailable"
+      ]
     },
     {
       "publisherGroup": "tfipost",
@@ -250,7 +252,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T11:25:42.124Z",
+      "continuousFrom": "2026-11-27T14:59:52.813Z",
       "newestPublishedAt": "2026-11-26T11:30:12.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 17,
@@ -272,7 +274,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T11:25:42.124Z",
+      "continuousFrom": "2026-11-27T14:59:52.813Z",
       "newestPublishedAt": "2026-11-27T11:55:54.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 13,
@@ -294,10 +296,10 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T11:25:42.124Z",
-      "newestPublishedAt": "2026-11-27T11:30:01.000Z",
+      "continuousFrom": "2026-11-27T14:59:52.813Z",
+      "newestPublishedAt": "2026-11-27T12:54:59.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 77,
+      "capturedLinks": 80,
       "eligible": true,
       "leaning": "left",
       "reasons": []
@@ -338,10 +340,10 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T11:25:42.124Z",
-      "newestPublishedAt": "2026-11-27T11:56:47.000Z",
+      "continuousFrom": "2026-11-27T14:59:52.813Z",
+      "newestPublishedAt": "2026-11-27T12:41:25.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 13,
+      "capturedLinks": 14,
       "eligible": true,
       "leaning": "left",
       "reasons": []
@@ -360,7 +362,7 @@
       "healthy": true,
       "active": false,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T11:25:42.124Z",
+      "continuousFrom": "2026-11-27T14:59:52.813Z",
       "newestPublishedAt": null,
       "newestDatePrecision": "timestamp",
       "capturedLinks": 0,
@@ -371,11 +373,11 @@
       ]
     }
   ],
-  "classified": 6,
+  "classified": 5,
   "cohorts": {
     "left": 3,
     "centre": 0,
-    "right": 3
+    "right": 2
   },
   "evaluations": [
     {
@@ -515,7 +517,6 @@
         "peoples-democracy"
       ],
       "excludedForMonitoring": [
-        "organiser",
         "tfipost",
         "opindia",
         "scroll",
@@ -535,6 +536,7 @@
       ],
       "reasons": [
         "event_monitoring_incomplete",
+        "feed_health_incomplete",
         "classified_cohorts_insufficient",
         "covering_publishers_insufficient"
       ],
@@ -584,7 +586,6 @@
         "janata-weekly"
       ],
       "excludedForOpportunity": [
-        "organiser",
         "tfipost",
         "opindia",
         "scroll",
@@ -592,7 +593,6 @@
         "sabrang-india"
       ],
       "excludedForMonitoring": [
-        "organiser",
         "tfipost",
         "opindia",
         "scroll",
@@ -611,6 +611,7 @@
       ],
       "reasons": [
         "event_monitoring_incomplete",
+        "feed_health_incomplete",
         "classified_cohorts_insufficient",
         "event_review_pending",
         "wire_origin_review_pending",
