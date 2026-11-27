@@ -1,0 +1,61 @@
+[
+  {
+    "id": "thiruparankundram-compliance",
+    "review": {
+      "reviewedAt": "2026-11-26T23:26:54.726Z",
+      "expiresAt": "2026-12-03T23:26:54.726Z",
+      "evidenceHash": "f1ec9ad56ee274f5c07a33bc41a4d3e31d629cdc6e868283d0b078b666d7b991",
+      "type": "ai_editorial",
+      "humanReviewed": false
+    },
+    "urls": [
+      "https://organiser.org/2026/11/26/429162/politics/rss-urges-tamil-nadu-govt-to-respect-peoples-legitimate-wishes-recognised-by-sc-in-thiruparankundram-deepam-issue/",
+      "https://organiser.org/2026/11/26/429062/bharat/tamil-nadu/apology-cannot-undo-court-contempt-hindu-munnani-seeks-action-against-madurai-collector-thiruparankundram-deepam/",
+      "https://organiser.org/2026/11/26/429071/bharat/tamil-nadu/thiruparankundram-deepathoon-row-fresh-contempt-plea-seeks-to-establish-vijay-government-role-in-defying-sc-order/",
+      "https://tfipost.com/2026/11/lamp-hill-and-government-tamil-nadus-thiruparankundram-test/",
+      "https://www.opindia.com/2026/11/prevented-court-ordered-lighting-karthigai-deepam-deepathoon-challenged-madras-hc-order-remove-periyar-statue-temple-land-tvk-outperformed-dmk-anti-hindu/",
+      "https://scroll.in/latest/1097290/tamil-nadu-defies-sc-order-on-lighting-lamp-at-disputed-pillar-atop-thiruparankundram-hill",
+      "https://scroll.in/latest/1097287/madras-hc-restrains-protests-against-sc-order-allowing-lighting-of-lamp-on-thiruparankundram-hill"
+    ],
+    "excludedUrls": [
+      "https://www.opindia.com/2026/11/thiruparankundram-deepam-row-1923-court-decree-declared-hill-temple-property-dargah-had-rights-over-three-specific-areas-deepathoon-outside-its-land/"
+    ],
+    "comparison": [
+      {
+        "url": "https://organiser.org/2026/11/26/429162/politics/rss-urges-tamil-nadu-govt-to-respect-peoples-legitimate-wishes-recognised-by-sc-in-thiruparankundram-deepam-issue/",
+        "publisherGroup": "organiser",
+        "publisher": "Organiser"
+      },
+      {
+        "url": "https://organiser.org/2026/11/26/429062/bharat/tamil-nadu/apology-cannot-undo-court-contempt-hindu-munnani-seeks-action-against-madurai-collector-thiruparankundram-deepam/",
+        "publisherGroup": "organiser",
+        "publisher": "Organiser"
+      },
+      {
+        "url": "https://organiser.org/2026/11/26/429071/bharat/tamil-nadu/thiruparankundram-deepathoon-row-fresh-contempt-plea-seeks-to-establish-vijay-government-role-in-defying-sc-order/",
+        "publisherGroup": "organiser",
+        "publisher": "Organiser"
+      },
+      {
+        "url": "https://tfipost.com/2026/11/lamp-hill-and-government-tamil-nadus-thiruparankundram-test/",
+        "publisherGroup": "tfipost",
+        "publisher": "TFI"
+      },
+      {
+        "url": "https://www.opindia.com/2026/11/prevented-court-ordered-lighting-karthigai-deepam-deepathoon-challenged-madras-hc-order-remove-periyar-statue-temple-land-tvk-outperformed-dmk-anti-hindu/",
+        "publisherGroup": "opindia",
+        "publisher": "OpIndia English"
+      },
+      {
+        "url": "https://scroll.in/latest/1097290/tamil-nadu-defies-sc-order-on-lighting-lamp-at-disputed-pillar-atop-thiruparankundram-hill",
+        "publisherGroup": "scroll",
+        "publisher": "Scroll English"
+      },
+      {
+        "url": "https://scroll.in/latest/1097287/madras-hc-restrains-protests-against-sc-order-allowing-lighting-of-lamp-on-thiruparankundram-hill",
+        "publisherGroup": "scroll",
+        "publisher": "Scroll English"
+      }
+    ]
+  }
+]

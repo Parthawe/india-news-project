@@ -1,5 +1,5 @@
 import profiles from './profile-links.json' with{type:'json'};
-import events from './blindspot-events.json' with{type:'json'};
+import samples from './coverage-samples.json' with{type:'json'};
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const key=value=>String(value??'').trim().replace(/\s+/g,' ').toLocaleLowerCase('en-IN');
 const current=(a,publisher,now)=>a&&a.publishers?.some(p=>key(p)===key(publisher))&&Number.isFinite(Date.parse(a.reviewedAt))&&Number.isFinite(Date.parse(a.expiresAt))&&Date.parse(a.reviewedAt)<=now&&Date.parse(a.expiresAt)>=now&&now-Date.parse(a.reviewedAt)<=180*86400000;
@@ -12,13 +12,13 @@ export function newsLabelInfo(item,now=Date.now(),catalogue=profiles){
  return{leaning,official,reviewed:!!reviewed,review:reviewed?review:null,assessment:assessed?a:null,profilePath:profile&&/^\/sources\/[a-z0-9-]+$/.test(profile.path)?profile.path:null,publishers:1,material:['text','retrieved-text','partial','video-metadata'].includes(item.material)?item.material:'headline',framing:item.framing==='draft'?'draft':'unreviewed'};
 }
 // Only exact, editor-approved event memberships may become a multi-publisher sample.
-export function newsCoverageInfo(item,now=Date.now(),catalogue=profiles,eventCatalogue=events){
- const event=item.kind==='official'?null:eventCatalogue.find(e=>e.editorialStatus==='approved'&&e.sameEventApproved===true&&e.wireReview==='completed'&&Array.isArray(e.urls)&&e.urls.includes(item.url)&&!e.excludedUrls?.includes(item.url)&&Array.isArray(e.comparison)&&e.comparison.length>1&&e.comparison.every(a=>e.urls.includes(a.url)&&!e.excludedUrls?.includes(a.url)&&a.publisher&&a.publisherGroup));
- const articles=event?event.comparison:[item],groups=new Map(),expiry=[];
+export function newsCoverageInfo(item,now=Date.now(),catalogue=profiles,eventCatalogue=samples){
+ const event=item.kind==='official'?null:eventCatalogue.find(e=>e.review&&['ai_editorial','human_editorial'].includes(e.review.type)&&e.review.humanReviewed===(e.review.type==='human_editorial')&&Number.isFinite(Date.parse(e.review.reviewedAt))&&Date.parse(e.review.reviewedAt)<=now&&now-Date.parse(e.review.reviewedAt)<=30*86400000&&Date.parse(e.review.expiresAt)>=now&&/^[a-f0-9]{64}$/.test(e.review.evidenceHash)&&Array.isArray(e.urls)&&e.urls.includes(item.url)&&!e.excludedUrls?.includes(item.url)&&Array.isArray(e.comparison)&&e.comparison.length>1&&e.comparison.every(a=>e.urls.includes(a.url)&&!e.excludedUrls?.includes(a.url)&&a.publisher&&a.publisherGroup));
+ const articles=event?event.comparison:[item],groups=new Map(),expiry=event?[event.review.expiresAt]:[];
  for(const a of articles){const d=newsLabelInfo(a,now,catalogue),group=a.publisherGroup||a.publisher;const values=groups.get(group)||new Set();values.add(d.leaning);groups.set(group,values);if(d.review)expiry.push(d.review.expiresAt);}
  const counts={left:0,centre:0,right:0,outside:0};
  for(const values of groups.values()){const value=values.size===1?[...values][0]:null;counts[['left','centre','right'].includes(value)?value:'outside']++;}
- return{counts,total:groups.size,scope:event?'comparison':'single',eventId:event?.id||null,articles:articles.length,expiresAt:expiry.sort()[0]||null};
+ return{counts,total:groups.size,scope:event?'comparison':'single',eventId:event?.id||null,articles:articles.length,expiresAt:expiry.sort((a,b)=>Date.parse(a)-Date.parse(b))[0]||null};
 }
 export function renderNewsCoverage(data,leaning,lang='en'){
  const t=(en,hi)=>lang==='hi'?hi:en,names={left:t('Left','वाम'),centre:t('Centre','मध्य'),right:t('Right','दक्षिण'),outside:t('Outside L/C/R','वाम/मध्य/दक्षिण से बाहर')};
@@ -33,8 +33,8 @@ export function renderLeaningRange(leaning,lang='en'){
  const keys=['left','centre','right'];
  return `<span class="news-labels-axis${keys.includes(leaning)?' has-range':''}" data-leaning-range="${keys.includes(leaning)?leaning:'none'}" aria-hidden="true">${keys.map((k,i)=>`<span class="${k}${leaning===k?' is-active':''}"><span>${names[i]}</span></span>`).join('')}</span>`;
 }
-export function renderNewsLabels(item,lang='en',base='',now=Date.now()){
- const d=newsLabelInfo(item,now),coverage=newsCoverageInfo(item,now),t=(en,hi)=>lang==='hi'?hi:en,root=/^\/[a-z0-9-]+$/.test(base)?base:'',language=lang==='hi'?'hi':'en';
+export function renderNewsLabels(item,lang='en',base='',now=Date.now(),sampleCatalogue=samples){
+ const d=newsLabelInfo(item,now),coverage=newsCoverageInfo(item,now,profiles,sampleCatalogue),t=(en,hi)=>lang==='hi'?hi:en,root=/^\/[a-z0-9-]+$/.test(base)?base:'',language=lang==='hi'?'hi':'en';
  const names={left:t('Left','वाम'),centre:t('Centre','मध्य'),right:t('Right','दक्षिण'),'issue-dependent':t('Issue-dependent','विषय-निर्भर'),unassessed:t('Unassessed','अनाकलित'),official:t('Official source','आधिकारिक स्रोत')};
  const position=d.assessment?t('Provisional ','अस्थायी ')+names[d.leaning]:names[d.leaning];
  const materials={headline:t('Headline only','केवल शीर्षक'),text:t('Text examined','पाठ जाँचा'),'retrieved-text':t('Text retrieved','पाठ प्राप्त'),partial:t('Partial material','आंशिक सामग्री'),'video-metadata':t('Video metadata','वीडियो मेटाडेटा')};
