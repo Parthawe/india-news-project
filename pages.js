@@ -1,37 +1,3 @@
-const menuButton = document.querySelector(".menu-button");
-const mainNav = document.querySelector(".site-header .nav");
-if (menuButton && mainNav) {
-  const menu = mainNav.cloneNode(true);
-  menu.id = "publication-menu";
-  menu.className = "publication-menu";
-  menu.hidden = true;
-  menu.setAttribute("aria-label", document.documentElement.lang === "hi" ? "सभी अनुभाग" : "All sections");
-  for (const selector of [".pilot-strip a", ".header-action", ".footer a[href$='/corrections/']"]) {
-    const link = document.querySelector(selector)?.cloneNode(true);
-    if (!link) continue;
-    link.removeAttribute("class");
-    menu.append(link);
-  }
-  mainNav.after(menu);
-  function showMenu(open) {
-    menu.hidden = !open;
-    menuButton.setAttribute("aria-expanded", String(open));
-    if(open)menu.querySelector("a")?.focus({preventScroll:true});
-  }
-  menuButton.addEventListener("click", () => showMenu(menu.hidden));
-  document.addEventListener('pointerdown',event=>{if(!menu.hidden&&!menuButton.closest('header').contains(event.target))showMenu(false)});
-  const menuBreakpoint=matchMedia('(max-width:1024px)');menuBreakpoint.addEventListener('change',()=>{if(!menuBreakpoint.matches)showMenu(false)});
-  menu.addEventListener("click", event => {
-    if (event.target.closest("a")) showMenu(false);
-  });
-  menuButton.closest("header").addEventListener("keydown", event => {
-    if (event.key === "Escape" && !menu.hidden) {
-      showMenu(false);
-      menuButton.focus();
-    }
-  });
-}
-
 function revealCitation() {
   let id;
   try {

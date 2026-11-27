@@ -37,7 +37,7 @@ function mount(container=document){
   root.querySelector('[name=region]').value=region;root.querySelector('[name=language]').value=language;
   for(const button of root.querySelectorAll('[data-follow-topic]')){const followed=topics.includes(button.dataset.followTopic);button.setAttribute('aria-pressed',String(followed));if(button.querySelector('[data-follow-label]'))button.querySelector('[data-follow-label]').textContent=followed?t('Following','फॉलो कर रहे हैं'):t('Follow','फॉलो करें');}
   root.querySelector('[data-feed-storage-note]').textContent=storage?t('Interests and saved chapters stay in this browser. No account or reading-history tracking.','रुचियाँ और सहेजे अध्याय इसी ब्राउज़र में रहते हैं। कोई खाता या पढ़ने के इतिहास की ट्रैकिंग नहीं।'):t('Browser storage is unavailable. Your choices work for this visit but will not be saved.','ब्राउज़र स्टोरेज उपलब्ध नहीं। विकल्प इस बार काम करेंगे, पर सहेजे नहीं जाएँगे।');
-  if(updateURL){const url=new URL(location.href);if(view==='top')url.searchParams.delete('view');else url.searchParams.set('view',view);history.replaceState(history.state,'',url);}
+  if(updateURL){const url=new URL(location.href);if(view==='top')url.searchParams.delete('view');else url.searchParams.set('view',view);history.replaceState(history.state,'',url);window.dispatchEvent(new Event('inp-location-change'));}
   const other=document.querySelector('.lang-switch');if(other){const url=new URL(other.href,location.href);if(view==='top')url.searchParams.delete('view');else url.searchParams.set('view',view);other.href=url.href;}
  }
  function click(event){const target=event.target.closest('button,a');if(!target||!root.contains(target))return;
