@@ -6,6 +6,7 @@ await context.route('**/*',route=>{const u=new URL(route.request().url());return
 const url=path=>new URL(path,target).href;
 try{
  await page.goto(url('en/'));await page.locator('[data-feed-ready=true]').waitFor();assert.equal(await page.evaluate(()=>localStorage.getItem('india-news-reading-v1')),null);
+ await page.locator('[data-theme-select]').selectOption('dark');await page.waitForFunction(()=>document.documentElement.dataset.theme==='dark');await page.locator('[data-theme-select]').selectOption('light');await page.waitForFunction(()=>document.documentElement.dataset.theme==='light');
  const newsroom=page.locator('[data-newsroom-link]');assert.equal(await newsroom.count(),6);assert.equal(await newsroom.locator('[data-label-material="headline"]').count(),6);assert.equal(await page.locator('.feed-official').getAttribute('open'),null);
  const daily=await page.locator('#daily-news li').count();assert.ok(daily<=5,'daily cap exceeded');
  await page.goto(url('en/stories/ganga-cleaning/'));await page.locator('[data-comparison-ready=true]').waitFor();assert.ok(await page.locator('.editorial-illustration').count()>0);assert.equal((await page.locator('.illustration-seal').first().getAttribute('href')).replace('/#','#'),new URL('en/method',target).pathname+'#illustrations');assert.ok(await page.locator('[data-compare-source]').count()>=2);

@@ -37,4 +37,75 @@
   --focus-offset: 4px;
   --motion-fast: 120ms;
   --motion-standard: 180ms;
+  --color-brand-text: #c9100a;
+  --color-on-solid: #ffffff;
+  --color-solid: #121212;
+  --color-inverse-ink: #ffffff;
+  --color-control-border: #888888;
+  --color-error-surface: #f0e2dc;
+  --color-skeleton: #ededed;
+  --color-left-text: #1b4b96;
+  --color-right-text: #a92e48;
 }
+
+:root[data-theme=dark] {
+  --color-paper: #161616;
+  --color-ink: #f2f2f2;
+  --color-muted: #b8b8b8;
+  --color-rule: #464646;
+  --color-wash: #242424;
+  --color-brand-text: #ff8278;
+  --color-warning: #f1c879;
+  --color-success: #8ed7b1;
+  --color-error: #ff9c95;
+  --color-error-surface: #381e1e;
+  --color-skeleton: #303030;
+  --color-solid: #eeeeee;
+  --color-inverse-ink: #121212;
+  --color-left-text: #8eb8ff;
+  --color-right-text: #ff9bb3;
+}
+@media(prefers-color-scheme:dark) {
+ :root:not([data-theme=light]):not([data-theme=dark]) {
+  --color-paper: #161616;
+  --color-ink: #f2f2f2;
+  --color-muted: #b8b8b8;
+  --color-rule: #464646;
+  --color-wash: #242424;
+  --color-brand-text: #ff8278;
+  --color-warning: #f1c879;
+  --color-success: #8ed7b1;
+  --color-error: #ff9c95;
+  --color-error-surface: #381e1e;
+  --color-skeleton: #303030;
+  --color-solid: #eeeeee;
+  --color-inverse-ink: #121212;
+  --color-left-text: #8eb8ff;
+  --color-right-text: #ff9bb3;
+ }
+}
+@media print { :root {
+  --color-brand: #e3120b !important;
+  --color-ink: #121212 !important;
+  --color-paper: #ffffff !important;
+  --color-muted: #595959 !important;
+  --color-rule: #d9d9d9 !important;
+  --color-wash: #f2f2f2 !important;
+  --color-action: #ffdf00 !important;
+  --color-warning: #75571e !important;
+  --color-success: #245c50 !important;
+  --color-error: #a52020 !important;
+  --color-left: #1b4b96 !important;
+  --color-centre: #ffffff !important;
+  --color-right: #a92e48 !important;
+  --color-unassessed: #777777 !important;
+  --color-brand-text: #c9100a !important;
+  --color-on-solid: #ffffff !important;
+  --color-solid: #121212 !important;
+  --color-inverse-ink: #ffffff !important;
+  --color-control-border: #888888 !important;
+  --color-error-surface: #f0e2dc !important;
+  --color-skeleton: #ededed !important;
+  --color-left-text: #1b4b96 !important;
+  --color-right-text: #a92e48 !important;
+} }
