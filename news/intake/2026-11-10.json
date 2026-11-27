@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-10",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-27T22:30:56.800Z",
+  "checkedAt": "2026-11-27T22:56:32.337Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -79,7 +79,7 @@
       "kind": "reporting",
       "publishedAt": "2026-11-10T03:48:52.000Z",
       "firstSeenAt": "2026-11-26T21:42:25.475Z",
-      "lastSeenAt": "2026-11-27T22:30:56.800Z",
+      "lastSeenAt": "2026-11-27T22:56:32.337Z",
       "headlineSha256": "b7ac9876586b5b9b7415f0b791d1ccae98cd084bd7bb09938fb94e4301ecd503",
       "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
       "licenseUrl": "https://behanbox.com/feed/",
