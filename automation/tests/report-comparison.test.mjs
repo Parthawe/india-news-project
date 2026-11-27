@@ -1,5 +1,5 @@
 import{load}from'cheerio';
-import test from'node:test';import assert from'node:assert/strict';import{comparisonIds,comparisonState,comparisonMix,renderComparisonBody,readingLinkAttributes}from'../report-comparison.mjs';
+import test from'node:test';import assert from'node:assert/strict';import{comparisonIds,comparisonState,comparisonMix,renderComparisonBody,renderComparisonDock,comparisonShell,readingLinkAttributes}from'../report-comparison.mjs';
 const id=n=>'report-'+String(n).padStart(24,'0'),article=(n,group='g'+n)=>({id:id(n),publisher:'Test publisher '+group,publisherGroup:group,title:'Original headline '+n,url:'https://example.com/'+n,language:'en',kind:'reporting',publishedAt:'2026-11-26T12:00:00Z',datePrecision:'timestamp'});
 test('comparison links accept up to three public report ids and deduplicate repeats',()=>{assert.deepEqual(comparisonIds([id(1),id(1),id(2)].join(',')).ids,[id(1),id(2)]);assert.equal(comparisonIds([1,2,3,4].map(id).join(',')).tooMany,true);assert.deepEqual(comparisonIds([1,2,3,4].map(id).join(',')).ids,[]);});
 test('malformed ids are disclosed and cannot become arbitrary fetch URLs',()=>{const state=comparisonIds(id(1)+',https://evil.example/,<script>');assert.equal(state.invalid,true);assert.deepEqual(state.ids,[id(1)]);assert.deepEqual(comparisonIds(null).ids,[]);});
@@ -22,3 +22,6 @@ test('comparison bars use publisher-group proportions and disclose every count i
   assert.match($('.report-selected-mix').text(),/not all coverage/);
  }
 });
+
+test('comparison tray uses real report identities, keeps missing selections explicit and requires two choices',()=>{const a=article(1),$=load(renderComparisonDock([a],[id(1)]));assert.match($.text(),/1 \/ 3 reports selected/);assert.equal($('[data-open-comparison][hidden]').length,1);assert.equal($('[data-remove-compare]').attr('data-remove-compare'),id(1));const missing=load(renderComparisonDock([a],[id(1),id(2)]));assert.match(missing.text(),/Unavailable report/);assert.match(missing.text(),/Some selections are unavailable/);assert.equal(missing('[data-open-comparison][hidden]').length,0);assert.equal(renderComparisonDock([],[]),'');assert.equal(load(comparisonShell())('[data-comparison-dock][hidden]').length,1);});
+test('comparison tray escapes source labels and exposes the selection limit as a live status',()=>{const a={...article(1),publisher:'<img src=x>',title:'" onclick=alert(1)'},$=load(renderComparisonDock([a],[id(1)],'hi','Three reports already selected'));assert.equal($('img,script').length,0);assert.match($.text(),/<img src=x>/);assert.equal($('[role=status]').text(),'Three reports already selected');assert.equal($('[data-remove-compare]').attr('aria-label'),'हटाएँ: '+a.title);});
