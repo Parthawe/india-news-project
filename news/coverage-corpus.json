@@ -15237,29 +15237,6 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://india.mongabay.com/feed/"
-    },
-    {
-      "id": "report-43b545231c09d5d97c24926f",
-      "url": "https://idronline.org/features/urban/how-parastatals-shape-governance-in-indian-cities/",
-      "title": "IDR Explains | Parastatal bodies",
-      "author": "Jasmine Bal",
-      "sourceId": "idr-en",
-      "publisher": "India Development Review",
-      "publisherGroup": "idr",
-      "language": "en",
-      "kind": "reporting",
-      "publishedAt": "2026-11-20T08:30:00.000Z",
-      "firstSeenAt": "2026-11-26T16:32:14.081Z",
-      "lastSeenAt": "2026-11-26T18:16:56.744Z",
-      "headlineSha256": "2d0eff126aa6c9f909d9c7f2551aff0e8bff7d2ddbcfe84ade35c17d273b34bd",
-      "license": "CC BY-SA 4.0; publisher guidelines apply",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "permissionUrl": "https://idronline.org/republishing-guidelines/",
-      "datePrecision": "timestamp",
-      "materialExamined": "feed_headline_and_publication_metadata",
-      "bodyRetrieved": false,
-      "reviewStatus": "unreviewed",
-      "sourceFeed": "https://idronline.org/feed/"
     }
   ],
   "limitations": "Publication window, not a claim of continuous monitoring or complete newsroom coverage. Feed horizons and publisher cadence differ. All stored captured metadata is used; the 500-link display cap is not applied."
