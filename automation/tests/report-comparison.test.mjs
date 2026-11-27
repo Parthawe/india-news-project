@@ -1,3 +1,4 @@
+import{load}from'cheerio';
 import test from'node:test';import assert from'node:assert/strict';import{comparisonIds,comparisonState,comparisonMix,renderComparisonBody,readingLinkAttributes}from'../report-comparison.mjs';
 const id=n=>'report-'+String(n).padStart(24,'0'),article=(n,group='g'+n)=>({id:id(n),publisher:'Test publisher '+group,publisherGroup:group,title:'Original headline '+n,url:'https://example.com/'+n,language:'en',kind:'reporting',publishedAt:'2026-11-26T12:00:00Z',datePrecision:'timestamp'});
 test('comparison links accept up to three public report ids and deduplicate repeats',()=>{assert.deepEqual(comparisonIds([id(1),id(1),id(2)].join(',')).ids,[id(1),id(2)]);assert.equal(comparisonIds([1,2,3,4].map(id).join(',')).tooMany,true);assert.deepEqual(comparisonIds([1,2,3,4].map(id).join(',')).ids,[]);});
@@ -7,3 +8,17 @@ test('publisher groups count once and inconsistent editions stay outside the spe
 test('official, issue-dependent and unknown outcomes are not turned into Centre',()=>{const list=[article(1),article(2),article(3)],labels=['official','issue-dependent','unassessed'];const mix=comparisonMix(list,a=>labels[Number(a.id.slice(-1))-1]);assert.equal(mix.counts.centre,0);assert.equal(mix.counts.outside,3);});
 test('comparison preserves headline-only limits, source evidence, language and escaped text',()=>{const a={...article(1),language:'hi',title:'शीर्षक <script>bad</script>'},html=renderComparisonBody([a,article(2)],[id(1),id(2)],'en','/india-news-project');assert.match(html,/Same event not confirmed/);assert.match(html,/Article framing unreviewed/);assert.match(html,/Headline only/);assert.match(html,/lang="hi"/);assert.match(html,/&lt;script&gt;/);assert.doesNotMatch(html,/<script>/);assert.match(html,/data-reading-source-id/);assert.match(html,/\/india-news-project\/en\/method\/#coverage-gaps/);assert.match(html,/not all coverage/);});
 test('source-link markers escape publisher attributes and contain no article body',()=>{const attrs=readingLinkAttributes({...article(1),publisher:'"><img src=x onerror=bad>'});assert.doesNotMatch(attrs,/<img/);assert.match(attrs,/&quot;&gt;&lt;img/);assert.doesNotMatch(attrs,/body|transcript/);});
+
+test('comparison bars use publisher-group proportions and disclose every count including zero categories',()=>{
+ const list=[{...article(1,'organiser'),publisher:'Organiser'},{...article(2,'scroll'),publisher:'Scroll'},{...article(3,'unknown'),publisher:'Unknown'}];
+ for(const selected of [list,list.slice(0,2),[list[0],{...list[0],id:id(4)},list[2]]]){
+  const mix=comparisonMix(selected),$=load(renderComparisonBody(selected,selected.map(a=>a.id)));
+  for(const key of ['left','centre','right','outside']){
+   const count=mix.counts[key],segment=$('.report-mix-track .'+key),label=$('[data-mix-category="'+key+'"]');
+   assert.equal(segment.length,count?1:0);
+   if(count)assert.equal(segment.attr('style'),`width:${100*count/mix.total}%`);
+   assert.match(label.text(),new RegExp('\\('+count+'/'+mix.total+'\\)'));
+  }
+  assert.match($('.report-selected-mix').text(),/not all coverage/);
+ }
+});

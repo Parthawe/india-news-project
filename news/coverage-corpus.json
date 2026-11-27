@@ -15306,29 +15306,6 @@
       "bodyRetrieved": false,
       "reviewStatus": "unreviewed",
       "sourceFeed": "https://hindi.idronline.org/feed/"
-    },
-    {
-      "id": "report-b46ac0820bed2ef694870faf",
-      "url": "https://hindi.mongabay.com/2026/11/20/increasing-tiger-population-of-bihars-vtr-is-translocation-final-solution/",
-      "title": "बिहार के वाल्मीकि टाइगर रिज़र्व में बढ़ते बाघ, क्या विस्थापन ही है उपाय",
-      "author": "Pushyamitra",
-      "sourceId": "mongabay-hi",
-      "publisher": "Mongabay हिन्दी",
-      "publisherGroup": "mongabay",
-      "language": "hi",
-      "kind": "reporting",
-      "publishedAt": "2026-11-20T05:45:55.000Z",
-      "firstSeenAt": "2026-11-26T16:32:14.081Z",
-      "lastSeenAt": "2026-11-27T05:00:02.077Z",
-      "headlineSha256": "b9b94b755b13e047c6007879c493dde396806ac43ad59e5f0cfb200e643fe1fc",
-      "license": "CC BY-ND 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
-      "permissionUrl": "https://india.mongabay.com/about/",
-      "datePrecision": "timestamp",
-      "materialExamined": "feed_headline_and_publication_metadata",
-      "bodyRetrieved": false,
-      "reviewStatus": "unreviewed",
-      "sourceFeed": "https://hindi.mongabay.com/feed/"
     }
   ],
   "limitations": "Publication window, not a claim of continuous monitoring or complete newsroom coverage. Feed horizons and publisher cadence differ. All stored captured metadata is used; the 500-link display cap is not applied."
