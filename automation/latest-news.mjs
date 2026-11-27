@@ -1,3 +1,4 @@
+import{renderNewsroomFeed}from'./newsroom-feed.mjs';
 import{renderCoverageGaps}from'./coverage-gaps-render.mjs';
 import {coverageObservation} from './coverage-observation.mjs';
 import registry from './source-profiles.json' with {type:'json'};
@@ -89,7 +90,7 @@ for(const lang of['en','hi']){
  const blindspotPage=join(root,lang,route+'/index.html');
  try{let html=await readFile(blindspotPage,'utf8');if(!/<!--BLINDSPOTS:START-->[\s\S]*?<!--BLINDSPOTS:END-->/.test(html))throw Error('Blindspots insertion point missing');html=html.replace(/<!--BLINDSPOTS:START-->[\s\S]*?<!--BLINDSPOTS:END-->/,()=>`<!--BLINDSPOTS:START-->${blindspotFragment}<!--BLINDSPOTS:END-->`);await writeFile(blindspotPage,html);}catch(e){if(e.code!=='ENOENT')throw e;}
  }
- const homePage=join(root,lang,'index.html');try{let html=await readFile(homePage,'utf8');if(html.includes('<!--COVERAGE-GAPS:START-->')){html=html.replace(/<!--COVERAGE-GAPS:START-->[\s\S]*?<!--COVERAGE-GAPS:END-->/,()=>`<!--COVERAGE-GAPS:START-->${renderCoverageGaps(blindspots,lang,base)}<!--COVERAGE-GAPS:END-->`);await writeFile(homePage,html);}}catch(e){if(e.code!=='ENOENT')throw e;}
+ const homePage=join(root,lang,'index.html');try{let html=await readFile(homePage,'utf8');if(html.includes('<!--NEWSROOM-FEED:START-->'))html=html.replace(/<!--NEWSROOM-FEED:START-->[\s\S]*?<!--NEWSROOM-FEED:END-->/,()=>`<!--NEWSROOM-FEED:START-->${renderNewsroomFeed(index,lang,base)}<!--NEWSROOM-FEED:END-->`);if(html.includes('<!--COVERAGE-GAPS:START-->')){html=html.replace(/<!--COVERAGE-GAPS:START-->[\s\S]*?<!--COVERAGE-GAPS:END-->/,()=>`<!--COVERAGE-GAPS:START-->${renderCoverageGaps(blindspots,lang,base)}<!--COVERAGE-GAPS:END-->`);await writeFile(homePage,html);}}catch(e){if(e.code!=='ENOENT')throw e;}
  const fragment=renderLatest(index,lang,base);
  await writeFile(join(folder,`latest-reporting-${lang}.html`),fragment);
  const page=join(root,lang,'latest/index.html');try{let html=await readFile(page,'utf8');if(!/<!--LATEST:START-->[\s\S]*?<!--LATEST:END-->/.test(html))throw Error('Latest page insertion point missing');html=html.replace(/<!--LATEST:START-->[\s\S]*?<!--LATEST:END-->/,()=>`<!--LATEST:START-->${fragment}<!--LATEST:END-->`);await writeFile(page,html);}catch(e){if(e.code!=='ENOENT')throw e;}
