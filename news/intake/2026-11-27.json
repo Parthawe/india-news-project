@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-27",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-27T02:15:33.107Z",
+  "checkedAt": "2026-11-27T02:26:34.123Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -79,7 +79,7 @@
       "kind": "reporting",
       "publishedAt": "2026-11-27T01:00:02.000Z",
       "firstSeenAt": "2026-11-27T02:11:29.830Z",
-      "lastSeenAt": "2026-11-27T02:15:33.107Z",
+      "lastSeenAt": "2026-11-27T02:26:34.123Z",
       "headlineSha256": "0d4009ced7d1ed6ef0947d3526d917982c928a2e1b811312b16be5575c6ec369",
       "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
       "licenseUrl": "https://feeds.feedburner.com/ScrollinArticles.rss",
