@@ -1,13 +1,13 @@
 {
   "version": 2,
   "method": "inp-monitored-coverage-v3",
-  "checkedAt": "2026-11-27T14:59:52.813Z",
-  "collectionCheckedAt": "2026-11-27T14:59:52.813Z",
-  "windowStart": "2026-11-21",
-  "windowEnd": "2026-11-27",
+  "checkedAt": "2026-11-27T22:35:17.599Z",
+  "collectionCheckedAt": "2026-11-27T22:30:56.800Z",
+  "windowStart": "2026-11-22",
+  "windowEnd": "2026-11-28",
   "scope": "Archived captured metadata from selected feeds; not full publisher archives or all Indian media.",
   "archiveComplete": true,
-  "capturedLinks": 794,
+  "capturedLinks": 783,
   "sample": [
     {
       "publisherGroup": "pib",
@@ -45,8 +45,8 @@
       "assessmentLeaning": null,
       "continuousFrom": null,
       "newestPublishedAt": "2026-11-27T00:00:00.000Z",
-      "newestDatePrecision": "day",
-      "capturedLinks": 597,
+      "newestDatePrecision": "timestamp",
+      "capturedLinks": 569,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -79,9 +79,9 @@
       "active": true,
       "assessmentLeaning": null,
       "continuousFrom": null,
-      "newestPublishedAt": "2026-11-27T13:36:23.000Z",
+      "newestPublishedAt": "2026-11-27T16:45:34.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 13,
+      "capturedLinks": 14,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -109,7 +109,7 @@
       "continuousFrom": null,
       "newestPublishedAt": "2026-11-27T04:00:11.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 7,
+      "capturedLinks": 6,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -140,7 +140,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-27T14:59:52.813Z",
+      "continuousFrom": "2026-11-27T22:30:56.800Z",
       "newestPublishedAt": "2026-11-27T06:30:00.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 11,
@@ -164,7 +164,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-27T14:59:52.813Z",
+      "continuousFrom": "2026-11-27T22:30:56.800Z",
       "newestPublishedAt": "2026-11-26T00:30:56.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 2,
@@ -225,18 +225,16 @@
         "en"
       ],
       "official": false,
-      "healthy": false,
+      "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
       "continuousFrom": null,
-      "newestPublishedAt": "2026-11-27T12:00:16.000Z",
+      "newestPublishedAt": "2026-11-27T17:51:33.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 29,
-      "eligible": false,
-      "leaning": null,
-      "reasons": [
-        "feed_unavailable"
-      ]
+      "capturedLinks": 39,
+      "eligible": true,
+      "leaning": "right",
+      "reasons": []
     },
     {
       "publisherGroup": "tfipost",
@@ -252,10 +250,10 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T14:59:52.813Z",
-      "newestPublishedAt": "2026-11-26T11:30:12.000Z",
+      "continuousFrom": "2026-11-27T22:30:56.800Z",
+      "newestPublishedAt": "2026-11-26T16:24:50.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 17,
+      "capturedLinks": 18,
       "eligible": true,
       "leaning": "right",
       "reasons": []
@@ -274,7 +272,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-27T14:59:52.813Z",
+      "continuousFrom": "2026-11-27T22:30:56.800Z",
       "newestPublishedAt": "2026-11-27T11:55:54.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 13,
@@ -296,10 +294,10 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T14:59:52.813Z",
-      "newestPublishedAt": "2026-11-27T12:54:59.000Z",
+      "continuousFrom": "2026-11-27T22:30:56.800Z",
+      "newestPublishedAt": "2026-11-27T16:30:00.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 80,
+      "capturedLinks": 86,
       "eligible": true,
       "leaning": "left",
       "reasons": []
@@ -340,7 +338,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T14:59:52.813Z",
+      "continuousFrom": "2026-11-27T22:30:56.800Z",
       "newestPublishedAt": "2026-11-27T12:41:25.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 14,
@@ -362,7 +360,7 @@
       "healthy": true,
       "active": false,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-27T14:59:52.813Z",
+      "continuousFrom": "2026-11-27T22:30:56.800Z",
       "newestPublishedAt": null,
       "newestDatePrecision": "timestamp",
       "capturedLinks": 0,
@@ -373,11 +371,11 @@
       ]
     }
   ],
-  "classified": 5,
+  "classified": 6,
   "cohorts": {
     "left": 3,
     "centre": 0,
-    "right": 2
+    "right": 3
   },
   "evaluations": [
     {
@@ -517,6 +515,7 @@
         "peoples-democracy"
       ],
       "excludedForMonitoring": [
+        "organiser",
         "tfipost",
         "opindia",
         "scroll",
@@ -529,15 +528,26 @@
         "right": 3,
         "unassessed": 0
       },
-      "unreviewedMatches": [],
+      "unreviewedMatches": [
+        {
+          "url": "https://organiser.org/2026/11/27/429313/bharat/thiruparankundram-deepathoon-win-for-sanatan-traditions-judicial-authority-abvp-hails-sc-slams-tn-govt/",
+          "title": "Thiruparankundram Deepathoon: ‘Win for sanatan traditions & judicial authority’: ABVP hails SC, slams TN govt",
+          "publisherGroup": "organiser"
+        },
+        {
+          "url": "https://organiser.org/2026/11/27/429312/bharat/tamil-nadu/thiruparankundram-deepathoon-row-acting-at-dictates-of-political-bosses-supreme-court-puts-vijay-govt-in-dock/",
+          "title": "Thiruparankundram Deepathoon Row: Acting at ‘dictates of political Bosses’? Supreme Court puts Vijay Govt in dock",
+          "publisherGroup": "organiser"
+        }
+      ],
       "unmonitoredReferenceUrls": [
         "https://organiser.org/2026/11/26/429062/bharat/tamil-nadu/apology-cannot-undo-court-contempt-hindu-munnani-seeks-action-against-madurai-collector-thiruparankundram-deepam/",
         "https://organiser.org/2026/11/26/429071/bharat/tamil-nadu/thiruparankundram-deepathoon-row-fresh-contempt-plea-seeks-to-establish-vijay-government-role-in-defying-sc-order/"
       ],
       "reasons": [
         "event_monitoring_incomplete",
-        "feed_health_incomplete",
         "classified_cohorts_insufficient",
+        "unreviewed_event_matches",
         "covering_publishers_insufficient"
       ],
       "coverage": {
@@ -586,6 +596,7 @@
         "janata-weekly"
       ],
       "excludedForOpportunity": [
+        "organiser",
         "tfipost",
         "opindia",
         "scroll",
@@ -593,6 +604,7 @@
         "sabrang-india"
       ],
       "excludedForMonitoring": [
+        "organiser",
         "tfipost",
         "opindia",
         "scroll",
@@ -611,7 +623,6 @@
       ],
       "reasons": [
         "event_monitoring_incomplete",
-        "feed_health_incomplete",
         "classified_cohorts_insufficient",
         "event_review_pending",
         "wire_origin_review_pending",
