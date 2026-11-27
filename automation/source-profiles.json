@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "checkedAt": "2026-11-27T02:31:56.680Z",
+  "checkedAt": "2026-11-27T02:40:42.378Z",
   "methodVersion": "inp-source-assessment-v2",
   "profiles": [
     {
@@ -904,8 +904,8 @@
       "aliases": [
         "BehanBox"
       ],
-      "version": 2,
-      "checkedAt": "2026-11-27T02:09:17.098Z",
+      "version": 3,
+      "checkedAt": "2026-11-27T02:40:42.378Z",
       "review": {
         "type": "ai_research",
         "humanReviewed": false,
@@ -965,14 +965,20 @@
           "at": "2026-11-27T02:09:17.098Z",
           "action": "AI research progress updated; no political rating approved.",
           "actionHi": "एआई शोध की प्रगति अपडेट हुई; राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
+        },
+        {
+          "version": 3,
+          "at": "2026-11-27T02:40:42.378Z",
+          "action": "Corrected the qualifying-article research counter to zero. One text was examined but has not yet been added as a fully annotated sample article. No political rating approved.",
+          "actionHi": "शोध में योग्य लेखों की गिनती शून्य की गई। एक पाठ जाँचा गया, पर पूरी टिप्पणी वाले नमूना लेख के रूप में अभी शामिल नहीं है। राजनीतिक रेटिंग की मंज़ूरी नहीं हुई।"
         }
       ],
       "research": {
         "status": "sample_pending",
-        "checkedAt": "2026-11-27T02:09:17.098Z",
+        "checkedAt": "2026-11-27T02:40:42.378Z",
         "retrievedCandidates": 15,
         "examinedTexts": 1,
-        "qualifyingArticles": 1,
+        "qualifyingArticles": 0,
         "summary": {
           "en": "Fifteen candidate article texts collected. One complete text examined in this pass; the twelve-article qualitative review is unfinished. Its gender mission alone cannot set a political label.",
           "hi": "पंद्रह संभावित लेख-पाठ जुटाए। इस चरण में एक पूरा पाठ जाँचा; बारह लेखों की गुणात्मक समीक्षा अधूरी है। केवल लैंगिक मिशन से राजनीतिक लेबल नहीं मिलता।"
