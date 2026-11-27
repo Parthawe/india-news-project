@@ -1,0 +1,5 @@
+import{eventDigest}from'./blindspot-core.mjs';
+// Browser-safe projection, produced only after the existing evidence-bound review is checked.
+export function comparisonSamples(events,now=Date.now()){
+ return events.filter(e=>{const r=e.review,reviewed=Date.parse(r?.reviewedAt),expires=Date.parse(r?.expiresAt);return e.editorialStatus==='approved'&&e.sameEventApproved===true&&e.wireReview==='completed'&&r?.reviewer?.trim()&&['ai_editorial','human_editorial'].includes(r.type)&&r.humanReviewed===(r.type==='human_editorial')&&Number.isFinite(reviewed)&&reviewed<=now&&now-reviewed<=30*86400000&&Number.isFinite(expires)&&expires>=now&&r.evidenceHash===eventDigest(e)&&Array.isArray(e.comparison)&&e.comparison.length>1&&e.comparison.every(a=>e.urls?.includes(a.url)&&!e.excludedUrls?.includes(a.url)&&a.publisher&&a.publisherGroup);}).map(e=>({id:e.id,review:{reviewedAt:e.review.reviewedAt,expiresAt:e.review.expiresAt,evidenceHash:e.review.evidenceHash,type:e.review.type,humanReviewed:e.review.humanReviewed},urls:e.urls,excludedUrls:e.excludedUrls||[],comparison:e.comparison.map(a=>({url:a.url,publisherGroup:a.publisherGroup,publisher:a.publisher}))}));
+}
