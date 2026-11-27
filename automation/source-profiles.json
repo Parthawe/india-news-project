@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "checkedAt": "2026-11-27T02:12:14.164Z",
+  "checkedAt": "2026-11-27T02:31:56.680Z",
   "methodVersion": "inp-source-assessment-v2",
   "profiles": [
     {
@@ -1924,8 +1924,8 @@
       "aliases": [
         "Janata Weekly"
       ],
-      "version": 2,
-      "checkedAt": "2026-11-27T02:09:17.098Z",
+      "version": 3,
+      "checkedAt": "2026-11-27T02:31:56.680Z",
       "review": {
         "type": "ai_editorial",
         "humanReviewed": false,
@@ -2265,10 +2265,10 @@
           "type": "ai_editorial",
           "humanReviewed": false,
           "reviewer": "INP AI editorial review",
-          "reviewedAt": "2026-11-27T02:05:39.323Z",
-          "expiresAt": "2026-12-27T02:05:39.323Z",
+          "reviewedAt": "2026-11-27T02:31:56.680Z",
+          "expiresAt": "2026-12-27T02:31:56.680Z",
           "recordUrl": "https://parthawe.github.io/india-news-project/en/sources/janata-weekly/#review-record",
-          "assessmentHash": "5f169b6a69ee3d2480f7dbd98ffa87f1cf9ac090d141e6e3cfb9a68e7a511b1c"
+          "assessmentHash": "37b23181d0b9dc84441077b7be42d85d7b8723e69000f265c7380f30b391be4b"
         },
         "basis": "india_reporting_sample",
         "appliesTo": [
@@ -2276,8 +2276,8 @@
         ],
         "qualification": {
           "sampling": {
-            "en": "Twelve purposively selected English India-related articles, including credited republications. Publisher metadata dates this set 17 November 2026; underlying reporting and event dates may be earlier. This is not a random sample or twelve original investigations.",
-            "hi": "भारत से जुड़े बारह उद्देश्यपूर्ण चुने अंग्रेज़ी लेख, साभार पुनर्प्रकाशन सहित। प्रकाशक का मेटाडेटा इस समूह को 17 नवंबर 2026 बताता है; मूल रिपोर्टिंग व घटनाएँ पहले की हो सकती हैं। यह यादृच्छिक नमूना या बारह मूल जाँच नहीं।"
+            "en": "Twelve purposively selected English India-related articles, including credited republications. Publisher metadata dates nine articles 17 November 2026 and three 1 November 2026; underlying reporting and event dates may be earlier. This is not a random sample or twelve original investigations.",
+            "hi": "भारत से जुड़े बारह उद्देश्यपूर्ण चुने अंग्रेज़ी लेख, साभार पुनर्प्रकाशन सहित। प्रकाशक के मेटाडेटा में नौ लेख 17 नवंबर 2026 और तीन लेख 1 नवंबर 2026 के हैं; मूल रिपोर्टिंग व घटनाएँ पहले की हो सकती हैं। यह यादृच्छिक नमूना या बारह मूल जाँच नहीं।"
           },
           "limitations": {
             "en": "Provisional AI editorial and translation review; not human-reviewed. A purposive short baseline does not estimate the whole archive. Contributor arguments, article framing and factual support are separate. No factuality score or party-control finding is assigned.",
@@ -2498,6 +2498,12 @@
           "at": "2026-11-27T02:05:39.323Z",
           "action": "Twelve-article English sample and bilingual notes reviewed by AI. Provisional Left assessment approved. Not human-reviewed.",
           "actionHi": "बारह लेखों और द्विभाषी टिप्पणियों की एआई समीक्षा; अस्थायी वाम निष्कर्ष मंज़ूर। मानव समीक्षा नहीं हुई।"
+        },
+        {
+          "version": 3,
+          "at": "2026-11-27T02:31:56.680Z",
+          "action": "Corrected the sampling date range to 1–17 November 2026 from the per-article metadata. Nine articles are dated 17 November and three are dated 1 November. AI editorial correction, not human-reviewed.",
+          "actionHi": "हर लेख के मेटाडेटा के अनुसार नमूने की तारीख 1–17 नवंबर 2026 की गई। नौ लेख 17 नवंबर और तीन 1 नवंबर के हैं। एआई संपादकीय सुधार; मानव समीक्षा नहीं हुई।"
         }
       ],
       "research": {
