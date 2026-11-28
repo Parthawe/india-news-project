@@ -1,13 +1,13 @@
 {
   "version": 2,
   "method": "inp-monitored-coverage-v3",
-  "checkedAt": "2026-11-28T03:17:45.553Z",
-  "collectionCheckedAt": "2026-11-28T03:17:45.553Z",
+  "checkedAt": "2026-11-28T07:40:55.056Z",
+  "collectionCheckedAt": "2026-11-28T07:40:55.056Z",
   "windowStart": "2026-11-22",
   "windowEnd": "2026-11-28",
   "scope": "Archived captured metadata from selected feeds; not full publisher archives or all Indian media.",
   "archiveComplete": true,
-  "capturedLinks": 793,
+  "capturedLinks": 817,
   "sample": [
     {
       "publisherGroup": "pib",
@@ -44,9 +44,9 @@
       "active": true,
       "assessmentLeaning": null,
       "continuousFrom": null,
-      "newestPublishedAt": "2026-11-27T00:00:00.000Z",
-      "newestDatePrecision": "timestamp",
-      "capturedLinks": 572,
+      "newestPublishedAt": "2026-11-28T00:00:00.000Z",
+      "newestDatePrecision": "day",
+      "capturedLinks": 580,
       "eligible": false,
       "leaning": null,
       "reasons": [
@@ -140,7 +140,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
+      "continuousFrom": "2026-11-28T07:40:55.056Z",
       "newestPublishedAt": "2026-11-27T06:30:00.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 11,
@@ -164,7 +164,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": null,
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
+      "continuousFrom": "2026-11-28T07:40:55.056Z",
       "newestPublishedAt": "2026-11-26T00:30:56.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 2,
@@ -228,10 +228,10 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
-      "newestPublishedAt": "2026-11-28T03:00:01.000Z",
+      "continuousFrom": null,
+      "newestPublishedAt": "2026-11-28T07:30:13.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 43,
+      "capturedLinks": 53,
       "eligible": true,
       "leaning": "right",
       "reasons": []
@@ -250,7 +250,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
+      "continuousFrom": "2026-11-28T07:40:55.056Z",
       "newestPublishedAt": "2026-11-26T16:24:50.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 18,
@@ -272,7 +272,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "right",
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
+      "continuousFrom": "2026-11-28T07:40:55.056Z",
       "newestPublishedAt": "2026-11-27T11:55:54.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 13,
@@ -294,10 +294,10 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
-      "newestPublishedAt": "2026-11-28T02:30:02.000Z",
+      "continuousFrom": "2026-11-28T07:40:55.056Z",
+      "newestPublishedAt": "2026-11-28T06:55:13.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 89,
+      "capturedLinks": 95,
       "eligible": true,
       "leaning": "left",
       "reasons": []
@@ -338,7 +338,7 @@
       "healthy": true,
       "active": true,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
+      "continuousFrom": "2026-11-28T07:40:55.056Z",
       "newestPublishedAt": "2026-11-27T12:41:25.000Z",
       "newestDatePrecision": "timestamp",
       "capturedLinks": 14,
@@ -360,7 +360,7 @@
       "healthy": true,
       "active": false,
       "assessmentLeaning": "left",
-      "continuousFrom": "2026-11-28T02:12:49.706Z",
+      "continuousFrom": "2026-11-28T07:40:55.056Z",
       "newestPublishedAt": null,
       "newestDatePrecision": "timestamp",
       "capturedLinks": 0,
@@ -529,6 +529,21 @@
         "unassessed": 0
       },
       "unreviewedMatches": [
+        {
+          "url": "https://organiser.org/2026/11/28/429404/bharat/thiruparankundram-deepam-pm-modi-echoes-victory-to-bhagwan-murugan-devotees-thank-sc-recall-the-battle/",
+          "title": "Thiruparankundram Deepam: PM Modi echoes “Victory to Bhagwan Murugan”; Devotees thank SC & recall the battle",
+          "publisherGroup": "organiser"
+        },
+        {
+          "url": "https://organiser.org/2026/11/28/429359/bharat/thirupparankundram-deepathon-row-sc-intervention-is-slap-on-face-of-tamil-nadu-govt-alok-kumar/",
+          "title": "Thirupparankundram Deepathon Row: SC intervention is slap on face of Tamil Nadu Govt & anti-Hindu politics; Alok Kumar",
+          "publisherGroup": "organiser"
+        },
+        {
+          "url": "https://organiser.org/2026/11/28/429389/bharat/tamil-nadu/tamil-nadu-villagers-welcome-crpf-deployment-at-thiruparankundram-hill-call-it-victory-of-100-year-struggle/",
+          "title": "Tamil Nadu: Villagers welcome CRPF deployment at Thiruparankundram Hill, call it victory of 100-year struggle",
+          "publisherGroup": "organiser"
+        },
         {
           "url": "https://organiser.org/2026/11/27/429313/bharat/thiruparankundram-deepathoon-win-for-sanatan-traditions-judicial-authority-abvp-hails-sc-slams-tn-govt/",
           "title": "Thiruparankundram Deepathoon: ‘Win for sanatan traditions & judicial authority’: ABVP hails SC, slams TN govt",
