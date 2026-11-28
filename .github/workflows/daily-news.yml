@@ -90,4 +90,9 @@ jobs:
           exit 1
       - name: Deploy public website
         id: deployment
-        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        with:
+          script: |
+            const {pathToFileURL} = require('node:url');
+            const {deployPages} = await import(pathToFileURL(process.env.GITHUB_WORKSPACE + '/quality/deploy-pages.mjs').href);
+            await deployPages({github, context, core});
