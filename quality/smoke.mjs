@@ -49,5 +49,9 @@ try{
   const image=page.locator('img[srcset]').first();assert.ok((await image.getAttribute('srcset')).includes('480w'));
  }
  await page.setViewportSize({width:768,height:1024});await page.goto(url('en/'));await page.locator('.menu-button').click();await page.setViewportSize({width:1280,height:850});await page.waitForFunction(()=>document.querySelector('.menu-button')?.getAttribute('aria-expanded')==='false');assert.equal(await page.locator('.menu-button').getAttribute('aria-expanded'),'false');
- assert.deepEqual(errors,[],'browser runtime errors');console.log('Browser smoke passed: consent, comparison, coverage, reviewer prefill, Hindi mobile. No model calls.');
+ for(const lang of['en','hi']){
+  await page.setViewportSize({width:lang==='hi'?320:1440,height:900});await page.goto(url(lang+'/magazine/'));await page.locator('[data-magazine-library]').waitFor();assert.equal(await page.locator('.magazine-cover img').count(),1);assert.equal(await page.locator('.magazine-toc li').count(),4);assert.equal(await page.locator('[data-monthly-subscription] button').isDisabled(),true);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'magazine library overflows');
+  await page.locator('a.magazine-read').click();await page.locator('[data-magazine-issue]').waitFor();assert.equal(await page.locator('.magazine-chapter').count(),4);assert.ok(await page.locator('.magazine-review').isVisible());await page.locator('a.magazine-read[href="#letter"]').click();assert.ok(await page.locator('#letter').isVisible());assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'magazine reader overflows');
+ }
+ assert.deepEqual(errors,[],'browser runtime errors');console.log('Browser smoke passed: consent, comparison, coverage, reviewer prefill, Hindi mobile, magazine preview. No model calls.');
 }catch(error){console.error('Browser runtime errors:',errors);throw error;}finally{await context.close();await browser.close();}
