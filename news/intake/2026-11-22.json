@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-11-22",
   "timeZone": "Asia/Kolkata",
-  "checkedAt": "2026-11-27T23:25:56.821Z",
+  "checkedAt": "2026-11-28T02:12:49.706Z",
   "target": {
     "links": 100,
     "unit": "article_or_video_links",
@@ -35,7 +35,7 @@
       "kind": "reporting",
       "publishedAt": "2026-11-22T16:17:16.000Z",
       "firstSeenAt": "2026-11-26T21:42:25.475Z",
-      "lastSeenAt": "2026-11-27T23:25:56.821Z",
+      "lastSeenAt": "2026-11-28T02:12:49.706Z",
       "headlineSha256": "0907b771d31cfabbda58d196d9404506a642ee1b256f19adf99a60fd8a3ba038",
       "license": "Publisher RSS: attributed metadata links only; no body republication licence claimed",
       "licenseUrl": "https://www.isignal.in/feeds.xml",
