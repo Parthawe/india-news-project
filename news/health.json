@@ -1,6 +1,6 @@
 {
   "date": "2026-11-28",
-  "checkedAt": "2026-11-28T02:32:54.966Z",
+  "checkedAt": "2026-11-28T03:17:37.147Z",
   "status": "complete",
   "count": 5,
   "feeds": [
@@ -32,13 +32,13 @@
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342734",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342734",
+          "id": "pib-2342724",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342724",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342724",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342724",
+          "id": "pib-2342734",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342734",
           "status": "publication_date_unavailable"
         }
       ]
