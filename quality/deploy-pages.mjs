@@ -19,8 +19,8 @@ export async function deployPages({github,context,core,delay=ms=>new Promise(res
  const endpoint={...repo,deployment_id:deployment.id};
  for(let attempt=0;attempt<polls;attempt++){
   const {data}=await github.request('GET /repos/{owner}/{repo}/pages/deployments/{deployment_id}',endpoint);
-  if(data.status==='built'){core.setOutput('page_url',deployment.page_url);return{deploymentId:deployment.id,artifactId:artifact.id,pageUrl:deployment.page_url};}
-  if(['errored','canceled','cancelled','failed'].includes(data.status))throw Error(`Pages deployment ended with ${data.status}.`);
+  if(data.status==='succeed'){core.setOutput('page_url',deployment.page_url);return{deploymentId:deployment.id,artifactId:artifact.id,pageUrl:deployment.page_url};}
+  if(['deployment_failed','deployment_content_failed','deployment_cancelled','deployment_lost'].includes(data.status))throw Error(`Pages deployment ended with ${data.status}.`);
   await delay(5000);
  }
  await github.request('POST /repos/{owner}/{repo}/pages/deployments/{deployment_id}/cancel',endpoint);
