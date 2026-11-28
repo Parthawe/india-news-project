@@ -1,97 +1,107 @@
 {
   "version": 1,
-  "date": "2026-11-27",
-  "collectedAt": "2026-11-27T11:25:35.018Z",
+  "date": "2026-11-28",
+  "collectedAt": "2026-11-28T02:32:54.966Z",
   "target": 5,
   "status": "complete",
   "items": [
     {
-      "id": "pib-2342239",
-      "title": "WOAH PVS Mission Begins Evaluation of India's Aquatic Animal Health Services",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342239",
+      "id": "pib-2342924",
+      "title": "INSTITUTE OF AEROSPACE MEDICINE HOSTS 65TH ANNUAL CONFERENCE OF THE INDIAN SOCIETY OF AEROSPACE MEDICINE (ISAM)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342924",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-26",
-      "publishedDateText": "Posted On: 26 NOV 2026 8:36PM by PIB Delhi",
-      "collectedAt": "2026-11-26T18:46:38.426Z",
-      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Fisheries, Animal Husbandry & Dairying"
-    },
-    {
-      "id": "pib-2342219",
-      "title": "India Post Accelerates Its Transformation with ₹2,632 Crore Financial Outlay Following Cabinet Approval",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342219",
-      "publisher": "Press Information Bureau",
-      "language": "en",
-      "publishedDate": "2026-11-26",
-      "publishedDateText": "Posted On: 26 NOV 2026 8:08PM by PIB Delhi",
-      "collectedAt": "2026-11-26T18:46:38.426Z",
-      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Communications"
-    },
-    {
-      "id": "pib-2342210",
-      "title": "India and UAE agree to accelerate co-development & co-production of next generation defence equipment at 14th JDCC meeting in Abu Dhabi",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342210",
-      "publisher": "Press Information Bureau",
-      "language": "en",
-      "publishedDate": "2026-11-26",
-      "publishedDateText": "Posted On: 26 NOV 2026 8:00PM by PIB Delhi",
-      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "publishedDate": "2026-11-27",
+      "publishedDateText": "Posted On: 27 NOV 2026 10:50PM by PIB Delhi",
+      "collectedAt": "2026-11-28T02:32:54.966Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "ministry": "Ministry of Defence"
     },
     {
-      "id": "pib-2342209",
-      "title": "Dr. Ambedkar Foundation Celebrates Constitution Day 2026; Reaffirms Commitment to Constitutional Values, Social Justice and Inclusive Democracy",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342209",
+      "id": "pib-2342914",
+      "title": "India to Host ITU Plenipotentiary Conference 2030; Union Minister Shri Jyotiraditya M. Scindia Invites Global Telecommunications Community to India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342914",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-26",
-      "publishedDateText": "Posted On: 26 NOV 2026 7:52PM by PIB Delhi",
-      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "publishedDate": "2026-11-27",
+      "publishedDateText": "Posted On: 27 NOV 2026 10:30PM by PIB Delhi",
+      "collectedAt": "2026-11-28T02:32:54.966Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Social Justice & Empowerment"
+      "ministry": "Ministry of Communications"
     },
     {
-      "id": "pib-2342207",
-      "title": "Pension Reforms Division in Department of Financial Services tops Grievance Redressal Assessment & Index (GRAI) ranking in Group B Category by Department of Administrative Reforms and Public Grievances for October, 2026",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342207",
+      "id": "pib-2342851",
+      "title": "MWCD and MSDE to jointly launch NAVYA 2.0 in Haridwar on 28 November 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342851",
       "publisher": "Press Information Bureau",
       "language": "en",
-      "publishedDate": "2026-11-26",
-      "publishedDateText": "Posted On: 26 NOV 2026 7:58PM by PIB Delhi",
-      "collectedAt": "2026-11-26T18:46:38.426Z",
+      "publishedDate": "2026-11-27",
+      "publishedDateText": "Posted On: 27 NOV 2026 9:15PM by PIB Delhi",
+      "collectedAt": "2026-11-28T02:32:54.966Z",
       "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
-      "ministry": "Ministry of Finance"
+      "ministry": "Ministry of Skill Development and Entrepreneurship"
+    },
+    {
+      "id": "pib-2342830",
+      "title": "Secretary, DoLR Reviews Implementation of WDC-PMKSY 2.0 and World Bank-Assisted REWARD Programme in Odisha",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342830",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-27",
+      "publishedDateText": "Posted On: 27 NOV 2026 8:58PM by PIB Delhi",
+      "collectedAt": "2026-11-28T02:32:54.966Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "Ministry of Rural Development"
+    },
+    {
+      "id": "pib-2342795",
+      "title": "NHRC, India takes suo motu cognizance of the reported continuous rise in TB cases in Bhopal, Madhya Pradesh amidst Tuberculosis Free India campaign",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342795",
+      "publisher": "Press Information Bureau",
+      "language": "en",
+      "publishedDate": "2026-11-27",
+      "publishedDateText": "Posted On: 27 NOV 2026 8:06PM by PIB Delhi",
+      "collectedAt": "2026-11-28T02:32:54.966Z",
+      "sourceFeed": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
+      "ministry": "National Human Rights Commission"
     }
   ],
   "feeds": [
     {
       "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48",
       "status": "ok",
-      "accepted": 16,
+      "accepted": 14,
       "attempted": 20,
-      "excluded": 4,
+      "excluded": 6,
       "failures": [
         {
-          "id": "pib-2342544",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342544",
+          "id": "pib-2342773",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342773",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342558",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342558",
+          "id": "pib-2342762",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342762",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342508",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342508",
+          "id": "pib-2342737",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342737",
           "status": "publication_date_unavailable"
         },
         {
-          "id": "pib-2342467",
-          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342467",
+          "id": "pib-2342744",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342744",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2342734",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342734",
+          "status": "publication_date_unavailable"
+        },
+        {
+          "id": "pib-2342724",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342724",
           "status": "publication_date_unavailable"
         }
       ]

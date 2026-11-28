@@ -1,13 +1,13 @@
 {
   "version": 2,
   "method": "inp-monitored-coverage-v3",
-  "checkedAt": "2026-11-28T02:17:28.711Z",
-  "collectionCheckedAt": "2026-11-28T02:12:49.706Z",
+  "checkedAt": "2026-11-28T02:33:01.244Z",
+  "collectionCheckedAt": "2026-11-28T02:33:01.244Z",
   "windowStart": "2026-11-22",
   "windowEnd": "2026-11-28",
   "scope": "Archived captured metadata from selected feeds; not full publisher archives or all Indian media.",
   "archiveComplete": true,
-  "capturedLinks": 790,
+  "capturedLinks": 791,
   "sample": [
     {
       "publisherGroup": "pib",
@@ -229,9 +229,9 @@
       "active": true,
       "assessmentLeaning": "right",
       "continuousFrom": "2026-11-28T02:12:49.706Z",
-      "newestPublishedAt": "2026-11-28T02:05:31.000Z",
+      "newestPublishedAt": "2026-11-28T02:30:27.000Z",
       "newestDatePrecision": "timestamp",
-      "capturedLinks": 41,
+      "capturedLinks": 42,
       "eligible": true,
       "leaning": "right",
       "reasons": []
